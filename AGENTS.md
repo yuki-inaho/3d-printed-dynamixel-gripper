@@ -8,6 +8,8 @@ Read `docs/PG3_ID5_ONLY_DESIGN.md`, `docs/CAMERA_MOUNT_ID5_CORNER.md`,
 `temp/workdoc_Sep24-2026_camera_mount_id5_corner.md` first.
 `docs/PG3_INSTALLATION_CANDIDATE.md` and the Sep23 workdocs describe earlier
 layouts and are not current acceptance evidence.
+D405 camera candidate (2026-09-24): `docs/CAMERA_MOUNT_ID5_D405_R5.md`, 65 deg pitch
+(5-degree rule), R4-C2/R7 review findings included. Not fabrication-approved.
 The user's DoD is actual installability, not import, rendering or diagnostics.
 Earlier candidates remain: rack/pinion concept and PG2 R5 upright crank-slider.
 Read `docs/REVIEW_PG2_AND_SELF_AUDIT.md` for corrected acceptance status.
@@ -29,6 +31,7 @@ Current design specification: docs/PG3_ID5_ONLY_DESIGN.md.
 - Requirements and gate definitions outrank attractive renders and green unit tests.
   Unknown, failed, errored and not-applicable are distinct states.
 - Read `skills/cad-reverse-parametric/SKILL.md` for CAD design/validation.
+  Read `skills/fdm-plate-layout/SKILL.md` for print-bed packing and G-code layout visualization.
   The `references/` tree contains donor CAD and historical review material;
   treat it as evidence, not approved design.
 - Workdoc creation/review: use the separate `write-workdoc-uv`,

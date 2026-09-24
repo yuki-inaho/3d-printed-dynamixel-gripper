@@ -38,7 +38,21 @@ camera_interface:
 mount:
   target: ID5_XL430_fixed_case_not_output_horn
   preferred_anchor: existing_case_corner_fasteners_if_functionally_suitable
-  mounting_hole_coordinates: null
+  candidate_anchor: case_top_factory_frame_holes_near_corner_region
+  candidate_anchor_hole_diameter_mm: 2.1
+  candidate_anchor_centers_world_xy_mm:
+    - [-8.2, 158.9]
+    - [-8.2, 170.9]
+    - [7.8, 158.9]
+    - [7.8, 170.9]
+  candidate_anchor_surface_world_z_mm: 199.85
+  candidate_anchor_depth_drawing_max_mm: 4.0
+  candidate_anchor_is_cad_only: true
+  mounting_hole_coordinates:
+    - [-8.2, 158.9, 199.85]
+    - [-8.2, 170.9, 199.85]
+    - [7.8, 158.9, 199.85]
+    - [7.8, 170.9, 199.85]
   case_fastener_function_verified: false
   case_clamp_function_preserved: false
   permitted_new_holes_in_motor_or_arm: false
@@ -46,6 +60,21 @@ mount:
   pitch_angle_deg: null
   optical_axis_requirement: downward_component_toward_grasp_volume
   adjustability: evaluate_parametric_pitch_or_fixed_interchangeable_angles
+  candidate_geometry:
+    base_size_mm: [24.0, 27.6, 3.0]
+    base_center_world_xy_mm: [-0.2, 167.7]
+    side_support_offset_x_mm: 25.0
+    side_support_radius_mm: 3.2
+    side_support_start_world_mm: [-0.2, 178.5, 203.3]
+    side_support_end_local_z_mm: -6.0
+    carrier_outer_mm: [40.0, 60.0, 3.0]
+    carrier_center_opening_mm: [20.5, 34.0]
+    carrier_hole_diameter_mm: 2.4
+    carrier_attachment_centers_local_mm: [[-6.0, -25.5], [6.0, -25.5]]
+    carrier_attachment_clearance_diameter_mm: 3.4
+    carrier_crossbar_size_local_mm: [22.0, 9.0, 4.0]
+    carrier_crossbar_center_local_y_mm: -25.5
+    case_attachment_clearance_diameter_mm: 2.8
 
 view_validation:
   target: parallel_gripper_jaw_pads_and_object_grasp_region
@@ -53,6 +82,10 @@ view_validation:
   diagnostic_cube_edges_mm: [10.0, 20.0, 30.0]
   cube_size_is_user_requirement: false
   camera_fov_is_assumed_until_model_selected: true
+  diagnostic_proxy_origin_world_mm: [-0.2, 178.0, 226.0]
+  diagnostic_proxy_look_at_world_mm: [-0.2, 214.6, 164.6]
+  diagnostic_proxy_vertical_fov_deg: 50.0
+  diagnostic_proxy_fov_is_acceptance: false
   report_occlusion_by: [left_jaw, right_jaw, pads, links, motor, mount, cable]
   require_sensor_and_camera_body_to_share_transform: true
 

@@ -43,21 +43,22 @@ def test_frame_relief_preserves_material_outside_four_strips(model):
             assert retained.cut(updated).Volume() < 1e-5
 
 
-def test_saved_frame_has_continuous_nominal_carriage_clearance(model, tmp_path):
+@pytest.mark.parametrize(("side", "sign"), [("L", -1), ("R", 1)])
+def test_saved_frame_has_continuous_nominal_carriage_clearance(model, tmp_path, side, sign):
+    # One side per test so parallel runs can certify L and R concurrently.
     path = tmp_path / "frame.step"
     cq.exporters.export(frame_candidate(model.neutral["frame"]), str(path))
     frame = cq.importers.importStep(str(path)).val()
-    for side, sign in (("L", -1), ("R", 1)):
-        source = model.neutral["carriage_" + side]
+    source = model.neutral["carriage_" + side]
 
-        def distance(angle, sign=sign, source=source):
-            shift = sign * (position_mm(math.degrees(angle)) - position_mm(90))
-            return frame.distance(source.translate((shift, 0, 0)))
+    def distance(angle):
+        shift = sign * (position_mm(math.degrees(angle)) - position_mm(90))
+        return frame.distance(source.translate((shift, 0, 0)))
 
-        result = certify_interval(
-            distance, point_speed_bound(source, side), math.radians(25), math.radians(135)
-        )
-        assert result["status"] == "PROVEN_CLEAR", result
+    result = certify_interval(
+        distance, point_speed_bound(source, side), math.radians(25), math.radians(135)
+    )
+    assert result["status"] == "PROVEN_CLEAR", result
 
 
 def test_installed_assembly_uses_relief_not_reference_frame(model):
