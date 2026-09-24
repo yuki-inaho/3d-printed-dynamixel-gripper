@@ -1,0 +1,42 @@
+Evidence: ID5-CAM-R5-D405-P65 (2026-09-24)
+
+Generated artifacts live under outputs/ (git-ignored); paths are repo-relative.
+
+Inputs (SHA-256)
+- outputs/pg3-id5-p05-windows-r2/ID5_mid_P05_windows_CANDIDATE.step 102031f3b4b2adda6d3126ffe890a6dc082a65aa07df59f7cfc0674bc48f35a8
+- external package ID5-CAM-R4-C2 archive f2c6b7b30995ea9afb2c8b33b7bea4fbb7626f397f37921201a6b6f6a4c4925e
+- external package ID5-D405-U28-30D-R7 archive e1a2ac5dc0179981150fef434b72393b2dc4fc979219e8acfe9f6b79a92ad570 (reviewed, not imported)
+- RealSense D400 datasheet 337029-017 Rev 021 PDF d0156b43a82da64e809c6ae45a5b5d41f34d8697363534ed81f2e4407f38eaa4
+  (Fig. 10-13: rear 2x M3x0.5, 20.00 mm, MAXIMUM INSERT 4.0mm)
+
+Outputs (outputs/camera-mount-id5-overhead-d405-r5/)
+- STL/01_ID5_top_base_D405.stl e7fbffafa2e547445f8ddadf5c2e25cd017446ad1ef4414cd8bcc77922307624
+- STL/02_D405_carrier.stl      1d2b7962e405752408e841c35c3e3f515de79116f080f5a32b0d3dc83520f02c
+  (re-exported from this commit's code: identical hashes)
+- CAD/ID5_D405_open_ASSEMBLY.step   1059ed97a856c7d1c4dd0d2fced5d5c311b7d1ab1eedf37f7cb459a772b7c902
+- CAD/ID5_D405_mid_ASSEMBLY.step    5a60d93b5feef6957bef5a0a732fd26d3b147f1e7e39917eb87cf5d28943dbf1
+- CAD/ID5_D405_closed_ASSEMBLY.step ac9aec61ebb41bd566169408d4c3ab05d0eebea73e71351e993d6ca0e1ceb36c
+- reports/geometry.json     f235fa83c828eebd8c89722534fc040f9b0091b377f699545771fc0623ed2dee
+- reports/camera_views.json 751102df55b0d5e2c50017765c0ffbff9ce88100b7915a61873bf448dbf6af9d
+- reports/id4_sweep.json    3edb4bc5e4d8cfa53a01fcd27496cbd4492720938ed6b4d8dac4c01c8d2e7182
+
+Results
+- Geometry: 236 retained occurrences preserved; 4 motor-top holes matched in motor and base B-rep;
+  new internal 210 PASS / external static 4956 PASS (0 FAIL/ERROR/UNKNOWN);
+  221 opening poses 25..135 deg, 0 failures, minimum gap 15.434 mm.
+- D405 view (both imagers, HFOV 84, 1280x720 -> VFOV 53.7): open/mid pads 100% visible, jaws 98.8-99.6%;
+  cubes 10/20/30 mm 92-100% visible, 100% in frustum; min axial depth 71.9 mm (jaw), 74.9 mm (cube).
+  Mount occlusion 0 px. Same-FOV reference: R7 30 deg jaws 47% in frustum; R4-C2 position depth 40.2 mm (< Min-Z).
+- ID4 axis (0, 104.9, 164.6) +X; sampled free range arm-only -138..+128 deg, with mount -138..+110 deg.
+- Tests: 51 passed (R4-C2 29 + R5 22); ruff check . clean.
+- Full suite before the anchor fix: 505 passed, 1 failed (order-dependent anchor test; mesh on the
+  cached source shape inflated BoundingBox). After the exact-bounds fix: 508 passed (pytest -n 6 --dist loadfile, 5m28s; sequential baseline 14m06s).
+
+Trial print (user-directed, not acceptance)
+- outputs/print-camera-d405-r5-k1c-20260924/: K1C 0.20mm Standard, CR-PLA, flattened system presets,
+  overrides wall_loops 4, infill 40%, no support, chamber 0 (removes M191 S35).
+- plate_1.gcode c45c7c5f4f21d3a40a1db3d5c4ce3a3cde72b2375785a7a0480b1ab608dad2fa; 366 layers, 73.4 mm, 1h51m, 31.8 g;
+  copied to removable media as d405cam.gcode with matching SHA-256.
+
+Not verified: real D405 fit (rear-hole vertical position, USB plug), tapping-screw retention, PLA strength/creep,
+ID4 operating range, physical ID mapping, powered operation.
