@@ -1,0 +1,56 @@
+{
+  "frame_valid": true,
+  "nut_valid": true,
+  "nut_bounds": [
+    60.82457351945679,
+    -41.25,
+    0.6,
+    67.17542648054321,
+    -35.75,
+    3.0
+  ],
+  "nut_volume": 45.908843985358345,
+  "common_volume": 45.908843985358345,
+  "points": [
+    {
+      "xyz": [
+        64,
+        -38.5,
+        2
+      ],
+      "frame_classification": "TopAbs_State.TopAbs_OUT"
+    },
+    {
+      "xyz": [
+        66,
+        -38.5,
+        2
+      ],
+      "frame_classification": "TopAbs_State.TopAbs_OUT"
+    },
+    {
+      "xyz": [
+        64,
+        -40.5,
+        2
+      ],
+      "frame_classification": "TopAbs_State.TopAbs_OUT"
+    },
+    {
+      "xyz": [
+        61.5,
+        -38.5,
+        2
+      ],
+      "frame_classification": "TopAbs_State.TopAbs_OUT"
+    },
+    {
+      "xyz": [
+        64,
+        -36,
+        2
+      ],
+      "frame_classification": "TopAbs_State.TopAbs_OUT"
+    }
+  ]
+}

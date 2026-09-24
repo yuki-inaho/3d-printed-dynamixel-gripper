@@ -1,0 +1,47 @@
+﻿left,right,left_unit,right_unit,volume_mm3
+KEEP_057_shoulder_rotation_1,J6_XL430_00_DC11_A01_DUMMY_1,/Robot Arm v14/servo connector angle v4:1/shoulder_rotation:1,"/Robot Arm v14/XL,XC-330 v1:8",1039.2954431023497
+KEEP_057_shoulder_rotation_1,J6_XL430_02_=>[0_1_1_6],/Robot Arm v14/servo connector angle v4:1/shoulder_rotation:1,"/Robot Arm v14/XL,XC-330 v1:8",6.031857894892397
+KEEP_057_shoulder_rotation_1,J6_XL430_12_=>[0_1_1_18],/Robot Arm v14/servo connector angle v4:1/shoulder_rotation:1,"/Robot Arm v14/XL,XC-330 v1:8",13.934250010216415
+KEEP_058_connector_1,J4_XL430_00_DC11_A01_DUMMY_1,/Robot Arm v14/XL430 to XL330 new connector v6:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:7",2827.8558552196755
+KEEP_058_connector_1,J4_XL430_03_B3B-EH_1,/Robot Arm v14/XL430 to XL330 new connector v6:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:7",12.62115036213913
+KEEP_058_connector_1,J4_XL430_06_=>[0_1_1_10],/Robot Arm v14/XL430 to XL330 new connector v6:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:7",25.606698763296947
+KEEP_116_moving_side_1,J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1,/Robot Arm v14/gripper v9:1/moving side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",934.6458119326501
+KEEP_116_moving_side_1,J5_GRIPPER_XL430_02_=>[0_1_1_6],/Robot Arm v14/gripper v9:1/moving side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",6.031857894892441
+KEEP_116_moving_side_1,J5_GRIPPER_XL430_12_=>[0_1_1_18],/Robot Arm v14/gripper v9:1/moving side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",5.779241043317275
+KEEP_116_moving_side_1,J5_GRIPPER_XL430_31_DC11_A01_SPACER_DUMMY_5,/Robot Arm v14/gripper v9:1/moving side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",1.1848876513328777
+KEEP_117_static_side_1,J3_XL430_00_DC11_A01_DUMMY_1,/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/XL,XC-330 v1:6",3507.948456876133
+KEEP_117_static_side_1,J3_XL430_02_=>[0_1_1_6],/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/XL,XC-330 v1:6",6.03185789489239
+KEEP_117_static_side_1,J3_XL430_12_=>[0_1_1_18],/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/XL,XC-330 v1:6",14.72621556370212
+KEEP_117_static_side_1,J3_XL430_14_=>[0_1_1_18],/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/XL,XC-330 v1:6",14.726215563702114
+KEEP_117_static_side_1,J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1,/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",4601.819076957151
+KEEP_117_static_side_1,J5_GRIPPER_XL430_04_B3B-EH_2,/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",47.24529757293747
+KEEP_117_static_side_1,J5_GRIPPER_XL430_06_=>[0_1_1_10],/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",51.374180767441025
+KEEP_117_static_side_1,J5_GRIPPER_XL430_07_DC11_A01_IDLER_DUMMY_1,/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",0.667183166875737
+KEEP_117_static_side_1,J5_GRIPPER_XL430_14_=>[0_1_1_18],/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",12.192716173747472
+KEEP_117_static_side_1,J5_GRIPPER_XL430_20_=>[0_1_1_18],/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",48.78936383005846
+KEEP_117_static_side_1,J5_GRIPPER_XL430_32_DC11_A01_SPACER_DUMMY_6,/Robot Arm v14/gripper v9:1/static side:1,"/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",35.834295150394084
+KEEP_160_connector_1,J4_XL430_00_DC11_A01_DUMMY_1,/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:7",1097.2250677645184
+KEEP_160_connector_1,J4_XL430_02_=>[0_1_1_6],/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:7",1.3253902695033797
+KEEP_160_connector_1,J4_XL430_14_=>[0_1_1_18],/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:7",9.822900909798452
+KEEP_160_connector_1,J6_XL430_00_DC11_A01_DUMMY_1,/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:8",5706.17826050467
+KEEP_160_connector_1,J6_XL430_16_=>[0_1_1_18],/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:8",10.44790479820554
+KEEP_160_connector_1,J6_XL430_18_=>[0_1_1_18],/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:8",6.911763390878769
+KEEP_160_connector_1,J6_XL430_24_=>[0_1_1_18],/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:8",48.752479715959815
+KEEP_160_connector_1,J6_XL430_26_=>[0_1_1_18],/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:8",33.16819994217889
+KEEP_160_connector_1,J6_XL430_33_DC11_A01_SPACER_DUMMY_7,/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:8",51.58992469504882
+KEEP_160_connector_1,J6_XL430_34_DC11_A01_SPACER_DUMMY_8,/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1,"/Robot Arm v14/XL,XC-330 v1:8",59.91043322446404
+J3_XL430_00_DC11_A01_DUMMY_1,J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",9608.813106768863
+J3_XL430_00_DC11_A01_DUMMY_1,J5_GRIPPER_XL430_04_B3B-EH_2,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",107.0299388206695
+J3_XL430_00_DC11_A01_DUMMY_1,J5_GRIPPER_XL430_06_=>[0_1_1_10],"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",169.26827375125123
+J3_XL430_00_DC11_A01_DUMMY_1,J5_GRIPPER_XL430_07_DC11_A01_IDLER_DUMMY_1,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",168.34047125212308
+J3_XL430_00_DC11_A01_DUMMY_1,J5_GRIPPER_XL430_08_DC11_A01_IDLER_CAP_DUMMY_1,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",17.004389080643666
+J3_XL430_00_DC11_A01_DUMMY_1,J5_GRIPPER_XL430_10_=>[0_1_1_15],"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",5.1754210332760575
+J3_XL430_00_DC11_A01_DUMMY_1,J5_GRIPPER_XL430_16_=>[0_1_1_18],"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",10.121475219088085
+J3_XL430_00_DC11_A01_DUMMY_1,J5_GRIPPER_XL430_24_=>[0_1_1_18],"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",57.737185485291064
+J3_XL430_00_DC11_A01_DUMMY_1,J5_GRIPPER_XL430_34_DC11_A01_SPACER_DUMMY_8,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",97.90115604598681
+J3_XL430_02_=>[0_1_1_6],J5_GRIPPER_XL430_07_DC11_A01_IDLER_DUMMY_1,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",1.9852430778198749
+J3_XL430_12_=>[0_1_1_18],J5_GRIPPER_XL430_07_DC11_A01_IDLER_DUMMY_1,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",13.74225765729494
+J3_XL430_14_=>[0_1_1_18],J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",53.01532108790955
+J3_XL430_27_DC11_A01_SPACER_DUMMY_1,J5_GRIPPER_XL430_07_DC11_A01_IDLER_DUMMY_1,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",14.325443390236419
+J3_XL430_27_DC11_A01_SPACER_DUMMY_1,J5_GRIPPER_XL430_08_DC11_A01_IDLER_CAP_DUMMY_1,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",32.78384766296821
+J3_XL430_28_DC11_A01_SPACER_DUMMY_2,J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1,"/Robot Arm v14/XL,XC-330 v1:6","/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",97.90115604598681

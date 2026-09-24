@@ -1,0 +1,182 @@
+[
+  {
+    "id": "01_frame",
+    "quantity": 1,
+    "category": "core",
+    "volume_mm3": 27975.168851666363,
+    "print_bbox_mm": [
+      0.0,
+      0.0,
+      0.0,
+      136.0,
+      84.0,
+      8.9
+    ],
+    "support": "inspect small bridges and holes"
+  },
+  {
+    "id": "02_retainer",
+    "quantity": 2,
+    "category": "core",
+    "volume_mm3": 3508.57435016026,
+    "print_bbox_mm": [
+      0.0,
+      -3.6739403974420594e-16,
+      0.0,
+      136.0,
+      9.0,
+      3.0000000000000018
+    ],
+    "support": "inspect small bridges and holes"
+  },
+  {
+    "id": "03_jaw",
+    "quantity": 2,
+    "category": "core",
+    "volume_mm3": 17628.41640471851,
+    "print_bbox_mm": [
+      0.0,
+      0.0,
+      -2.220446049250313e-16,
+      31.200000000000003,
+      72.0,
+      36.79413434713095
+    ],
+    "support": "localized non-sliding root surfaces"
+  },
+  {
+    "id": "04_crank",
+    "quantity": 1,
+    "category": "core",
+    "volume_mm3": 3340.006477362697,
+    "print_bbox_mm": [
+      0.0,
+      0.0,
+      0.0,
+      41.0,
+      22.0,
+      13.5
+    ],
+    "support": "inspect small bridges and holes"
+  },
+  {
+    "id": "05_link",
+    "quantity": 2,
+    "category": "core",
+    "volume_mm3": 1268.0259196080408,
+    "print_bbox_mm": [
+      0.0,
+      0.0,
+      0.0,
+      46.8,
+      14.9,
+      4.0
+    ],
+    "support": "inspect small bridges and holes"
+  },
+  {
+    "id": "06_motor_mount",
+    "quantity": 1,
+    "category": "core",
+    "volume_mm3": 13057.007145582578,
+    "print_bbox_mm": [
+      0.0,
+      -4.286263797015736e-16,
+      0.0,
+      54.0,
+      73.0,
+      17.500000000000007
+    ],
+    "support": "inspect small bridges and holes"
+  },
+  {
+    "id": "07_camera_stand",
+    "quantity": 1,
+    "category": "optional",
+    "volume_mm3": 4350.819914607943,
+    "print_bbox_mm": [
+      0.0,
+      0.0,
+      -1.3322676295501878e-15,
+      58.0,
+      34.5,
+      15.263684149961149
+    ],
+    "support": "inspect small bridges and holes"
+  },
+  {
+    "id": "08_camera_plate",
+    "quantity": 1,
+    "category": "optional",
+    "volume_mm3": 3927.547469578253,
+    "print_bbox_mm": [
+      0.0,
+      0.0,
+      0.0,
+      46.0,
+      38.0,
+      5.0
+    ],
+    "support": "inspect small bridges and holes"
+  },
+  {
+    "id": "09_fit_gauge",
+    "quantity": 1,
+    "category": "calibration",
+    "volume_mm3": 17770.011627429747,
+    "print_bbox_mm": [
+      0.0,
+      0.0,
+      0.0,
+      72.0,
+      20.0,
+      15.000000000000002
+    ],
+    "support": "inspect small bridges and holes"
+  },
+  {
+    "id": "10_fit_tongue",
+    "quantity": 1,
+    "category": "calibration",
+    "volume_mm3": 1644.2454383811787,
+    "print_bbox_mm": [
+      0.0,
+      0.0,
+      0.0,
+      20.0,
+      30.0,
+      8.7
+    ],
+    "support": "inspect small bridges and holes"
+  },
+  {
+    "id": "02_retainer_total_gap_0p5",
+    "quantity": 2,
+    "category": "alternative",
+    "volume_mm3": 3594.2543501602595,
+    "print_bbox_mm": [
+      0.0,
+      -3.6739403974420594e-16,
+      0.0,
+      136.0,
+      9.0,
+      3.2000000000000015
+    ],
+    "support": "inspect small bridges and holes"
+  },
+  {
+    "id": "02_retainer_total_gap_0p9",
+    "quantity": 2,
+    "category": "alternative",
+    "volume_mm3": 3422.89435016026,
+    "print_bbox_mm": [
+      0.0,
+      -3.6739403974420594e-16,
+      0.0,
+      136.0,
+      9.0,
+      3.0000000000000018
+    ],
+    "support": "inspect small bridges and holes"
+  }
+]

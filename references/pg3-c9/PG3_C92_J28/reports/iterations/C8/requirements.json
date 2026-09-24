@@ -1,0 +1,640 @@
+{
+  "revision": "PG3-C92-XL430-J28-C8",
+  "source_sha256": "6c09b2cf11c37ea81ccd8b5ab9d55b7e5e351cc711c3f96d848e368260d78fef",
+  "pass": true,
+  "jaw_requirements": {
+    "checks": {
+      "width_le_92": true,
+      "height_le_64": true,
+      "depth_le_78": true,
+      "finger_length_ge_28": true,
+      "pad_20x28_backed_by_full_5mm": true,
+      "inboard_shoe_length_18": true,
+      "opposing_shoes_clearance_ge_1": true,
+      "opening_48_or_more": true,
+      "closing_gap_point3_to_1point5": true
+    },
+    "pass": true,
+    "dimensions_WHD_mm": [
+      92.0,
+      63.25000000000064,
+      77.7
+    ],
+    "opposing_carriage_clearance_closed_mm": 1.927432344927567,
+    "pad_backing_volume_mm3": 2800.0,
+    "gap_open_mm": 48.895138467034755,
+    "gap_closed_mm": 0.927432344927567
+  },
+  "frozen_components": [
+    {
+      "name": "01_frame",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "02_cap",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "07_crank",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "08_link",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "09_horn_spacer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/frame",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_U",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_D",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/crank",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/horn_spacer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/link_R",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/link_L",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/XL430_fixed",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/XL430_horn",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_drive_R_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_drive_R_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_drive_R_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_drive_L_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_drive_L_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_drive_L_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_carriage_R_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_carriage_R_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_carriage_R_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_carriage_L_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_carriage_L_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/pivot_carriage_L_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_-37.5_-24.5_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_-37.5_-24.5_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_-37.5_-24.5_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_-37.5_24.5_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_-37.5_24.5_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_-37.5_24.5_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_37.5_-24.5_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_37.5_-24.5_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_37.5_-24.5_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_37.5_24.5_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_37.5_24.5_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/cap_37.5_24.5_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_R_-14_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_R_-14_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_R_-14_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_R_14_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_R_14_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_R_14_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_L_-14_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_L_-14_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_L_-14_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_L_14_washer",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_L_14_bolt",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/finger_L_14_nut",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/horn_bolt_0",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/horn_bolt_1",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/horn_bolt_2",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/horn_bolt_3",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/case_tapper_-11",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    },
+    {
+      "name": "assembly/case_tapper_11",
+      "pass_": true,
+      "max_vertex_distance_mm": 0.0,
+      "vertex_coordinate_error_mm": 0.0,
+      "relative_volume_difference": 0.0,
+      "face_inventory_matches": true,
+      "method": "matching_vertices_and_face_descriptors"
+    }
+  ],
+  "kinematic_checks": {
+    "samples": 1101,
+    "max_link_constraint_error_mm": 7.105427357601002e-15
+  },
+  "grasp_space_tests": [
+    {
+      "width_mm": 10.0,
+      "shape": "box",
+      "angle_deg": 103.48702204296693,
+      "failures": [],
+      "pad_distance_mm": {
+        "pad_R": 0.0,
+        "pad_L": 0.0
+      },
+      "pass": true
+    },
+    {
+      "width_mm": 25.0,
+      "shape": "box",
+      "angle_deg": 73.04223669999584,
+      "failures": [],
+      "pad_distance_mm": {
+        "pad_R": 7.105427357601002e-15,
+        "pad_L": 7.105427357601002e-15
+      },
+      "pass": true
+    },
+    {
+      "width_mm": 25.0,
+      "shape": "cylinder",
+      "angle_deg": 73.04223669999584,
+      "failures": [],
+      "pad_distance_mm": {
+        "pad_R": 7.105427357601002e-15,
+        "pad_L": 7.105427357601002e-15
+      },
+      "pass": true
+    },
+    {
+      "width_mm": 45.0,
+      "shape": "box",
+      "angle_deg": 35.40017262531095,
+      "failures": [],
+      "pad_distance_mm": {
+        "pad_R": 0.0,
+        "pad_L": 0.0
+      },
+      "pass": true
+    }
+  ],
+  "negative_tests": [
+    {
+      "mutation": "old shallow C7 fingers",
+      "rejected": true,
+      "failed_checks": [
+        "finger_length_ge_28",
+        "pad_20x28_backed_by_full_5mm"
+      ]
+    },
+    {
+      "mutation": "window through backing beneath pad",
+      "rejected": true,
+      "failed_checks": [
+        "pad_20x28_backed_by_full_5mm"
+      ]
+    },
+    {
+      "mutation": "original short bearing shoes",
+      "rejected": true,
+      "failed_checks": [
+        "inboard_shoe_length_18"
+      ]
+    },
+    {
+      "mutation": "oversized fixed frame",
+      "rejected": true,
+      "failed_checks": [
+        "width_le_92"
+      ]
+    },
+    {
+      "mutation": "shoes collide at closed endpoint",
+      "rejected": true,
+      "failed_checks": [
+        "opposing_shoes_clearance_ge_1"
+      ]
+    }
+  ],
+  "part_volume_comparison_mm3": {
+    "03_carriage_R": {
+      "old": 2362.09448271625,
+      "new": 2480.4944827162494
+    },
+    "04_carriage_L": {
+      "old": 2362.09448271625,
+      "new": 2480.4944827162494
+    },
+    "05_finger_R": {
+      "old": 2090.184445999473,
+      "new": 6234.009376652928
+    },
+    "06_finger_L": {
+      "old": 2090.184445999473,
+      "new": 6234.009376652927
+    }
+  }
+}

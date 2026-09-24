@@ -1,0 +1,194 @@
+{
+  "revision": "R5",
+  "camera_revision": "C3",
+  "issued_at_utc": "2026-09-22T15:40:22.031505+00:00",
+  "digital_prototype_DoD_pass": true,
+  "physical_acceptance_pass": false,
+  "physical_acceptance_status": "NOT PERFORMED — print, assembly, friction, strength, grip, electrical commissioning and actual camera are untested",
+  "whole_robot_compatibility": "NOT APPROVED",
+  "DoD": [
+    {
+      "id": "D01",
+      "item": "要求追跡・禁止例",
+      "result": "12種類の意図的違反をすべて拒否",
+      "pass": true,
+      "evidence": [
+        "export_audit.json"
+      ]
+    },
+    {
+      "id": "D02",
+      "item": "XL430取付基準",
+      "result": "添付CADとメーカー仕様・取付図を照合。側面ねじ侵入2.75 mm",
+      "pass": true,
+      "evidence": [
+        "engineering_checks.json",
+        "export_audit.json"
+      ]
+    },
+    {
+      "id": "D03",
+      "item": "左右対称の運動",
+      "result": "1101点の機構計算、3姿勢の実形状対称性、端点余裕",
+      "pass": true,
+      "evidence": [
+        "engineering_checks.json"
+      ]
+    },
+    {
+      "id": "D04",
+      "item": "締結込み干渉",
+      "result": "本体R5＋カメラC3の111姿勢。保存後4組立STEPも再検査",
+      "pass": true,
+      "evidence": [
+        "sweep_0.json",
+        "sweep_1.json",
+        "sweep_2.json",
+        "sweep_3.json",
+        "saved_step_collisions.json"
+      ]
+    },
+    {
+      "id": "D05",
+      "item": "案内・抜け止め・工具",
+      "result": "正の案内距離、最小かかり2.4 mm、工程別工具軸32件",
+      "pass": true,
+      "evidence": [
+        "engineering_checks.json",
+        "sweep_0.json",
+        "sweep_1.json",
+        "sweep_2.json",
+        "sweep_3.json"
+      ]
+    },
+    {
+      "id": "D06",
+      "item": "出力健全性",
+      "result": "STL12点・STEP16点。ナット座の保存再読込回帰検査",
+      "pass": true,
+      "evidence": [
+        "export_audit.json",
+        "frame_roundtrip_regression.json"
+      ]
+    },
+    {
+      "id": "D07",
+      "item": "製作作業書",
+      "result": "数量・ねじ長・隙間・印刷支え・組立順・現物未完項目を記載",
+      "pass": true,
+      "evidence": [
+        "../docs/ASSEMBLY_AND_PRINT_ja.md",
+        "../docs/WORK_ORDER_ja.md"
+      ]
+    },
+    {
+      "id": "D08",
+      "item": "実CAD表示と再生成",
+      "result": "斜視・正面・側面・分解・印刷姿勢・開閉の画像を目視確認",
+      "pass": true,
+      "evidence": [
+        "visual_review.json",
+        "../source/README_ja.md"
+      ]
+    }
+  ],
+  "metrics": {
+    "motion_poses": 111,
+    "boolean_common_tests": 7641,
+    "guide_minimum_distances_mm": {
+      "frame": 0.20000000000000284,
+      "retainer_top": 0.40000000000000036,
+      "retainer_bottom": 0.40000000000000036
+    },
+    "step_files": 16,
+    "stl_files": 12,
+    "negative_tests": 12,
+    "kinematic_samples": 1101,
+    "tool_shaft_checks": 32,
+    "optical_rays": 54,
+    "core_print_types": 6,
+    "core_print_quantity": 9
+  },
+  "scope_limits": [
+    "nominal 0.7 mm guide variant for motion sweep",
+    "discrete poses, not a continuous swept-volume proof",
+    "only 4 named servo side tap/pilot engagements are excluded from overlap test",
+    "supplier internals are one reference unit",
+    "tool shaft envelopes at the documented assembly stage, not human hand clearance",
+    "ideal camera rays at 3 poses, not measured full-finger visibility"
+  ],
+  "requirements": [
+    {
+      "requirement": "R01",
+      "implementation": "XL430-W250 1台、専用側面タップねじ、既製出力部",
+      "evidence": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "requirement": "R02",
+      "implementation": "長辺Y、出力+Z、爪突出+Zを実形状で検査",
+      "evidence": [
+        "D01",
+        "D02",
+        "D08"
+      ]
+    },
+    {
+      "requirement": "R03",
+      "implementation": "前面クランク・2リンク、短い窓付き直動爪",
+      "evidence": [
+        "D03",
+        "D04",
+        "D08"
+      ]
+    },
+    {
+      "requirement": "R04",
+      "implementation": "印刷角形ガイドと印刷関節肩、金属棒・軸受・カラーなし",
+      "evidence": [
+        "D01",
+        "D05",
+        "D07"
+      ]
+    },
+    {
+      "requirement": "R05",
+      "implementation": "本体6種9個を別体印刷、圧入・印刷スプラインなし",
+      "evidence": [
+        "D01",
+        "D06",
+        "D07"
+      ]
+    },
+    {
+      "requirement": "R06",
+      "implementation": "総隙間0.5/0.7/0.9選択、試験片、実形状の正の隙間",
+      "evidence": [
+        "D01",
+        "D05",
+        "D06",
+        "D07"
+      ]
+    },
+    {
+      "requirement": "R07",
+      "implementation": "正面・側面・斜視を参照と比較。投影の回転だけで済ませない",
+      "evidence": [
+        "D01",
+        "D08"
+      ]
+    },
+    {
+      "requirement": "R08",
+      "implementation": "任意のC3カメラ台2部品。実カメラは未確定",
+      "evidence": [
+        "D04",
+        "D05",
+        "D07",
+        "D08"
+      ]
+    }
+  ]
+}

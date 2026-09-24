@@ -1,0 +1,31 @@
+{
+  "revision": "PG3-C92-XL430-J28-C9",
+  "cad_prototype_pass": true,
+  "checks": {
+    "geometry_requirement_gates": true,
+    "frozen_C7_components_compared": true,
+    "full_assembly_221_pose_collision": true,
+    "changed_part_distances_and_refinement": true,
+    "revised_stage_assembly_paths": true,
+    "exported_meshes_and_STEP_reread": true,
+    "grasp_space_and_full_pad_backing": true,
+    "six_negative_geometry_tests": true,
+    "documented_load_review_not_physical_approval": true
+  },
+  "source_sha256": "cbd1721f39a9d011726966e0a350571a5909d53713a8ada61db6509bbc7f0e68",
+  "report_sha256": {
+    "requirements": "aa7115237a497bc8948ce17dc4c000b18f366b7f0d825a08385ca38dcbe8a617",
+    "sanity": "0de23637689e279a95e5810c27ad0e7512e3371964499ea4ccbfd1a02b0546f6",
+    "motion": "6ee0fcc59639a9f3af58d1fa6452700985f4b8e04e26b7fb4d2f1a611206681a",
+    "assembly": "516f1313ddafcf9344e648d06a9b3375a729c369de3befdaf11117823dab4803",
+    "saved": "1acc7801c4ae8a03437a27c20e8da40c9c52c6fa8d1852681a4a8dffc70cbf0d",
+    "refined_clearance": "ff27d7fb87127db79deea98b307591f002f7d3a00fb3d3ccbb38e0e951086b2a"
+  },
+  "physical_strength_approved": false,
+  "physical_grasp_tests_performed": [],
+  "limitations": [
+    "Nominal discrete CAD geometry only",
+    "Print fit, friction, force, strength, wear, real workpiece retention and release are not qualified",
+    "All motions evaluated with standard C7 cap clearance; camera/arm/cable not evaluated"
+  ]
+}

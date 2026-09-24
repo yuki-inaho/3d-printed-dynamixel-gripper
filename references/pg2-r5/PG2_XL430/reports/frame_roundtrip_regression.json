@@ -1,0 +1,106 @@
+{
+  "pass": true,
+  "revision": "R5",
+  "pairs": [
+    {
+      "other": "rail_bolt_-64_-38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_nut_-64_-38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_bolt_-21_-38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_nut_-21_-38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_bolt_21_-38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_nut_21_-38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_bolt_64_-38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_nut_64_-38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_bolt_-64_38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_nut_-64_38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_bolt_-21_38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_nut_-21_38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_bolt_21_38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_nut_21_38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_bolt_64_38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "rail_nut_64_38.5",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "mount_bolt_-23_-32",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "mount_bolt_-23_32",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "mount_bolt_23_-32",
+      "volume": 0.0,
+      "pass": true
+    },
+    {
+      "other": "mount_bolt_23_32",
+      "volume": 0.0,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "geometry_pass": true,
+  "negative_tests": [
+    {
+      "test": "wrong_XL330",
+      "rejected": true,
+      "reason": "R01: motor differs from XL430-W250"
+    },
+    {
+      "test": "axes_orthogonal",
+      "rejected": true,
+      "reason": "R02: output axis and finger projection must both be +Z"
+    },
+    {
+      "test": "metal_guide_metadata",
+      "rejected": true,
+      "reason": "R04: metal/round guide substitution prohibited"
+    },
+    {
+      "test": "machine_screw_in_tap_hole",
+      "rejected": true,
+      "reason": "R01: wrong case side screw"
+    },
+    {
+      "test": "zero_front_guide_clearance",
+      "rejected": true,
+      "reason": "R06: nominal rubbing interfaces need positive clearance"
+    },
+    {
+      "test": "expanded_close_limit",
+      "rejected": true,
+      "reason": "R03: commissioned motion may not approach internal near-toggle region"
+    },
+    {
+      "test": "actual_motor_tipped_despite_good_metadata",
+      "rejected": true,
+      "reason": "R02: actual servo body has been laid down or substituted"
+    },
+    {
+      "test": "actual_horn_axis_tipped",
+      "rejected": true,
+      "reason": "R02: actual horn axis not parallel to +Z"
+    },
+    {
+      "test": "100mm_steel_rod_disguised_as_fastener",
+      "rejected": true,
+      "reason": "R04: shaft disguised as ordinary fastener"
+    },
+    {
+      "test": "actual_jaw_not_centered",
+      "rejected": true,
+      "reason": "R03: jaw lateral symmetry broken"
+    },
+    {
+      "test": "disconnected_printed_camera_stand",
+      "rejected": true,
+      "reason": "D06: printed component disconnected or invalid: disconnected_camera"
+    },
+    {
+      "test": "actual_retainer_edge_zero_clearance_despite_good_metadata",
+      "rejected": true,
+      "reason": "R06: actual guide edge/face clearance too small: retainer_top"
+    }
+  ],
+  "parameters": {
+    "motor": "DYNAMIXEL XL430-W250",
+    "revision": "R5",
+    "r": 15.0,
+    "L": 36.0,
+    "open_angle": 30.0,
+    "close_angle": 140.0,
+    "closed_gap": 0.8,
+    "face_width": 136.0,
+    "face_height": 84.0,
+    "jaw_width": 28.0,
+    "jaw_y": 36.0,
+    "jaw_back": 4.8,
+    "jaw_top": 9.0,
+    "guide_rear": 4.5,
+    "retainer_bottom": 9.4,
+    "link_bottom": 9.3,
+    "link_thickness": 4.0,
+    "shoulder_top": 13.5,
+    "finger_tip": 36.0,
+    "output_axis": [
+      0,
+      0,
+      1
+    ],
+    "finger_axis": [
+      0,
+      0,
+      1
+    ],
+    "motor_long_axis": [
+      0,
+      1,
+      0
+    ],
+    "guide_material": "printed_polymer",
+    "guide_type": "rectangular_captured_slide",
+    "body_side_fastener": "PHS M2.6x5 TAP"
+  }
+}

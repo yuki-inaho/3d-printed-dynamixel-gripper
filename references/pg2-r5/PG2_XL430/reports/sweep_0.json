@@ -1,0 +1,292 @@
+{
+  "revision": "R5",
+  "angles": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "collisions": [],
+  "boolean_tests": 1764,
+  "guide_clearances": [
+    {
+      "angle": 30,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 31,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 32,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 33,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 34,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 35,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 36,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 37,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 38,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 39,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 40,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 41,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 42,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 43,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 44,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 45,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 46,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 47,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 48,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 49,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 50,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 51,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 52,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 53,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 54,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 55,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 56,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    },
+    {
+      "angle": 57,
+      "minimums_mm": {
+        "frame": 0.20000000000000284,
+        "retainer_top": 0.40000000000000036,
+        "retainer_bottom": 0.40000000000000036
+      },
+      "pass": true
+    }
+  ],
+  "clearance_pass": true,
+  "seconds": 491.9169909149996,
+  "all_parts_including_camera": true
+}

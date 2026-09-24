@@ -1,0 +1,13 @@
+camera delta 30 hits 0
+camera delta 40 hits 0
+camera delta 50 hits 0
+camera delta 60 hits 0
+camera delta 70 hits 0
+camera delta 80 hits 0
+camera delta 90 hits 0
+camera delta 100 hits 0
+camera delta 110 hits 0
+camera delta 120 hits 0
+camera delta 130 hits 0
+camera delta 140 hits 0
+PASS True ray passes 54 54

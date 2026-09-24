@@ -1,0 +1,5 @@
+2026-09-22 15:31:08.265 (   5.705s) [    7FB646112780]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:0
+render open
+render mid
+render closed
+previews complete

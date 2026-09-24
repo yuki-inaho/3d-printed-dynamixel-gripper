@@ -1,0 +1,8 @@
+angle 30 hits 1 booleans 129
+PG2_open False
+angle 90 hits 1 booleans 132
+PG2_mid False
+angle 140 hits 1 booleans 140
+PG2_closed False
+angle 30 hits 1 booleans 198
+PG2_camera_optional False

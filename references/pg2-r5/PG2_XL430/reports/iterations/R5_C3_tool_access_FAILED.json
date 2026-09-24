@@ -1,0 +1,347 @@
+{
+  "kinematics": {
+    "pass": true,
+    "samples": 1101,
+    "max_length_error_mm": 1.4210854715202004e-14,
+    "range_mm": [
+      0.8,
+      50.81266098510427
+    ],
+    "max_link_inclination_deg": 24.624318352164074
+  },
+  "stops": {
+    "opening_stop_angle_deg": 23.88071851409819,
+    "closing_stop_angle_deg": 142.7137260723299,
+    "command_clearance_open_mm": 0.9995351603169169,
+    "command_clearance_closed_mm": 0.29413434713094766,
+    "overtravel_expected_failures": [
+      {
+        "angle": 23,
+        "expected_stop_overlap_mm3": 39.505384110879575,
+        "pass": true
+      },
+      {
+        "angle": 144,
+        "expected_stop_overlap_mm3": 4.422103955725433,
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "guide": {
+    "pass": true,
+    "shoe_length_x_mm": 28,
+    "shoe_height_y_mm": 72,
+    "shoe_thickness_z_mm": 4.2,
+    "rear_nominal_gap_mm": 0.3,
+    "front_nominal_gap_mm": 0.4,
+    "total_z_play_options_mm": [
+      0.5,
+      0.7,
+      0.9
+    ],
+    "y_gap_lower_mm": 0.2,
+    "y_gap_upper_mm": 0.6,
+    "capture_overlap_y_mm": 3,
+    "minimum_capture_under_y_float_mm": 2.4,
+    "gusset_to_retainer_edge_nominal_mm": 1.0,
+    "maximum_z_load_arm_from_guide_mid_mm": 29.1,
+    "minimum_retainer_thickness_mm": 2.8,
+    "guide_edge_height_mm": 4.9
+  },
+  "tool_access": {
+    "pass": false,
+    "count": 32,
+    "tests": [
+      {
+        "name": "servo_tap_-1_-28",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "servo_tap_-1_-4",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "servo_tap_1_-28",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "servo_tap_1_-4",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "mount_bolt_-23_-32",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "mount_bolt_-23_32",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "mount_bolt_23_-32",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "mount_bolt_23_32",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "horn_M2_8_0",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "horn_M2_-8_0",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "horn_M2_0_8",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "horn_M2_0_-8",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "rail_bolt_-64_-38.5",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "rail_bolt_-21_-38.5",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "rail_bolt_21_-38.5",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "rail_bolt_64_-38.5",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "rail_bolt_-64_38.5",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "rail_bolt_-21_38.5",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "rail_bolt_21_38.5",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "rail_bolt_64_38.5",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "crank_pivot_bolt_-1",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "jaw_pivot_bolt_-1",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "crank_pivot_bolt_1",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "jaw_pivot_bolt_1",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "camera_plate_M3_-19",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "camera_plate_M3_19",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "camera_M2_-14_-14",
+        "pass": false,
+        "interferences": [
+          {
+            "part": "camera_stand",
+            "overlap_mm3": 0.007875091569274606
+          }
+        ]
+      },
+      {
+        "name": "camera_M2_-14_14",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "camera_M2_14_-14",
+        "pass": false,
+        "interferences": [
+          {
+            "part": "camera_stand",
+            "overlap_mm3": 0.007875091569274122
+          }
+        ]
+      },
+      {
+        "name": "camera_M2_14_14",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "camera_foot_M3_-8",
+        "pass": true,
+        "interferences": []
+      },
+      {
+        "name": "camera_foot_M3_8",
+        "pass": true,
+        "interferences": []
+      }
+    ],
+    "scope": "shaft envelopes only; assembly stages fixed; no hand/handle clearance certification"
+  },
+  "servo_interfaces": {
+    "pass": true,
+    "side_screws": [
+      {
+        "name": "servo_tap_-1_-28",
+        "intrusion_mm": 2.75,
+        "allowed_max_mm": 4.0,
+        "pass": true
+      },
+      {
+        "name": "servo_tap_-1_-4",
+        "intrusion_mm": 2.75,
+        "allowed_max_mm": 4.0,
+        "pass": true
+      },
+      {
+        "name": "servo_tap_1_-28",
+        "intrusion_mm": 2.75,
+        "allowed_max_mm": 4.0,
+        "pass": true
+      },
+      {
+        "name": "servo_tap_1_-4",
+        "intrusion_mm": 2.75,
+        "allowed_max_mm": 4.0,
+        "pass": true
+      }
+    ],
+    "case_dimensions_W_H_D_mm": [
+      28.5,
+      46.5,
+      34
+    ],
+    "horn_bolt_circle_mm": 16,
+    "horn_holes": "four cardinal M2 holes; diagonal pilot holes unused",
+    "horn_screw": "M2x6 pan head, 3 mm printed seat",
+    "horn_intrusion_mm": 3.0,
+    "spline_printed": false,
+    "factory_case_screws_removed": false
+  },
+  "actual_jaw_symmetry": {
+    "pass": true,
+    "tests": [
+      {
+        "angle": 30,
+        "symmetric_difference_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "symmetric_difference_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "symmetric_difference_mm3": 7.275957614183426e-12,
+        "pass": true
+      }
+    ]
+  },
+  "camera_geometry": {
+    "assumed_board_mm": [
+      32,
+      32,
+      1.6
+    ],
+    "hole_grid_mm": [
+      28,
+      28
+    ],
+    "fixed_tilt_deg": 65,
+    "optical_center_assumed_mm": [
+      0.0,
+      45.48682967037486,
+      24.902371836192113
+    ],
+    "tip_center_projection_angles": [
+      {
+        "angle": 30,
+        "side": -1,
+        "horizontal_deg": -28.957178926947247,
+        "vertical_deg": -11.289140147244648
+      },
+      {
+        "angle": 30,
+        "side": 1,
+        "horizontal_deg": 28.957178926947247,
+        "vertical_deg": -11.289140147244648
+      },
+      {
+        "angle": 90,
+        "side": -1,
+        "horizontal_deg": -12.205721984503489,
+        "vertical_deg": -11.289140147244648
+      },
+      {
+        "angle": 90,
+        "side": 1,
+        "horizontal_deg": 12.205721984503489,
+        "vertical_deg": -11.289140147244648
+      },
+      {
+        "angle": 140,
+        "side": -1,
+        "horizontal_deg": -0.4991324844440553,
+        "vertical_deg": -11.289140147244648
+      },
+      {
+        "angle": 140,
+        "side": 1,
+        "horizontal_deg": 0.4991324844440553,
+        "vertical_deg": -11.289140147244648
+      }
+    ],
+    "visibility_certified": false,
+    "note": "projection only; actual FOV/focus/distortion/occlusion and connector unknown"
+  },
+  "pass": false
+}

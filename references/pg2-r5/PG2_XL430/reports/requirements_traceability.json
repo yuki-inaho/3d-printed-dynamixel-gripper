@@ -1,0 +1,74 @@
+[
+  {
+    "requirement": "R01",
+    "implementation": "XL430-W250 1台、専用側面タップねじ、既製出力部",
+    "evidence": [
+      "D01",
+      "D02"
+    ]
+  },
+  {
+    "requirement": "R02",
+    "implementation": "長辺Y、出力+Z、爪突出+Zを実形状で検査",
+    "evidence": [
+      "D01",
+      "D02",
+      "D08"
+    ]
+  },
+  {
+    "requirement": "R03",
+    "implementation": "前面クランク・2リンク、短い窓付き直動爪",
+    "evidence": [
+      "D03",
+      "D04",
+      "D08"
+    ]
+  },
+  {
+    "requirement": "R04",
+    "implementation": "印刷角形ガイドと印刷関節肩、金属棒・軸受・カラーなし",
+    "evidence": [
+      "D01",
+      "D05",
+      "D07"
+    ]
+  },
+  {
+    "requirement": "R05",
+    "implementation": "本体6種9個を別体印刷、圧入・印刷スプラインなし",
+    "evidence": [
+      "D01",
+      "D06",
+      "D07"
+    ]
+  },
+  {
+    "requirement": "R06",
+    "implementation": "総隙間0.5/0.7/0.9選択、試験片、実形状の正の隙間",
+    "evidence": [
+      "D01",
+      "D05",
+      "D06",
+      "D07"
+    ]
+  },
+  {
+    "requirement": "R07",
+    "implementation": "正面・側面・斜視を参照と比較。投影の回転だけで済ませない",
+    "evidence": [
+      "D01",
+      "D08"
+    ]
+  },
+  {
+    "requirement": "R08",
+    "implementation": "任意のC3カメラ台2部品。実カメラは未確定",
+    "evidence": [
+      "D04",
+      "D05",
+      "D07",
+      "D08"
+    ]
+  }
+]

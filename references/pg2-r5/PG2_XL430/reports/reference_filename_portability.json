@@ -1,0 +1,138 @@
+{
+  "pass": true,
+  "changes": [
+    {
+      "old": "001_=>[0_1_1_5].step",
+      "new": "001__0_1_1_5_.step",
+      "sha256": "8f4e91579640cf42de76034f3c5f0fdeb77cfe06f8bdb30b3b11bfced4ff75a0",
+      "byte_identical": true
+    },
+    {
+      "old": "002_=>[0_1_1_6].step",
+      "new": "002__0_1_1_6_.step",
+      "sha256": "cabcdb029f46f62281be6db448119e8a585345df52008a727abfa1583624b570",
+      "byte_identical": true
+    },
+    {
+      "old": "005_=>[0_1_1_9].step",
+      "new": "005__0_1_1_9_.step",
+      "sha256": "9b4c54756b084fc24bacc284a14552fb7487948ef7d3a5b51262f81af17f9d74",
+      "byte_identical": true
+    },
+    {
+      "old": "006_=>[0_1_1_10].step",
+      "new": "006__0_1_1_10_.step",
+      "sha256": "61ab68313c7a53fe6dead50508ff1be40f316950427c73a29a36d330d17d1667",
+      "byte_identical": true
+    },
+    {
+      "old": "009_=>[0_1_1_14].step",
+      "new": "009__0_1_1_14_.step",
+      "sha256": "37831e441025891f912879924039b7558ddf9ed87e8de21933aa24b18cd7e143",
+      "byte_identical": true
+    },
+    {
+      "old": "010_=>[0_1_1_15].step",
+      "new": "010__0_1_1_15_.step",
+      "sha256": "ca7a8739cdfa5abacc095d83e8fef013bd4c587e9a27413408f7b7bce7a2f404",
+      "byte_identical": true
+    },
+    {
+      "old": "011_=>[0_1_1_17].step",
+      "new": "011__0_1_1_17_.step",
+      "sha256": "b23acb6684edebd56d7eca2e657c8d52f7ca77145c710b336e3ec37594e02bfa",
+      "byte_identical": true
+    },
+    {
+      "old": "012_=>[0_1_1_18].step",
+      "new": "012__0_1_1_18_.step",
+      "sha256": "ca1441012f2de4a83bbd970e9e4892946d35081dc16bab2301ed6d0ad606a130",
+      "byte_identical": true
+    },
+    {
+      "old": "013_=>[0_1_1_17].step",
+      "new": "013__0_1_1_17_.step",
+      "sha256": "b1512f09990fc20a89b485dbe2e4b28cf5383f72489f95b189162ec20b6db3f6",
+      "byte_identical": true
+    },
+    {
+      "old": "014_=>[0_1_1_18].step",
+      "new": "014__0_1_1_18_.step",
+      "sha256": "7310db427cc2554920f568de4dc051851e6fb7e9803321a3cdc68880698db2bc",
+      "byte_identical": true
+    },
+    {
+      "old": "015_=>[0_1_1_17].step",
+      "new": "015__0_1_1_17_.step",
+      "sha256": "c0a5b5b2633e022b8b89f4b8e18773a4c8a6f7c9e314e5a1ec212b9894e87d88",
+      "byte_identical": true
+    },
+    {
+      "old": "016_=>[0_1_1_18].step",
+      "new": "016__0_1_1_18_.step",
+      "sha256": "bb5fc1086201c165c924df0b57a674bd961e36d8a2fdde75883b8abe5cedef5a",
+      "byte_identical": true
+    },
+    {
+      "old": "017_=>[0_1_1_17].step",
+      "new": "017__0_1_1_17_.step",
+      "sha256": "d33a4fa867257966998133a08caf904eae4c4b3bd07904fe15d9964e06dff894",
+      "byte_identical": true
+    },
+    {
+      "old": "018_=>[0_1_1_18].step",
+      "new": "018__0_1_1_18_.step",
+      "sha256": "42f45e9635edd9c1b48cc3c0816c2dbd5fd8e2e34f0aa0023e78b7ecac644fcd",
+      "byte_identical": true
+    },
+    {
+      "old": "019_=>[0_1_1_17].step",
+      "new": "019__0_1_1_17_.step",
+      "sha256": "81e19f746edc27fb061f112697f93a2308ef82ee1b7ab32ac565fc2598ee8bb3",
+      "byte_identical": true
+    },
+    {
+      "old": "020_=>[0_1_1_18].step",
+      "new": "020__0_1_1_18_.step",
+      "sha256": "ac4180f39e6cd9a91ff510d6a334eda2efb44ff1d494f7a2da699a12d2eb4542",
+      "byte_identical": true
+    },
+    {
+      "old": "021_=>[0_1_1_17].step",
+      "new": "021__0_1_1_17_.step",
+      "sha256": "bfa5588ca54299706d66be10e8a64cfe7d2cfd2968ce558ac9813df78ea66aeb",
+      "byte_identical": true
+    },
+    {
+      "old": "022_=>[0_1_1_18].step",
+      "new": "022__0_1_1_18_.step",
+      "sha256": "4e42d239f971f6e554c261a1b85b4536236b44e8d039d6280ac8539dc2e2419a",
+      "byte_identical": true
+    },
+    {
+      "old": "023_=>[0_1_1_17].step",
+      "new": "023__0_1_1_17_.step",
+      "sha256": "57a6f3312cd01ed122a3c66089e6213a04cb2367816802d2990e4b7fa2aa3eff",
+      "byte_identical": true
+    },
+    {
+      "old": "024_=>[0_1_1_18].step",
+      "new": "024__0_1_1_18_.step",
+      "sha256": "24ac36e01d9531cc4a802eca472914888a8945a96a1afc2a8dde7cecc942ef9a",
+      "byte_identical": true
+    },
+    {
+      "old": "025_=>[0_1_1_17].step",
+      "new": "025__0_1_1_17_.step",
+      "sha256": "32be2ac98b572bcdc635658a388ed8d2ccfa6ca45007061a420ea88c20fa2cdb",
+      "byte_identical": true
+    },
+    {
+      "old": "026_=>[0_1_1_18].step",
+      "new": "026__0_1_1_18_.step",
+      "sha256": "828422fba95eee0daa17cefd82c6cd74c8f66010c2d589fef03baf79ae5a1393",
+      "byte_identical": true
+    }
+  ],
+  "scope": "File basenames only; all STEP bytes unchanged. No CAD geometry change."
+}

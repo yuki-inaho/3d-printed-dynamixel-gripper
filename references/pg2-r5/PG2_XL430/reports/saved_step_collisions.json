@@ -1,0 +1,97 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "revision": "R5",
+      "angles": [
+        30
+      ],
+      "collisions": [],
+      "boolean_tests": 129,
+      "guide_clearances": [
+        {
+          "angle": 30,
+          "minimums_mm": {
+            "frame": 0.20000000000000284,
+            "retainer_top": 0.40000000000000036,
+            "retainer_bottom": 0.40000000000000036
+          },
+          "pass": true
+        }
+      ],
+      "clearance_pass": true,
+      "file": "PG2_open.step",
+      "occurrences": 55,
+      "pass_": true
+    },
+    {
+      "revision": "R5",
+      "angles": [
+        90
+      ],
+      "collisions": [],
+      "boolean_tests": 132,
+      "guide_clearances": [
+        {
+          "angle": 90,
+          "minimums_mm": {
+            "frame": 0.20000000000000284,
+            "retainer_top": 0.40000000000000036,
+            "retainer_bottom": 0.40000000000000036
+          },
+          "pass": true
+        }
+      ],
+      "clearance_pass": true,
+      "file": "PG2_mid.step",
+      "occurrences": 55,
+      "pass_": true
+    },
+    {
+      "revision": "R5",
+      "angles": [
+        140
+      ],
+      "collisions": [],
+      "boolean_tests": 140,
+      "guide_clearances": [
+        {
+          "angle": 140,
+          "minimums_mm": {
+            "frame": 0.20000000000000284,
+            "retainer_top": 0.40000000000000036,
+            "retainer_bottom": 0.40000000000000036
+          },
+          "pass": true
+        }
+      ],
+      "clearance_pass": true,
+      "file": "PG2_closed.step",
+      "occurrences": 55,
+      "pass_": true
+    },
+    {
+      "revision": "R5",
+      "angles": [
+        30
+      ],
+      "collisions": [],
+      "boolean_tests": 187,
+      "guide_clearances": [
+        {
+          "angle": 30,
+          "minimums_mm": {
+            "frame": 0.20000000000000284,
+            "retainer_top": 0.40000000000000036,
+            "retainer_bottom": 0.40000000000000036
+          },
+          "pass": true
+        }
+      ],
+      "clearance_pass": true,
+      "file": "PG2_camera_optional.step",
+      "occurrences": 75,
+      "pass_": true
+    }
+  ]
+}

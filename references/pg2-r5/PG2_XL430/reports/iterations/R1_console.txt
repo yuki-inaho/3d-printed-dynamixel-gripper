@@ -1,0 +1,27 @@
+2026-09-22 14:27:11.600 (   5.284s) [    7FB390C77780]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:0
+angle 30 hits 0 booleans 129
+angle 45 hits 0 booleans 174
+angle 60 hits 0 booleans 219
+angle 75 hits 0 booleans 265
+angle 90 hits 0 booleans 313
+angle 105 hits 0 booleans 365
+angle 120 hits 0 booleans 421
+angle 135 hits 0 booleans 477
+angle 150 hits 0 booleans 535
+{
+  "revision": "R1",
+  "angles": [
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150
+  ],
+  "collisions": [],
+  "boolean_tests": 535,
+  "seconds": 105.63719935599988
+}

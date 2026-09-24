@@ -1,0 +1,68 @@
+{
+  "revision": "PG3-C92-XL430-J28-C9",
+  "source_sha256": "cbd1721f39a9d011726966e0a350571a5909d53713a8ada61db6509bbc7f0e68",
+  "assumptions": "5 N per jaw is a test candidate, NOT a rating. Effective reaction separations 12/16 mm and mu .1/.2/.3 are assumptions, not measured tribology. Couple/friction estimates omit link-angle side force, uneven sharing, compliance and wear.",
+  "illustrations": [
+    {
+      "case": "C7 pad center",
+      "assumed_force_each_N": 5.0,
+      "force_plane_z_mm": 43.3,
+      "guide_plane_z_mm": 21.8,
+      "lever_mm": 21.499999999999996,
+      "moment_Nmm": 107.49999999999999,
+      "assumed_effective_contact_separation_mm": 12.0,
+      "pure_couple_reaction_each_N": 8.958333333333332,
+      "illustrative_total_moment_friction_N": {
+        "0.1": 1.7916666666666665,
+        "0.2": 3.583333333333333,
+        "0.3": 5.374999999999999
+      }
+    },
+    {
+      "case": "J28 pad center",
+      "assumed_force_each_N": 5.0,
+      "force_plane_z_mm": 49.7,
+      "guide_plane_z_mm": 21.8,
+      "lever_mm": 27.900000000000002,
+      "moment_Nmm": 139.5,
+      "assumed_effective_contact_separation_mm": 16.0,
+      "pure_couple_reaction_each_N": 8.71875,
+      "illustrative_total_moment_friction_N": {
+        "0.1": 1.7437500000000001,
+        "0.2": 3.4875000000000003,
+        "0.3": 5.23125
+      }
+    },
+    {
+      "case": "J28 pad front edge",
+      "assumed_force_each_N": 5.0,
+      "force_plane_z_mm": 59.7,
+      "guide_plane_z_mm": 21.8,
+      "lever_mm": 37.900000000000006,
+      "moment_Nmm": 189.50000000000003,
+      "assumed_effective_contact_separation_mm": 16.0,
+      "pure_couple_reaction_each_N": 11.843750000000002,
+      "illustrative_total_moment_friction_N": {
+        "0.1": 2.3687500000000004,
+        "0.2": 4.737500000000001,
+        "0.3": 7.106250000000001
+      }
+    }
+  ],
+  "front_plate_beam": {
+    "unsupported_length_mm": 23.700000000000003,
+    "I_mm4": 375.0,
+    "nominal_stress_MPa": 0.7900000000000001,
+    "at_assumed_E_1000_MPa_deflection_mm": 0.059164680000000025,
+    "scope": "Ideal 5x36 mm rectangular beam from mount-front z36, no stress concentrations, layers or lug compliance. NOT a structural qualification."
+  },
+  "mounting_group_rough_check": {
+    "moment_Nmm": 133.5,
+    "assumed_force_couple_arm_mm": 11.8,
+    "estimated_axial_group_force_N": 11.313559322033898,
+    "limitations": "Approximate statics only; printed lugs, clamping, prying, nut capture and fasteners need physical checking."
+  },
+  "physical_strength_pass": null,
+  "friction_pass": null,
+  "physical_tests_performed": []
+}

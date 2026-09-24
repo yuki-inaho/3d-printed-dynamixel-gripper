@@ -1,0 +1,14 @@
+{
+  "study_id": "all_xl430_revision_20260919",
+  "acceptance_state": "unaccepted",
+  "candidate_kind": "rigid_motor_replacement_no_bracket_redesign",
+  "original_leaf_count": 161,
+  "removed_leaf_count": 84,
+  "inserted_leaf_count": 140,
+  "expected_leaf_count": 217,
+  "part_design_status": "mixed_servo_baseline_geometry_not_all_xl430_validated",
+  "reference_sha256": {
+    "arm.step": "70e888a0a58706fd19acec4b25f83ec527ebe9914468a41494b32b8c324ea367",
+    "elbow_to_wrist_extension.step": "966c2eabfa3492ab790e8ae424fced3c94a6c4ca22907ce54a16c122c6be7a30"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "revision": "PG3-C92-XL430-J28-C9",
+  "source_sha256": "cbd1721f39a9d011726966e0a350571a5909d53713a8ada61db6509bbc7f0e68",
+  "pass": true,
+  "records": [
+    {
+      "angle": 25,
+      "failures": [],
+      "allowed_threads": [
+        {
+          "pair": [
+            "XL430_fixed",
+            "case_tapper_-11"
+          ],
+          "volume": 4.7507425906979615,
+          "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+        },
+        {
+          "pair": [
+            "XL430_fixed",
+            "case_tapper_11"
+          ],
+          "volume": 4.7507425906979615,
+          "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+        }
+      ],
+      "boolean_checks": 128
+    },
+    {
+      "angle": 55,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 55
+    },
+    {
+      "angle": 90,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle": 115,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle": 135,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    }
+  ]
+}

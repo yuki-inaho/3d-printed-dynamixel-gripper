@@ -1,0 +1,5 @@
+angle 114 hits 0 booleans 211
+angle 115 hits 0 booleans 292
+angle 116 hits 0 booleans 373
+angle 117 hits 0 booleans 454
+angle 118 hits 0 booleans 535

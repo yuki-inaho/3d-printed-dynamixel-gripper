@@ -1,0 +1,77 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "revision": "R3",
+      "angles": [
+        30
+      ],
+      "collisions": [
+        {
+          "angle": 30,
+          "a": "frame",
+          "b": "rail_nut_64_-38.5",
+          "volume": 45.908844
+        }
+      ],
+      "boolean_tests": 129,
+      "file": "PG2_open.step",
+      "occurrences": 55,
+      "pass_": false
+    },
+    {
+      "revision": "R3",
+      "angles": [
+        90
+      ],
+      "collisions": [
+        {
+          "angle": 90,
+          "a": "frame",
+          "b": "rail_nut_64_-38.5",
+          "volume": 45.908844
+        }
+      ],
+      "boolean_tests": 132,
+      "file": "PG2_mid.step",
+      "occurrences": 55,
+      "pass_": false
+    },
+    {
+      "revision": "R3",
+      "angles": [
+        140
+      ],
+      "collisions": [
+        {
+          "angle": 140,
+          "a": "frame",
+          "b": "rail_nut_64_-38.5",
+          "volume": 45.908844
+        }
+      ],
+      "boolean_tests": 140,
+      "file": "PG2_closed.step",
+      "occurrences": 55,
+      "pass_": false
+    },
+    {
+      "revision": "R3",
+      "angles": [
+        30
+      ],
+      "collisions": [
+        {
+          "angle": 30,
+          "a": "frame",
+          "b": "rail_nut_64_-38.5",
+          "volume": 45.908844
+        }
+      ],
+      "boolean_tests": 198,
+      "file": "PG2_camera_optional.step",
+      "occurrences": 75,
+      "pass_": false
+    }
+  ]
+}

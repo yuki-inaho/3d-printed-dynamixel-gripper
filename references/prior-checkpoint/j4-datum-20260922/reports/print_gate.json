@@ -1,0 +1,38 @@
+{
+  "status": "blocked",
+  "reasons": [
+    "candidate_is_unaccepted",
+    "external_collisions_remaining:46",
+    "all_xl430_part_fit_unverified:base_idler_clearance",
+    "all_xl430_part_fit_unverified:shoulder_rotation_unchanged",
+    "all_xl430_part_fit_unverified:shoulder_to_elbow_unchanged",
+    "all_xl430_part_fit_unverified:elbow_to_wrist_extension_round",
+    "all_xl430_part_fit_unverified:elbow_to_wrist_standoff",
+    "all_xl430_part_fit_unverified:gripper_static_unchanged",
+    "all_xl430_part_fit_unverified:gripper_moving_unchanged",
+    "missing_same_revision_evidence:all_xl430_part_compatibility",
+    "missing_same_revision_evidence:full_motion_collision",
+    "missing_same_revision_evidence:holding_torque",
+    "missing_same_revision_evidence:strength",
+    "missing_same_revision_evidence:fasteners_and_assembly",
+    "missing_same_revision_evidence:physical_fit"
+  ],
+  "candidate_sha256": {
+    "CAD/arm_all_XL430_static_UNACCEPTED.step": "4b0ecfd89411f11285ce7611f0b914bb7bc07515da7daff3f4460cfca9d7dee3",
+    "replacement_manifest.json": "dadcfb7320981f1de376f901406ab8e6dd0a2fb7a7c2651b6d07a0770b275165",
+    "CAD/parts/base_idler_clearance.step": "3db64e54d47a6a3a6ef4cd56bbcbcaf8c63ed87465445ec8dce8f89914ce5b58",
+    "CAD/parts/base_idler_clearance.stl": "cf4f0988ccf2321be41dbc0f2263ca559ca94a572f51d737ac2a7024a2d32e76",
+    "CAD/parts/shoulder_rotation_unchanged.step": "2a73960027708cf9e7e2ca62f7c46708544c2a4e3201ca0a9d2e567567206e41",
+    "CAD/parts/shoulder_rotation_unchanged.stl": "12ea513ae501d4ea473c82324b075efbb70ca77e8631b38eb28f7777fb07e175",
+    "CAD/parts/shoulder_to_elbow_unchanged.step": "82c22bec36bfdc5f92ddf8573266a3756bb9a3dba9740746e730487ef04894df",
+    "CAD/parts/shoulder_to_elbow_unchanged.stl": "1d9d5fe3ca203d7029de2780b58986c5479dde9321ca80dc4cbe8af7c16dc8a6",
+    "CAD/parts/elbow_to_wrist_extension_round.step": "7975945a19b0c8f28409cf574e8dbfffb46c09f6353b7ecb5db0f812a76ebe99",
+    "CAD/parts/elbow_to_wrist_extension_round.stl": "6097e3b11495c15796172cd888131ff095e43bb95aa9d254c6d4f229f4e09b7a",
+    "CAD/parts/elbow_to_wrist_standoff.step": "a6a2ef0e1a3ec44c2544b738a2e7be82e90a9702911f43bb1579761057fa8900",
+    "CAD/parts/elbow_to_wrist_standoff.stl": "e066c7c4d2addd6445db70159821eddbfcb693a0e79265d45a078bcd3d6bd03b",
+    "CAD/parts/gripper_static_unchanged.step": "4da08efaa1dff87bb4086dff7e9a59031e05f63c88b33dde05d9c5240d84b83a",
+    "CAD/parts/gripper_static_unchanged.stl": "7a09f44e9093ba01fa4afe812e87558d9a67be8f214d0817ec67d0ee4d4499a3",
+    "CAD/parts/gripper_moving_unchanged.step": "e06c5655a7038c28c9235a12a150c9fdad05f0af75d9d7f5164b590b040e6b16",
+    "CAD/parts/gripper_moving_unchanged.stl": "bb9ae79ebebde6513803fdf58197cd93a5a988ff5a3cffeb6281472c99576001"
+  }
+}

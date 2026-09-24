@@ -1,0 +1,56 @@
+[
+  {
+    "angle": 30,
+    "a": "jaw_1",
+    "b": "frame",
+    "clearance_mm": 0.20000000000000284
+  },
+  {
+    "angle": 30,
+    "a": "jaw_1",
+    "b": "retainer_top",
+    "clearance_mm": 7.105427357601002e-15
+  },
+  {
+    "angle": 30,
+    "a": "jaw_1",
+    "b": "retainer_bottom",
+    "clearance_mm": 0.0
+  },
+  {
+    "angle": 90,
+    "a": "jaw_1",
+    "b": "frame",
+    "clearance_mm": 0.20000000000000284
+  },
+  {
+    "angle": 90,
+    "a": "jaw_1",
+    "b": "retainer_top",
+    "clearance_mm": 0.0
+  },
+  {
+    "angle": 90,
+    "a": "jaw_1",
+    "b": "retainer_bottom",
+    "clearance_mm": 0.0
+  },
+  {
+    "angle": 140,
+    "a": "jaw_1",
+    "b": "frame",
+    "clearance_mm": 0.20000000000000284
+  },
+  {
+    "angle": 140,
+    "a": "jaw_1",
+    "b": "retainer_top",
+    "clearance_mm": 7.105427357601002e-15
+  },
+  {
+    "angle": 140,
+    "a": "jaw_1",
+    "b": "retainer_bottom",
+    "clearance_mm": 0.0
+  }
+]

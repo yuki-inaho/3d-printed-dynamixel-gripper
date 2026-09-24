@@ -1,0 +1,836 @@
+{
+  "core_revision": "R5",
+  "camera_revision": "C3",
+  "geometry_changes": "supplementary camera-vs-core and camera internal validation; complete current-revision sweep is separate",
+  "angles": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140
+  ],
+  "collisions": [],
+  "boolean_tests": 386,
+  "optical_model": {
+    "horizontal_fov_deg": 80.0,
+    "vertical_fov_deg": 64.3664437730972,
+    "optical_center_mm": [
+      0.0,
+      45.48682967037486,
+      24.902371836192113
+    ],
+    "rays": [
+      {
+        "angle": 30,
+        "side": -1,
+        "target": [
+          -25.406330492552136,
+          -12.0,
+          31.0
+        ],
+        "horizontal_deg": -24.922215536601183,
+        "vertical_deg": -18.945275721841156,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": -1,
+        "target": [
+          -25.406330492552136,
+          -12.0,
+          33.0
+        ],
+        "horizontal_deg": -24.58799692951836,
+        "vertical_deg": -16.98203558589148,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": -1,
+        "target": [
+          -25.406330492552136,
+          -12.0,
+          35.0
+        ],
+        "horizontal_deg": -24.262087552105378,
+        "vertical_deg": -15.037558555740867,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": -1,
+        "target": [
+          -25.406330492552136,
+          0.0,
+          31.0
+        ],
+        "horizontal_deg": -30.11485783236332,
+        "vertical_deg": -17.36486887950918,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": -1,
+        "target": [
+          -25.406330492552136,
+          0.0,
+          33.0
+        ],
+        "horizontal_deg": -29.641845951302717,
+        "vertical_deg": -14.905872840719507,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": -1,
+        "target": [
+          -25.406330492552136,
+          0.0,
+          35.0
+        ],
+        "horizontal_deg": -29.182171531182487,
+        "vertical_deg": -12.483863915714185,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": -1,
+        "target": [
+          -25.406330492552136,
+          12.0,
+          31.0
+        ],
+        "horizontal_deg": -37.65417466483151,
+        "vertical_deg": -14.68005979215075,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": -1,
+        "target": [
+          -25.406330492552136,
+          12.0,
+          33.0
+        ],
+        "horizontal_deg": -36.954112366211774,
+        "vertical_deg": -11.405962271538714,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": -1,
+        "target": [
+          -25.406330492552136,
+          12.0,
+          35.0
+        ],
+        "horizontal_deg": -36.27607360514706,
+        "vertical_deg": -8.219825145513134,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": 1,
+        "target": [
+          25.406330492552136,
+          -12.0,
+          31.0
+        ],
+        "horizontal_deg": 24.922215536601183,
+        "vertical_deg": -18.945275721841156,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": 1,
+        "target": [
+          25.406330492552136,
+          -12.0,
+          33.0
+        ],
+        "horizontal_deg": 24.58799692951836,
+        "vertical_deg": -16.98203558589148,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": 1,
+        "target": [
+          25.406330492552136,
+          -12.0,
+          35.0
+        ],
+        "horizontal_deg": 24.262087552105378,
+        "vertical_deg": -15.037558555740867,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": 1,
+        "target": [
+          25.406330492552136,
+          0.0,
+          31.0
+        ],
+        "horizontal_deg": 30.11485783236332,
+        "vertical_deg": -17.36486887950918,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": 1,
+        "target": [
+          25.406330492552136,
+          0.0,
+          33.0
+        ],
+        "horizontal_deg": 29.641845951302717,
+        "vertical_deg": -14.905872840719507,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": 1,
+        "target": [
+          25.406330492552136,
+          0.0,
+          35.0
+        ],
+        "horizontal_deg": 29.182171531182487,
+        "vertical_deg": -12.483863915714185,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": 1,
+        "target": [
+          25.406330492552136,
+          12.0,
+          31.0
+        ],
+        "horizontal_deg": 37.65417466483151,
+        "vertical_deg": -14.68005979215075,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": 1,
+        "target": [
+          25.406330492552136,
+          12.0,
+          33.0
+        ],
+        "horizontal_deg": 36.954112366211774,
+        "vertical_deg": -11.405962271538714,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 30,
+        "side": 1,
+        "target": [
+          25.406330492552136,
+          12.0,
+          35.0
+        ],
+        "horizontal_deg": 36.27607360514706,
+        "vertical_deg": -8.219825145513134,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": -1,
+        "target": [
+          -9.932001996776195,
+          -12.0,
+          31.0
+        ],
+        "horizontal_deg": -10.295307716501046,
+        "vertical_deg": -18.945275721841156,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": -1,
+        "target": [
+          -9.932001996776195,
+          -12.0,
+          33.0
+        ],
+        "horizontal_deg": -10.141857902304766,
+        "vertical_deg": -16.98203558589148,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": -1,
+        "target": [
+          -9.932001996776195,
+          -12.0,
+          35.0
+        ],
+        "horizontal_deg": -9.992869387605454,
+        "vertical_deg": -15.037558555740867,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": -1,
+        "target": [
+          -9.932001996776195,
+          0.0,
+          31.0
+        ],
+        "horizontal_deg": -12.775647104115068,
+        "vertical_deg": -17.36486887950918,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": -1,
+        "target": [
+          -9.932001996776195,
+          0.0,
+          33.0
+        ],
+        "horizontal_deg": -12.541507800497795,
+        "vertical_deg": -14.905872840719507,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": -1,
+        "target": [
+          -9.932001996776195,
+          0.0,
+          35.0
+        ],
+        "horizontal_deg": -12.315665896822846,
+        "vertical_deg": -12.483863915714185,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": -1,
+        "target": [
+          -9.932001996776195,
+          12.0,
+          31.0
+        ],
+        "horizontal_deg": -16.78557085504,
+        "vertical_deg": -14.68005979215075,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": -1,
+        "target": [
+          -9.932001996776195,
+          12.0,
+          33.0
+        ],
+        "horizontal_deg": -16.388266680437205,
+        "vertical_deg": -11.405962271538714,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": -1,
+        "target": [
+          -9.932001996776195,
+          12.0,
+          35.0
+        ],
+        "horizontal_deg": -16.008854143842342,
+        "vertical_deg": -8.219825145513134,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": 1,
+        "target": [
+          9.932001996776195,
+          -12.0,
+          31.0
+        ],
+        "horizontal_deg": 10.295307716501046,
+        "vertical_deg": -18.945275721841156,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": 1,
+        "target": [
+          9.932001996776195,
+          -12.0,
+          33.0
+        ],
+        "horizontal_deg": 10.141857902304766,
+        "vertical_deg": -16.98203558589148,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": 1,
+        "target": [
+          9.932001996776195,
+          -12.0,
+          35.0
+        ],
+        "horizontal_deg": 9.992869387605454,
+        "vertical_deg": -15.037558555740867,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": 1,
+        "target": [
+          9.932001996776195,
+          0.0,
+          31.0
+        ],
+        "horizontal_deg": 12.775647104115068,
+        "vertical_deg": -17.36486887950918,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": 1,
+        "target": [
+          9.932001996776195,
+          0.0,
+          33.0
+        ],
+        "horizontal_deg": 12.541507800497795,
+        "vertical_deg": -14.905872840719507,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": 1,
+        "target": [
+          9.932001996776195,
+          0.0,
+          35.0
+        ],
+        "horizontal_deg": 12.315665896822846,
+        "vertical_deg": -12.483863915714185,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": 1,
+        "target": [
+          9.932001996776195,
+          12.0,
+          31.0
+        ],
+        "horizontal_deg": 16.78557085504,
+        "vertical_deg": -14.68005979215075,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": 1,
+        "target": [
+          9.932001996776195,
+          12.0,
+          33.0
+        ],
+        "horizontal_deg": 16.388266680437205,
+        "vertical_deg": -11.405962271538714,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 90,
+        "side": 1,
+        "target": [
+          9.932001996776195,
+          12.0,
+          35.0
+        ],
+        "horizontal_deg": 16.008854143842342,
+        "vertical_deg": -8.219825145513134,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": -1,
+        "target": [
+          -0.4,
+          -12.0,
+          31.0
+        ],
+        "horizontal_deg": -0.41914510359317164,
+        "vertical_deg": -18.945275721841156,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": -1,
+        "target": [
+          -0.4,
+          -12.0,
+          33.0
+        ],
+        "horizontal_deg": -0.41276460165905354,
+        "vertical_deg": -16.98203558589148,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": -1,
+        "target": [
+          -0.4,
+          -12.0,
+          35.0
+        ],
+        "horizontal_deg": -0.4065754401334922,
+        "vertical_deg": -15.037558555740867,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": -1,
+        "target": [
+          -0.4,
+          0.0,
+          31.0
+        ],
+        "horizontal_deg": -0.5232102512356798,
+        "vertical_deg": -17.36486887950918,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": -1,
+        "target": [
+          -0.4,
+          0.0,
+          33.0
+        ],
+        "horizontal_deg": -0.5133056705424599,
+        "vertical_deg": -14.905872840719507,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": -1,
+        "target": [
+          -0.4,
+          0.0,
+          35.0
+        ],
+        "horizontal_deg": -0.5037691088382673,
+        "vertical_deg": -12.483863915714185,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": -1,
+        "target": [
+          -0.4,
+          12.0,
+          31.0
+        ],
+        "horizontal_deg": -0.6960136480570364,
+        "vertical_deg": -14.68005979215075,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": -1,
+        "target": [
+          -0.4,
+          12.0,
+          33.0
+        ],
+        "horizontal_deg": -0.6785954391332526,
+        "vertical_deg": -11.405962271538714,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": -1,
+        "target": [
+          -0.4,
+          12.0,
+          35.0
+        ],
+        "horizontal_deg": -0.6620277122762578,
+        "vertical_deg": -8.219825145513134,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": 1,
+        "target": [
+          0.4,
+          -12.0,
+          31.0
+        ],
+        "horizontal_deg": 0.41914510359317164,
+        "vertical_deg": -18.945275721841156,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": 1,
+        "target": [
+          0.4,
+          -12.0,
+          33.0
+        ],
+        "horizontal_deg": 0.41276460165905354,
+        "vertical_deg": -16.98203558589148,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": 1,
+        "target": [
+          0.4,
+          -12.0,
+          35.0
+        ],
+        "horizontal_deg": 0.4065754401334922,
+        "vertical_deg": -15.037558555740867,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": 1,
+        "target": [
+          0.4,
+          0.0,
+          31.0
+        ],
+        "horizontal_deg": 0.5232102512356798,
+        "vertical_deg": -17.36486887950918,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": 1,
+        "target": [
+          0.4,
+          0.0,
+          33.0
+        ],
+        "horizontal_deg": 0.5133056705424599,
+        "vertical_deg": -14.905872840719507,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": 1,
+        "target": [
+          0.4,
+          0.0,
+          35.0
+        ],
+        "horizontal_deg": 0.5037691088382673,
+        "vertical_deg": -12.483863915714185,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": 1,
+        "target": [
+          0.4,
+          12.0,
+          31.0
+        ],
+        "horizontal_deg": 0.6960136480570364,
+        "vertical_deg": -14.68005979215075,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": 1,
+        "target": [
+          0.4,
+          12.0,
+          33.0
+        ],
+        "horizontal_deg": 0.6785954391332526,
+        "vertical_deg": -11.405962271538714,
+        "intersections_before_target": 0,
+        "pass": true
+      },
+      {
+        "angle": 140,
+        "side": 1,
+        "target": [
+          0.4,
+          12.0,
+          35.0
+        ],
+        "horizontal_deg": 0.6620277122762578,
+        "vertical_deg": -8.219825145513134,
+        "intersections_before_target": 0,
+        "pass": true
+      }
+    ],
+    "pass": true,
+    "scope": "CAD ray and ideal FOV only; actual lens, focus, cable and full finger visibility not certified"
+  },
+  "pass": true
+}

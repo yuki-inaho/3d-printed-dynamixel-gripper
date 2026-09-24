@@ -1,0 +1,8954 @@
+{
+  "revision": "PG3-C92-XL430-J28-C8",
+  "source_sha256": "6c09b2cf11c37ea81ccd8b5ab9d55b7e5e351cc711c3f96d848e368260d78fef",
+  "pass": false,
+  "sample_count": 221,
+  "step_deg": 0.5,
+  "threshold_mm3": 0.01,
+  "failures": [],
+  "nonfit_distance_failures": [
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.24784632606310553,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.24784632606310553,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.17732090470786166,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.17732090470786166,
+      "designated_fit": false
+    }
+  ],
+  "distance_sampling_deg": 2.5,
+  "distance_records": [
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 25.0,
+      "distance_mm": 0.0,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 25.0,
+      "distance_mm": 0.0,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 25.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 25.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 25.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 25.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 25.0,
+      "distance_mm": 0.1999999999999978,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 25.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 25.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 25.0,
+      "distance_mm": 0.19999999999998888,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 25.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 25.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 27.5,
+      "distance_mm": 0.0,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 27.5,
+      "distance_mm": 0.0,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 27.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 27.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 27.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 27.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 27.5,
+      "distance_mm": 0.19999999999999968,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 27.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 27.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 27.5,
+      "distance_mm": 0.19999999999998933,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 27.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 27.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 30.0,
+      "distance_mm": 0.0,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 30.0,
+      "distance_mm": 0.0,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 30.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 30.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 30.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 30.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 30.0,
+      "distance_mm": 0.20000000000000043,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 30.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 30.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 30.0,
+      "distance_mm": 0.1999999999999887,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 30.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 30.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 32.5,
+      "distance_mm": 0.0,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 32.5,
+      "distance_mm": 0.0,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 32.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 32.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 32.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 32.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 32.5,
+      "distance_mm": 0.19999999999999651,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 32.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 32.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 32.5,
+      "distance_mm": 0.19999999999998969,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 32.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 32.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 35.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 35.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 35.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 35.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 35.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 35.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 35.0,
+      "distance_mm": 0.199999999999994,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 35.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 35.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 35.0,
+      "distance_mm": 0.19999999999999193,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 35.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 35.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 37.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 37.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 37.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 37.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 37.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 37.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 37.5,
+      "distance_mm": 0.19999999999999415,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 37.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 37.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 37.5,
+      "distance_mm": 0.19999999999999107,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 37.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 37.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 40.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 40.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 40.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 40.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 40.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 40.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 40.0,
+      "distance_mm": 0.19999999999999749,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 40.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 40.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 40.0,
+      "distance_mm": 0.1999999999999985,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 40.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 40.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 42.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 42.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 42.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 42.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 42.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 42.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 42.5,
+      "distance_mm": 0.19999999999999016,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 42.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 42.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 42.5,
+      "distance_mm": 0.19999999999999155,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 42.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 42.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 45.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 45.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 45.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 45.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 45.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 45.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 45.0,
+      "distance_mm": 0.19999999999999854,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 45.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 45.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 45.0,
+      "distance_mm": 0.19999999999999094,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 45.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 45.0,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 47.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 47.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 47.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 47.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 47.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 47.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 47.5,
+      "distance_mm": 0.19999999999999551,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 47.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 47.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 47.5,
+      "distance_mm": 0.19999999999999063,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 47.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 47.5,
+      "distance_mm": 3.313608305156179,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 50.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 50.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 50.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 50.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 50.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 50.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 50.0,
+      "distance_mm": 0.19999999999999607,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 50.0,
+      "distance_mm": 3.313623319624238,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 50.0,
+      "distance_mm": 3.313623319624238,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 50.0,
+      "distance_mm": 0.19999999999998905,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 50.0,
+      "distance_mm": 3.313623319624238,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 50.0,
+      "distance_mm": 3.313623319624238,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 52.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 52.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 52.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 52.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 52.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 52.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 52.5,
+      "distance_mm": 0.19999999999999377,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 52.5,
+      "distance_mm": 3.322578058971559,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 52.5,
+      "distance_mm": 3.322578058971559,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 52.5,
+      "distance_mm": 0.19999999999998871,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 52.5,
+      "distance_mm": 3.322578058971559,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 52.5,
+      "distance_mm": 3.322578058971559,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 55.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 55.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 55.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 55.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 55.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 55.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 55.0,
+      "distance_mm": 0.19999999999999574,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 55.0,
+      "distance_mm": 3.3586244027536925,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 55.0,
+      "distance_mm": 3.3586244027536925,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 55.0,
+      "distance_mm": 0.19999999999998863,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 55.0,
+      "distance_mm": 3.3586244027536925,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 55.0,
+      "distance_mm": 3.3586244027536925,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 57.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 57.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 57.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 57.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 57.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 57.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 57.5,
+      "distance_mm": 0.19999999999999762,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 57.5,
+      "distance_mm": 3.4452902262817346,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 57.5,
+      "distance_mm": 3.4452902262817346,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 57.5,
+      "distance_mm": 0.1999999999999894,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 57.5,
+      "distance_mm": 3.4452902262817346,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 57.5,
+      "distance_mm": 3.4452902262817346,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 60.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 60.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 60.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 60.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 60.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 60.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 60.0,
+      "distance_mm": 0.1999999999999969,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 60.0,
+      "distance_mm": 3.6049534730794868,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 60.0,
+      "distance_mm": 3.6049534730794868,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 60.0,
+      "distance_mm": 0.19999999999999218,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 60.0,
+      "distance_mm": 3.6049534730794868,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 60.0,
+      "distance_mm": 3.6049534730794868,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 62.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 62.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 62.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 62.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 62.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 62.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 62.5,
+      "distance_mm": 0.19999999999999218,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 62.5,
+      "distance_mm": 3.7325953661672022,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 62.5,
+      "distance_mm": 3.7325953661672022,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 62.5,
+      "distance_mm": 0.19999999999998508,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 62.5,
+      "distance_mm": 3.7325953661672022,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 62.5,
+      "distance_mm": 3.7325953661672022,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 65.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 65.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 65.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 65.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 65.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 65.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 65.0,
+      "distance_mm": 0.19999999999999746,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 65.0,
+      "distance_mm": 3.8722041128597726,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 65.0,
+      "distance_mm": 3.8722041128597726,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 65.0,
+      "distance_mm": 0.19999999999998952,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 65.0,
+      "distance_mm": 3.8722041128597726,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 65.0,
+      "distance_mm": 3.8722041128597726,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 67.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 67.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 67.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 67.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 67.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 67.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 67.5,
+      "distance_mm": 0.19999999999999574,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 67.5,
+      "distance_mm": 4.085940389052698,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 67.5,
+      "distance_mm": 4.085940389052698,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 67.5,
+      "distance_mm": 0.19999999999998863,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 67.5,
+      "distance_mm": 4.085940389052698,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 67.5,
+      "distance_mm": 4.085940389052698,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 70.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 70.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 70.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 70.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 70.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 70.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 70.0,
+      "distance_mm": 0.19999999999999546,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_37.5_-24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 70.0,
+      "distance_mm": 4.366411031134908,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_37.5_24.5_washer",
+        "carriage_R"
+      ],
+      "angle": 70.0,
+      "distance_mm": 4.366411031134905,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 70.0,
+      "distance_mm": 7.814278535190285,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 70.0,
+      "distance_mm": 0.19999999999998863,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_-37.5_-24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 70.0,
+      "distance_mm": 4.366411031134908,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "cap_-37.5_24.5_washer",
+        "carriage_L"
+      ],
+      "angle": 70.0,
+      "distance_mm": 4.366411031134905,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 70.0,
+      "distance_mm": 7.814278535190284,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 72.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 72.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 72.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 72.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 72.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 72.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 72.5,
+      "distance_mm": 0.19999999999999502,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 72.5,
+      "distance_mm": 7.6423792785537294,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 72.5,
+      "distance_mm": 0.19999999999998966,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 72.5,
+      "distance_mm": 7.6423792785537294,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 75.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 75.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 75.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 75.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 75.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 75.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 75.0,
+      "distance_mm": 0.19999999999999832,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 75.0,
+      "distance_mm": 7.518195447524715,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 75.0,
+      "distance_mm": 0.19999999999998846,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 75.0,
+      "distance_mm": 7.518195447524715,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 77.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 77.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 77.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 77.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 77.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 77.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 77.5,
+      "distance_mm": 0.19999999999999687,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 77.5,
+      "distance_mm": 7.442292605349937,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 77.5,
+      "distance_mm": 0.19999999999999218,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 77.5,
+      "distance_mm": 7.442292605349937,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 80.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 80.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 80.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 80.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 80.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 80.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 80.0,
+      "distance_mm": 0.19999999999999574,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 80.0,
+      "distance_mm": 7.413955570130333,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 80.0,
+      "distance_mm": 0.19999999999998813,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 80.0,
+      "distance_mm": 7.413955570130333,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 82.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 82.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 82.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 82.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 82.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 82.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 82.5,
+      "distance_mm": 5.016966453223077,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 82.5,
+      "distance_mm": 5.016966453223078,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 82.5,
+      "distance_mm": 7.311539936685696,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 82.5,
+      "distance_mm": 7.311539936685696,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 82.5,
+      "distance_mm": 0.1999999999999993,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 82.5,
+      "distance_mm": 7.714784961672608,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 82.5,
+      "distance_mm": 7.115258582460918,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 82.5,
+      "distance_mm": 6.993993316076676,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 82.5,
+      "distance_mm": 0.19999999999999163,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 82.5,
+      "distance_mm": 7.714784961672608,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 82.5,
+      "distance_mm": 7.115258582460918,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 82.5,
+      "distance_mm": 6.993993316076676,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 85.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 85.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 85.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 85.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 85.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 85.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 85.0,
+      "distance_mm": 4.945613134850209,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 85.0,
+      "distance_mm": 4.945613134850208,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 85.0,
+      "distance_mm": 6.69675294116618,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 85.0,
+      "distance_mm": 6.69675294116618,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 85.0,
+      "distance_mm": 0.1999999999999983,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 85.0,
+      "distance_mm": 7.157725903122256,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 85.0,
+      "distance_mm": 6.4013645049978205,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 85.0,
+      "distance_mm": 6.557513858549082,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 85.0,
+      "distance_mm": 0.1999999999999901,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 85.0,
+      "distance_mm": 7.157725903122255,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 85.0,
+      "distance_mm": 6.4013645049978205,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 85.0,
+      "distance_mm": 6.557513858549082,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 87.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 87.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 87.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 87.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 87.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 87.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 87.5,
+      "distance_mm": 4.9026784838831166,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 87.5,
+      "distance_mm": 4.902678483883117,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 87.5,
+      "distance_mm": 6.105326211150534,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 87.5,
+      "distance_mm": 6.105326211150536,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 87.5,
+      "distance_mm": 0.1999999999999976,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 87.5,
+      "distance_mm": 6.631786838266017,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 87.5,
+      "distance_mm": 5.726459045059007,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 87.5,
+      "distance_mm": 6.154043438141262,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 87.5,
+      "distance_mm": 0.19999999999998885,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 87.5,
+      "distance_mm": 6.631786838266017,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 87.5,
+      "distance_mm": 5.726459045059007,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 87.5,
+      "distance_mm": 6.154043438141262,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 90.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 90.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 90.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 90.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 90.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 90.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 90.0,
+      "distance_mm": 4.888346437387445,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 90.0,
+      "distance_mm": 4.888346437387446,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 90.0,
+      "distance_mm": 5.54039060004618,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 90.0,
+      "distance_mm": 5.54039060004618,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 90.0,
+      "distance_mm": 0.19999999999999815,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 90.0,
+      "distance_mm": 6.140979861249433,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 90.0,
+      "distance_mm": 5.093588689617926,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 90.0,
+      "distance_mm": 5.785210793400678,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 90.0,
+      "distance_mm": 0.19999999999998885,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 90.0,
+      "distance_mm": 6.140979861249433,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 90.0,
+      "distance_mm": 5.093588689617926,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 90.0,
+      "distance_mm": 5.785210793400679,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 92.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 92.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 92.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 92.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 92.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 92.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 92.5,
+      "distance_mm": 3.8145363332612625,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 92.5,
+      "distance_mm": 3.8145363332612634,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 92.5,
+      "distance_mm": 5.005385248507347,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 92.5,
+      "distance_mm": 5.005385248507347,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 92.5,
+      "distance_mm": 0.2,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 92.5,
+      "distance_mm": 5.689476375970488,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 92.5,
+      "distance_mm": 4.505678619312473,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 92.5,
+      "distance_mm": 5.452066383516836,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 92.5,
+      "distance_mm": 0.1999999999999921,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 92.5,
+      "distance_mm": 5.689476375970488,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 92.5,
+      "distance_mm": 4.505678619312473,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 92.5,
+      "distance_mm": 5.452066383516836,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 95.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 95.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 95.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 95.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 95.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 95.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 95.0,
+      "distance_mm": 2.816688052835225,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 95.0,
+      "distance_mm": 2.816688052835224,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 95.0,
+      "distance_mm": 4.504218165630004,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 95.0,
+      "distance_mm": 4.504218165630004,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 95.0,
+      "distance_mm": 0.1999999999999983,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 95.0,
+      "distance_mm": 5.281543508413803,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 95.0,
+      "distance_mm": 3.965478435879623,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 95.0,
+      "distance_mm": 5.154996457452665,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 95.0,
+      "distance_mm": 0.1999999999999901,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 95.0,
+      "distance_mm": 5.281543508413801,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 95.0,
+      "distance_mm": 3.965478435879623,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 95.0,
+      "distance_mm": 5.154996457452665,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 97.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 97.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 97.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 97.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 97.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 97.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 97.5,
+      "distance_mm": 1.920391937630498,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 97.5,
+      "distance_mm": 1.9203919376304974,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 97.5,
+      "distance_mm": 4.041467058781005,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 97.5,
+      "distance_mm": 4.041467058781003,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 97.5,
+      "distance_mm": 0.19999999999999574,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 97.5,
+      "distance_mm": 3.152444320541795,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 97.5,
+      "distance_mm": 4.921393444685423,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 97.5,
+      "distance_mm": 3.475487446831591,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 97.5,
+      "distance_mm": 4.89366200003237,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 97.5,
+      "distance_mm": 3.152444320541795,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 97.5,
+      "distance_mm": 0.19999999999998677,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 97.5,
+      "distance_mm": 4.921393444685423,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 97.5,
+      "distance_mm": 3.475487446831591,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 97.5,
+      "distance_mm": 4.8936620000323705,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 100.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 100.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 100.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 100.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 100.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 100.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 100.0,
+      "distance_mm": 1.161595999826602,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 100.0,
+      "distance_mm": 1.1615959998266014,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 100.0,
+      "distance_mm": 3.6225950665184476,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 100.0,
+      "distance_mm": 3.6225950665184476,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 100.0,
+      "distance_mm": 0.19999999999999574,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 100.0,
+      "distance_mm": 2.7566837444315517,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 100.0,
+      "distance_mm": 4.612909561942153,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 100.0,
+      "distance_mm": 6.377499295685289,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 100.0,
+      "distance_mm": 3.0378577063389725,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 100.0,
+      "distance_mm": 4.6669787152903055,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 100.0,
+      "distance_mm": 2.756683744431552,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 100.0,
+      "distance_mm": 0.19999999999998813,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 100.0,
+      "distance_mm": 4.612909561942153,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 100.0,
+      "distance_mm": 6.37749929568529,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 100.0,
+      "distance_mm": 3.0378577063389725,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 100.0,
+      "distance_mm": 4.6669787152903055,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 102.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 102.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 102.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 102.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 102.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 102.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 102.5,
+      "distance_mm": 0.5872298258561991,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 102.5,
+      "distance_mm": 0.5872298258561991,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 102.5,
+      "distance_mm": 3.254100678783118,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 102.5,
+      "distance_mm": 3.254100678783118,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 102.5,
+      "distance_mm": 0.19999999999999574,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 102.5,
+      "distance_mm": 2.568041835402045,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 102.5,
+      "distance_mm": 4.359231865710733,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 102.5,
+      "distance_mm": 6.20639174723023,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 102.5,
+      "distance_mm": 4.0872298258562,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 102.5,
+      "distance_mm": 2.9958369772940547,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 102.5,
+      "distance_mm": 2.654277010693456,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 102.5,
+      "distance_mm": 4.4731512525804575,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 102.5,
+      "distance_mm": 2.568041835402045,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 102.5,
+      "distance_mm": 0.19999999999998863,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 102.5,
+      "distance_mm": 4.359231865710733,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 102.5,
+      "distance_mm": 6.206391747230231,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 102.5,
+      "distance_mm": 4.0872298258562,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 102.5,
+      "distance_mm": 2.995836977294055,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 102.5,
+      "distance_mm": 2.654277010693456,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 102.5,
+      "distance_mm": 4.4731512525804575,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.24784632606310553,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.24784632606310553,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 105.0,
+      "distance_mm": 2.9434178423478703,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 105.0,
+      "distance_mm": 2.9434178423478716,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.1999999999999981,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 105.0,
+      "distance_mm": 2.512255520711016,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 105.0,
+      "distance_mm": 4.16223437709411,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 105.0,
+      "distance_mm": 6.1283864477910655,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 105.0,
+      "distance_mm": 3.7478463260631067,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 105.0,
+      "distance_mm": 2.451932347626247,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 105.0,
+      "distance_mm": 2.3258399701472245,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 105.0,
+      "distance_mm": 4.309766824430532,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.4388645667327454,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 105.0,
+      "distance_mm": 2.512255520711016,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.19999999999999094,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 105.0,
+      "distance_mm": 4.16223437709411,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 105.0,
+      "distance_mm": 6.1283864477910655,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 105.0,
+      "distance_mm": 3.7478463260631067,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 105.0,
+      "distance_mm": 2.451932347626247,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 105.0,
+      "distance_mm": 2.3258399701472237,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 105.0,
+      "distance_mm": 4.309766824430532,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 105.0,
+      "distance_mm": 0.4388645667327454,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.17732090470786166,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.17732090470786166,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 107.5,
+      "distance_mm": 2.6982536496793212,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 107.5,
+      "distance_mm": 2.6982536496793212,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.19999999999999574,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 107.5,
+      "distance_mm": 2.5062806513330496,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 107.5,
+      "distance_mm": 4.0220038819756665,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 107.5,
+      "distance_mm": 6.114416121974537,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 107.5,
+      "distance_mm": 3.6773209047078628,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 107.5,
+      "distance_mm": 2.445447736544029,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 107.5,
+      "distance_mm": 8.728240399819386,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 107.5,
+      "distance_mm": 2.0529221694770423,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 107.5,
+      "distance_mm": 4.173941687743294,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 107.5,
+      "distance_mm": 2.5062806513330496,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.19999999999998863,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 107.5,
+      "distance_mm": 4.0220038819756665,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 107.5,
+      "distance_mm": 6.114416121974537,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 107.5,
+      "distance_mm": 3.6773209047078628,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 107.5,
+      "distance_mm": 2.445447736544029,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 107.5,
+      "distance_mm": 8.728240399819386,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 107.5,
+      "distance_mm": 2.0529221694770436,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 107.5,
+      "distance_mm": 4.173941687743294,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 107.5,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.3443033089972829,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.3443033089972829,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 110.0,
+      "distance_mm": 2.525049079851513,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 110.0,
+      "distance_mm": 2.5250490798515126,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.19999999999999574,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 110.0,
+      "distance_mm": 2.5235975845182765,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 110.0,
+      "distance_mm": 3.936494000956269,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 110.0,
+      "distance_mm": 6.14875201862793,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 110.0,
+      "distance_mm": 3.844303308997283,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 110.0,
+      "distance_mm": 2.6741761587322834,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 110.0,
+      "distance_mm": 8.228094499677146,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 110.0,
+      "distance_mm": 1.8350781900811337,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 110.0,
+      "distance_mm": 4.06250235481235,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 110.0,
+      "distance_mm": 2.5235975845182765,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.19999999999998863,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 110.0,
+      "distance_mm": 3.936494000956269,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 110.0,
+      "distance_mm": 6.14875201862793,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 110.0,
+      "distance_mm": 3.844303308997283,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 110.0,
+      "distance_mm": 2.6741761587322834,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 110.0,
+      "distance_mm": 8.228094499677148,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 110.0,
+      "distance_mm": 1.8350781900811335,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 110.0,
+      "distance_mm": 4.06250235481235,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 110.0,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.47644834157629684,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.47644834157629784,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 112.5,
+      "distance_mm": 2.4266793991324818,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 112.5,
+      "distance_mm": 2.4266793991324813,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.19999999999999923,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 112.5,
+      "distance_mm": 2.563201370750114,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 112.5,
+      "distance_mm": 3.9015187038147103,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 112.5,
+      "distance_mm": 6.2009172189845625,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 112.5,
+      "distance_mm": 4.065686544841986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 112.5,
+      "distance_mm": 2.9320781576652752,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 112.5,
+      "distance_mm": 7.521409344300755,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 112.5,
+      "distance_mm": 1.6709860854851672,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 112.5,
+      "distance_mm": 3.972176163245855,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 112.5,
+      "distance_mm": 2.5632013707501144,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.19999999999999218,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 112.5,
+      "distance_mm": 3.9015187038147103,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 112.5,
+      "distance_mm": 6.2009172189845625,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 112.5,
+      "distance_mm": 4.065686544841986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 112.5,
+      "distance_mm": 2.9320781576652752,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 112.5,
+      "distance_mm": 7.521409344300755,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 112.5,
+      "distance_mm": 1.6709860854851668,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 112.5,
+      "distance_mm": 3.972176163245855,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 112.5,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 115.0,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 115.0,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.1999999999999993,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 115.0,
+      "distance_mm": 2.62846766185684,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 115.0,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 115.0,
+      "distance_mm": 6.267553287559745,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 115.0,
+      "distance_mm": 4.311690981486901,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 115.0,
+      "distance_mm": 3.2186628022298436,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 115.0,
+      "distance_mm": 6.836510512414124,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 115.0,
+      "distance_mm": 1.5584565034265734,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 115.0,
+      "distance_mm": 3.899765554053644,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 115.0,
+      "distance_mm": 2.62846766185684,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.19999999999998866,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 115.0,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 115.0,
+      "distance_mm": 6.267553287559745,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 115.0,
+      "distance_mm": 4.311690981486901,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 115.0,
+      "distance_mm": 3.2186628022298436,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 115.0,
+      "distance_mm": 6.836510512414124,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 115.0,
+      "distance_mm": 1.558456503426573,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 115.0,
+      "distance_mm": 3.899765554053644,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 115.0,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 117.5,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 117.5,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.1999999999999969,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 117.5,
+      "distance_mm": 2.7240403486429328,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 117.5,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 117.5,
+      "distance_mm": 6.35091272905277,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 117.5,
+      "distance_mm": 4.581848335504896,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 117.5,
+      "distance_mm": 3.5333845622666527,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 117.5,
+      "distance_mm": 6.1729481426679875,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 117.5,
+      "distance_mm": 1.4945138843328238,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 117.5,
+      "distance_mm": 3.8422866209228164,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 117.5,
+      "distance_mm": 2.7240403486429328,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.19999999999999218,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 117.5,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 117.5,
+      "distance_mm": 6.35091272905277,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 117.5,
+      "distance_mm": 4.581848335504896,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 117.5,
+      "distance_mm": 3.5333845622666527,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 117.5,
+      "distance_mm": 6.172948142667989,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 117.5,
+      "distance_mm": 1.4945138843328238,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 117.5,
+      "distance_mm": 3.842286620922816,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 117.5,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 120.0,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 120.0,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.1999999999999993,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 120.0,
+      "distance_mm": 2.8534886313917895,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 120.0,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 120.0,
+      "distance_mm": 6.212315177207985,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 120.0,
+      "distance_mm": 4.875644347017857,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 120.0,
+      "distance_mm": 3.8756443470178557,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 120.0,
+      "distance_mm": 5.530174604817173,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 120.0,
+      "distance_mm": 1.4755428326250577,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 120.0,
+      "distance_mm": 3.7454021179476618,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 120.0,
+      "distance_mm": 2.8534886313917895,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.19999999999999218,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 120.0,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 120.0,
+      "distance_mm": 6.212315177207985,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 120.0,
+      "distance_mm": 4.875644347017857,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 120.0,
+      "distance_mm": 3.8756443470178557,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 120.0,
+      "distance_mm": 5.530174604817173,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 120.0,
+      "distance_mm": 1.4755428326250573,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 120.0,
+      "distance_mm": 3.745402117947661,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 120.0,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 122.5,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 122.5,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.19999999999999818,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 122.5,
+      "distance_mm": 3.0190434136192477,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 122.5,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 122.5,
+      "distance_mm": 5.350189458075059,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 122.5,
+      "distance_mm": 5.1925197586196,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 122.5,
+      "distance_mm": 4.144055985381357,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 122.5,
+      "distance_mm": 4.907565008200647,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 122.5,
+      "distance_mm": 1.497479667569399,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 122.5,
+      "distance_mm": 3.4422364731365347,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 122.5,
+      "distance_mm": 3.0190434136192477,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.19999999999999218,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 122.5,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 122.5,
+      "distance_mm": 5.350189458075059,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 122.5,
+      "distance_mm": 5.1925197586196,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 122.5,
+      "distance_mm": 4.144055985381357,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 122.5,
+      "distance_mm": 4.907565008200647,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 122.5,
+      "distance_mm": 1.497479667569399,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 122.5,
+      "distance_mm": 3.442236473136535,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 122.5,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 125.0,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 125.0,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.1999999999999993,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 125.0,
+      "distance_mm": 3.221568143727002,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 125.0,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 125.0,
+      "distance_mm": 4.52260215488125,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 125.0,
+      "distance_mm": 5.531871379954115,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 125.0,
+      "distance_mm": 4.438843200697059,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 125.0,
+      "distance_mm": 4.304436900428142,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 125.0,
+      "distance_mm": 1.5560217780562007,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 125.0,
+      "distance_mm": 3.161025033780548,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 125.0,
+      "distance_mm": 3.2215681437270027,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.19999999999999396,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 125.0,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 125.0,
+      "distance_mm": 4.522602154881248,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 125.0,
+      "distance_mm": 5.531871379954115,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 125.0,
+      "distance_mm": 4.438843200697059,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 125.0,
+      "distance_mm": 4.304436900428142,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 125.0,
+      "distance_mm": 1.5560217780562002,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 125.0,
+      "distance_mm": 3.161025033780548,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 125.0,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 127.5,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 127.5,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.19999999999999646,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 127.5,
+      "distance_mm": 2.7299175558760176,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 127.5,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 127.5,
+      "distance_mm": 3.7299175558760176,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 127.5,
+      "distance_mm": 5.329917555876017,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 127.5,
+      "distance_mm": 4.759444848746,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 127.5,
+      "distance_mm": 3.7200690230745646,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 127.5,
+      "distance_mm": 1.6468275970490067,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 127.5,
+      "distance_mm": 2.9010982036295223,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 127.5,
+      "distance_mm": 2.7299175558760176,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.19999999999999063,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 127.5,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 127.5,
+      "distance_mm": 3.7299175558760176,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 127.5,
+      "distance_mm": 5.329917555876017,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 127.5,
+      "distance_mm": 4.759444848745998,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 127.5,
+      "distance_mm": 3.7200690230745646,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 127.5,
+      "distance_mm": 1.6468275970490067,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 127.5,
+      "distance_mm": 2.901098203629523,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 127.5,
+      "distance_mm": 0.4000000000000057,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 130.0,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 130.0,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.19999999999999593,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 130.0,
+      "distance_mm": 1.972449451741772,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 130.0,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 130.0,
+      "distance_mm": 2.972449451741772,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 130.0,
+      "distance_mm": 4.572449451741772,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 130.0,
+      "distance_mm": 4.214973492190299,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 130.0,
+      "distance_mm": 3.1537191436815792,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 130.0,
+      "distance_mm": 1.7656864537814545,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 130.0,
+      "distance_mm": 2.661733074214237,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.41984418819483377,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 130.0,
+      "distance_mm": 1.972449451741772,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.19999999999999005,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 130.0,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 130.0,
+      "distance_mm": 2.972449451741772,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 130.0,
+      "distance_mm": 4.572449451741772,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 130.0,
+      "distance_mm": 4.214973492190301,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 130.0,
+      "distance_mm": 3.1537191436815792,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 130.0,
+      "distance_mm": 1.7656864537814547,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 130.0,
+      "distance_mm": 2.6617330742142364,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 130.0,
+      "distance_mm": 0.41984418819483377,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 132.5,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 132.5,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.1999999999999971,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 132.5,
+      "distance_mm": 1.2628886652734692,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 132.5,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 132.5,
+      "distance_mm": 2.26288866527347,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 132.5,
+      "distance_mm": 3.8628886652734717,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 132.5,
+      "distance_mm": 3.6043748825339423,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 132.5,
+      "distance_mm": 2.604641142608048,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 132.5,
+      "distance_mm": 1.9086469708538252,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 132.5,
+      "distance_mm": 2.4421610329960717,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.7000000000000028,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 132.5,
+      "distance_mm": 1.262888665273471,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.19999999999999218,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 132.5,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 132.5,
+      "distance_mm": 2.26288866527347,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 132.5,
+      "distance_mm": 3.8628886652734717,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 132.5,
+      "distance_mm": 3.6043748825339423,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 132.5,
+      "distance_mm": 2.604641142608048,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 132.5,
+      "distance_mm": 1.9086469708538258,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 132.5,
+      "distance_mm": 2.4421610329960703,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 132.5,
+      "distance_mm": 0.7000000000000028,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "frame"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "frame"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_R"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_U",
+        "carriage_L"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_R"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "cap_D",
+        "carriage_L"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.3000000000000007,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "crank"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "crank"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_spacer"
+      ],
+      "angle": 135.0,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_spacer"
+      ],
+      "angle": 135.0,
+      "distance_mm": 2.3999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_R"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.19999999999999574,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "link_L"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.6270990903400647,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_R"
+      ],
+      "angle": 135.0,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_washer"
+      ],
+      "angle": 135.0,
+      "distance_mm": 1.6270990903400666,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 135.0,
+      "distance_mm": 3.227099090340066,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "pivot_drive_L_nut"
+      ],
+      "angle": 135.0,
+      "distance_mm": 3.098848037857004,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_1"
+      ],
+      "angle": 135.0,
+      "distance_mm": 2.0721017059184654,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "horn_bolt_3"
+      ],
+      "angle": 135.0,
+      "distance_mm": 2.072101705918461,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_R",
+        "case_tapper_11"
+      ],
+      "angle": 135.0,
+      "distance_mm": 2.241574215084884,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_R",
+        "pivot_drive_L_bolt"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.7000000000000028,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_R"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.6270990903400664,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "link_L"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.1999999999999885,
+      "designated_fit": true
+    },
+    {
+      "pair": [
+        "XL430_horn",
+        "carriage_L"
+      ],
+      "angle": 135.0,
+      "distance_mm": 3.8999999999999986,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_washer"
+      ],
+      "angle": 135.0,
+      "distance_mm": 1.6270990903400666,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 135.0,
+      "distance_mm": 3.227099090340066,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "pivot_drive_R_nut"
+      ],
+      "angle": 135.0,
+      "distance_mm": 3.098848037857004,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_0"
+      ],
+      "angle": 135.0,
+      "distance_mm": 2.072101705918465,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "horn_bolt_2"
+      ],
+      "angle": 135.0,
+      "distance_mm": 2.072101705918462,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "carriage_L",
+        "case_tapper_-11"
+      ],
+      "angle": 135.0,
+      "distance_mm": 2.241574215084883,
+      "designated_fit": false
+    },
+    {
+      "pair": [
+        "finger_L",
+        "pivot_drive_R_bolt"
+      ],
+      "angle": 135.0,
+      "distance_mm": 0.7000000000000028,
+      "designated_fit": false
+    }
+  ],
+  "records": [
+    {
+      "angle_deg": 25.0,
+      "failures": [],
+      "allowed_threads": [
+        {
+          "pair": [
+            "XL430_fixed",
+            "case_tapper_-11"
+          ],
+          "volume": 4.7507425906979615,
+          "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+        },
+        {
+          "pair": [
+            "XL430_fixed",
+            "case_tapper_11"
+          ],
+          "volume": 4.7507425906979615,
+          "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+        }
+      ],
+      "boolean_checks": 128
+    },
+    {
+      "angle_deg": 25.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 46
+    },
+    {
+      "angle_deg": 26.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 47
+    },
+    {
+      "angle_deg": 26.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 47
+    },
+    {
+      "angle_deg": 27.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 47
+    },
+    {
+      "angle_deg": 27.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 47
+    },
+    {
+      "angle_deg": 28.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 47
+    },
+    {
+      "angle_deg": 28.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 47
+    },
+    {
+      "angle_deg": 29.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 29.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 47
+    },
+    {
+      "angle_deg": 30.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 30.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 47
+    },
+    {
+      "angle_deg": 31.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 47
+    },
+    {
+      "angle_deg": 31.5,
+      "failures": [],
+      "allowed_threads": [
+        {
+          "pair": [
+            "XL430_fixed",
+            "case_tapper_-11"
+          ],
+          "volume": 4.7507425906979615,
+          "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+        },
+        {
+          "pair": [
+            "XL430_fixed",
+            "case_tapper_11"
+          ],
+          "volume": 4.7507425906979615,
+          "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+        }
+      ],
+      "boolean_checks": 133
+    },
+    {
+      "angle_deg": 32.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 32.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 47
+    },
+    {
+      "angle_deg": 33.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 33.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 34.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 34.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 35.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 35.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 36.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 36.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 37.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 37.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 38.0,
+      "failures": [],
+      "allowed_threads": [
+        {
+          "pair": [
+            "XL430_fixed",
+            "case_tapper_-11"
+          ],
+          "volume": 4.7507425906979615,
+          "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+        },
+        {
+          "pair": [
+            "XL430_fixed",
+            "case_tapper_11"
+          ],
+          "volume": 4.7507425906979615,
+          "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+        }
+      ],
+      "boolean_checks": 136
+    },
+    {
+      "angle_deg": 38.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 39.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 39.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 40.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 40.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 41.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 41.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 42.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 42.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 43.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 43.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 44.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 44.5,
+      "failures": [],
+      "allowed_threads": [
+        {
+          "pair": [
+            "XL430_fixed",
+            "case_tapper_-11"
+          ],
+          "volume": 4.7507425906979615,
+          "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+        },
+        {
+          "pair": [
+            "XL430_fixed",
+            "case_tapper_11"
+          ],
+          "volume": 4.7507425906979615,
+          "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+        }
+      ],
+      "boolean_checks": 136
+    },
+    {
+      "angle_deg": 45.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 45.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 46.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 46.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 47.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 47.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 48.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 48.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 49.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 49.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 50.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 50.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 51.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 51.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 52.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 52.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 53.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 53.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 54.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 54.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 55.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 55.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 56.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 56.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 57.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 57.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 51
+    },
+    {
+      "angle_deg": 58.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 58.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 59.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 59.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 60.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 60.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 61.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 61.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 62.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 62.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 63.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 63.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 64.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 64.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 65.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 65.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 66.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 66.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 67.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 67.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 68.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 68.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 69.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 69.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 70.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 70.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 71.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 48
+    },
+    {
+      "angle_deg": 71.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 72.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 72.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 73.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 73.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 74.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 74.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 75.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 75.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 76.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 76.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 77.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 77.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 78.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 78.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 79.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 79.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 80.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 80.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 81.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 81.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 82.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 82.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 83.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 49
+    },
+    {
+      "angle_deg": 83.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 51
+    },
+    {
+      "angle_deg": 84.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 53
+    },
+    {
+      "angle_deg": 84.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 55
+    },
+    {
+      "angle_deg": 85.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 85.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 86.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 86.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 87.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 87.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 88.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 88.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 89.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 89.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 90.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 90.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 91.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 91.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 92.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 92.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 93.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 93.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 94.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 94.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 95.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 95.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 96.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 96.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 97.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 97.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 98.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 57
+    },
+    {
+      "angle_deg": 98.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 59
+    },
+    {
+      "angle_deg": 99.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 59
+    },
+    {
+      "angle_deg": 99.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 59
+    },
+    {
+      "angle_deg": 100.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 59
+    },
+    {
+      "angle_deg": 100.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 59
+    },
+    {
+      "angle_deg": 101.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 61
+    },
+    {
+      "angle_deg": 101.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 61
+    },
+    {
+      "angle_deg": 102.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 61
+    },
+    {
+      "angle_deg": 102.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 61
+    },
+    {
+      "angle_deg": 103.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 61
+    },
+    {
+      "angle_deg": 103.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 61
+    },
+    {
+      "angle_deg": 104.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 63
+    },
+    {
+      "angle_deg": 104.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 65
+    },
+    {
+      "angle_deg": 105.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 65
+    },
+    {
+      "angle_deg": 105.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 65
+    },
+    {
+      "angle_deg": 106.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 65
+    },
+    {
+      "angle_deg": 106.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 65
+    },
+    {
+      "angle_deg": 107.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 65
+    },
+    {
+      "angle_deg": 107.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 65
+    },
+    {
+      "angle_deg": 108.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 65
+    },
+    {
+      "angle_deg": 108.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 65
+    },
+    {
+      "angle_deg": 109.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 109.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 110.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 110.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 111.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 111.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 112.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 112.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 113.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 113.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 114.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 114.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 115.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 115.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 67
+    },
+    {
+      "angle_deg": 116.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 68
+    },
+    {
+      "angle_deg": 116.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 68
+    },
+    {
+      "angle_deg": 117.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 68
+    },
+    {
+      "angle_deg": 117.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 68
+    },
+    {
+      "angle_deg": 118.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 68
+    },
+    {
+      "angle_deg": 118.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 68
+    },
+    {
+      "angle_deg": 119.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 68
+    },
+    {
+      "angle_deg": 119.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 68
+    },
+    {
+      "angle_deg": 120.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 70
+    },
+    {
+      "angle_deg": 120.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 70
+    },
+    {
+      "angle_deg": 121.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 74
+    },
+    {
+      "angle_deg": 121.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 74
+    },
+    {
+      "angle_deg": 122.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 74
+    },
+    {
+      "angle_deg": 122.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 74
+    },
+    {
+      "angle_deg": 123.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 74
+    },
+    {
+      "angle_deg": 123.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 74
+    },
+    {
+      "angle_deg": 124.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 74
+    },
+    {
+      "angle_deg": 124.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 74
+    },
+    {
+      "angle_deg": 125.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 74
+    },
+    {
+      "angle_deg": 125.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 74
+    },
+    {
+      "angle_deg": 126.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 126.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 127.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 127.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 128.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 128.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 129.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 129.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 130.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 130.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 131.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 131.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 132.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 132.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 133.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 133.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 134.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 134.5,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    },
+    {
+      "angle_deg": 135.0,
+      "failures": [],
+      "allowed_threads": [],
+      "boolean_checks": 73
+    }
+  ],
+  "elapsed_s": 79.11668700199999,
+  "scope": "All assembly body collision tests; distance checks focus on changed parts. Discrete nominal rigid geometry, not continuous or physical certification."
+}

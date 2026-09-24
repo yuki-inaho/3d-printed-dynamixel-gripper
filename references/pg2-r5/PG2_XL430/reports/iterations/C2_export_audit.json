@@ -1,0 +1,473 @@
+{
+  "revision": "R4",
+  "guardrails": {
+    "positive": true,
+    "negative_tests": [
+      {
+        "test": "wrong_XL330",
+        "rejected": true,
+        "reason": "R01: motor differs from XL430-W250"
+      },
+      {
+        "test": "axes_orthogonal",
+        "rejected": true,
+        "reason": "R02: output axis and finger projection must both be +Z"
+      },
+      {
+        "test": "metal_guide_metadata",
+        "rejected": true,
+        "reason": "R04: metal/round guide substitution prohibited"
+      },
+      {
+        "test": "machine_screw_in_tap_hole",
+        "rejected": true,
+        "reason": "R01: wrong case side screw"
+      },
+      {
+        "test": "zero_front_guide_clearance",
+        "rejected": true,
+        "reason": "R06: nominal rubbing interfaces need positive clearance"
+      },
+      {
+        "test": "expanded_close_limit",
+        "rejected": true,
+        "reason": "R03: commissioned motion may not approach internal near-toggle region"
+      },
+      {
+        "test": "actual_motor_tipped_despite_good_metadata",
+        "rejected": true,
+        "reason": "R02: actual servo body has been laid down or substituted"
+      },
+      {
+        "test": "actual_horn_axis_tipped",
+        "rejected": true,
+        "reason": "R02: actual horn axis not parallel to +Z"
+      },
+      {
+        "test": "100mm_steel_rod_disguised_as_fastener",
+        "rejected": true,
+        "reason": "R04: shaft disguised as ordinary fastener"
+      },
+      {
+        "test": "actual_jaw_not_centered",
+        "rejected": true,
+        "reason": "R03: jaw lateral symmetry broken"
+      },
+      {
+        "test": "disconnected_printed_camera_stand",
+        "rejected": true,
+        "reason": "D06: printed component disconnected or invalid: disconnected_camera"
+      }
+    ]
+  },
+  "stl": {
+    "01_frame.stl": {
+      "vertices": 3312,
+      "triangles": 6680,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 27976.144976112435,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          136.0,
+          84.0,
+          8.9
+        ]
+      ],
+      "pass": true
+    },
+    "02_retainer.stl": {
+      "vertices": 1016,
+      "triangles": 2052,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 3916.72666355024,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          136.0,
+          10.0,
+          3.0
+        ]
+      ],
+      "pass": true
+    },
+    "03_jaw.stl": {
+      "vertices": 738,
+      "triangles": 1484,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 17628.212454077275,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          31.200001,
+          72.0,
+          36.794136
+        ]
+      ],
+      "pass": true
+    },
+    "04_crank.stl": {
+      "vertices": 2552,
+      "triangles": 5128,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 3337.79638605815,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          41.0,
+          22.0,
+          13.5
+        ]
+      ],
+      "pass": true
+    },
+    "05_link.stl": {
+      "vertices": 640,
+      "triangles": 1284,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 1267.716511095144,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.001038,
+          0.000699,
+          0.0
+        ],
+        [
+          46.798962,
+          14.9,
+          4.0
+        ]
+      ],
+      "pass": true
+    },
+    "06_motor_mount.stl": {
+      "vertices": 2284,
+      "triangles": 4600,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 13058.103121032067,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          54.0,
+          73.0,
+          17.5
+        ]
+      ],
+      "pass": true
+    },
+    "07_camera_stand.stl": {
+      "vertices": 732,
+      "triangles": 1476,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 3914.0597285745607,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          58.0,
+          30.676168,
+          12.157722
+        ]
+      ],
+      "pass": true
+    },
+    "08_camera_plate.stl": {
+      "vertices": 1768,
+      "triangles": 3560,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 3927.3972979704654,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          46.0,
+          38.0,
+          5.0
+        ]
+      ],
+      "pass": true
+    },
+    "09_fit_gauge.stl": {
+      "vertices": 536,
+      "triangles": 1092,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 17771.361726827043,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          72.0,
+          20.0,
+          15.0
+        ]
+      ],
+      "pass": true
+    },
+    "10_fit_tongue.stl": {
+      "vertices": 352,
+      "triangles": 704,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 1644.2004634958132,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.0,
+          30.0,
+          8.7
+        ]
+      ],
+      "pass": true
+    },
+    "02_retainer_total_gap_0p5.stl": {
+      "vertices": 1020,
+      "triangles": 2060,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 4029.60666355024,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          136.0,
+          10.0,
+          3.2
+        ]
+      ],
+      "pass": true
+    },
+    "02_retainer_total_gap_0p9.stl": {
+      "vertices": 1020,
+      "triangles": 2060,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 3803.8466635502386,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_triangles": 0,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          136.0,
+          10.0,
+          3.0
+        ]
+      ],
+      "pass": true
+    }
+  },
+  "step": {
+    "CAD/parts/01_frame.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 1.8189894035458565e-11,
+      "bbox_max_error_mm": 0.0,
+      "pass": true
+    },
+    "CAD/parts/02_retainer.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 3.637978807091713e-12,
+      "bbox_max_error_mm": 0.0,
+      "pass": true
+    },
+    "CAD/parts/03_jaw.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 3.6598066799342632e-09,
+      "bbox_max_error_mm": 9.485745522397337e-13,
+      "pass": true
+    },
+    "CAD/parts/04_crank.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 6.639311322942376e-11,
+      "bbox_max_error_mm": 0.0,
+      "pass": true
+    },
+    "CAD/parts/05_link.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 5.661604518536478e-11,
+      "bbox_max_error_mm": 0.0,
+      "pass": true
+    },
+    "CAD/parts/06_motor_mount.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 2.1100277081131935e-10,
+      "bbox_max_error_mm": 0.0,
+      "pass": true
+    },
+    "CAD/parts/07_camera_stand.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 1.9099388737231493e-11,
+      "bbox_max_error_mm": 9.379164112033322e-13,
+      "pass": true
+    },
+    "CAD/parts/08_camera_plate.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 1.318767317570746e-10,
+      "bbox_max_error_mm": 0.0,
+      "pass": true
+    },
+    "CAD/parts/09_fit_gauge.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 1.709850039333105e-10,
+      "bbox_max_error_mm": 0.0,
+      "pass": true
+    },
+    "CAD/parts/10_fit_tongue.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 7.275957614183426e-12,
+      "bbox_max_error_mm": 0.0,
+      "pass": true
+    },
+    "CAD/parts/02_retainer_total_gap_0p5.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 3.183231456205249e-12,
+      "bbox_max_error_mm": 0.0,
+      "pass": true
+    },
+    "CAD/parts/02_retainer_total_gap_0p9.step": {
+      "valid": true,
+      "solids": 1,
+      "original_solids": 1,
+      "volume_error_mm3": 4.547473508864641e-12,
+      "bbox_max_error_mm": 0.0,
+      "pass": true
+    },
+    "CAD/PG2_open.step": {
+      "valid": true,
+      "solids": 79,
+      "original_solids": 79,
+      "volume_error_mm3": 5.98969345446676e-05,
+      "bbox_max_error_mm": 7.105427357601002e-15,
+      "pass": true
+    },
+    "CAD/PG2_mid.step": {
+      "valid": true,
+      "solids": 79,
+      "original_solids": 79,
+      "volume_error_mm3": 5.99029881414026e-05,
+      "bbox_max_error_mm": 7.105427357601002e-15,
+      "pass": true
+    },
+    "CAD/PG2_closed.step": {
+      "valid": true,
+      "solids": 79,
+      "original_solids": 79,
+      "volume_error_mm3": 5.9929152484983206e-05,
+      "bbox_max_error_mm": 7.105427357601002e-15,
+      "pass": true
+    },
+    "CAD/PG2_camera_optional.step": {
+      "valid": true,
+      "solids": 99,
+      "original_solids": 99,
+      "volume_error_mm3": 5.702415364794433e-05,
+      "bbox_max_error_mm": 1.2789769243681803e-13,
+      "pass": true
+    }
+  },
+  "pass": true,
+  "elapsed_seconds": 17.223803485999724
+}

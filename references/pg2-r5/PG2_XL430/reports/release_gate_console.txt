@@ -1,0 +1,21 @@
+{
+  "digital_prototype_DoD_pass": true,
+  "physical_acceptance_status": "NOT PERFORMED — print, assembly, friction, strength, grip, electrical commissioning and actual camera are untested",
+  "metrics": {
+    "motion_poses": 111,
+    "boolean_common_tests": 7641,
+    "guide_minimum_distances_mm": {
+      "frame": 0.20000000000000284,
+      "retainer_top": 0.40000000000000036,
+      "retainer_bottom": 0.40000000000000036
+    },
+    "step_files": 16,
+    "stl_files": 12,
+    "negative_tests": 12,
+    "kinematic_samples": 1101,
+    "tool_shaft_checks": 32,
+    "optical_rays": 54,
+    "core_print_types": 6,
+    "core_print_quantity": 9
+  }
+}

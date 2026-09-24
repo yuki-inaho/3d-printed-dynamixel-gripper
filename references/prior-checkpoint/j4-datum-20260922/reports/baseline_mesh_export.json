@@ -1,0 +1,49 @@
+{
+  "base_idler_clearance": {
+    "linear_deflection_mm": 0.005,
+    "angular_deflection_rad": 0.1,
+    "relative_deflection": false,
+    "temporary_copy_repaired": false
+  },
+  "shoulder_rotation_unchanged": {
+    "linear_deflection_mm": 0.005,
+    "angular_deflection_rad": 0.1,
+    "relative_deflection": false,
+    "temporary_copy_repaired": false
+  },
+  "shoulder_to_elbow_unchanged": {
+    "linear_deflection_mm": 0.005,
+    "angular_deflection_rad": 0.1,
+    "relative_deflection": false,
+    "temporary_copy_repaired": false
+  },
+  "elbow_to_wrist_extension_round": {
+    "linear_deflection_mm": 0.005,
+    "angular_deflection_rad": 0.1,
+    "relative_deflection": false,
+    "temporary_copy_repaired": false
+  },
+  "elbow_to_wrist_standoff": {
+    "linear_deflection_mm": 0.005,
+    "angular_deflection_rad": 0.1,
+    "relative_deflection": false,
+    "temporary_copy_repaired": false
+  },
+  "gripper_static_unchanged": {
+    "linear_deflection_mm": 0.005,
+    "angular_deflection_rad": 0.1,
+    "relative_deflection": false,
+    "temporary_copy_repaired": false
+  },
+  "gripper_moving_unchanged": {
+    "linear_deflection_mm": 0.005,
+    "angular_deflection_rad": 0.1,
+    "relative_deflection": false,
+    "temporary_copy_repaired": true,
+    "source_step_unchanged": true,
+    "cone_count": 8,
+    "radial_relief_mm": 1e-05,
+    "temporary_copy_removed_volume_mm3": 0.0006593575627338062,
+    "temporary_copy_added_volume_mm3": 0.0
+  }
+}

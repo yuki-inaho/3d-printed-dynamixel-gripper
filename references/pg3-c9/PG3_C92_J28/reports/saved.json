@@ -1,0 +1,219 @@
+{
+  "revision": "PG3-C92-XL430-J28-C9",
+  "source_sha256": "cbd1721f39a9d011726966e0a350571a5909d53713a8ada61db6509bbc7f0e68",
+  "pass": true,
+  "parts": [
+    {
+      "name": "01_frame",
+      "pass": true,
+      "closed": true,
+      "relative_volume_error": 2.306867254546326e-05,
+      "step_compare": {
+        "pass_": true,
+        "max_vertex_distance_mm": 7.439383291716146e-12,
+        "vertex_coordinate_error_mm": 7.439383291716146e-12,
+        "relative_volume_difference": 1.4384008822688522e-15,
+        "face_inventory_matches": true,
+        "method": "matching_vertices_and_face_descriptors"
+      }
+    },
+    {
+      "name": "02_cap",
+      "pass": true,
+      "closed": true,
+      "relative_volume_error": 2.3145638011308214e-06,
+      "step_compare": {
+        "pass_": true,
+        "max_vertex_distance_mm": 0.0,
+        "vertex_coordinate_error_mm": 0.0,
+        "relative_volume_difference": 3.699923846213942e-16,
+        "face_inventory_matches": true,
+        "method": "matching_vertices_and_face_descriptors"
+      }
+    },
+    {
+      "name": "03_carriage_R",
+      "pass": true,
+      "closed": true,
+      "relative_volume_error": 1.2506244092116208e-05,
+      "step_compare": {
+        "pass_": true,
+        "max_vertex_distance_mm": 4.3722048698296356e-13,
+        "vertex_coordinate_error_mm": 4.3722048698296356e-13,
+        "relative_volume_difference": 9.041456716461253e-15,
+        "face_inventory_matches": true,
+        "method": "matching_vertices_and_face_descriptors"
+      }
+    },
+    {
+      "name": "04_carriage_L",
+      "pass": true,
+      "closed": true,
+      "relative_volume_error": 1.2506244092116208e-05,
+      "step_compare": {
+        "pass_": true,
+        "max_vertex_distance_mm": 4.3722048698296356e-13,
+        "vertex_coordinate_error_mm": 4.3722048698296356e-13,
+        "relative_volume_difference": 1.8451952482574151e-16,
+        "face_inventory_matches": true,
+        "method": "matching_vertices_and_face_descriptors"
+      }
+    },
+    {
+      "name": "05_finger_R",
+      "pass": true,
+      "closed": true,
+      "relative_volume_error": 4.246857797039347e-07,
+      "step_compare": {
+        "pass_": true,
+        "max_vertex_distance_mm": 4.925077476730842e-13,
+        "vertex_coordinate_error_mm": 4.925077476730842e-13,
+        "relative_volume_difference": 3.413882581118655e-14,
+        "face_inventory_matches": true,
+        "method": "matching_vertices_and_face_descriptors"
+      }
+    },
+    {
+      "name": "06_finger_L",
+      "pass": true,
+      "closed": true,
+      "relative_volume_error": 4.246857795580423e-07,
+      "step_compare": {
+        "pass_": true,
+        "max_vertex_distance_mm": 4.925077476730842e-13,
+        "vertex_coordinate_error_mm": 4.925077476730842e-13,
+        "relative_volume_difference": 3.705667417111692e-14,
+        "face_inventory_matches": true,
+        "method": "matching_vertices_and_face_descriptors"
+      }
+    },
+    {
+      "name": "07_crank",
+      "pass": true,
+      "closed": true,
+      "relative_volume_error": 0.00017034253641983228,
+      "step_compare": {
+        "pass_": true,
+        "max_vertex_distance_mm": 7.435830591703796e-12,
+        "vertex_coordinate_error_mm": 7.435830591703796e-12,
+        "relative_volume_difference": 1.6317434963511344e-14,
+        "face_inventory_matches": true,
+        "method": "matching_vertices_and_face_descriptors"
+      }
+    },
+    {
+      "name": "08_link",
+      "pass": true,
+      "closed": true,
+      "relative_volume_error": 9.469726658287457e-05,
+      "step_compare": {
+        "pass_": true,
+        "max_vertex_distance_mm": 4.668906014626898e-13,
+        "vertex_coordinate_error_mm": 4.668906014626898e-13,
+        "relative_volume_difference": 1.3658062161922617e-14,
+        "face_inventory_matches": true,
+        "method": "matching_vertices_and_face_descriptors"
+      }
+    },
+    {
+      "name": "09_horn_spacer",
+      "pass": true,
+      "closed": true,
+      "relative_volume_error": 0.00026356036193940974,
+      "step_compare": {
+        "pass_": true,
+        "max_vertex_distance_mm": 2.934562567422164e-28,
+        "vertex_coordinate_error_mm": 2.934562567422164e-28,
+        "relative_volume_difference": 4.225531815065263e-14,
+        "face_inventory_matches": true,
+        "method": "matching_vertices_and_face_descriptors"
+      }
+    }
+  ],
+  "assemblies": [
+    {
+      "file": "CAD/C92_J28_open.step",
+      "pass": true,
+      "count": 57,
+      "errors": [],
+      "collision_result": {
+        "failures": [],
+        "allowed_threads": [
+          {
+            "pair": [
+              "XL430_fixed",
+              "case_tapper_-11"
+            ],
+            "volume": 4.75074259070054,
+            "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+          },
+          {
+            "pair": [
+              "XL430_fixed",
+              "case_tapper_11"
+            ],
+            "volume": 4.75074259070054,
+            "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+          }
+        ],
+        "boolean_checks": 128
+      }
+    },
+    {
+      "file": "CAD/C92_J28_mid.step",
+      "pass": true,
+      "count": 57,
+      "errors": [],
+      "collision_result": {
+        "failures": [],
+        "allowed_threads": [
+          {
+            "pair": [
+              "XL430_fixed",
+              "case_tapper_-11"
+            ],
+            "volume": 4.75074259070054,
+            "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+          },
+          {
+            "pair": [
+              "XL430_fixed",
+              "case_tapper_11"
+            ],
+            "volume": 4.75074259070054,
+            "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+          }
+        ],
+        "boolean_checks": 139
+      }
+    },
+    {
+      "file": "CAD/C92_J28_closed.step",
+      "pass": true,
+      "count": 57,
+      "errors": [],
+      "collision_result": {
+        "failures": [],
+        "allowed_threads": [
+          {
+            "pair": [
+              "XL430_fixed",
+              "case_tapper_-11"
+            ],
+            "volume": 4.75074259070054,
+            "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+          },
+          {
+            "pair": [
+              "XL430_fixed",
+              "case_tapper_11"
+            ],
+            "volume": 4.75074259070054,
+            "zone": "case pilot at x+/-11, y=-8, z14.34..17.0"
+          }
+        ],
+        "boolean_checks": 161
+      }
+    }
+  ]
+}

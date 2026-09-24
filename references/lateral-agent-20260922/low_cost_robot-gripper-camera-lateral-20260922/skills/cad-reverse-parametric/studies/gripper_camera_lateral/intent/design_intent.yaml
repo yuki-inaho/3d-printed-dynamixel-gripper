@@ -1,0 +1,67 @@
+revision: 20260922-r1
+status: geometry_review_prototype_not_fabrication_approved
+objective:
+  - Add an interchangeable wrist-camera mount.
+  - Open jaws left/right in the assumed camera image.
+  - Retain the existing fixed-plus-rotating-jaw mechanism, not a parallel-jaw redesign.
+baseline: follower_geometry_revision_mixed_servos
+units: mm
+preserve:
+  protected_tree: hardware/
+  original_shape_instances: all_161_mixed_baseline_leaf_occurrences
+  mechanism: fixed_jaw_plus_one_rotating_jaw
+  upstream_transforms: unchanged_from_mixed_baseline
+  source_of_truth: imported_BRep
+change_mask:
+  assembly_occurrences: '/gripper v9:1/**'
+  operation: rigid_module_clocking_and_axial_spacer
+  axis_in_original_static_frame: [0, 1, 0]
+  axis_point_mm: [0.750000268220905, -19.999999791407, 14.75]
+  angle_deg: 90
+  translation_along_axis_mm: 4
+  local_shape_edits_to_original_parts: none
+  additional_solids:
+    - wrist_camera_bridge
+    - uvc28_camera_carrier
+    - uvc28_pcb_spacer_4mm
+new_features:
+  wrist_flange:
+    purpose: bolt_to_existing_90_degree_symmetric_four_hole_wrist_interface
+    thickness_mm: 4
+    radial_hole_pattern_mm: 6
+    clearance_diameter_mm: 2.3
+    thread_specification: unverified
+  detachable_carrier:
+    purpose: exchange_camera_specific_carrier_without_remaking_bridge
+    two_hole_pitch_mm: 24
+    clearance_diameter_mm: 3.2
+  camera_interface:
+    reference: Robonine_SO_ARM100_101_assembly_guide_step_9
+    four_hole_pitch_mm: [28, 28]
+    pcb_and_lens_envelopes: assumptions_not_manufacturer_CAD
+  cable_tie_windows:
+    purpose: proposed_strain_relief_attachment
+    real_harness_sweep: not_verified
+motion:
+  hinge_axis_H: [0, 0, 1]
+  pivot_H_mm: [8.150000268220927, -6.849999475307118, 3.4]
+  reviewed_opening_deg: [0, 50]
+  mathematical_rotation_sign: negative_about_positive_Z
+  collision_sample_deg: 5
+  vision_sample_deg: 1
+acceptance_gates:
+  - protected_input_hashes_unchanged
+  - original_BRep_direct_reuse_and_STEP_roundtrip_comparison
+  - bijective_hole_axis_matching_and_material_checks
+  - no_external_intersection_in_reimported_reference_and_open_assembly
+  - no_external_intersection_at_sampled_gripper_angles
+  - new_mount_continuous_AABB_separation_bound
+  - assumed_pinhole_visibility_including_first_hit_self_occlusion
+  - valid_single_solid_STEP_and_closed_STL_for_new_parts
+non_geometric_blockers:
+  - actual_camera_FOV_focus_distortion_PCB_USB_and_component_measurements
+  - actual_wrist_threads_fasteners_tools_and_assembly_sequence
+  - print_material_orientation_strength_stiffness_and_payload
+  - all_arm_joints_and_harness_motion
+  - physical_fit_and_calibration
+fabrication_gate: always_closed_until_a_separately_reviewed_engineering_revision

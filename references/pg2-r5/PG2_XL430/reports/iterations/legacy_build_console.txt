@@ -1,0 +1,18 @@
+EXPORTED 01_frame mesh True
+EXPORTED 02_retainer mesh True
+EXPORTED 03_jaw mesh True
+EXPORTED 04_crank mesh True
+EXPORTED 05_link mesh True
+EXPORTED 06_motor_mount mesh True
+EXPORTED 07_camera_stand mesh True
+EXPORTED 08_camera_plate mesh True
+EXPORTED 09_fit_gauge mesh True
+EXPORTED 10_fit_tongue mesh True
+EXPORTED 02_retainer_total_gap_0p5 mesh True
+EXPORTED 02_retainer_total_gap_0p9 mesh True
+/opt/pyvenv/lib/python3.13/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.
+  warn(f"{f.__name__} will be removed in the next release.", FutureWarning)
+ASSEMBLY open {'valid': True, 'solids': 79, 'original_solids': 79, 'volume_error_mm3': 5.983174196444452e-05, 'bbox_max_error_mm': 7.105427357601002e-15, 'pass': True}
+ASSEMBLY mid {'valid': True, 'solids': 79, 'original_solids': 79, 'volume_error_mm3': 5.9837911976501346e-05, 'bbox_max_error_mm': 7.105427357601002e-15, 'pass': True}
+ASSEMBLY closed {'valid': True, 'solids': 79, 'original_solids': 79, 'volume_error_mm3': 5.986395990476012e-05, 'bbox_max_error_mm': 7.105427357601002e-15, 'pass': True}
+PASS True

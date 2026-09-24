@@ -1,0 +1,84 @@
+schema_version: 1
+status: design_request_not_validated_not_fabrication_approved
+units: mm
+
+decision:
+  source: user_2026-09-24
+  id5_role: gripper_open_close
+  additional_motor_count: 0
+  camera_mount_parent_request: ID5_XL430_motor_case_corner_screw_region
+  camera_view_request: above_motor_oblique_down_to_grasp_zone
+  supersedes_camera_layout: specs/camera_mount.yaml
+
+assembly_context:
+  immutable_arm_step: references/arm-r3/arm_XL430_R3.step
+  provisional_full_arm_candidate: outputs/pg3-id5-p05-windows-r2/ID5_mid_P05_windows_CANDIDATE.step
+  candidate_occurrence: PG3_XL430_fixed
+  source_occurrence_replaced: M05_ref00
+  physical_id_to_cad_occurrence_verified: false
+  source_p05_step: references/arm-r3/P05_wrist_XL430.step
+  source_gripper_parts: references/pg3-c9/PG3_C92_J28/CAD/parts
+  current_candidate_review_counts: {PASS: 1806, ERROR: 1, UNKNOWN: 6, FAIL: 0}
+  installation_approved: false
+
+camera_interface:
+  exact_model: null
+  purchased: false
+  mounting_pattern_mm: [28.0, 28.0]
+  mounting_hole_count: 4
+  nominal_screw_family: M2
+  screw_length_mm: null
+  board_outline_mm: null
+  optical_center_from_pattern_mm: null
+  horizontal_fov_deg: null
+  vertical_fov_deg: null
+  mass_kg: null
+  connector_and_cable_envelope: null
+
+mount:
+  target: ID5_XL430_fixed_case_not_output_horn
+  preferred_anchor: existing_case_corner_fasteners_if_functionally_suitable
+  mounting_hole_coordinates: null
+  case_fastener_function_verified: false
+  case_clamp_function_preserved: false
+  permitted_new_holes_in_motor_or_arm: false
+  permitted_source_mutations: false
+  pitch_angle_deg: null
+  optical_axis_requirement: downward_component_toward_grasp_volume
+  adjustability: evaluate_parametric_pitch_or_fixed_interchangeable_angles
+
+view_validation:
+  target: parallel_gripper_jaw_pads_and_object_grasp_region
+  required_mechanism_poses: [open, mid, closed]
+  diagnostic_cube_edges_mm: [10.0, 20.0, 30.0]
+  cube_size_is_user_requirement: false
+  camera_fov_is_assumed_until_model_selected: true
+  report_occlusion_by: [left_jaw, right_jaw, pads, links, motor, mount, cable]
+  require_sensor_and_camera_body_to_share_transform: true
+
+engineering_checks:
+  - identify_case_corner_fastener_geometry_and_function_from_supplied_cad
+  - preserve_case_fastener_engagement_and_motor_case_clamping
+  - check_screw_length_thread_depth_head_seating_and_tool_access
+  - check_motor_horn_gripper_motion_and_full_arm_clearance
+  - check_camera_cable_route_and_serviceability
+  - record_mount_load_path_mass_and_lever_arm_with_unknowns_explicit
+  - preserve_original_arm_and_gripper_geometry_outside_mount_only_change_mask
+  - export_and_reimport_step_and_stl_then_compare_hash_and_geometry
+  - inspect_full_arm_and_local_views_in_dedicated_headless_chili3d_playwright
+
+release:
+  design_candidate_complete: false
+  physical_id_mapping_verified: false
+  camera_model_confirmed: false
+  fasteners_and_tools_confirmed: false
+  wiring_confirmed: false
+  structural_strength_confirmed: false
+  fabrication_approved: false
+  gcode_allowed: false
+  powered_operation_approved: false
+
+output_policy:
+  use_unique_run_directory: outputs/camera-mount-id5-corner-r1
+  do_not_overwrite_historical_p05_candidate: true
+  require_review_report_and_input_hashes: true

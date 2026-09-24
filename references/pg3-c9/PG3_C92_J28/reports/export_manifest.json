@@ -1,0 +1,882 @@
+{
+  "revision": "PG3-C92-XL430-J28-C9",
+  "source_sha256": "cbd1721f39a9d011726966e0a350571a5909d53713a8ada61db6509bbc7f0e68",
+  "parts": [
+    {
+      "name": "01_frame",
+      "changed": false,
+      "count": 1,
+      "stl": "STL/unchanged_C7/01_frame.stl",
+      "step": "CAD/parts/01_frame.step",
+      "volume_mm3": 12645.914125669111,
+      "print_bounds": [
+        -46.00015430761436,
+        -28.000154307614356,
+        -0.0021052879488046732,
+        46.00015430761436,
+        28.000154307614356,
+        7.1002274207644325
+      ]
+    },
+    {
+      "name": "02_cap",
+      "changed": false,
+      "count": 2,
+      "stl": "STL/unchanged_C7/02_cap.stl",
+      "step": "CAD/parts/02_cap.step",
+      "volume_mm3": 2458.1443823596414,
+      "print_bounds": [
+        -46.000115755710766,
+        -4.500115755710769,
+        -0.0002274207644306232,
+        46.000115755710766,
+        4.500115755710769,
+        3.0002274207644306
+      ]
+    },
+    {
+      "name": "03_carriage_R",
+      "changed": true,
+      "count": 1,
+      "stl": "STL/changed_parts/03_carriage_R.stl",
+      "step": "CAD/parts/03_carriage_R.step",
+      "volume_mm3": 2464.49448271625,
+      "print_bounds": [
+        -10.300000100000007,
+        -21.700000100000008,
+        -1.0000000716072334e-07,
+        10.300000100000036,
+        21.700000100000008,
+        13.200227420764426
+      ]
+    },
+    {
+      "name": "04_carriage_L",
+      "changed": true,
+      "count": 1,
+      "stl": "STL/changed_parts/04_carriage_L.stl",
+      "step": "CAD/parts/04_carriage_L.step",
+      "volume_mm3": 2464.49448271625,
+      "print_bounds": [
+        -10.300000100000036,
+        -21.700000100000008,
+        -1.0000000716072334e-07,
+        10.300000100000007,
+        21.700000100000008,
+        13.200227420764426
+      ]
+    },
+    {
+      "name": "05_finger_R",
+      "changed": true,
+      "count": 1,
+      "stl": "STL/changed_parts/05_finger_R.stl",
+      "step": "CAD/parts/05_finger_R.step",
+      "volume_mm3": 6234.009376652928,
+      "print_bounds": [
+        -14.000289239276906,
+        -18.000289239276906,
+        -0.00028923927690669603,
+        14.000289239276906,
+        18.000289239276906,
+        20.10000010000001
+      ]
+    },
+    {
+      "name": "06_finger_L",
+      "changed": true,
+      "count": 1,
+      "stl": "STL/changed_parts/06_finger_L.stl",
+      "step": "CAD/parts/06_finger_L.step",
+      "volume_mm3": 6234.009376652927,
+      "print_bounds": [
+        -14.000289239276906,
+        -18.000289239276906,
+        -0.00028923927690669603,
+        14.000289239276906,
+        18.000289239276906,
+        20.10000010000001
+      ]
+    },
+    {
+      "name": "07_crank",
+      "changed": false,
+      "count": 1,
+      "stl": "STL/unchanged_C7/07_crank.stl",
+      "step": "CAD/parts/07_crank.step",
+      "volume_mm3": 1240.1616528393804,
+      "print_bounds": [
+        -18.50200142865548,
+        -10.101980601174448,
+        -0.0020014286554801944,
+        18.50200142865548,
+        10.10198060117445,
+        9.30049427557484
+      ]
+    },
+    {
+      "name": "08_link",
+      "changed": false,
+      "count": 2,
+      "stl": "STL/unchanged_C7/08_link.stl",
+      "step": "CAD/parts/08_link.step",
+      "volume_mm3": 549.3701229845865,
+      "print_bounds": [
+        -16.500894732503266,
+        -5.750381658184782,
+        -0.0008948478794215999,
+        16.50089473250327,
+        5.750497585405133,
+        3.2008948478794217
+      ]
+    },
+    {
+      "name": "09_horn_spacer",
+      "changed": false,
+      "count": 1,
+      "stl": "STL/unchanged_C7/09_horn_spacer.stl",
+      "step": "CAD/parts/09_horn_spacer.step",
+      "volume_mm3": 359.17828808492095,
+      "print_bounds": [
+        -10.001976802299346,
+        -10.000000100000003,
+        -0.0019768022993465204,
+        10.001976802299346,
+        10.000000100000001,
+        1.5019768022993465
+      ]
+    }
+  ],
+  "assemblies": [
+    {
+      "file": "CAD/C92_J28_open.step",
+      "angle": 25,
+      "count": 57,
+      "items": [
+        {
+          "name": "frame",
+          "volume_mm3": 12645.914125669107
+        },
+        {
+          "name": "cap_U",
+          "volume_mm3": 2458.1443823596414
+        },
+        {
+          "name": "cap_D",
+          "volume_mm3": 2458.1443823596414
+        },
+        {
+          "name": "crank",
+          "volume_mm3": 1240.1616528393802
+        },
+        {
+          "name": "horn_spacer",
+          "volume_mm3": 359.178288084921
+        },
+        {
+          "name": "carriage_R",
+          "volume_mm3": 2464.4944827162512
+        },
+        {
+          "name": "finger_R",
+          "volume_mm3": 6234.009376652928
+        },
+        {
+          "name": "pad_R",
+          "volume_mm3": 560.0
+        },
+        {
+          "name": "link_R",
+          "volume_mm3": 549.3701229845864
+        },
+        {
+          "name": "carriage_L",
+          "volume_mm3": 2464.4944827162512
+        },
+        {
+          "name": "finger_L",
+          "volume_mm3": 6234.009376652928
+        },
+        {
+          "name": "pad_L",
+          "volume_mm3": 560.0
+        },
+        {
+          "name": "link_L",
+          "volume_mm3": 549.3701229845864
+        },
+        {
+          "name": "XL430_fixed",
+          "volume_mm3": 39891.729828373995
+        },
+        {
+          "name": "XL430_horn",
+          "volume_mm3": 1173.328569247298
+        },
+        {
+          "name": "pivot_drive_R_washer",
+          "volume_mm3": 17.341591447815663
+        },
+        {
+          "name": "pivot_drive_R_bolt",
+          "volume_mm3": 52.34452405215271
+        },
+        {
+          "name": "pivot_drive_R_nut",
+          "volume_mm3": 17.143702091137968
+        },
+        {
+          "name": "pivot_drive_L_washer",
+          "volume_mm3": 17.341591447815663
+        },
+        {
+          "name": "pivot_drive_L_bolt",
+          "volume_mm3": 52.34452405215271
+        },
+        {
+          "name": "pivot_drive_L_nut",
+          "volume_mm3": 17.143702091137975
+        },
+        {
+          "name": "pivot_carriage_R_washer",
+          "volume_mm3": 17.34159144781566
+        },
+        {
+          "name": "pivot_carriage_R_bolt",
+          "volume_mm3": 46.061338744973106
+        },
+        {
+          "name": "pivot_carriage_R_nut",
+          "volume_mm3": 17.143702091137996
+        },
+        {
+          "name": "pivot_carriage_L_washer",
+          "volume_mm3": 17.34159144781566
+        },
+        {
+          "name": "pivot_carriage_L_bolt",
+          "volume_mm3": 46.061338744973106
+        },
+        {
+          "name": "pivot_carriage_L_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "cap_-37.5_-24.5_washer",
+          "volume_mm3": 4.750088092227768
+        },
+        {
+          "name": "cap_-37.5_-24.5_bolt",
+          "volume_mm3": 58.62770935933232
+        },
+        {
+          "name": "cap_-37.5_-24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "cap_-37.5_24.5_washer",
+          "volume_mm3": 4.750088092227769
+        },
+        {
+          "name": "cap_-37.5_24.5_bolt",
+          "volume_mm3": 58.627709359332314
+        },
+        {
+          "name": "cap_-37.5_24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "cap_37.5_-24.5_washer",
+          "volume_mm3": 4.750088092227768
+        },
+        {
+          "name": "cap_37.5_-24.5_bolt",
+          "volume_mm3": 58.62770935933232
+        },
+        {
+          "name": "cap_37.5_-24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "cap_37.5_24.5_washer",
+          "volume_mm3": 4.750088092227769
+        },
+        {
+          "name": "cap_37.5_24.5_bolt",
+          "volume_mm3": 58.627709359332314
+        },
+        {
+          "name": "cap_37.5_24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "finger_R_-14_washer",
+          "volume_mm3": 4.750088092227758
+        },
+        {
+          "name": "finger_R_-14_bolt",
+          "volume_mm3": 71.19407997369146
+        },
+        {
+          "name": "finger_R_-14_nut",
+          "volume_mm3": 17.143702091137992
+        },
+        {
+          "name": "finger_R_14_washer",
+          "volume_mm3": 4.750088092227759
+        },
+        {
+          "name": "finger_R_14_bolt",
+          "volume_mm3": 71.19407997369146
+        },
+        {
+          "name": "finger_R_14_nut",
+          "volume_mm3": 17.143702091138003
+        },
+        {
+          "name": "finger_L_-14_washer",
+          "volume_mm3": 4.750088092227758
+        },
+        {
+          "name": "finger_L_-14_bolt",
+          "volume_mm3": 71.19407997369146
+        },
+        {
+          "name": "finger_L_-14_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "finger_L_14_washer",
+          "volume_mm3": 4.750088092227759
+        },
+        {
+          "name": "finger_L_14_bolt",
+          "volume_mm3": 71.19407997369146
+        },
+        {
+          "name": "finger_L_14_nut",
+          "volume_mm3": 17.143702091137996
+        },
+        {
+          "name": "horn_bolt_0",
+          "volume_mm3": 39.77815343779358
+        },
+        {
+          "name": "horn_bolt_1",
+          "volume_mm3": 39.77815343779358
+        },
+        {
+          "name": "horn_bolt_2",
+          "volume_mm3": 39.77815343779356
+        },
+        {
+          "name": "horn_bolt_3",
+          "volume_mm3": 39.77815343779356
+        },
+        {
+          "name": "case_tapper_-11",
+          "volume_mm3": 35.74923000274946
+        },
+        {
+          "name": "case_tapper_11",
+          "volume_mm3": 35.74923000274946
+        }
+      ]
+    },
+    {
+      "file": "CAD/C92_J28_mid.step",
+      "angle": 90,
+      "count": 57,
+      "items": [
+        {
+          "name": "frame",
+          "volume_mm3": 12645.914125669107
+        },
+        {
+          "name": "cap_U",
+          "volume_mm3": 2458.1443823596414
+        },
+        {
+          "name": "cap_D",
+          "volume_mm3": 2458.1443823596414
+        },
+        {
+          "name": "crank",
+          "volume_mm3": 1240.1616528393802
+        },
+        {
+          "name": "horn_spacer",
+          "volume_mm3": 359.17828808492095
+        },
+        {
+          "name": "carriage_R",
+          "volume_mm3": 2464.494482716249
+        },
+        {
+          "name": "finger_R",
+          "volume_mm3": 6234.009376652928
+        },
+        {
+          "name": "pad_R",
+          "volume_mm3": 560.0
+        },
+        {
+          "name": "link_R",
+          "volume_mm3": 549.3701229845863
+        },
+        {
+          "name": "carriage_L",
+          "volume_mm3": 2464.494482716249
+        },
+        {
+          "name": "finger_L",
+          "volume_mm3": 6234.009376652928
+        },
+        {
+          "name": "pad_L",
+          "volume_mm3": 560.0
+        },
+        {
+          "name": "link_L",
+          "volume_mm3": 549.3701229845863
+        },
+        {
+          "name": "XL430_fixed",
+          "volume_mm3": 39891.729828373995
+        },
+        {
+          "name": "XL430_horn",
+          "volume_mm3": 1173.3285692472982
+        },
+        {
+          "name": "pivot_drive_R_washer",
+          "volume_mm3": 17.341591447815663
+        },
+        {
+          "name": "pivot_drive_R_bolt",
+          "volume_mm3": 52.34452405215273
+        },
+        {
+          "name": "pivot_drive_R_nut",
+          "volume_mm3": 17.143702091137985
+        },
+        {
+          "name": "pivot_drive_L_washer",
+          "volume_mm3": 17.341591447815663
+        },
+        {
+          "name": "pivot_drive_L_bolt",
+          "volume_mm3": 52.344524052152735
+        },
+        {
+          "name": "pivot_drive_L_nut",
+          "volume_mm3": 17.14370209113797
+        },
+        {
+          "name": "pivot_carriage_R_washer",
+          "volume_mm3": 17.34159144781566
+        },
+        {
+          "name": "pivot_carriage_R_bolt",
+          "volume_mm3": 46.061338744973135
+        },
+        {
+          "name": "pivot_carriage_R_nut",
+          "volume_mm3": 17.143702091137975
+        },
+        {
+          "name": "pivot_carriage_L_washer",
+          "volume_mm3": 17.34159144781566
+        },
+        {
+          "name": "pivot_carriage_L_bolt",
+          "volume_mm3": 46.061338744973135
+        },
+        {
+          "name": "pivot_carriage_L_nut",
+          "volume_mm3": 17.14370209113798
+        },
+        {
+          "name": "cap_-37.5_-24.5_washer",
+          "volume_mm3": 4.750088092227768
+        },
+        {
+          "name": "cap_-37.5_-24.5_bolt",
+          "volume_mm3": 58.62770935933232
+        },
+        {
+          "name": "cap_-37.5_-24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "cap_-37.5_24.5_washer",
+          "volume_mm3": 4.750088092227769
+        },
+        {
+          "name": "cap_-37.5_24.5_bolt",
+          "volume_mm3": 58.627709359332314
+        },
+        {
+          "name": "cap_-37.5_24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "cap_37.5_-24.5_washer",
+          "volume_mm3": 4.750088092227768
+        },
+        {
+          "name": "cap_37.5_-24.5_bolt",
+          "volume_mm3": 58.62770935933232
+        },
+        {
+          "name": "cap_37.5_-24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "cap_37.5_24.5_washer",
+          "volume_mm3": 4.750088092227769
+        },
+        {
+          "name": "cap_37.5_24.5_bolt",
+          "volume_mm3": 58.627709359332314
+        },
+        {
+          "name": "cap_37.5_24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "finger_R_-14_washer",
+          "volume_mm3": 4.750088092227758
+        },
+        {
+          "name": "finger_R_-14_bolt",
+          "volume_mm3": 71.1940799736915
+        },
+        {
+          "name": "finger_R_-14_nut",
+          "volume_mm3": 17.143702091137975
+        },
+        {
+          "name": "finger_R_14_washer",
+          "volume_mm3": 4.750088092227758
+        },
+        {
+          "name": "finger_R_14_bolt",
+          "volume_mm3": 71.1940799736915
+        },
+        {
+          "name": "finger_R_14_nut",
+          "volume_mm3": 17.143702091137982
+        },
+        {
+          "name": "finger_L_-14_washer",
+          "volume_mm3": 4.750088092227758
+        },
+        {
+          "name": "finger_L_-14_bolt",
+          "volume_mm3": 71.1940799736915
+        },
+        {
+          "name": "finger_L_-14_nut",
+          "volume_mm3": 17.143702091137975
+        },
+        {
+          "name": "finger_L_14_washer",
+          "volume_mm3": 4.750088092227758
+        },
+        {
+          "name": "finger_L_14_bolt",
+          "volume_mm3": 71.1940799736915
+        },
+        {
+          "name": "finger_L_14_nut",
+          "volume_mm3": 17.143702091137982
+        },
+        {
+          "name": "horn_bolt_0",
+          "volume_mm3": 39.77815343779358
+        },
+        {
+          "name": "horn_bolt_1",
+          "volume_mm3": 39.77815343779358
+        },
+        {
+          "name": "horn_bolt_2",
+          "volume_mm3": 39.77815343779356
+        },
+        {
+          "name": "horn_bolt_3",
+          "volume_mm3": 39.77815343779356
+        },
+        {
+          "name": "case_tapper_-11",
+          "volume_mm3": 35.74923000274946
+        },
+        {
+          "name": "case_tapper_11",
+          "volume_mm3": 35.74923000274946
+        }
+      ]
+    },
+    {
+      "file": "CAD/C92_J28_closed.step",
+      "angle": 135,
+      "count": 57,
+      "items": [
+        {
+          "name": "frame",
+          "volume_mm3": 12645.914125669107
+        },
+        {
+          "name": "cap_U",
+          "volume_mm3": 2458.1443823596414
+        },
+        {
+          "name": "cap_D",
+          "volume_mm3": 2458.1443823596414
+        },
+        {
+          "name": "crank",
+          "volume_mm3": 1240.1616528393802
+        },
+        {
+          "name": "horn_spacer",
+          "volume_mm3": 359.17828808492095
+        },
+        {
+          "name": "carriage_R",
+          "volume_mm3": 2464.4944827162512
+        },
+        {
+          "name": "finger_R",
+          "volume_mm3": 6234.009376652925
+        },
+        {
+          "name": "pad_R",
+          "volume_mm3": 560.0
+        },
+        {
+          "name": "link_R",
+          "volume_mm3": 549.3701229845865
+        },
+        {
+          "name": "carriage_L",
+          "volume_mm3": 2464.4944827162512
+        },
+        {
+          "name": "finger_L",
+          "volume_mm3": 6234.009376652925
+        },
+        {
+          "name": "pad_L",
+          "volume_mm3": 560.0
+        },
+        {
+          "name": "link_L",
+          "volume_mm3": 549.3701229845863
+        },
+        {
+          "name": "XL430_fixed",
+          "volume_mm3": 39891.729828373995
+        },
+        {
+          "name": "XL430_horn",
+          "volume_mm3": 1173.328569247298
+        },
+        {
+          "name": "pivot_drive_R_washer",
+          "volume_mm3": 17.341591447815663
+        },
+        {
+          "name": "pivot_drive_R_bolt",
+          "volume_mm3": 52.34452405215272
+        },
+        {
+          "name": "pivot_drive_R_nut",
+          "volume_mm3": 17.143702091137953
+        },
+        {
+          "name": "pivot_drive_L_washer",
+          "volume_mm3": 17.341591447815663
+        },
+        {
+          "name": "pivot_drive_L_bolt",
+          "volume_mm3": 52.34452405215272
+        },
+        {
+          "name": "pivot_drive_L_nut",
+          "volume_mm3": 17.143702091137953
+        },
+        {
+          "name": "pivot_carriage_R_washer",
+          "volume_mm3": 17.341591447815663
+        },
+        {
+          "name": "pivot_carriage_R_bolt",
+          "volume_mm3": 46.061338744973135
+        },
+        {
+          "name": "pivot_carriage_R_nut",
+          "volume_mm3": 17.143702091137968
+        },
+        {
+          "name": "pivot_carriage_L_washer",
+          "volume_mm3": 17.341591447815663
+        },
+        {
+          "name": "pivot_carriage_L_bolt",
+          "volume_mm3": 46.061338744973135
+        },
+        {
+          "name": "pivot_carriage_L_nut",
+          "volume_mm3": 17.143702091137968
+        },
+        {
+          "name": "cap_-37.5_-24.5_washer",
+          "volume_mm3": 4.750088092227768
+        },
+        {
+          "name": "cap_-37.5_-24.5_bolt",
+          "volume_mm3": 58.62770935933232
+        },
+        {
+          "name": "cap_-37.5_-24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "cap_-37.5_24.5_washer",
+          "volume_mm3": 4.750088092227769
+        },
+        {
+          "name": "cap_-37.5_24.5_bolt",
+          "volume_mm3": 58.627709359332314
+        },
+        {
+          "name": "cap_-37.5_24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "cap_37.5_-24.5_washer",
+          "volume_mm3": 4.750088092227768
+        },
+        {
+          "name": "cap_37.5_-24.5_bolt",
+          "volume_mm3": 58.62770935933232
+        },
+        {
+          "name": "cap_37.5_-24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "cap_37.5_24.5_washer",
+          "volume_mm3": 4.750088092227769
+        },
+        {
+          "name": "cap_37.5_24.5_bolt",
+          "volume_mm3": 58.627709359332314
+        },
+        {
+          "name": "cap_37.5_24.5_nut",
+          "volume_mm3": 17.14370209113799
+        },
+        {
+          "name": "finger_R_-14_washer",
+          "volume_mm3": 4.750088092227758
+        },
+        {
+          "name": "finger_R_-14_bolt",
+          "volume_mm3": 71.1940799736915
+        },
+        {
+          "name": "finger_R_-14_nut",
+          "volume_mm3": 17.14370209113797
+        },
+        {
+          "name": "finger_R_14_washer",
+          "volume_mm3": 4.750088092227758
+        },
+        {
+          "name": "finger_R_14_bolt",
+          "volume_mm3": 71.1940799736915
+        },
+        {
+          "name": "finger_R_14_nut",
+          "volume_mm3": 17.14370209113798
+        },
+        {
+          "name": "finger_L_-14_washer",
+          "volume_mm3": 4.750088092227758
+        },
+        {
+          "name": "finger_L_-14_bolt",
+          "volume_mm3": 71.1940799736915
+        },
+        {
+          "name": "finger_L_-14_nut",
+          "volume_mm3": 17.143702091137968
+        },
+        {
+          "name": "finger_L_14_washer",
+          "volume_mm3": 4.750088092227758
+        },
+        {
+          "name": "finger_L_14_bolt",
+          "volume_mm3": 71.1940799736915
+        },
+        {
+          "name": "finger_L_14_nut",
+          "volume_mm3": 17.14370209113798
+        },
+        {
+          "name": "horn_bolt_0",
+          "volume_mm3": 39.778153437793584
+        },
+        {
+          "name": "horn_bolt_1",
+          "volume_mm3": 39.778153437793584
+        },
+        {
+          "name": "horn_bolt_2",
+          "volume_mm3": 39.77815343779356
+        },
+        {
+          "name": "horn_bolt_3",
+          "volume_mm3": 39.77815343779356
+        },
+        {
+          "name": "case_tapper_-11",
+          "volume_mm3": 35.74923000274946
+        },
+        {
+          "name": "case_tapper_11",
+          "volume_mm3": 35.74923000274946
+        }
+      ]
+    }
+  ],
+  "parameters": {
+    "servo": "XL430-W250",
+    "width": 92.0,
+    "frame_height": 56.0,
+    "r": 14.0,
+    "L": 24.0,
+    "theta_open": 25.0,
+    "theta_close": 135.0,
+    "jaw_inner": 10.5,
+    "pad": 1.0,
+    "finger_start": 32.7,
+    "finger_mount_z": 33.0,
+    "finger_end": 60.7,
+    "finger_nut_z": 20.8,
+    "link_bow": 4.5,
+    "link_width": 5.0,
+    "link_thickness": 3.2,
+    "link_bore": 5.4,
+    "shoulder_d": 5.0,
+    "shoulder_base": 26.0,
+    "shoulder_top": 29.8,
+    "guide_gap": 0.6,
+    "revision": "PG3-C92-XL430-J28-C9"
+  },
+  "units": "mm"
+}

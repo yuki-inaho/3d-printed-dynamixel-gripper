@@ -1,0 +1,23 @@
+{
+  "revision": "R5",
+  "pass": true,
+  "method": "Assistant visual inspection of actual rendered CAD images; not an independent human reviewer or physical test.",
+  "checks": [
+    "Rear motor long axis is vertical and output points toward short projecting jaws.",
+    "Front rectangular printed top/bottom guides correspond to reference topology; no metal guide rods.",
+    "Closed jaws remain parallel; linkage is behind the contact faces.",
+    "Exploded view shows separate retainers and integral printed pivot shoulders.",
+    "Optional camera remains a compact detachable add-on.",
+    "Print atlas is Z-up, with labels, dimensions, and localized jaw-support warning.",
+    "Overview and individual images are readable, unclipped, and consistently identified as R5."
+  ],
+  "reviewed_image_sha256": {
+    "overview.png": "8c16337e3e44b58aa227ea447a0ed1e93eb2fb5ce11e58648290376f51327bc5",
+    "open_iso.png": "edf2d79be8673ac42c038f67cbd68f5116324c024b2cee1c18a51e51eed9b08c",
+    "side.png": "b2ec0b0b22d582e51d58a459de1329104c02e3548b30ba49380b48637a5d0f63",
+    "closed_front.png": "77fed39fd77244ae31cecbaf96b9c00511bc69ba964343b915622b9c8fe3d028",
+    "camera_optional.png": "ea387b515ca0cddb7897588b978a448ecc54ebeb69196c0cfcbab204a9392512",
+    "exploded.png": "6f52fbc9ab4d0427d28110407d1ef15def3f0a6feb7e13e9d3860da90ea4b58c",
+    "print_layout.png": "9eb19973d196a1d02f806487fe767423141427b9b31f74721b08a53a446bb0b6"
+  }
+}

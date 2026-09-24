@@ -1,0 +1,3300 @@
+{
+  "check_kind": "static_exported_BREP_not_full_motion",
+  "complete": true,
+  "errors": [],
+  "leaf_count": 217,
+  "valid_brep_occurrences": 217,
+  "solid_occurrences": 151,
+  "non_solid_reference_occurrences": 66,
+  "non_solid_reference_names": [
+    "KEEP_001_=>[0_1_1_5]",
+    "KEEP_005_=>[0_1_1_9]",
+    "KEEP_009_=>[0_1_1_14]",
+    "KEEP_011_=>[0_1_1_17]",
+    "KEEP_013_=>[0_1_1_17]",
+    "KEEP_015_=>[0_1_1_17]",
+    "KEEP_017_=>[0_1_1_17]",
+    "KEEP_019_=>[0_1_1_17]",
+    "KEEP_021_=>[0_1_1_17]",
+    "KEEP_023_=>[0_1_1_17]",
+    "KEEP_025_=>[0_1_1_17]",
+    "KEEP_061_=>[0_1_1_5]",
+    "KEEP_065_=>[0_1_1_9]",
+    "KEEP_069_=>[0_1_1_14]",
+    "KEEP_071_=>[0_1_1_17]",
+    "KEEP_073_=>[0_1_1_17]",
+    "KEEP_075_=>[0_1_1_17]",
+    "KEEP_077_=>[0_1_1_17]",
+    "KEEP_079_=>[0_1_1_17]",
+    "KEEP_081_=>[0_1_1_17]",
+    "KEEP_083_=>[0_1_1_17]",
+    "KEEP_085_=>[0_1_1_17]",
+    "J3_XL430_01_=>[0_1_1_5]",
+    "J3_XL430_05_=>[0_1_1_9]",
+    "J3_XL430_09_=>[0_1_1_14]",
+    "J3_XL430_11_=>[0_1_1_17]",
+    "J3_XL430_13_=>[0_1_1_17]",
+    "J3_XL430_15_=>[0_1_1_17]",
+    "J3_XL430_17_=>[0_1_1_17]",
+    "J3_XL430_19_=>[0_1_1_17]",
+    "J3_XL430_21_=>[0_1_1_17]",
+    "J3_XL430_23_=>[0_1_1_17]",
+    "J3_XL430_25_=>[0_1_1_17]",
+    "J4_XL430_01_=>[0_1_1_5]",
+    "J4_XL430_05_=>[0_1_1_9]",
+    "J4_XL430_09_=>[0_1_1_14]",
+    "J4_XL430_11_=>[0_1_1_17]",
+    "J4_XL430_13_=>[0_1_1_17]",
+    "J4_XL430_15_=>[0_1_1_17]",
+    "J4_XL430_17_=>[0_1_1_17]",
+    "J4_XL430_19_=>[0_1_1_17]",
+    "J4_XL430_21_=>[0_1_1_17]",
+    "J4_XL430_23_=>[0_1_1_17]",
+    "J4_XL430_25_=>[0_1_1_17]",
+    "J5_GRIPPER_XL430_01_=>[0_1_1_5]",
+    "J5_GRIPPER_XL430_05_=>[0_1_1_9]",
+    "J5_GRIPPER_XL430_09_=>[0_1_1_14]",
+    "J5_GRIPPER_XL430_11_=>[0_1_1_17]",
+    "J5_GRIPPER_XL430_13_=>[0_1_1_17]",
+    "J5_GRIPPER_XL430_15_=>[0_1_1_17]",
+    "J5_GRIPPER_XL430_17_=>[0_1_1_17]",
+    "J5_GRIPPER_XL430_19_=>[0_1_1_17]",
+    "J5_GRIPPER_XL430_21_=>[0_1_1_17]",
+    "J5_GRIPPER_XL430_23_=>[0_1_1_17]",
+    "J5_GRIPPER_XL430_25_=>[0_1_1_17]",
+    "J6_XL430_01_=>[0_1_1_5]",
+    "J6_XL430_05_=>[0_1_1_9]",
+    "J6_XL430_09_=>[0_1_1_14]",
+    "J6_XL430_11_=>[0_1_1_17]",
+    "J6_XL430_13_=>[0_1_1_17]",
+    "J6_XL430_15_=>[0_1_1_17]",
+    "J6_XL430_17_=>[0_1_1_17]",
+    "J6_XL430_19_=>[0_1_1_17]",
+    "J6_XL430_21_=>[0_1_1_17]",
+    "J6_XL430_23_=>[0_1_1_17]",
+    "J6_XL430_25_=>[0_1_1_17]"
+  ],
+  "total_solid_pairs": 11325,
+  "boolean_candidate_pairs": 376,
+  "boolean_attempted_pairs": 376,
+  "external_collision_count": 46,
+  "external_collisions": [
+    {
+      "left": "KEEP_057_shoulder_rotation_1",
+      "right": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "left_unit": "/Robot Arm v14/servo connector angle v4:1/shoulder_rotation:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 1039.2954431023497,
+      "bounds_mm": [
+        20.499999999996714,
+        222.87478068386926,
+        50.1131511051151,
+        23.499999999997783,
+        240.8747806838722,
+        73.42514020482467
+      ]
+    },
+    {
+      "left": "KEEP_057_shoulder_rotation_1",
+      "right": "J6_XL430_02_=>[0_1_1_6]",
+      "left_unit": "/Robot Arm v14/servo connector angle v4:1/shoulder_rotation:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 6.031857894892397,
+      "bounds_mm": [
+        20.499999999997673,
+        231.08043114132,
+        51.813151105117,
+        23.49999999999767,
+        232.68043114132,
+        53.413151105116995
+      ]
+    },
+    {
+      "left": "KEEP_057_shoulder_rotation_1",
+      "right": "J6_XL430_12_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/servo connector angle v4:1/shoulder_rotation:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 13.934250010216415,
+      "bounds_mm": [
+        20.499999999997577,
+        238.63043114132,
+        52.113151105117,
+        23.49999999999767,
+        240.87478068387216,
+        54.613151105117
+      ]
+    },
+    {
+      "left": "KEEP_058_connector_1",
+      "right": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL430 to XL330 new connector v6:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 2827.8558552196755,
+      "bounds_mm": [
+        -3.5000001000030063,
+        103.60434673498023,
+        47.41329086055006,
+        20.00000009999701,
+        114.6060653089205,
+        72.36329106056003
+      ]
+    },
+    {
+      "left": "KEEP_058_connector_1",
+      "right": "J4_XL430_03_B3B-EH_1",
+      "left_unit": "/Robot Arm v14/XL430 to XL330 new connector v6:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 12.62115036213913,
+      "bounds_mm": [
+        3.6999999999970004,
+        112.30434673497999,
+        49.313290860552,
+        12.900000099997,
+        114.60458782644493,
+        51.363292520874005
+      ]
+    },
+    {
+      "left": "KEEP_058_connector_1",
+      "right": "J4_XL430_06_=>[0_1_1_10]",
+      "left_unit": "/Robot Arm v14/XL430 to XL330 new connector v6:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 25.606698763296947,
+      "bounds_mm": [
+        -3.5000001000029957,
+        112.20434673497998,
+        47.51329026055203,
+        2.6000000999970627,
+        114.60507493014117,
+        51.36329252087401
+      ]
+    },
+    {
+      "left": "KEEP_116_moving_side_1",
+      "right": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "left_unit": "/Robot Arm v14/gripper v9:1/moving side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 934.6458119326501,
+      "bounds_mm": [
+        -10.869900365639127,
+        222.61714008076987,
+        -11.224861972904087,
+        5.130099834363021,
+        249.61714028077006,
+        11.30540555921404
+      ]
+    },
+    {
+      "left": "KEEP_116_moving_side_1",
+      "right": "J5_GRIPPER_XL430_02_=>[0_1_1_6]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/moving side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 6.031857894892441,
+      "bounds_mm": [
+        -3.803323334276973,
+        246.61714018076978,
+        -9.524861872901948,
+        -2.203323334276951,
+        249.6171401807698,
+        -7.924861872901903
+      ]
+    },
+    {
+      "left": "KEEP_116_moving_side_1",
+      "right": "J5_GRIPPER_XL430_12_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/moving side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 5.779241043317275,
+      "bounds_mm": [
+        -10.815981903877177,
+        246.6171400807697,
+        -9.201239031872191,
+        -9.753323234269958,
+        249.61714028076975,
+        -6.73898024500772
+      ]
+    },
+    {
+      "left": "KEEP_116_moving_side_1",
+      "right": "J5_GRIPPER_XL430_31_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/gripper v9:1/moving side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 1.1848876513328777,
+      "bounds_mm": [
+        -10.717963356061519,
+        222.61714008076993,
+        -11.224861972901996,
+        -9.294415827839616,
+        225.41714028076998,
+        -10.534546299864063
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 3507.948456876133,
+      "bounds_mm": [
+        -6.85332332496582,
+        217.61714018076796,
+        5.675138443198225,
+        24.646676665714196,
+        246.11714018077194,
+        16.175138443191514
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J3_XL430_02_=>[0_1_1_6]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 6.03185789489239,
+      "bounds_mm": [
+        3.596676675036665,
+        219.31714018077005,
+        13.175138443191344,
+        5.196676675036805,
+        220.9171401807701,
+        16.175138443191415
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J3_XL430_12_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 14.72621556370212,
+      "bounds_mm": [
+        -4.8533233249633,
+        219.61714018077006,
+        13.175138443191308,
+        -2.3533233249631604,
+        222.1171401807701,
+        16.175138443191422
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J3_XL430_14_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 14.726215563702114,
+      "bounds_mm": [
+        -4.8533233249633,
+        241.61714018077006,
+        13.175138443190994,
+        -2.3533233249631604,
+        244.1171401807701,
+        16.175138443191106
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 4601.819076957151,
+      "bounds_mm": [
+        -13.103323415650001,
+        222.61714018076995,
+        -11.224861872904086,
+        24.646676665714377,
+        246.61714028077176,
+        16.1751385431913
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J5_GRIPPER_XL430_04_B3B-EH_2",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 47.24529757293747,
+      "bounds_mm": [
+        6.09667666572178,
+        229.81714018076997,
+        13.175138443190683,
+        16.096676665723045,
+        239.01714018077,
+        15.375138127098074
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J5_GRIPPER_XL430_06_=>[0_1_1_10]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 51.374180767441025,
+      "bounds_mm": [
+        5.996676665723076,
+        222.61714018077,
+        13.175138443190873,
+        16.19667666572313,
+        228.71714018077057,
+        16.175138443191347
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J5_GRIPPER_XL430_07_DC11_A01_IDLER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.667183166875737,
+      "bounds_mm": [
+        -4.431606773691072,
+        220.61714018077015,
+        13.175138443191322,
+        -1.5750398948629598,
+        224.11714018077018,
+        13.275138127098
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J5_GRIPPER_XL430_14_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 12.192716173747472,
+      "bounds_mm": [
+        -12.253323434269957,
+        244.01714018076996,
+        12.7751380270981,
+        -9.75332323426994,
+        246.61714028077017,
+        15.275138227098118
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J5_GRIPPER_XL430_20_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 48.78936383005846,
+      "bounds_mm": [
+        -13.10332331565064,
+        225.21714018076997,
+        13.175138443190791,
+        -8.50332333426999,
+        235.21714018077003,
+        16.175138443191294
+      ]
+    },
+    {
+      "left": "KEEP_117_static_side_1",
+      "right": "J5_GRIPPER_XL430_32_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/gripper v9:1/static side:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 35.834295150394084,
+      "bounds_mm": [
+        -13.103323415649866,
+        222.617140180769,
+        13.175138343191287,
+        -7.753323334269838,
+        226.51714028077023,
+        16.175138543191295
+      ]
+    },
+    {
+      "left": "KEEP_160_connector_1",
+      "right": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 1097.2250677645184,
+      "bounds_mm": [
+        19.26918582582684,
+        120.00434683497599,
+        50.263290860552004,
+        23.0000001,
+        142.65434693498202,
+        73.98240395763398
+      ]
+    },
+    {
+      "left": "KEEP_160_connector_1",
+      "right": "J4_XL430_02_=>[0_1_1_6]",
+      "left_unit": "/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 1.3253902695033797,
+      "bounds_mm": [
+        20.0,
+        130.70866371746143,
+        50.263290960552006,
+        23.0,
+        132.10002995249803,
+        50.713290960551994
+      ]
+    },
+    {
+      "left": "KEEP_160_connector_1",
+      "right": "J4_XL430_14_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 9.822900909798452,
+      "bounds_mm": [
+        19.967107829952173,
+        138.1548680350121,
+        71.41329086055201,
+        23.0000001,
+        140.65434693497284,
+        73.33237499665813
+      ]
+    },
+    {
+      "left": "KEEP_160_connector_1",
+      "right": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 5706.17826050467,
+      "bounds_mm": [
+        -3.5000001000030037,
+        196.630431041318,
+        53.189533657073,
+        20.414211205811938,
+        213.08043124131999,
+        76.18953385707302
+      ]
+    },
+    {
+      "left": "KEEP_160_connector_1",
+      "right": "J6_XL430_16_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 10.44790479820554,
+      "bounds_mm": [
+        17.899999899996956,
+        198.63043104132,
+        74.11315100511801,
+        20.35824660241834,
+        201.13043124132,
+        76.18953385707302
+      ]
+    },
+    {
+      "left": "KEEP_160_connector_1",
+      "right": "J6_XL430_18_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 6.911763390878769,
+      "bounds_mm": [
+        17.899999899996956,
+        198.63043104132,
+        53.189533657073,
+        20.358246602124684,
+        201.13043124132,
+        54.613151205118
+      ]
+    },
+    {
+      "left": "KEEP_160_connector_1",
+      "right": "J6_XL430_24_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 48.752479715959815,
+      "bounds_mm": [
+        -0.9000000000030002,
+        197.38043114132,
+        72.863151105118,
+        9.099999999997044,
+        202.38043114132,
+        76.18953375707301
+      ]
+    },
+    {
+      "left": "KEEP_160_connector_1",
+      "right": "J6_XL430_26_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 33.16819994217889,
+      "bounds_mm": [
+        -0.9000000000030004,
+        197.38043114132,
+        53.189533757073,
+        9.099999999997044,
+        202.38043114132,
+        55.863151105118
+      ]
+    },
+    {
+      "left": "KEEP_160_connector_1",
+      "right": "J6_XL430_33_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 51.58992469504882,
+      "bounds_mm": [
+        -3.5000000000056186,
+        196.63043114132,
+        53.189533657073,
+        0.40000155345952604,
+        203.13043124132,
+        56.613151205118
+      ]
+    },
+    {
+      "left": "KEEP_160_connector_1",
+      "right": "J6_XL430_34_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL330_to_XL330_straight v5:1/connector:1",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 59.91043322446404,
+      "bounds_mm": [
+        -3.5000000000056186,
+        196.63043114132,
+        72.113151005118,
+        0.4000015534595269,
+        203.13043124132,
+        76.189533857073
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 9608.813106768863,
+      "bounds_mm": [
+        -6.853323324965777,
+        222.61714018076984,
+        1.775138443197823,
+        32.24667666572495,
+        246.11714018077208,
+        17.27513812709991
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_04_B3B-EH_2",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 107.0299388206695,
+      "bounds_mm": [
+        6.096676665723,
+        229.8171401807699,
+        11.575138127097999,
+        16.096676665723045,
+        239.01714018077,
+        15.375138127098074
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_06_=>[0_1_1_10]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 169.26827375125123,
+      "bounds_mm": [
+        5.996676565723108,
+        222.61714018077006,
+        3.675138343198249,
+        16.196676665723125,
+        228.71714018077043,
+        17.17513812709824
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_07_DC11_A01_IDLER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 168.34047125212308,
+      "bounds_mm": [
+        -6.853323424963477,
+        220.61714008076945,
+        3.6751383431961266,
+        7.2260462276727155,
+        224.11714028077188,
+        13.27513822709798
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_08_DC11_A01_IDLER_CAP_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 17.004389080643666,
+      "bounds_mm": [
+        -6.853323424963192,
+        219.61714018077006,
+        3.675138343197815,
+        1.8421219190711706,
+        224.81714028077008,
+        8.075138227097943
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_10_=>[0_1_1_15]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 5.1754210332760575,
+      "bounds_mm": [
+        -4.355173865748749,
+        223.01714008077005,
+        3.6751383431976534,
+        -0.5893017784754745,
+        228.01714018077007,
+        4.748002181243099
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_16_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 10.121475219088085,
+      "bounds_mm": [
+        27.746676665723047,
+        244.01714018076996,
+        12.775138127098092,
+        30.24667666572306,
+        246.11714018077006,
+        15.275138127098119
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_24_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 57.737185485291064,
+      "bounds_mm": [
+        26.49667666572301,
+        225.21714018076995,
+        11.525138127098018,
+        31.49667666572301,
+        235.21714018077003,
+        16.52513812709802
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_34_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 97.90115604598681,
+      "bounds_mm": [
+        25.746676565723,
+        222.61714018076734,
+        10.775138027097992,
+        32.24667666572302,
+        226.51714173423247,
+        17.275138127098035
+      ]
+    },
+    {
+      "left": "J3_XL430_02_=>[0_1_1_6]",
+      "right": "J5_GRIPPER_XL430_07_DC11_A01_IDLER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 1.9852430778198749,
+      "bounds_mm": [
+        3.3380685675644335,
+        220.61714008064553,
+        7.847586542050429,
+        5.767790512735758,
+        221.867140280769,
+        10.716373297706893
+      ]
+    },
+    {
+      "left": "J3_XL430_12_=>[0_1_1_18]",
+      "right": "J5_GRIPPER_XL430_07_DC11_A01_IDLER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 13.74225765729494,
+      "bounds_mm": [
+        -6.103323424963563,
+        220.61714008077004,
+        8.27513834319788,
+        -1.2908570089935492,
+        223.36714028076997,
+        13.275138227098
+      ]
+    },
+    {
+      "left": "J3_XL430_14_=>[0_1_1_18]",
+      "right": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 53.01532108790955,
+      "bounds_mm": [
+        -6.1033233249629415,
+        240.36714018076998,
+        8.27513844319788,
+        -1.1033233249629326,
+        245.36714018076998,
+        17.27513812709801
+      ]
+    },
+    {
+      "left": "J3_XL430_27_DC11_A01_SPACER_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_07_DC11_A01_IDLER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 14.325443390236419,
+      "bounds_mm": [
+        -6.8533234249629755,
+        220.6171400807694,
+        6.369910077883847,
+        -0.4952691713786728,
+        224.11714028077006,
+        9.575139996660575
+      ]
+    },
+    {
+      "left": "J3_XL430_27_DC11_A01_SPACER_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_08_DC11_A01_IDLER_CAP_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 32.78384766296821,
+      "bounds_mm": [
+        -6.853323424962935,
+        219.617140080769,
+        5.675138343196566,
+        -0.35332322496287266,
+        224.11714028077,
+        8.075138225094744
+      ]
+    },
+    {
+      "left": "J3_XL430_28_DC11_A01_SPACER_DUMMY_2",
+      "right": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 97.90115604598681,
+      "bounds_mm": [
+        -6.853323324962995,
+        239.61714008076999,
+        5.67513844319552,
+        -0.3533232249629908,
+        246.11714018077004,
+        9.57513999666067
+      ]
+    }
+  ],
+  "supplier_internal_collision_count": 168,
+  "supplier_internal_collisions": [
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_002_=>[0_1_1_6]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 65.98182330579188,
+      "bounds_mm": [
+        16.199999999997,
+        115.60434683497994,
+        -98.73670903944,
+        18.199999999997,
+        117.60434683497995,
+        -69.23670903944
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_003_B3B-EH_1",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 38.13216000080023,
+      "bounds_mm": [
+        13.999999999996998,
+        97.50434683498,
+        -87.63670903943999,
+        17.799999999997,
+        107.50434683498,
+        -83.53670903944
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_004_B3B-EH_2",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 38.132160000800255,
+      "bounds_mm": [
+        -6.900000000003001,
+        97.50434683498,
+        -87.63670903943999,
+        -3.1000000000029986,
+        107.50434683498,
+        -83.53670903944
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_008_DC11_A01_IDLER_CAP_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.2030000000840005,
+      "bounds_mm": [
+        4.749999999997,
+        120.05607921106596,
+        -98.83670903944001,
+        6.149999999997,
+        121.55607921110598,
+        -98.73670903940001
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_012_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.6494126091034998,
+      "bounds_mm": [
+        13.949999999997,
+        122.10434683498,
+        -69.98670903944,
+        18.949999999997,
+        127.10434683498,
+        -68.73670893943802
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_014_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.6494125970237454,
+      "bounds_mm": [
+        -8.050000000003,
+        122.10434683498,
+        -69.98670903944,
+        -3.050000000003,
+        127.10434683498,
+        -68.73670893943802
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_016_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.6494916425403539,
+      "bounds_mm": [
+        -8.050000000003,
+        82.104346834981,
+        -69.98670903944,
+        -3.050000000003,
+        87.104346834981,
+        -68.73670893943694
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_018_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.6494916551575314,
+      "bounds_mm": [
+        13.949999999997,
+        82.104346834981,
+        -69.98670903944,
+        18.949999999997,
+        87.104346834981,
+        -68.73670893943795
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_020_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.6494126021594637,
+      "bounds_mm": [
+        -8.050000000003001,
+        122.10434683498,
+        -97.13670913944027,
+        -3.050000000003,
+        127.10434683498,
+        -95.88670903944
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_022_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.6494126038892292,
+      "bounds_mm": [
+        13.949999999997,
+        122.10434683498,
+        -97.13670913944028,
+        18.949999999997,
+        127.10434683498,
+        -95.88670903944
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_024_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.6494916479838935,
+      "bounds_mm": [
+        -8.050000000003001,
+        82.104346834981,
+        -97.13670913944028,
+        -3.050000000003,
+        87.104346834981,
+        -95.88670903944
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_026_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.6494916496429826,
+      "bounds_mm": [
+        13.949999999997,
+        82.104346834981,
+        -97.1367091394403,
+        18.949999999997,
+        87.104346834981,
+        -95.88670903944
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_027_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.09028558399765257,
+      "bounds_mm": [
+        13.992426406868,
+        122.14677324185101,
+        -69.83670913944023,
+        18.907573593126003,
+        127.061920428109,
+        -68.73670893943802
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_028_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.09028558395768618,
+      "bounds_mm": [
+        -8.007573593132001,
+        122.14677324185101,
+        -69.83670913944023,
+        -3.092426406874,
+        127.061920428109,
+        -68.73670893943802
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_029_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 2.3301481772149444,
+      "bounds_mm": [
+        -8.178499255914883,
+        81.97584758909291,
+        -69.83671059290252,
+        -2.3000000000029983,
+        87.854346834981,
+        -66.02220444134285
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_030_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.20709955390620743,
+      "bounds_mm": [
+        13.992426306868001,
+        82.14677314185201,
+        -69.83671059290252,
+        18.907573693126004,
+        87.23626066133538,
+        -68.73670893943795
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_031_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.09028558403874391,
+      "bounds_mm": [
+        13.992426406868,
+        122.14677324185101,
+        -97.13670913944001,
+        18.907573593126003,
+        127.061920428109,
+        -96.03670893943976
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_032_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.09028558399725929,
+      "bounds_mm": [
+        -8.007573593132001,
+        122.14677324185101,
+        -97.13670913944001,
+        -3.092426406874,
+        127.061920428109,
+        -96.03670893943976
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_033_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.20709986291031643,
+      "bounds_mm": [
+        13.992426306868001,
+        82.14677314185201,
+        -97.13670913944001,
+        18.907573693126004,
+        87.23626033488,
+        -96.03670893943978
+      ]
+    },
+    {
+      "left": "KEEP_000_DC11_A01_DUMMY_1",
+      "right": "KEEP_034_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 0.20709953724810565,
+      "bounds_mm": [
+        -8.007573693132,
+        82.14677314185201,
+        -97.13670913944021,
+        -3.092426306874,
+        87.2362606613354,
+        -96.03670748597749
+      ]
+    },
+    {
+      "left": "KEEP_012_=>[0_1_1_18]",
+      "right": "KEEP_027_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 9.69818131226992,
+      "bounds_mm": [
+        13.949999999997,
+        122.10434683498,
+        -69.8367091746523,
+        18.949999999997,
+        127.10434683498,
+        -68.53670903944
+      ]
+    },
+    {
+      "left": "KEEP_014_=>[0_1_1_18]",
+      "right": "KEEP_028_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 9.698181314099195,
+      "bounds_mm": [
+        -8.050000000003,
+        122.10434683498,
+        -69.8367091746523,
+        -3.050000000003,
+        127.10434683498,
+        -68.53670903944
+      ]
+    },
+    {
+      "left": "KEEP_016_=>[0_1_1_18]",
+      "right": "KEEP_029_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 9.698181312269755,
+      "bounds_mm": [
+        -8.050000000003,
+        82.104346834981,
+        -69.8367091746523,
+        -3.050000000003,
+        87.104346834981,
+        -68.53670903944
+      ]
+    },
+    {
+      "left": "KEEP_018_=>[0_1_1_18]",
+      "right": "KEEP_030_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 9.698181309052629,
+      "bounds_mm": [
+        13.949999999997,
+        82.104346834981,
+        -69.8367091746523,
+        18.949999999997,
+        87.104346834981,
+        -68.53670903944
+      ]
+    },
+    {
+      "left": "KEEP_020_=>[0_1_1_18]",
+      "right": "KEEP_032_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 9.698181312268938,
+      "bounds_mm": [
+        -8.050000000003,
+        122.10434683498,
+        -97.33670903944001,
+        -3.050000000003,
+        127.10434683498,
+        -96.03670890422771
+      ]
+    },
+    {
+      "left": "KEEP_022_=>[0_1_1_18]",
+      "right": "KEEP_031_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 9.698181314098356,
+      "bounds_mm": [
+        13.949999999997,
+        122.10434683498,
+        -97.33670903944001,
+        18.949999999997,
+        127.10434683498,
+        -96.03670890422771
+      ]
+    },
+    {
+      "left": "KEEP_024_=>[0_1_1_18]",
+      "right": "KEEP_034_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 9.698181309052723,
+      "bounds_mm": [
+        -8.050000000003,
+        82.104346834981,
+        -97.33670903944001,
+        -3.050000000003,
+        87.104346834981,
+        -96.03670890422771
+      ]
+    },
+    {
+      "left": "KEEP_026_=>[0_1_1_18]",
+      "right": "KEEP_033_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:1",
+      "volume_mm3": 9.698181310881818,
+      "bounds_mm": [
+        13.949999999997,
+        82.104346834981,
+        -97.33670903944001,
+        18.949999999997,
+        87.104346834981,
+        -96.03670890422771
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_062_=>[0_1_1_6]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 65.98182330579183,
+      "bounds_mm": [
+        -8.450000000003,
+        115.60434683498,
+        -35.88670903944,
+        21.049999999997,
+        117.60434683498,
+        -33.88670903944
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_063_B3B-EH_1",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 38.132160000801214,
+      "bounds_mm": [
+        5.849999999997,
+        97.50434683498,
+        -38.08670903944001,
+        9.949999999997003,
+        107.50434683498001,
+        -34.286709039439984
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_064_B3B-EH_2",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 38.13216000080119,
+      "bounds_mm": [
+        5.849999999997,
+        97.50434683498,
+        -58.98670903944001,
+        9.949999999997,
+        107.50434683498,
+        -55.18670903943998
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_068_DC11_A01_IDLER_CAP_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.2030000000000008,
+      "bounds_mm": [
+        21.049999999997,
+        120.05607921110601,
+        -47.33670903944002,
+        21.149999999997,
+        121.55607921110601,
+        -45.936709039440004
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_072_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.6494126091034292,
+      "bounds_mm": [
+        -8.950000100005006,
+        122.10434683498,
+        -38.13670903944,
+        -7.700000000003,
+        127.10434683498,
+        -33.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_074_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.6494125970236202,
+      "bounds_mm": [
+        -8.950000100005,
+        122.10434683498,
+        -60.13670903944,
+        -7.700000000003,
+        127.10434683498,
+        -55.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_076_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.6494916425401268,
+      "bounds_mm": [
+        -8.950000100006,
+        82.104346834981,
+        -60.13670903944,
+        -7.700000000003,
+        87.104346834981,
+        -55.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_078_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.6494916551578565,
+      "bounds_mm": [
+        -8.950000100005001,
+        82.104346834981,
+        -38.13670903944,
+        -7.700000000003,
+        87.104346834981,
+        -33.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_080_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.6494126021594129,
+      "bounds_mm": [
+        18.199999999997,
+        122.10434683498,
+        -60.13670903944,
+        19.450000099997293,
+        127.10434683498,
+        -55.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_082_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.6494126038893132,
+      "bounds_mm": [
+        18.199999999997,
+        122.10434683498,
+        -38.13670903944,
+        19.450000099997286,
+        127.10434683498,
+        -33.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_084_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.6494916479861321,
+      "bounds_mm": [
+        18.199999999997,
+        82.104346834981,
+        -60.13670903944,
+        19.450000099997283,
+        87.104346834981,
+        -55.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_086_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.6494916496429206,
+      "bounds_mm": [
+        18.199999999997,
+        82.104346834981,
+        -38.13670903944,
+        19.450000099997293,
+        87.104346834981,
+        -33.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_087_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.09028558399760274,
+      "bounds_mm": [
+        -8.950000100005,
+        122.14677324185101,
+        -38.094282632569,
+        -7.849999900002747,
+        127.061920428109,
+        -33.179135446311
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_088_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.09028558395775929,
+      "bounds_mm": [
+        -8.950000100005,
+        122.14677324185101,
+        -60.094282632569,
+        -7.84999990000275,
+        127.061920428109,
+        -55.179135446311
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_089_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 2.330148177214737,
+      "bounds_mm": [
+        -11.664504598100317,
+        81.97584758909291,
+        -60.26520829535189,
+        -7.849998446540473,
+        87.85434683498102,
+        -54.38670903943992
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_090_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.20709955391043466,
+      "bounds_mm": [
+        -8.950000100005001,
+        82.14677314185201,
+        -38.094282732569,
+        -7.849998446540473,
+        87.23626066133536,
+        -33.179135346311
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_091_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.09028558403865145,
+      "bounds_mm": [
+        18.34999989999675,
+        122.14677324185101,
+        -38.094282632569,
+        19.450000099997002,
+        127.061920428109,
+        -33.179135446311
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_092_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.09028558399722014,
+      "bounds_mm": [
+        18.349999899996753,
+        122.14677324185101,
+        -60.094282632569,
+        19.45000009999701,
+        127.061920428109,
+        -55.179135446311
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_093_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.2070998629103319,
+      "bounds_mm": [
+        18.349999899996753,
+        82.14677314185201,
+        -38.094282732569,
+        19.450000099997002,
+        87.23626033487999,
+        -33.179135346311
+      ]
+    },
+    {
+      "left": "KEEP_060_DC11_A01_DUMMY_1",
+      "right": "KEEP_094_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 0.2070995372483233,
+      "bounds_mm": [
+        18.349998446534475,
+        82.14677314185201,
+        -60.094282732569,
+        19.450000099997276,
+        87.23626066133538,
+        -55.179135346311
+      ]
+    },
+    {
+      "left": "KEEP_072_=>[0_1_1_18]",
+      "right": "KEEP_087_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 9.698181312270744,
+      "bounds_mm": [
+        -9.150000000003,
+        122.10434683498,
+        -38.13670903944,
+        -7.849999864790692,
+        127.10434683498,
+        -33.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_074_=>[0_1_1_18]",
+      "right": "KEEP_088_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 9.698181314096535,
+      "bounds_mm": [
+        -9.150000000003,
+        122.10434683498,
+        -60.13670903944,
+        -7.849999864790691,
+        127.10434683498,
+        -55.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_076_=>[0_1_1_18]",
+      "right": "KEEP_089_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 9.6981813122701,
+      "bounds_mm": [
+        -9.150000000003,
+        82.104346834981,
+        -60.13670903944,
+        -7.849999864790692,
+        87.104346834981,
+        -55.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_078_=>[0_1_1_18]",
+      "right": "KEEP_090_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 9.69818130905224,
+      "bounds_mm": [
+        -9.150000000003,
+        82.104346834981,
+        -38.13670903944,
+        -7.849999864790692,
+        87.104346834981,
+        -33.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_080_=>[0_1_1_18]",
+      "right": "KEEP_092_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 9.698181312270515,
+      "bounds_mm": [
+        18.349999864784692,
+        122.10434683498,
+        -60.13670903944,
+        19.649999999997004,
+        127.10434683498,
+        -55.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_082_=>[0_1_1_18]",
+      "right": "KEEP_091_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 9.69818131409723,
+      "bounds_mm": [
+        18.349999864784692,
+        122.10434683498,
+        -38.13670903944,
+        19.649999999997004,
+        127.10434683498,
+        -33.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_084_=>[0_1_1_18]",
+      "right": "KEEP_094_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 9.698181309052018,
+      "bounds_mm": [
+        18.349999864784692,
+        82.104346834981,
+        -60.13670903944,
+        19.649999999997004,
+        87.104346834981,
+        -55.13670903944
+      ]
+    },
+    {
+      "left": "KEEP_086_=>[0_1_1_18]",
+      "right": "KEEP_093_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "right_unit": "/Robot Arm v14/XL-430_new v1:2",
+      "volume_mm3": 9.698181310882491,
+      "bounds_mm": [
+        18.349999864784692,
+        82.104346834981,
+        -38.13670903944,
+        19.649999999997004,
+        87.104346834981,
+        -33.13670903944
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_02_=>[0_1_1_6]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 65.98182330579176,
+      "bounds_mm": [
+        3.396676675035639,
+        219.11714018077035,
+        8.975138443197961,
+        5.396676675035908,
+        221.11714018077043,
+        38.475138443198034
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_03_B3B-EH_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 38.132160000793675,
+      "bounds_mm": [
+        13.496676675035946,
+        219.51714018076996,
+        23.275138443198863,
+        23.496676675036014,
+        223.31714018077005,
+        27.375138443199067
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_04_B3B-EH_2",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 38.132160000782626,
+      "bounds_mm": [
+        13.49667667503594,
+        240.41714018077,
+        23.275138443198863,
+        23.49667667503601,
+        244.2171401807701,
+        27.375138443198768
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_08_DC11_A01_IDLER_CAP_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.20300000000000604,
+      "bounds_mm": [
+        -0.5550557010907446,
+        231.1671401807702,
+        38.47513844319776,
+        0.9449442989092738,
+        232.56714018077025,
+        38.57513844319785
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_12_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.6494126091032324,
+      "bounds_mm": [
+        -6.1033233249629415,
+        218.36714018076998,
+        8.47513834319581,
+        -1.103323324962942,
+        223.36714018076998,
+        9.72513844319806
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_14_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.6494125970241795,
+      "bounds_mm": [
+        -6.1033233249629415,
+        240.36714018076998,
+        8.475138343195562,
+        -1.103323324962942,
+        245.36714018076998,
+        9.72513844319806
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_16_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.649491642542307,
+      "bounds_mm": [
+        33.89667667503706,
+        240.36714018076998,
+        8.475138343196255,
+        38.89667667503706,
+        245.36714018076998,
+        9.725138443200061
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_18_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.6494916551610689,
+      "bounds_mm": [
+        33.89667667503706,
+        218.36714018076998,
+        8.47513834319753,
+        38.89667667503706,
+        223.36714018076998,
+        9.725138443200061
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_20_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.6494126021579915,
+      "bounds_mm": [
+        -6.103323324964059,
+        240.36714018077004,
+        35.62513844319793,
+        -1.1033233249640584,
+        245.36714018077004,
+        36.87513854319839
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_22_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.6494126038888758,
+      "bounds_mm": [
+        -6.103323324964059,
+        218.36714018077004,
+        35.62513844319793,
+        -1.1033233249640584,
+        223.36714018077004,
+        36.87513854319837
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_24_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.6494916479914907,
+      "bounds_mm": [
+        33.89667667503594,
+        240.36714018077004,
+        35.62513844319994,
+        38.89667667503594,
+        245.36714018077004,
+        36.87513854320026
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_26_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.6494916496426563,
+      "bounds_mm": [
+        33.89667667503594,
+        218.36714018077004,
+        35.62513844319994,
+        38.89667667503594,
+        223.36714018077004,
+        36.87513854320019
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_27_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.09028558399699332,
+      "bounds_mm": [
+        -6.060896918092,
+        218.409566587641,
+        8.47513834319581,
+        -1.145749731834,
+        223.32471377389902,
+        9.575138543198285
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_28_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.090285583957355,
+      "bounds_mm": [
+        -6.060896918092,
+        240.409566587641,
+        8.475138343195562,
+        -1.145749731834,
+        245.32471377389902,
+        9.575138543198314
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_29_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 2.330148177209676,
+      "bounds_mm": [
+        33.146676675036595,
+        239.61714018076995,
+        5.760633845103974,
+        39.02517592092493,
+        245.4956394366818,
+        9.575139996662575
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_30_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.20709955393551557,
+      "bounds_mm": [
+        33.76476284868256,
+        218.409566487641,
+        8.475138343197534,
+        38.854250368166,
+        223.32471387389901,
+        9.575139996662381
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_31_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.09028558403827303,
+      "bounds_mm": [
+        -6.060896918093,
+        218.409566587641,
+        35.77513834319777,
+        -1.145749731835,
+        223.32471377389902,
+        36.87513854319809
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_32_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.0902855839965262,
+      "bounds_mm": [
+        -6.060896918093,
+        240.409566587641,
+        35.775138343197774,
+        -1.1457497318349996,
+        245.32471377389902,
+        36.87513854319811
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_33_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.20709986291189958,
+      "bounds_mm": [
+        33.76476317513698,
+        218.409566487641,
+        35.77513834319967,
+        38.854250368165,
+        223.32471387389901,
+        36.87513854320012
+      ]
+    },
+    {
+      "left": "J3_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J3_XL430_34_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 0.20709953724742522,
+      "bounds_mm": [
+        33.76476284868167,
+        240.409566487641,
+        35.77513688973738,
+        38.854250368165,
+        245.32471387389901,
+        36.87513854320012
+      ]
+    },
+    {
+      "left": "J3_XL430_12_=>[0_1_1_18]",
+      "right": "J3_XL430_27_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 9.698181312268394,
+      "bounds_mm": [
+        -6.1033233249629415,
+        218.36714018076998,
+        8.27513844319788,
+        -1.1033233249629326,
+        223.36714018076998,
+        9.57513857841032
+      ]
+    },
+    {
+      "left": "J3_XL430_14_=>[0_1_1_18]",
+      "right": "J3_XL430_28_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 9.698181314099646,
+      "bounds_mm": [
+        -6.1033233249629415,
+        240.36714018076998,
+        8.27513844319788,
+        -1.1033233249629326,
+        245.36714018076998,
+        9.575138578410375
+      ]
+    },
+    {
+      "left": "J3_XL430_16_=>[0_1_1_18]",
+      "right": "J3_XL430_29_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 9.698181312272068,
+      "bounds_mm": [
+        33.89667667503706,
+        240.36714018076998,
+        8.27513844319988,
+        38.896676675037064,
+        245.36714018076998,
+        9.57513857841232
+      ]
+    },
+    {
+      "left": "J3_XL430_18_=>[0_1_1_18]",
+      "right": "J3_XL430_30_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 9.698181309054055,
+      "bounds_mm": [
+        33.89667667503706,
+        218.36714018076998,
+        8.27513844319988,
+        38.896676675037064,
+        223.36714018076998,
+        9.575138578412242
+      ]
+    },
+    {
+      "left": "J3_XL430_20_=>[0_1_1_18]",
+      "right": "J3_XL430_32_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 9.698181312273789,
+      "bounds_mm": [
+        -6.103323324964068,
+        240.36714018077004,
+        35.775138307985735,
+        -1.1033233249640584,
+        245.36714018077004,
+        37.07513844319812
+      ]
+    },
+    {
+      "left": "J3_XL430_22_=>[0_1_1_18]",
+      "right": "J3_XL430_31_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 9.698181314099605,
+      "bounds_mm": [
+        -6.103323324964068,
+        218.36714018077004,
+        35.775138307985735,
+        -1.1033233249640584,
+        223.36714018077004,
+        37.07513844319812
+      ]
+    },
+    {
+      "left": "J3_XL430_24_=>[0_1_1_18]",
+      "right": "J3_XL430_34_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 9.698181309059667,
+      "bounds_mm": [
+        33.896676675035934,
+        240.36714018077004,
+        35.775138307987646,
+        38.89667667503594,
+        245.36714018077004,
+        37.075138443200125
+      ]
+    },
+    {
+      "left": "J3_XL430_26_=>[0_1_1_18]",
+      "right": "J3_XL430_33_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:6",
+      "volume_mm3": 9.698181310888858,
+      "bounds_mm": [
+        33.896676675035934,
+        218.36714018077004,
+        35.775138307987646,
+        38.89667667503594,
+        223.36714018077004,
+        37.075138443200125
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_02_=>[0_1_1_6]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 65.98182330579189,
+      "bounds_mm": [
+        -2.3000000000029996,
+        130.40434683498,
+        48.91329096055198,
+        27.199999999997,
+        132.40434683498,
+        50.91329096055198
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_03_B3B-EH_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 38.13216000080101,
+      "bounds_mm": [
+        8.799999999997002,
+        112.30434683497998,
+        49.31329096055198,
+        12.899999999997,
+        122.30434683498001,
+        53.11329096055201
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_04_B3B-EH_2",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 38.13216000080148,
+      "bounds_mm": [
+        8.799999999996993,
+        112.30434683497998,
+        70.21329096055197,
+        12.899999999997,
+        122.30434683498001,
+        74.01329096055201
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_08_DC11_A01_IDLER_CAP_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.20299999999999724,
+      "bounds_mm": [
+        -2.4000000000030015,
+        134.85607921110602,
+        60.96329096055198,
+        -2.3000000000029996,
+        136.35607921110602,
+        62.363290960551986
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_12_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.649412609103493,
+      "bounds_mm": [
+        26.449999999997,
+        136.90434683498,
+        48.163290960552,
+        27.70000009999901,
+        141.90434683498,
+        53.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_14_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.6494125970237083,
+      "bounds_mm": [
+        26.449999999996997,
+        136.90434683498,
+        70.163290960552,
+        27.700000099998995,
+        141.90434683498,
+        75.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_16_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.6494916425402899,
+      "bounds_mm": [
+        26.449999999996997,
+        96.904346834981,
+        70.163290960552,
+        27.700000099999997,
+        101.904346834981,
+        75.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_18_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.649491655156928,
+      "bounds_mm": [
+        26.449999999997,
+        96.904346834981,
+        48.163290960552,
+        27.70000009999901,
+        101.904346834981,
+        53.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_20_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.6494126021593518,
+      "bounds_mm": [
+        -0.7000001000032786,
+        136.90434683498,
+        70.163290960552,
+        0.5499999999970006,
+        141.90434683498,
+        75.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_22_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.6494126038893219,
+      "bounds_mm": [
+        -0.7000001000032795,
+        136.90434683498,
+        48.163290960552,
+        0.5499999999970006,
+        141.90434683498,
+        53.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_24_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.6494916479824171,
+      "bounds_mm": [
+        -0.7000001000032808,
+        96.904346834981,
+        70.163290960552,
+        0.5499999999970006,
+        101.904346834981,
+        75.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_26_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.6494916496427736,
+      "bounds_mm": [
+        -0.7000001000032862,
+        96.904346834981,
+        48.163290960552,
+        0.5499999999970006,
+        101.904346834981,
+        53.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_27_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.09028558399747694,
+      "bounds_mm": [
+        26.599999899996742,
+        136.946773241851,
+        48.205717367423,
+        27.70000009999901,
+        141.86192042810902,
+        53.120864553680995
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_28_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.09028558395783831,
+      "bounds_mm": [
+        26.59999989999675,
+        136.946773241851,
+        70.205717367423,
+        27.700000099998995,
+        141.86192042810902,
+        75.120864553681
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_29_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 2.3301481772151837,
+      "bounds_mm": [
+        26.59999844653447,
+        96.7758475890929,
+        69.41329096055199,
+        30.414504598094833,
+        102.654346834981,
+        75.2917902164639
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_30_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.20709955390476306,
+      "bounds_mm": [
+        26.599998446534475,
+        96.946773141852,
+        48.205717267423,
+        27.70000009999901,
+        102.03626066133538,
+        53.120864653681
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_31_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.09028558403855397,
+      "bounds_mm": [
+        -0.7000001000030139,
+        136.946773241851,
+        48.205717367423,
+        0.4000000999972521,
+        141.86192042810902,
+        53.120864553680995
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_32_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.09028558399722966,
+      "bounds_mm": [
+        -0.7000001000030104,
+        136.946773241851,
+        70.205717367423,
+        0.40000009999724856,
+        141.86192042810902,
+        75.120864553681
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_33_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.20709986291027707,
+      "bounds_mm": [
+        -0.7000001000030122,
+        96.946773141852,
+        48.205717267423,
+        0.400000099997247,
+        102.03626033488003,
+        53.120864653681
+      ]
+    },
+    {
+      "left": "J4_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J4_XL430_34_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 0.20709953724677824,
+      "bounds_mm": [
+        -0.7000001000032828,
+        96.946773141852,
+        70.20571726742301,
+        0.40000155345952737,
+        102.03626066133536,
+        75.120864653681
+      ]
+    },
+    {
+      "left": "J4_XL430_12_=>[0_1_1_18]",
+      "right": "J4_XL430_27_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 9.69818131226905,
+      "bounds_mm": [
+        26.59999986478469,
+        136.90434683498,
+        48.163290960552,
+        27.899999999997004,
+        141.90434683498,
+        53.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_14_=>[0_1_1_18]",
+      "right": "J4_XL430_28_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 9.698181314099577,
+      "bounds_mm": [
+        26.599999864784692,
+        136.90434683498,
+        70.163290960552,
+        27.899999999997004,
+        141.90434683498,
+        75.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_16_=>[0_1_1_18]",
+      "right": "J4_XL430_29_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 9.698181312269025,
+      "bounds_mm": [
+        26.59999986478469,
+        96.904346834981,
+        70.163290960552,
+        27.899999999997004,
+        101.904346834981,
+        75.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_18_=>[0_1_1_18]",
+      "right": "J4_XL430_30_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 9.698181309053918,
+      "bounds_mm": [
+        26.599999864784692,
+        96.904346834981,
+        48.163290960552,
+        27.899999999997004,
+        101.904346834981,
+        53.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_20_=>[0_1_1_18]",
+      "right": "J4_XL430_32_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 9.698181312272006,
+      "bounds_mm": [
+        -0.9000000000030012,
+        136.90434683498,
+        70.163290960552,
+        0.4000001352093088,
+        141.90434683498,
+        75.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_22_=>[0_1_1_18]",
+      "right": "J4_XL430_31_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 9.698181314098354,
+      "bounds_mm": [
+        -0.9000000000030012,
+        136.90434683498,
+        48.163290960552,
+        0.4000001352093078,
+        141.90434683498,
+        53.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_24_=>[0_1_1_18]",
+      "right": "J4_XL430_34_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 9.698181309052899,
+      "bounds_mm": [
+        -0.9000000000030012,
+        96.904346834981,
+        70.163290960552,
+        0.4000001352093084,
+        101.904346834981,
+        75.163290960552
+      ]
+    },
+    {
+      "left": "J4_XL430_26_=>[0_1_1_18]",
+      "right": "J4_XL430_33_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:7",
+      "volume_mm3": 9.698181310881507,
+      "bounds_mm": [
+        -0.9000000000030012,
+        96.904346834981,
+        48.163290960552,
+        0.4000001352093074,
+        101.904346834981,
+        53.163290960552
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_02_=>[0_1_1_6]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 65.98182330579176,
+      "bounds_mm": [
+        -4.003323334276828,
+        223.81714018077,
+        -9.724861872901663,
+        -2.003323334276786,
+        253.31714018077,
+        -7.72486187290158
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_03_B3B-EH_1",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 38.13216000080228,
+      "bounds_mm": [
+        6.096676665723,
+        234.91714018076988,
+        -9.324861872902002,
+        16.09667666572301,
+        239.01714018077,
+        -5.524861872901986
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_04_B3B-EH_2",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 38.13216000079103,
+      "bounds_mm": [
+        6.096676665723,
+        234.91714018077022,
+        11.575138127097999,
+        16.09667666572301,
+        239.01714018077,
+        15.375138127098014
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_08_DC11_A01_IDLER_CAP_DUMMY_1",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.2029999999999824,
+      "bounds_mm": [
+        -7.955055710402885,
+        223.71714018076997,
+        2.3251381270982256,
+        -6.455055710402893,
+        223.81714018077,
+        3.7251381270982273
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_12_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.6494126090964626,
+      "bounds_mm": [
+        -13.503323334270009,
+        252.56714018076997,
+        -10.474861872902018,
+        -8.503323334270009,
+        253.81714028077184,
+        -5.474861872902018
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_14_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.6494125970172926,
+      "bounds_mm": [
+        -13.503323334270009,
+        252.56714018076997,
+        11.525138127097982,
+        -8.503323334270009,
+        253.8171402807721,
+        16.525138127097982
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_16_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.6494916425418397,
+      "bounds_mm": [
+        26.49667666572299,
+        252.56714018076997,
+        11.525138127097982,
+        31.49667666572299,
+        253.81714028077337,
+        16.525138127097982
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_18_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.649491655147205,
+      "bounds_mm": [
+        26.49667666572299,
+        252.56714018076997,
+        -10.474861872902018,
+        31.49667666572299,
+        253.8171402807721,
+        -5.474861872902018
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_20_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.6494126021525987,
+      "bounds_mm": [
+        -13.503323334269991,
+        225.4171400807697,
+        11.525138127098018,
+        -8.503323334269991,
+        226.66714018077002,
+        16.525138127098018
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_22_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.6494126038832252,
+      "bounds_mm": [
+        -13.503323334269991,
+        225.41714008076974,
+        -10.474861872901982,
+        -8.503323334269991,
+        226.66714018077002,
+        -5.4748618729019825
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_24_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.6494916479825974,
+      "bounds_mm": [
+        26.49667666572301,
+        225.41714008076968,
+        11.525138127098018,
+        31.49667666572301,
+        226.66714018077002,
+        16.525138127098018
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_26_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.6494916496440316,
+      "bounds_mm": [
+        26.49667666572301,
+        225.4171400807697,
+        -10.474861872901982,
+        31.49667666572301,
+        226.66714018077002,
+        -5.4748618729019825
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_27_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.09028558399114021,
+      "bounds_mm": [
+        -13.460896927399,
+        252.71714008076978,
+        -10.432435466031,
+        -8.545749741141,
+        253.81714028077184,
+        -5.517288279773
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_28_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.09028558395168947,
+      "bounds_mm": [
+        -13.460896927399,
+        252.71714008076975,
+        11.567564533969,
+        -8.545749741141,
+        253.8171402807721,
+        16.482711720227
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_29_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 2.3301481772096886,
+      "bounds_mm": [
+        25.74667666572288,
+        252.71713862730752,
+        10.775138127097764,
+        31.625175911611,
+        256.53164477886617,
+        16.653637383009787
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_30_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.20709955391263268,
+      "bounds_mm": [
+        26.36476283936862,
+        252.71713862730746,
+        -10.432435566031,
+        31.454250358852,
+        253.8171402807721,
+        -5.517288179773
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_31_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.09028558403298512,
+      "bounds_mm": [
+        -13.460896927399,
+        225.41714008076977,
+        -10.432435466031,
+        -8.545749741141,
+        226.51714028077026,
+        -5.517288279773
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_32_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.09028558399128184,
+      "bounds_mm": [
+        -13.460896927399,
+        225.41714008077,
+        11.567564533969,
+        -8.545749741141,
+        226.51714028077023,
+        16.482711720227
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_33_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.20709986291096927,
+      "bounds_mm": [
+        26.36476316582399,
+        225.41714008076997,
+        -10.432435566031,
+        31.454250358852,
+        226.51714028077023,
+        -5.517288179773
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J5_GRIPPER_XL430_34_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 0.20709953724704952,
+      "bounds_mm": [
+        26.364762839368606,
+        225.41714008076997,
+        11.567564433969,
+        31.454250358852,
+        226.51714173423247,
+        16.482711820227003
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_12_=>[0_1_1_18]",
+      "right": "J5_GRIPPER_XL430_27_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 9.698181312269432,
+      "bounds_mm": [
+        -13.50332333427001,
+        252.71714004555773,
+        -10.474861872902022,
+        -8.503323334270009,
+        254.01714018077004,
+        -5.474861872902018
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_14_=>[0_1_1_18]",
+      "right": "J5_GRIPPER_XL430_28_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 9.698181314098836,
+      "bounds_mm": [
+        -13.50332333427001,
+        252.7171400455577,
+        11.525138127097978,
+        -8.503323334270009,
+        254.01714018077004,
+        16.525138127097982
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_16_=>[0_1_1_18]",
+      "right": "J5_GRIPPER_XL430_29_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 9.698181312269467,
+      "bounds_mm": [
+        26.49667666572299,
+        252.71714004555773,
+        11.525138127097978,
+        31.49667666572299,
+        254.01714018077004,
+        16.525138127097982
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_18_=>[0_1_1_18]",
+      "right": "J5_GRIPPER_XL430_30_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 9.698181309052169,
+      "bounds_mm": [
+        26.49667666572299,
+        252.7171400455577,
+        -10.474861872902022,
+        31.49667666572299,
+        254.01714018077004,
+        -5.474861872902018
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_20_=>[0_1_1_18]",
+      "right": "J5_GRIPPER_XL430_32_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 9.69818131226938,
+      "bounds_mm": [
+        -13.503323334269991,
+        225.21714018076995,
+        11.525138127098018,
+        -8.50332333426999,
+        226.51714031598226,
+        16.52513812709802
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_22_=>[0_1_1_18]",
+      "right": "J5_GRIPPER_XL430_31_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 9.698181314098688,
+      "bounds_mm": [
+        -13.503323334269991,
+        225.21714018076995,
+        -10.474861872901982,
+        -8.50332333426999,
+        226.51714031598232,
+        -5.47486187290198
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_24_=>[0_1_1_18]",
+      "right": "J5_GRIPPER_XL430_34_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 9.69818130905309,
+      "bounds_mm": [
+        26.49667666572301,
+        225.21714018076995,
+        11.525138127098018,
+        31.49667666572301,
+        226.51714031598226,
+        16.52513812709802
+      ]
+    },
+    {
+      "left": "J5_GRIPPER_XL430_26_=>[0_1_1_18]",
+      "right": "J5_GRIPPER_XL430_33_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "right_unit": "/Robot Arm v14/gripper v9:1/XL,XC-330 v1:1",
+      "volume_mm3": 9.698181310883454,
+      "bounds_mm": [
+        26.49667666572301,
+        225.21714018076995,
+        -10.474861872901982,
+        31.49667666572301,
+        226.51714031598232,
+        -5.47486187290198
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_02_=>[0_1_1_6]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 65.98182330579189,
+      "bounds_mm": [
+        -2.300000000002999,
+        230.88043114132,
+        51.61315110511699,
+        27.199999999997,
+        232.88043114132,
+        53.61315110511699
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_03_B3B-EH_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 38.1321600008011,
+      "bounds_mm": [
+        8.799999999997,
+        212.78043114131998,
+        52.01315110511799,
+        12.899999999997,
+        222.78043114132,
+        55.81315110511801
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_04_B3B-EH_2",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 38.13216000080122,
+      "bounds_mm": [
+        8.799999999996997,
+        212.78043114131998,
+        72.91315110511798,
+        12.899999999997,
+        222.78043114132,
+        76.71315110511802
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_08_DC11_A01_IDLER_CAP_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.20299999999999774,
+      "bounds_mm": [
+        -2.400000000003001,
+        235.33216351744602,
+        63.66315110511698,
+        -2.300000000003,
+        236.83216351744602,
+        65.06315110511699
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_12_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.6494126091034402,
+      "bounds_mm": [
+        26.449999999996997,
+        237.38043114132,
+        50.863151105117,
+        27.70000009999901,
+        242.38043114132,
+        55.863151105117
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_14_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.6494125970237634,
+      "bounds_mm": [
+        26.449999999997,
+        237.38043114132,
+        72.863151105117,
+        27.700000099999,
+        242.38043114132,
+        77.863151105117
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_16_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.6494916425424218,
+      "bounds_mm": [
+        26.449999999997,
+        197.38043114132,
+        72.863151105118,
+        27.700000099999997,
+        202.38043114132,
+        77.863151105118
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_18_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.6494916551494091,
+      "bounds_mm": [
+        26.449999999996997,
+        197.38043114132,
+        50.863151105118,
+        27.700000099999002,
+        202.38043114132,
+        55.863151105118
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_20_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.6494126021594943,
+      "bounds_mm": [
+        -0.7000001000032811,
+        237.38043114132,
+        72.863151105117,
+        0.5499999999970004,
+        242.38043114132,
+        77.863151105117
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_22_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.6494126038892408,
+      "bounds_mm": [
+        -0.7000001000032793,
+        237.38043114132,
+        50.863151105117,
+        0.5499999999970004,
+        242.38043114132,
+        55.863151105117
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_24_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.6494916479885511,
+      "bounds_mm": [
+        -0.7000001000032757,
+        197.38043114132,
+        72.863151105118,
+        0.5499999999970004,
+        202.38043114132,
+        77.863151105118
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_26_=>[0_1_1_18]",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.6494916496445446,
+      "bounds_mm": [
+        -0.7000001000032842,
+        197.38043114132,
+        50.863151105118,
+        0.5499999999970004,
+        202.38043114132,
+        55.863151105118
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_27_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.09028558399752845,
+      "bounds_mm": [
+        26.599999899996746,
+        237.422857548191,
+        50.905577511988,
+        27.700000099999002,
+        242.33800473444902,
+        55.820724698245996
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_28_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.09028558395753902,
+      "bounds_mm": [
+        26.59999989999675,
+        237.422857548191,
+        72.905577511988,
+        27.700000099999002,
+        242.33800473444902,
+        77.820724698246
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_29_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 2.3301481772059742,
+      "bounds_mm": [
+        26.599998446534475,
+        197.25193189543208,
+        72.11315110511708,
+        30.414504598095473,
+        203.13043114132003,
+        77.9916503610297
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_30_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.20709955391797008,
+      "bounds_mm": [
+        26.599998446534475,
+        197.422857448191,
+        50.905577411989,
+        27.700000099999002,
+        202.5123449676744,
+        55.820724798247
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_31_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.09028558403877873,
+      "bounds_mm": [
+        -0.7000001000029982,
+        237.422857548191,
+        50.905577511988,
+        0.40000009999725167,
+        242.33800473444902,
+        55.820724698245996
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_32_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.09028558399718112,
+      "bounds_mm": [
+        -0.7000001000030133,
+        237.422857548191,
+        72.905577511988,
+        0.40000009999724767,
+        242.33800473444902,
+        77.820724698246
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_33_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.20709986290852458,
+      "bounds_mm": [
+        -0.7000001000030004,
+        197.422857448191,
+        50.905577411989,
+        0.40000009999724323,
+        202.51234464121902,
+        55.820724798247
+      ]
+    },
+    {
+      "left": "J6_XL430_00_DC11_A01_DUMMY_1",
+      "right": "J6_XL430_34_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 0.2070995372476409,
+      "bounds_mm": [
+        -0.70000010000328,
+        197.422857448191,
+        72.90557741198901,
+        0.4000015534595269,
+        202.51234496767438,
+        77.820724798247
+      ]
+    },
+    {
+      "left": "J6_XL430_12_=>[0_1_1_18]",
+      "right": "J6_XL430_27_DC11_A01_SPACER_DUMMY_1",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 9.698181312272913,
+      "bounds_mm": [
+        26.599999864784692,
+        237.38043114132,
+        50.863151105117,
+        27.899999999997004,
+        242.38043114132,
+        55.863151105117
+      ]
+    },
+    {
+      "left": "J6_XL430_14_=>[0_1_1_18]",
+      "right": "J6_XL430_28_DC11_A01_SPACER_DUMMY_2",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 9.698181314102827,
+      "bounds_mm": [
+        26.599999864784692,
+        237.38043114132,
+        72.863151105117,
+        27.899999999997004,
+        242.38043114132,
+        77.863151105117
+      ]
+    },
+    {
+      "left": "J6_XL430_16_=>[0_1_1_18]",
+      "right": "J6_XL430_29_DC11_A01_SPACER_DUMMY_3",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 9.698181312264337,
+      "bounds_mm": [
+        26.599999864784692,
+        197.38043114132,
+        72.863151105118,
+        27.899999999997004,
+        202.38043114132,
+        77.863151105118
+      ]
+    },
+    {
+      "left": "J6_XL430_18_=>[0_1_1_18]",
+      "right": "J6_XL430_30_DC11_A01_SPACER_DUMMY_4",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 9.698181309052108,
+      "bounds_mm": [
+        26.599999864784692,
+        197.38043114132,
+        50.863151105118,
+        27.899999999997004,
+        202.38043114132,
+        55.863151105118
+      ]
+    },
+    {
+      "left": "J6_XL430_20_=>[0_1_1_18]",
+      "right": "J6_XL430_32_DC11_A01_SPACER_DUMMY_6",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 9.698181312270822,
+      "bounds_mm": [
+        -0.9000000000030004,
+        237.38043114132,
+        72.863151105117,
+        0.4000001352093083,
+        242.38043114132,
+        77.863151105117
+      ]
+    },
+    {
+      "left": "J6_XL430_22_=>[0_1_1_18]",
+      "right": "J6_XL430_31_DC11_A01_SPACER_DUMMY_5",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 9.698181314101202,
+      "bounds_mm": [
+        -0.9000000000030004,
+        237.38043114132,
+        50.863151105117,
+        0.4000001352093079,
+        242.38043114132,
+        55.863151105117
+      ]
+    },
+    {
+      "left": "J6_XL430_24_=>[0_1_1_18]",
+      "right": "J6_XL430_34_DC11_A01_SPACER_DUMMY_8",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 9.69818130904747,
+      "bounds_mm": [
+        -0.9000000000030004,
+        197.38043114132,
+        72.863151105118,
+        0.4000001352093083,
+        202.38043114132,
+        77.863151105118
+      ]
+    },
+    {
+      "left": "J6_XL430_26_=>[0_1_1_18]",
+      "right": "J6_XL430_33_DC11_A01_SPACER_DUMMY_7",
+      "left_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "right_unit": "/Robot Arm v14/XL,XC-330 v1:8",
+      "volume_mm3": 9.698181310881042,
+      "bounds_mm": [
+        -0.9000000000030004,
+        197.38043114132,
+        50.863151105118,
+        0.4000001352093079,
+        202.38043114132,
+        55.863151105118
+      ]
+    }
+  ],
+  "motor_occurrence_count": 6,
+  "volume_tolerance_mm3": 0.0001,
+  "bbox_length_tolerance_mm": 1e-05,
+  "elapsed_seconds": 144.295
+}

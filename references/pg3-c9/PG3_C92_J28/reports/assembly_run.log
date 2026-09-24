@@ -1,0 +1,10 @@
+S1_frame insertion failures 0
+S2_drive insertion failures 0
+S3_bare_carriage_R insertion failures 0
+S3_bare_carriage_L insertion failures 0
+S4_link_R insertion failures 0
+S4_link_L insertion failures 0
+S5_caps insertion failures 0
+S6_finger_R insertion failures 0
+S6_finger_L insertion failures 0
+RESULT True

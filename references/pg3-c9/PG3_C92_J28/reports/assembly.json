@@ -1,0 +1,358 @@
+{
+  "revision": "PG3-C92-XL430-J28-C9",
+  "source_sha256": "cbd1721f39a9d011726966e0a350571a5909d53713a8ada61db6509bbc7f0e68",
+  "pass_": true,
+  "insertion_paths": [
+    {
+      "stage": "S1_frame",
+      "components": [
+        "frame",
+        "cap_-37.5_-24.5_nut",
+        "cap_-37.5_24.5_nut",
+        "cap_37.5_-24.5_nut",
+        "cap_37.5_24.5_nut"
+      ],
+      "samples": 33,
+      "offset_mm": [
+        32,
+        0
+      ],
+      "failures": [],
+      "pair_tests": 330
+    },
+    {
+      "stage": "S2_drive",
+      "components": [
+        "horn_spacer",
+        "crank",
+        "pivot_drive_R_nut",
+        "pivot_drive_L_nut"
+      ],
+      "samples": 33,
+      "offset_mm": [
+        32,
+        0
+      ],
+      "failures": [],
+      "pair_tests": 1188
+    },
+    {
+      "stage": "S3_bare_carriage_R",
+      "components": [
+        "carriage_R",
+        "pivot_carriage_R_nut",
+        "finger_R_-14_nut",
+        "finger_R_14_nut"
+      ],
+      "samples": 33,
+      "offset_mm": [
+        32,
+        0
+      ],
+      "failures": [],
+      "pair_tests": 2244
+    },
+    {
+      "stage": "S3_bare_carriage_L",
+      "components": [
+        "carriage_L",
+        "pivot_carriage_L_nut",
+        "finger_L_-14_nut",
+        "finger_L_14_nut"
+      ],
+      "samples": 33,
+      "offset_mm": [
+        32,
+        0
+      ],
+      "failures": [],
+      "pair_tests": 2772
+    },
+    {
+      "stage": "S4_link_R",
+      "components": [
+        "link_R"
+      ],
+      "samples": 33,
+      "offset_mm": [
+        32,
+        0
+      ],
+      "failures": [],
+      "pair_tests": 825
+    },
+    {
+      "stage": "S4_link_L",
+      "components": [
+        "link_L"
+      ],
+      "samples": 33,
+      "offset_mm": [
+        32,
+        0
+      ],
+      "failures": [],
+      "pair_tests": 858
+    },
+    {
+      "stage": "S5_caps",
+      "components": [
+        "cap_U",
+        "cap_D"
+      ],
+      "samples": 33,
+      "offset_mm": [
+        32,
+        0
+      ],
+      "failures": [],
+      "pair_tests": 2310
+    },
+    {
+      "stage": "S6_finger_R",
+      "components": [
+        "finger_R"
+      ],
+      "samples": 33,
+      "offset_mm": [
+        32,
+        0
+      ],
+      "failures": [],
+      "pair_tests": 1485
+    },
+    {
+      "stage": "S6_finger_L",
+      "components": [
+        "finger_L"
+      ],
+      "samples": 33,
+      "offset_mm": [
+        32,
+        0
+      ],
+      "failures": [],
+      "pair_tests": 1518
+    }
+  ],
+  "tool_access": [
+    {
+      "stage": "S1_case_mount",
+      "screw": "case_tapper_-11",
+      "diameter_mm": 3.0,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S1_case_mount",
+      "screw": "case_tapper_11",
+      "diameter_mm": 3.0,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S2_horn",
+      "screw": "horn_bolt_0",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S2_horn",
+      "screw": "horn_bolt_1",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S2_horn",
+      "screw": "horn_bolt_2",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S2_horn",
+      "screw": "horn_bolt_3",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S4_pivots",
+      "screw": "pivot_drive_R_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S4_pivots",
+      "screw": "pivot_drive_L_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S4_pivots",
+      "screw": "pivot_carriage_R_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S4_pivots",
+      "screw": "pivot_carriage_L_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S5_caps",
+      "screw": "cap_-37.5_-24.5_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S5_caps",
+      "screw": "cap_-37.5_24.5_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S5_caps",
+      "screw": "cap_37.5_-24.5_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S5_caps",
+      "screw": "cap_37.5_24.5_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S6_fingers",
+      "screw": "finger_R_-14_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S6_fingers",
+      "screw": "finger_R_14_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S6_fingers",
+      "screw": "finger_L_-14_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    },
+    {
+      "stage": "S6_fingers",
+      "screw": "finger_L_14_bolt",
+      "diameter_mm": 2.4,
+      "length_mm": 50,
+      "failures": []
+    }
+  ],
+  "fastener_stacks": [
+    {
+      "name": "drive_pivot",
+      "count": 2,
+      "length_mm": 10,
+      "seat_z": 30.3,
+      "tip_z": 20.3,
+      "engagement_nominal_mm": 1.6000000000000014,
+      "bottom_clearance_mm": null,
+      "protrusion_below_nut_mm": 0.3999999999999986,
+      "pass": true
+    },
+    {
+      "name": "carriage_pivot",
+      "count": 2,
+      "length_mm": 8,
+      "seat_z": 30.3,
+      "tip_z": 22.3,
+      "engagement_nominal_mm": 1.6000000000000014,
+      "bottom_clearance_mm": null,
+      "protrusion_below_nut_mm": 0.75,
+      "pass": true
+    },
+    {
+      "name": "cap",
+      "count": 4,
+      "length_mm": 12,
+      "seat_z": 27.4,
+      "tip_z": 15.399999999999999,
+      "engagement_nominal_mm": 1.6000000000000014,
+      "bottom_clearance_mm": null,
+      "protrusion_below_nut_mm": 1.8000000000000007,
+      "pass": true
+    },
+    {
+      "name": "finger",
+      "count": 4,
+      "length_mm": 16,
+      "seat_z": 36.3,
+      "tip_z": 20.299999999999997,
+      "engagement_nominal_mm": 1.6000000000000014,
+      "bottom_clearance_mm": null,
+      "protrusion_below_nut_mm": 0.5000000000000036,
+      "pass": true
+    },
+    {
+      "name": "horn",
+      "count": 4,
+      "length_mm": 6,
+      "seat_z": 22.5,
+      "tip_z": 16.5,
+      "engagement_nominal_mm": 2.5,
+      "bottom_clearance_mm": 1.0,
+      "protrusion_below_nut_mm": null,
+      "pass": true
+    },
+    {
+      "name": "case_self_tapper",
+      "count": 2,
+      "length_mm": 5,
+      "seat_z": 19.35,
+      "tip_z": 14.350000000000001,
+      "engagement_nominal_mm": 2.6499999999999986,
+      "bottom_clearance_mm": 1.3500000000000014,
+      "protrusion_below_nut_mm": null,
+      "pass": true
+    }
+  ],
+  "fit_stack": {
+    "pivot_radial_gap_per_side_mm": 0.20000000000000018,
+    "pivot_axial_total_gap_mm": 0.6000000000000005,
+    "pivot_nominal_front_back_gap_mm": [
+      0.3,
+      0.3
+    ],
+    "printed_shoulder_bearing_area_mm2": 15.480197800563706,
+    "guide_depth_total_gap_mm": 0.6000000000000014,
+    "guide_outer_side_gap_mm": 0.3000000000000007,
+    "link_tip_to_finger_surface_gap_mm": 3.200000000000003,
+    "pivot_retainer_OD_mm": 7.0,
+    "pivot_retainer_ID_mm": 2.2,
+    "pivot_retainer_t_mm": 0.5,
+    "pivot_retaining_radial_overlap_mm": 0.7999999999999998,
+    "no_physical_test": true
+  },
+  "assembly_angle_deg": 90,
+  "limitations": [
+    "No tool handle or human hand volume checked",
+    "Insertion paths sampled at 1 mm, not a continuous proof",
+    "Bolt/hole threads represented as cylinders; actual screw and pilot must be verified",
+    "Screw-head diameter <=3.8 mm, height <=2 mm required; general washers ID2.2 OD5 thickness0.3 mm; FOUR pivot retainers ID2.2 OD7 thickness0.5 mm"
+  ]
+}
