@@ -1,0 +1,19 @@
+Evidence: fastener BOM (PR #3, squash-merged 2026-09-25)
+
+Pre-squash commit: 33f8676 (tree 1d9b8b00639d22f1fec36cf2d370e3d17e9ff917 == merged tree)
+Assembly surveyed: outputs/camera-mount-id5-overhead-d405-r5/CAD/ID5_D405_mid_ASSEMBLY.step
+  sha256 5a60d93b5feef6957bef5a0a732fd26d3b147f1e7e39917eb87cf5d28943dbf1  (git-ignored run output)
+Specs: specs/pg3_candidate_bom.yaml sha256 d14dc0669dd8cdb73c72c731667f6cf925bcff6b4b33572f3bac31df0452ac1e
+       gripper_design/camera_overhead_d405_r5.py sha256 dde08cf48a5ad8458d24ce5926128a1cf1058fa68452a791bae38b172d7cb7f9
+
+Occurrence counts in the saved assembly (257 occurrences):
+  PG3_*: bolts 16 (pivot 4, cap 4, finger 4, horn 4) + case tappers 2; nuts 12; washers 12
+  CAM5_*: base tapping 4 + washers 4; tie bolt/nut/washer 2 each; D405 screws 2
+Arm sites from scripts/survey_arm_fastener_sites.py (same assembly):
+  P01->M01 case d2.5 x4 | P02->M01 horn d2.0 x4 | P02->M02 case d2.5 x4
+  P03->M02 horn/idler d2.0 x8 | P03->M03 case d2.1 x4 (+4 coaxial d4.8 counterbores)
+  P04->M03 horn/idler x8 | P04->M04 case d2.1 x4 | P05->M04 horn/idler x8 | P05->M05 case d2.1 x8
+  unmatched: base d2.7 x6, P05 d3.0 x6
+Fastener family limits: low_cost_robot studies/xl430_lowcost/intent/assembly_fit.yaml fastener_families
+  (horn_m2 max depth 3.5; case_side_tapping M2.6 into d2.1, max 4.0; cover replacements unresolved).
+Not verified: part numbers, engagement, torque, tool access, HN11-I101 contents.
