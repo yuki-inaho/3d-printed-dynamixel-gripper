@@ -20,6 +20,7 @@ from OCP.BRepAdaptor import BRepAdaptor_Surface
 
 from camera_jig.spec import SPEC
 from scripts.assembly_io import bounds, read_step
+from scripts.step_cache import read_rows
 
 ROOT = Path(__file__).resolve().parents[1]
 LINK = ROOT / SPEC.parent["step_path"]
@@ -63,7 +64,7 @@ def common_volume(a, b):
 
 def donor_parts():
     require_source(DONOR, DONOR_SHA)
-    _, _, rows = read_step(DONOR)
+    rows = read_rows(DONOR)
     if len(rows) != 34 or not rows[5].path.endswith("/NAUO6"):
         raise ValueError("Reference camera/spacer occurrence inventory changed")
     spacer, camera = rows[5].shape, rows[15].shape

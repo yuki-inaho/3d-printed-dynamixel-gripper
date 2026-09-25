@@ -1,7 +1,7 @@
 import pytest
 
-from scripts.assembly_io import read_step
 from scripts.review_pg3_slider_link_insertion import later_stages
+from scripts.step_cache import read_rows
 from scripts.verify_pg3_service_stages import mechanism_stages
 
 
@@ -9,7 +9,7 @@ from scripts.verify_pg3_service_stages import mechanism_stages
 def shapes():
     return {
         r.name: r.world
-        for r in read_step("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")[2]
+        for r in read_rows("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")
     }
 
 

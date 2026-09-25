@@ -14,7 +14,7 @@ from gripper_design.pg2 import _solid_only, digest
 from scripts.assembly_io import bounds, read_step
 from scripts.certify_pg3_insertion import certify_pair
 from scripts.review_pg3 import inspect_pairs
-from scripts.review_pg3_motion_clearance import EPSILON_MM, certify_interval
+from scripts.review_pg3_motion_clearance import EPSILON_MM, DistanceTo, certify_interval
 from scripts.review_pg3_motor_partition import PADDING, radial_distance
 from scripts.review_pg3_washer_contacts import finite_solid
 from scripts.verify_pg3_service_stages import mechanism_stages
@@ -106,8 +106,9 @@ def distance_certificate(mover, obstacle, offset):
             ):
                 raise ValueError("finite positive material required")
     speed = math.sqrt(sum(v * v for v in offset))
+    to_obstacle = DistanceTo(obstacle)
     proof = certify_interval(
-        lambda t: mover.translate(tuple(t * v for v in offset)).distance(obstacle),
+        lambda t: to_obstacle(mover.translate(tuple(t * v for v in offset))),
         speed,
         0,
         1,

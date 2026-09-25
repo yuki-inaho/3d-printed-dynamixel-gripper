@@ -3,7 +3,7 @@ import math
 import cadquery as cq
 import pytest
 
-from scripts.assembly_io import bounds, read_step
+from scripts.assembly_io import bounds
 from scripts.review_pg3_mechanism_insertion import insertion_stages, review_stage
 from scripts.review_pg3_nut_loading import (
     hex_translation_enclosure,
@@ -11,13 +11,14 @@ from scripts.review_pg3_nut_loading import (
     review_loaded_nut,
 )
 from scripts.review_pg3_slider_link_insertion import later_stages
+from scripts.step_cache import read_rows
 
 
 @pytest.fixture(scope="module")
 def shapes():
     return {
         r.name: r.world
-        for r in read_step("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")[2]
+        for r in read_rows("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")
     }
 
 

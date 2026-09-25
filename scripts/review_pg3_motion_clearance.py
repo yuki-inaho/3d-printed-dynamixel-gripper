@@ -14,6 +14,7 @@ from itertools import combinations
 from pathlib import Path
 
 import cadquery as cq
+from OCP.BRepExtrema import BRepExtrema_DistShapeShape
 
 from gripper_design.pg2 import _solid_only, digest
 from gripper_design.pg3 import GROUPS, group_for, group_transform, to_arm
@@ -23,6 +24,27 @@ EPSILON_MM = 1e-5
 MIN_SPAN_RAD = math.radians(0.5)
 KINEMATICS_PATH = Path(__file__).resolve().parents[1] / "gripper_design/pg3.py"
 REVIEWED_PLANAR_SHA256 = "ac2da0e35e6665c5526ed03f02f1881c4edd8c69c1679c58add1810814b1b775"
+
+
+class DistanceTo:
+    """Exact minimum B-rep distance from many placements to one fixed shape.
+
+    Same computation as ``cq.Shape.distance`` (BRepExtrema_DistShapeShape, default
+    flags, multithreaded), but the fixed shape is loaded once, so its sub-shape
+    maps and bounding volumes are not rebuilt for every sample of a motion sweep.
+    """
+
+    def __init__(self, fixed):
+        self._calc = BRepExtrema_DistShapeShape()
+        self._calc.SetMultiThread(True)
+        self._calc.LoadS1(fixed.wrapped)
+
+    def __call__(self, moving):
+        self._calc.LoadS2(moving.wrapped)
+        self._calc.Perform()
+        if not self._calc.IsDone():
+            raise ValueError("B-rep distance computation failed")
+        return self._calc.Value()
 
 
 def verify_axial_motion_contract(source=KINEMATICS_PATH):
@@ -121,7 +143,14 @@ def certify_interval(distance_at, speed_bound, low, high, *, min_span=MIN_SPAN_R
             reason = "subdivision_limit"
             break
         middle = (a + b) / 2
-        todo.extend(((middle, b), (a, middle)))
+        # The midpoint alone already proves |t - middle| < (d - EPSILON_MM) / speed_bound
+        # clear (same Lipschitz bound), so only the two uncovered remainders are
+        # subdivided instead of both full halves. speed_bound > 0 here: with zero
+        # speed, d > EPSILON_MM certified above and d <= EPSILON_MM stopped. The
+        # radius gives up one more EPSILON_MM so float rounding of middle +/- radius
+        # cannot open an unchecked sliver; radius < (b - a) / 2 keeps both remainders.
+        radius = max(0.0, (d - 2 * EPSILON_MM) / speed_bound)
+        todo.extend(((middle + radius, b), (a, middle - radius)))
     else:
         return {
             "status": "PROVEN_CLEAR",

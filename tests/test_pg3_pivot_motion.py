@@ -6,7 +6,14 @@ import pytest
 
 from gripper_design.interface_envelopes import axial_ray_cover
 from gripper_design.pg3 import PG3Model, group_transform, position_mm, to_arm
-from scripts.review_pg3_pivot_motion import inspect_pivot_motion, verified_link_voids
+from scripts.review_pg3_motion_clearance import DistanceTo
+from scripts.review_pg3_pivot_motion import (
+    inspect_pivot_motion,
+    moved,
+    neutral,
+    relative_to_link,
+    verified_link_voids,
+)
 
 
 def test_face_ray_cover_includes_body_interior_not_only_boundary():
@@ -38,6 +45,20 @@ def test_ray_cover_rejects_inverted_unbounded_solid():
 @pytest.fixture(scope="module")
 def source_parts():
     return {n: to_arm(s) for n, s in PG3Model().neutral.items()}
+
+
+@pytest.mark.parametrize("side", ["L", "R"])
+def test_link_frame_distance_equals_world_distance(source_parts, side):
+    """The certifier measures in the link frame; the world-frame answer must agree."""
+    local_link = neutral(source_parts[f"link_{side}"])
+    to_link = DistanceTo(local_link)
+    for host_name, group in ((f"carriage_{side}", side), ("crank", "drive")):
+        local = neutral(source_parts[host_name])
+        for degrees in (25, 47.5, 90, 112.5, 135):
+            t = math.radians(degrees)
+            world = moved(local, group, t).distance(moved(local_link, f"link_{side}", t))
+            relative = to_link(relative_to_link(local, group, f"link_{side}", t))
+            assert relative == pytest.approx(world, abs=1e-9), (host_name, degrees)
 
 
 @pytest.mark.parametrize(

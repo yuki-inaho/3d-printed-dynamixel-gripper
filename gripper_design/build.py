@@ -18,7 +18,8 @@ from gripper_design.parallel_jaw import (
     build_parallel_jaw,
     jaw_state,
 )
-from scripts.assembly_io import Occurrence, read_step
+from scripts.assembly_io import Occurrence
+from scripts.step_cache import read_rows
 
 ROOT = Path(__file__).resolve().parents[1]
 REPLACED_SOURCE_UNITS = ("P06_fixed_gripper_XL430", "P07_moving_gripper_XL430")
@@ -48,7 +49,7 @@ class TerminalPose:
 
 @lru_cache(maxsize=1)
 def _source_rows() -> tuple[Occurrence, ...]:
-    return tuple(read_step(ARM)[2])
+    return tuple(read_rows(ARM))
 
 
 def build_terminal_pose(

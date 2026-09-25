@@ -6,7 +6,7 @@ import pytest
 
 from camera_jig.id5_corner_anchor import validate_id5_case_anchor
 from gripper_design.build import _source_rows
-from scripts.assembly_io import read_step
+from scripts.step_cache import read_rows
 
 ROOT = Path(__file__).resolve().parents[1]
 MID_STEP = ROOT / "outputs/pg3-id5-p05-windows-r2/ID5_mid_P05_windows_CANDIDATE.step"
@@ -15,7 +15,7 @@ MID_STEP = ROOT / "outputs/pg3-id5-p05-windows-r2/ID5_mid_P05_windows_CANDIDATE.
 @pytest.fixture(scope="module")
 def motor_shapes():
     source = next(row.world for row in _source_rows() if row.name == "M05_ref00")
-    rows = read_step(MID_STEP)[2]
+    rows = read_rows(MID_STEP)
     fixed = next(row.world for row in rows if row.name == "PG3_XL430_fixed")
     horn = next(row.world for row in rows if row.name == "PG3_XL430_horn")
     return source, fixed, horn

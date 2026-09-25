@@ -1,8 +1,8 @@
 import cadquery as cq
 import pytest
 
-from scripts.assembly_io import read_step
 from scripts.review_pg3_crank_fasteners import inspect_bolt, inspect_cylinder_region
+from scripts.step_cache import read_rows
 
 
 def fixture():
@@ -39,7 +39,7 @@ def test_nominal_fixture_has_complete_boundary_evidence():
 def saved_open():
     return {
         r.name: r.world
-        for r in read_step("outputs/pg3-installable-candidate-r4/arm_camera_open_CANDIDATE.step")[2]
+        for r in read_rows("outputs/pg3-installable-candidate-r4/arm_camera_open_CANDIDATE.step")
     }
 
 

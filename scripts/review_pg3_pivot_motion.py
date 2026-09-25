@@ -9,7 +9,6 @@ import argparse
 import json
 import math
 from collections import Counter
-from functools import lru_cache
 from itertools import combinations
 from pathlib import Path
 
@@ -23,6 +22,7 @@ from scripts.assembly_io import bounds, read_step
 from scripts.review_pg3 import inspect_pairs
 from scripts.review_pg3_motion_clearance import (
     EPSILON_MM,
+    DistanceTo,
     axial_gap_certificate,
     certify_interval,
     point_speed_bound,
@@ -39,6 +39,21 @@ def moved(local, group, radians):
     transform = group_transform(group, math.degrees(radians))
     degrees = math.degrees(math.atan2(transform[1, 0], transform[0, 0]))
     return to_arm(local.rotate((0, 0, 0), (0, 0, 1), degrees).translate(tuple(transform[:3, 3])))
+
+
+def relative_to_link(local, host_group, link_group, radians):
+    """Place ``local`` in the link's construction frame at one opening angle.
+
+    Euclidean distance is invariant under a common rigid motion, so
+    distance(moved(A, host), moved(L, link)) == distance(T_link^-1 T_host A, L):
+    to_arm cancels and the link stays fixed, letting one DistanceTo(L) serve every
+    sample. Valid because every group_transform is Rz plus XY translation, which
+    verify_axial_motion_contract binds to the reviewed kinematics source.
+    """
+    degrees = math.degrees(radians)
+    rel = np.linalg.inv(group_transform(link_group, degrees)) @ group_transform(host_group, degrees)
+    angle = math.degrees(math.atan2(rel[1, 0], rel[0, 0]))
+    return local.rotate((0, 0, 0), (0, 0, 1), angle).translate(tuple(rel[:3, 3]))
 
 
 def verified_link_voids(link):
@@ -90,10 +105,7 @@ def inspect_pivot_motion(host, link, side, kind):
     link_group = f"link_{side}"
     local_link = neutral(link)
     link_speed = point_speed_bound(local_link, link_group)
-
-    @lru_cache(maxsize=2048)
-    def link_at(t):
-        return moved(local_link, link_group, t)
+    to_link = DistanceTo(local_link)
 
     checks = []
     for meta in evidence["all_boundary_faces"]:
@@ -127,7 +139,9 @@ def inspect_pivot_motion(host, link, side, kind):
                 )
                 row.update(
                     certify_interval(
-                        lambda t, local=local: moved(local, host_group, t).distance(link_at(t)),
+                        lambda t, local=local: to_link(
+                            relative_to_link(local, host_group, link_group, t)
+                        ),
                         speed,
                         math.radians(25),
                         math.radians(135),
