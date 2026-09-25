@@ -1,5 +1,7 @@
 # PG3 r5 末端BOM草稿
 
+> 現行の構成（ID5-only の PG3 ＋ D405 カメラ台 R5 ＋ アーム R3）の締結部品は [FASTENER_BOM.md](FASTENER_BOM.md) を参照。本書は r5（P06 支持部・P05 側面カメラ）の履歴。
+
 2026-09-23。**数量照合用。購入表・印刷リリースではない。**
 対象はPG3 C92 J28 C9、改修P06、P05固定カメラホルダの追加/交換部品。
 機械可読の正本は`specs/pg3_candidate_bom.yaml`。r5 mid STEPのSHAを固定している。
