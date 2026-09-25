@@ -5,7 +5,7 @@ import pytest
 
 from gripper_design.pg3 import PG3Model, position_mm, to_arm
 from gripper_design.pg3_installation import frame_candidate, installed_assembly
-from scripts.review_pg3_motion_clearance import certify_interval, point_speed_bound
+from scripts.review_pg3_motion_clearance import DistanceTo, certify_interval, point_speed_bound
 
 
 @pytest.fixture(scope="module")
@@ -50,10 +50,11 @@ def test_saved_frame_has_continuous_nominal_carriage_clearance(model, tmp_path, 
     cq.exporters.export(frame_candidate(model.neutral["frame"]), str(path))
     frame = cq.importers.importStep(str(path)).val()
     source = model.neutral["carriage_" + side]
+    to_frame = DistanceTo(frame)  # same exact distance; the saved frame is loaded once
 
     def distance(angle):
         shift = sign * (position_mm(math.degrees(angle)) - position_mm(90))
-        return frame.distance(source.translate((shift, 0, 0)))
+        return to_frame(source.translate((shift, 0, 0)))
 
     result = certify_interval(
         distance, point_speed_bound(source, side), math.radians(25), math.radians(135)
