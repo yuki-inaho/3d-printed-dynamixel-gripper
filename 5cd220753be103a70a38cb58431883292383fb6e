@@ -1,0 +1,41 @@
+Evidence: test-suite speedup (PR #2, squash-merged 2026-09-25)
+
+Pre-squash commits (PR #2 head refs/pull/2/head):
+  9ded9cd perf(tests): content-addressed STEP row cache for repeated parses
+  99ceac3 perf(clearance): certify only uncovered remainders; reuse fixed-shape distance
+  25e0cf1 perf(pivot): measure host-link clearance in the link frame
+  060e290 test(parallel): xdist grouping, README gate and profiling record
+Squash tree 1e9001b380ecce77f319563b7d862947831123e9 == tree of 060e290, which was the
+tree measured below. Each intermediate commit: ruff clean, full collection OK
+(513/717/719 tests), its new tests passing.
+
+Environment: Intel i7-9750H 6C/12T, 23 GB; Python 3.12; cadquery 2.7.0;
+cadquery-ocp 7.8.1.1.post1; pytest-xdist 3.8.0; MUJOCO_GL=egl.
+
+Timings (full suite, warm STEP cache unless noted):
+  baseline -n 6 --dist loadfile      508 passed  334 s  (sum of test time 1338 s; setup 384 s)
+  + STEP cache                       513 passed  280 s  (setup 149 s)
+  + xdist grouping                   513 passed  236 s  (setup 103 s)
+  + remainder certification          716 passed  149 s
+  final -n 6  --dist loadgroup       719 passed  131-134 s  (min available memory 9.9 GB)
+  final -n 8                         719 passed  114 s
+  final -n 12 (-n auto)              719 passed  109-113 s  (min available memory 9.0 GB)
+  final sequential                   719 passed  328.5 s    (baseline 14m06s)
+
+Micro-benchmarks (idle CPU):
+  read_step 35 MB candidate 10.26 s; cache cold fill 10.94 s; warm hit 0.33 s;
+    309 rows, metadata mismatches 0, max bbox diff 0.0, max volume diff 2.8e-14 mm3.
+  guide relief certify_interval per side: 127 checks / 27.0 s -> 63 checks / 14.1 s.
+  distance per call: cq default 244 ms; moved() 279 ms; DistanceTo reuse 108 ms;
+    MIN flag 332 ms (mt) - all values identical (diff 0.0).
+  pivot link-frame vs world distance: max 2.79e-14 mm over 48 real pairs.
+  installed_assembly: 12.24 s -> 2.18 s (donor STEP served from cache).
+
+Rejected (no measurable gain or disproportionate blast radius): MIN extrema flag,
+translate->moved, OCCT thread cap per xdist worker, longest-group-first ordering,
+inspect_pairs memoization (base of 17 evidence dependency lists), write_scene
+meshing (10.4 s is C++ BRepMesh; file is an evidence snapshot).
+
+Guard observed: editing gripper_design/pg3.py (read path only) tripped
+verify_axial_motion_contract in 23 tests; the edit was reverted, digest
+ac2da0e35e6665c5526ed03f02f1881c4edd8c69c1679c58add1810814b1b775 retained.
