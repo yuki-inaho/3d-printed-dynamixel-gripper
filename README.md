@@ -44,17 +44,18 @@ P05局所配線逃げ候補の検討は許可済みですが、CADは製作承�
 
 ```bash
 rtk proxy uv sync --locked
-rtk proxy env MUJOCO_GL=egl uv run pytest -q -n 6 --dist loadfile   # 並列（推奨）
-rtk proxy env MUJOCO_GL=egl uv run pytest -q                         # 逐次（同じテスト集合）
+rtk proxy env MUJOCO_GL=egl uv run pytest -q -n auto --dist loadgroup   # 並列（推奨）
+rtk proxy env MUJOCO_GL=egl uv run pytest -q                              # 逐次（同じテスト集合）
 rtk proxy env MUJOCO_GL=egl uv run python -m scripts.review_pg3_installation \
   --out outputs/pg3-install-next
 rtk proxy uv run python -m scripts.review_pg3_guide_relief outputs/pg3-install-next \
   --out outputs/pg3-install-next-audit/guide_relief
 ```
 
-並列実行は `--dist loadfile` でテストファイル単位に振り分け、重いSTEPを読むfixtureの重複を避ける。
-i7-9750H（6コア）では逐次14分06秒が並列5分41秒。コア数を超える並列はCPU競合で速くならない。
-6並列時の最小空きメモリは約5 GB。検証対象・閾値は逐次実行と同一。
+並列実行の振り分けは `tests/conftest.py` が決める（モジュール単位、重いモジュールは分割、合成キャリブレーションは1回生成）。
+繰り返し解析するSTEPは `.pytest_cache` の内容アドレス型キャッシュから読む（`CAD_STEP_CACHE_DIR=` で無効化）。
+i7-9750H（6コア/12スレッド）で719件: 12並列約1分50秒、6並列約2分15秒、逐次約5分30秒（変更前14分06秒）。12並列の最小空きメモリ約9 GB。
+内訳と判断は [テスト実行時間の記録](docs/TEST_PERFORMANCE.md)。検証対象・閾値は逐次実行と同一。
 
 現在の生成・監査は未達項目を残すためexit 2。正常終了や描画だけを印刷承認にしません。
 原本01_frame/07_crankのコピーは参照用で、r5の部品選択は`review.json`のreplacement mapに従います。
