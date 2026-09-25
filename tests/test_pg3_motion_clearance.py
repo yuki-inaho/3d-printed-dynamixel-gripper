@@ -5,7 +5,7 @@ import numpy as np
 import pytest
 
 from gripper_design.pg3 import PG3Model, group_transform, to_arm
-from scripts.assembly_io import bounds, read_step
+from scripts.assembly_io import bounds
 from scripts.review_pg3_motion_clearance import (
     KINEMATICS_PATH,
     axial_gap_certificate,
@@ -13,6 +13,7 @@ from scripts.review_pg3_motion_clearance import (
     point_speed_bound,
     verify_axial_motion_contract,
 )
+from scripts.step_cache import read_rows
 
 
 def test_axial_gap_proves_clearance_without_subdivision_budget():
@@ -80,7 +81,7 @@ def test_saved_link_washer_has_invariant_axial_separation(side, pivot, tmp_path)
         assembly.add(to_arm(model.neutral[name]), name=name)
     path = tmp_path / "pair.step"
     assembly.save(str(path))
-    saved = {r.name: r.world for r in read_step(path)[2]}
+    saved = {r.name: r.world for r in read_rows(path)}
     result = axial_gap_certificate(*(bounds(saved[n]) for n in names))
     assert result is not None
     assert result["continuous_distance_lower_bound_mm"] == pytest.approx(0.3, abs=1e-7)
@@ -159,7 +160,7 @@ def test_saved_crank_distance_does_not_miss_known_overlap(angle, tmp_path):
     assembly.add(to_arm(PG3Model().at(angle)["crank"]), name="crank")
     path = tmp_path / "crank.step"
     assembly.save(str(path))
-    crank = read_step(path)[2][0].world
+    crank = read_rows(path)[0].world
     assert crank.distance(crank.copy()) <= 1e-7
     # Crank thickness is several mm: 0.1 mm axial displacement still overlaps.
     shifted = crank.translate((0.1, 0, 0))

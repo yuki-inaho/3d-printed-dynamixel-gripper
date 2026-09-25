@@ -1,7 +1,7 @@
 import cadquery as cq
 import pytest
 
-from scripts.assembly_io import bounds, read_step
+from scripts.assembly_io import bounds
 from scripts.review_pg3_drive_screw_exchange import (
     axial_bolt_path_bound,
     exchange_stages,
@@ -9,13 +9,14 @@ from scripts.review_pg3_drive_screw_exchange import (
 )
 from scripts.review_pg3_local_contacts import reexpress, review_local_pairs
 from scripts.review_pg3_temporary_drive_screws import candidate
+from scripts.step_cache import read_rows
 
 
 @pytest.fixture(scope="module")
 def shapes():
     return {
         r.name: r.world
-        for r in read_step("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")[2]
+        for r in read_rows("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")
     }
 
 

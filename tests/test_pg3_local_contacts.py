@@ -2,8 +2,8 @@ import cadquery as cq
 import pytest
 
 from gripper_design.pg3 import PG3Model, shape_signature_difference, to_arm
-from scripts.assembly_io import read_step
 from scripts.review_pg3_local_contacts import reexpress, review_local_pairs
+from scripts.step_cache import read_rows
 
 
 def test_reexpression_is_one_rigid_transform_not_per_part_alignment():
@@ -52,7 +52,7 @@ def test_exported_pose_does_not_inherit_in_memory_clearance(pg3, tmp_path):
         assembly.add(to_arm(source[name]), name=f"PG3_{name}")
     path = tmp_path / "pair.step"
     assembly.save(str(path))
-    saved = {r.name: r.world for r in read_step(path)[2]}
+    saved = {r.name: r.world for r in read_rows(path)}
     nominal = review_local_pairs(saved, pair, 25)
     bolt = "PG3_horn_bolt_0"
     moved = saved | {bolt: saved[bolt].translate((-0.5, 0, 0))}

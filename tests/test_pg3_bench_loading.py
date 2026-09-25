@@ -5,18 +5,18 @@ import cadquery as cq
 import pytest
 
 from gripper_design.pg3_bench_support import to_world
-from scripts.assembly_io import read_step
 from scripts.review_pg3 import inspect_pairs
 from scripts.review_pg3_bench_loading import loading_stages, validate_stages
 from scripts.review_pg3_bench_support import linkage
 from scripts.review_pg3_mechanism_insertion import review_stage
+from scripts.step_cache import read_rows
 
 
 @pytest.fixture(scope="module")
 def fixture():
     shapes = {
         r.name: r.world
-        for r in read_step("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")[2]
+        for r in read_rows("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")
     }
     root = Path("outputs/pg3-bench-support-r1")
     report = json.loads((root / "review.json").read_text())

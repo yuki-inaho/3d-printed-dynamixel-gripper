@@ -1,7 +1,6 @@
 import cadquery as cq
 import pytest
 
-from scripts.assembly_io import read_step
 from scripts.review_pg3_mechanism_insertion import (
     aabb_overlap_upper,
     axial_boss_insertion_certificate,
@@ -12,6 +11,7 @@ from scripts.review_pg3_mechanism_insertion import (
     split_stage,
     swept_bounds,
 )
+from scripts.step_cache import read_rows
 
 
 def test_body_insertion_partition_excludes_only_movers_and_later_screws():
@@ -37,7 +37,7 @@ def test_no_previous_part_disappears_or_is_replaced():
 def test_saved_stage_coverage_and_post_insertion_screws():
     shapes = {
         r.name: r.world
-        for r in read_step("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")[2]
+        for r in read_rows("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")
     }
     stages = insertion_stages(shapes)
     g1, g2 = stages["G1_frame_case"], stages["G2_horn_drive"]
@@ -159,7 +159,7 @@ def test_boss_void_certificate_and_actual_penetration_controls():
 def test_saved_spacer_boss_full_shape_coverage():
     shapes = {
         r.name: r.world
-        for r in read_step("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")[2]
+        for r in read_rows("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")
     }
     spacer, horn = shapes["PG3_horn_spacer"], shapes["PG3_XL430_horn"]
     kwargs = {"seat": 18.8, "centre": (234.9, 164.6), "radius": 4}

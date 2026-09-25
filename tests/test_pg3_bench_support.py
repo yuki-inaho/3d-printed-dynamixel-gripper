@@ -2,14 +2,15 @@ import cadquery as cq
 import pytest
 
 from gripper_design.pg3_bench_support import build_support, to_print, to_world
-from scripts.assembly_io import bounds, read_step
+from scripts.assembly_io import bounds
+from scripts.step_cache import read_rows
 
 
 @pytest.fixture(scope="module")
 def shapes():
     return {
         r.name: r.world
-        for r in read_step("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")[2]
+        for r in read_rows("outputs/pg3-installable-candidate-r4/arm_camera_mid_CANDIDATE.step")
     }
 
 
