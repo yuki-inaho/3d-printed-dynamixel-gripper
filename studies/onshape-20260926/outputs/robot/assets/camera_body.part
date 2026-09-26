@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "1f8f316ef4f488303d1c1902",
+    "documentMicroversion": "d292858020311fd1e739a043",
+    "elementId": "89d3526e69e5a5b79255aece",
+    "fullConfiguration": "default",
+    "id": "Mo2Jg1oopLM0RO3ap",
+    "isStandardContent": false,
+    "name": "camera_body <1>",
+    "partId": "JRD",
+    "suppressed": false,
+    "type": "Part"
+}

@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "robot.urdf",
+      "fresh_sha256": "ed3031ef6d79f53a2b09110997f06aacaff781d705c3142c770ad196807c4ab2",
+      "received_sha256": "ed3031ef6d79f53a2b09110997f06aacaff781d705c3142c770ad196807c4ab2",
+      "equal": true
+    },
+    {
+      "path": "config.json",
+      "fresh_sha256": "76cdecbfc3eb5a52302689e0dae9413267c2af7e63d308d18bad3ea291c811e1",
+      "received_sha256": "76cdecbfc3eb5a52302689e0dae9413267c2af7e63d308d18bad3ea291c811e1",
+      "equal": true
+    },
+    {
+      "path": "assets/base_link.stl",
+      "fresh_sha256": "caa25a248015cd494290e5f6fb83666f268bce2248e0e52afb4df32ffc4a951e",
+      "received_sha256": "caa25a248015cd494290e5f6fb83666f268bce2248e0e52afb4df32ffc4a951e",
+      "equal": true
+    },
+    {
+      "path": "assets/camera_body.stl",
+      "fresh_sha256": "d8399c7169f9d187dd7129ad74260056613dee2111444bf114c08cacce72d209",
+      "received_sha256": "d8399c7169f9d187dd7129ad74260056613dee2111444bf114c08cacce72d209",
+      "equal": true
+    },
+    {
+      "path": "assets/camera_mount.stl",
+      "fresh_sha256": "20e763a91755d4d1fa1b463defb8a573e4e552fb5a4be9b13cc93b8d5f8903ed",
+      "received_sha256": "20e763a91755d4d1fa1b463defb8a573e4e552fb5a4be9b13cc93b8d5f8903ed",
+      "equal": true
+    },
+    {
+      "path": "assets/coupler_l.stl",
+      "fresh_sha256": "a5db062d366d052aa9171e9a60cb6f35c9a9004a6d3e812e18cd4726f61b623f",
+      "received_sha256": "a5db062d366d052aa9171e9a60cb6f35c9a9004a6d3e812e18cd4726f61b623f",
+      "equal": true
+    },
+    {
+      "path": "assets/coupler_r.stl",
+      "fresh_sha256": "2a4f116f50530e9a7622df2d27ded3c6f78cdeeae58eef03d09c397131706fbf",
+      "received_sha256": "2a4f116f50530e9a7622df2d27ded3c6f78cdeeae58eef03d09c397131706fbf",
+      "equal": true
+    },
+    {
+      "path": "assets/forearm.stl",
+      "fresh_sha256": "213183473db10f8f7e4f729cf3dd0d728e273306788ab84e2911e38db1388fa9",
+      "received_sha256": "213183473db10f8f7e4f729cf3dd0d728e273306788ab84e2911e38db1388fa9",
+      "equal": true
+    },
+    {
+      "path": "assets/gripper_crank.stl",
+      "fresh_sha256": "1a014322978cb6bb807f67645af6408fd08647bb8b0baaafe8efa5082b134fc8",
+      "received_sha256": "1a014322978cb6bb807f67645af6408fd08647bb8b0baaafe8efa5082b134fc8",
+      "equal": true
+    },
+    {
+      "path": "assets/jaw_l.stl",
+      "fresh_sha256": "671632d85909a457b7e5a15c6c8a82f47d937cdad847af02205b8cfe6e3e6c25",
+      "received_sha256": "671632d85909a457b7e5a15c6c8a82f47d937cdad847af02205b8cfe6e3e6c25",
+      "equal": true
+    },
+    {
+      "path": "assets/jaw_r.stl",
+      "fresh_sha256": "7940a73567ee917af09d010c63bb58b7e422aa31fd1ee0cb89341794b49e8573",
+      "received_sha256": "7940a73567ee917af09d010c63bb58b7e422aa31fd1ee0cb89341794b49e8573",
+      "equal": true
+    },
+    {
+      "path": "assets/shoulder_yaw.stl",
+      "fresh_sha256": "2e769aa680f89047b48540bb87ea57aee49232b5fd560aeb66125d034af1a4fd",
+      "received_sha256": "2e769aa680f89047b48540bb87ea57aee49232b5fd560aeb66125d034af1a4fd",
+      "equal": true
+    },
+    {
+      "path": "assets/upper_arm.stl",
+      "fresh_sha256": "1216785312b2abb9556691c74df8a841896f4b4de09e1853e4309d72d6c6955c",
+      "received_sha256": "1216785312b2abb9556691c74df8a841896f4b4de09e1853e4309d72d6c6955c",
+      "equal": true
+    },
+    {
+      "path": "assets/wrist.stl",
+      "fresh_sha256": "3a50e0889d77181c8bbc17dc3f6a64fa9578d178e5b32f820dd1edb6591ce698",
+      "received_sha256": "3a50e0889d77181c8bbc17dc3f6a64fa9578d178e5b32f820dd1edb6591ce698",
+      "equal": true
+    }
+  ]
+}

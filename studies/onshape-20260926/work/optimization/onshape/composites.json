@@ -1,0 +1,1212 @@
+{
+  "base_link": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "base_link",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"&4b6$eJx108FSwjAQBuCXiVcn2WTT7JEWHDsOVJNy0FuBKj1IK5QDby8dHD04/y3Nl2x3s8ldzurl3B4vS0qivqZRfRnaXG6z0zixWq/KapUadTpvpiVde5oRF3rJ17n2MHbjbVOjFr8fyam8mr+mjdp3p7H/CRVUERezeoomqvsc+uNYNx9z64N316X90B6bsesP5S4nVe5mJr3fB/XwVAz5Yy7D9m3P+fq2rxqiTl6Vy+cq1lMu0UYXOfqYzS3bEKLETdRx+9+cxWaxkXbIXBCGxsFDsxbGtGIMNJYMmnUam8VGGv/PCDbtcS6aoZHgsyYhbJkItoDNe9gj8oyNLaydmLBZ3COyARt5XPs1GWiGYO1GGPbdZBmswbAQNGdgLobwvTYan7UOGXorGf+V8A1//Epy\",id);",
+              "nodeId": "MvLVYaiUDPO/fXV4x",
+              "deterministicIds": [
+                "JFD",
+                "JFH",
+                "JFL",
+                "JFP",
+                "JFT",
+                "JFX",
+                "JFb",
+                "JFf",
+                "JFj",
+                "JFn",
+                "JFr",
+                "JFv",
+                "JFz",
+                "JF3",
+                "JF7",
+                "JF/",
+                "KFDB",
+                "KFHB",
+                "KFLB",
+                "KFPB",
+                "KFTB",
+                "KFXB",
+                "KFbB",
+                "KFfB",
+                "KFjB",
+                "KFnB",
+                "KFrB",
+                "KFvB",
+                "KFzB",
+                "KF3B",
+                "KF7B",
+                "KF/B",
+                "KFDC",
+                "KFHC",
+                "KFLC",
+                "KFPC",
+                "KFLL"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "MgMpezCJoSbKO5pVT",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "MoV74BIDuqI3wTdYe",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "MJNYR9RxxVKmUfS2t",
+      "featureId": "FcxOiiCjJzDxp2c_347",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "0a88b4bbad88e9f110da08f3"
+  },
+  "shoulder_yaw": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "shoulder_yaw",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"&4b6$eJx108tSwjAUBuCXiVvn9CQ5SZYUcOw4UE3KQncFqnQhrVAWvL3t4LBx/l2SL5dzaR9yq94uzem64hTUzzSqrn2Th9vqNE5WbdZFuU61Ol+205a2Oc/Yzmllx7XmOLTD7VCtlvdJMiovF+9pqw7teej+rvJqHpezarotqPa7705DVX8tNElw49aub0710HbHYp+zKvazLH0+evX0Mu/z5zz0u4+DzTe3c2UfKYkqVq9lrKZYoo4m2ijRLTgwZzHEbaS4+2eZE2yCjbRD5h17aCYL0DKBdzpnDDSjCVrmNDbBRhq/RwxNAsFYxAdsDtdanMUmmrExNhNgj8R4bFpw7tpiY9yjMUxsFHDu5KHZIDB36zzsuxWCOVjDFhobHAvh73osNay1cYT+Fcd8f+4X/uJKww==\",id);",
+              "nodeId": "MEAUhb9xMgZC6YS7O",
+              "deterministicIds": [
+                "KFTC",
+                "KFXC",
+                "KFbC",
+                "KFfC",
+                "KFjC",
+                "KFnC",
+                "KFrC",
+                "KFvC",
+                "KFzC",
+                "KF3C",
+                "KF7C",
+                "KF/C",
+                "KFDD",
+                "KFHD",
+                "KFLD",
+                "KFPD",
+                "KFTD",
+                "KFXD",
+                "KFbD",
+                "KFfD",
+                "KFjD",
+                "KFnD",
+                "KFrD",
+                "KFvD",
+                "KFzD",
+                "KF3D",
+                "KF7D",
+                "KF/D",
+                "KFDE",
+                "KFHE",
+                "KFLE",
+                "KFPE",
+                "KFTE",
+                "KFXE",
+                "KFbE",
+                "KFfE",
+                "KFPL"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "M4+VEusi9tdpk5oZp",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "MGH9KEFJ+/CsZt0fm",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "McPe+zXO1Ape9oZd5",
+      "featureId": "FDviJnE46ZC1grI_348",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "44ef33ff0ae19a7ed978365a"
+  },
+  "upper_arm": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "upper_arm",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"&4b6$eJx1001TwjAQBuA/E6/OJukm2SMFHDsOVJNy0FuBKj1IK5QD/952cPTgvLc0T7Ldj/YuZ/VyaU7XlUmivqZVde2bXG670zqx2qyLcp1qdb5spyNtc54ZntOKx73mOLTD7VKtlr8PKVN5uXhNW3Voz0P3EyqoeVzOqimaqPaz705DVX8sTMaWxqNd35zqoe2OxT43qtjPdHq/D+rhad7nj7n0u7cD55vbvbKPlJwqVs9lrKZcoo1Z5OiiXxhLnEWJ20hx999IkBkRbMETNHYammEDjQjG1Ow9NOMsNCKHjESwBQffR4GxeQtzIW+wMe41ccCWOcbG2KyFMyJrsGnBteuAjfCMiBiZFjGo9tE0Ni+odi1Oo7lrySyqQYvhAI08zCUI/K7HjsFe68AZ+lc8/aX5Dc/USmA=\",id);",
+              "nodeId": "MMt9LNkohxlJc9cVY",
+              "deterministicIds": [
+                "KFjE",
+                "KFnE",
+                "KFrE",
+                "KFvE",
+                "KFzE",
+                "KF3E",
+                "KF7E",
+                "KF/E",
+                "KFDF",
+                "KFHF",
+                "KFLF",
+                "KFPF",
+                "KFTF",
+                "KFXF",
+                "KFbF",
+                "KFfF",
+                "KFjF",
+                "KFnF",
+                "KFrF",
+                "KFvF",
+                "KFzF",
+                "KF3F",
+                "KF7F",
+                "KF/F",
+                "KFDG",
+                "KFHG",
+                "KFLG",
+                "KFPG",
+                "KFTG",
+                "KFXG",
+                "KFbG",
+                "KFfG",
+                "KFjG",
+                "KFnG",
+                "KFrG",
+                "KFvG",
+                "KFTL"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "MH1h2O11MOmOu26JC",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "M8aDm0i8hAyfbABoF",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "MP6SmxFI85LhxOCWq",
+      "featureId": "FnOsId5a5UPMxcP_349",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "964b2981cb1b81ee0719f02a"
+  },
+  "forearm": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "forearm",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"&4b6$eJx1001zwiAQBuA/Q68dWFg+jqJ2muloWoiH9hY1rTnUpBoP/vsmY8dL570RHlh2l/AQWbxdmtN1RTmIn2lUXfsmhtvsNM4sNuuiXOdanC/baUnbnGfEc7nica45Du1w21SL5f0jGxHLxXveikN7Hrq/UF7M03JWTdGCaL/77jRU9ddCeW31uLTrm1M9tN2x2EcSxX6m8uejF08v8z4+x9DvPg4cN7d9ZZ9ktqJYvZapmnJJOpnEySa3UNZ7l0LaJpl2/80QNo3NSQ1NBwNNekbGXsOYbJSEJoNFZrwO2Aibk/A8YwM2tjgXZmwG99oYwkbBY/PYlIV3ZMZuQ5Ma1y4Jmvb4jrT32JyFtWvH2CzB2rUx8N41OVyDDAoZBQVzIYf/a2LcaxoLBDY+v/uT/gVnN0pj\",id);",
+              "nodeId": "M8uUldZTBgAmaGoah",
+              "deterministicIds": [
+                "KFzG",
+                "KF3G",
+                "KF7G",
+                "KF/G",
+                "KFDH",
+                "KFHH",
+                "KFLH",
+                "KFPH",
+                "KFTH",
+                "KFXH",
+                "KFbH",
+                "KFfH",
+                "KFjH",
+                "KFnH",
+                "KFrH",
+                "KFvH",
+                "KFzH",
+                "KF3H",
+                "KF7H",
+                "KF/H",
+                "KFDI",
+                "KFHI",
+                "KFLI",
+                "KFPI",
+                "KFTI",
+                "KFXI",
+                "KFbI",
+                "KFfI",
+                "KFjI",
+                "KFnI",
+                "KFrI",
+                "KFvI",
+                "KFzI",
+                "KF3I",
+                "KF7I",
+                "KF/I",
+                "KFXL"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "M9KngzgWt10Rqj+dv",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "MAxZ8bX8JDys75M0x",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "MKzOKtJltG1e4yeIx",
+      "featureId": "FpdSMObyfgCSIeS_350",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "b974415044cef2e648331a64"
+  },
+  "wrist": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "wrist",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"&669$eJx1lD1zwjAMhv+Mu/Ys+VMjAXrN9SCtE4Z2C5CWDCUphIF/3+TosfTezfZjSa8lSw+ZU2+X5nRdcSnqZ1pV177J5HY6rUunNuu8WJe1Ol+205W2Oc+Mn+uVG8+a49AON6NaLe+b0qqsWLyXW3Voz0P35yqqeVrOqsmbqPa7705DVX8tiEn8eLXrm1M9tN0x32es8v2Mys/HqJ5e5n32nEm/+zi4bHOzK/qkS6/y1WuRqklLMskml3wKk7/ok6Rt0mn3j2kXEKNgI2TWCGQUoU8dvIXMOg0ZicEsYqYdjqctYiKMpIgQRAEmWkKAyDuGyELkCBVHnIbIRPhkEyBiWBhhCxERfDJphKJE9OQYNapz9IzER2sdQuyhDA3/cBCY3hAYdYV3BsXyDHvQRZheFwKysgb+DRaLcsjGIoVsDCHEAcYazSDCCsmjejHBrmTS0ErD/mKt4aQaRwBEePaxgSOM6R7rFxHmvxg=\",id);",
+              "nodeId": "MhYDCQBWDIb0D/6H/",
+              "deterministicIds": [
+                "KFDJ",
+                "KFHJ",
+                "KFLJ",
+                "KFPJ",
+                "KFTJ",
+                "KFXJ",
+                "KFbJ",
+                "KFfJ",
+                "KFjJ",
+                "KFnJ",
+                "KFrJ",
+                "KFvJ",
+                "KFzJ",
+                "KF3J",
+                "KF7J",
+                "KF/J",
+                "KFDK",
+                "KFHK",
+                "KFLK",
+                "KFPK",
+                "KFTK",
+                "KFXK",
+                "KFbK",
+                "KFfK",
+                "KFjK",
+                "KFnK",
+                "KFrK",
+                "KFvK",
+                "KFzK",
+                "KF3K",
+                "KF7K",
+                "KF/K",
+                "KFDL",
+                "KFHL",
+                "KFbL",
+                "KFfL",
+                "KFjL",
+                "KFnL",
+                "KFTM",
+                "KFXM",
+                "KFPN",
+                "KFTN",
+                "KFXN",
+                "KFbN",
+                "KFfN",
+                "KFjN",
+                "KFnN",
+                "KFrN",
+                "KFvN",
+                "KFzN",
+                "KF3N",
+                "KF7N",
+                "KF/O",
+                "KFDP"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "Mz7/LSGLtKoJQZp2p",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "MZTk18DJVDLZqs1MM",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "Mbcn/tPpGSzN3LmjR",
+      "featureId": "FxeUkI7wJUSQlxe_351",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "13142e60188ce99a0faf8a23"
+  },
+  "gripper_crank": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "gripper_crank",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"&209$eJx9z8FugzAMBuCX8a4ThIQkRwKthibK5tBDd4OStTmsZJAe+vZrxLRJk7Kb48+/5TwoBq9XM98aoiV8hqq7OaPk2g21ZrDf1e1O97BchzBizVKMZdKwe8tcvPVrpofNz0NTUG110AOc7eKn700CStwUXVgmwX64afZdf6oYT+l9cnJm7r2dLvWoCNRjker3RwHb59KpJyXd8e3M1H6NtQ4TnUPdvLTYhVMwQ4oMc+QVo5KjxAETPP4hIqSIEf+HRBalLIlRLliUeDyVxo5PKSUxyoSMUpbHiPz+6wt8EZgb\",id);",
+              "nodeId": "MFalIDTcFFfiASIPU",
+              "deterministicIds": [
+                "KFrL",
+                "KFvL",
+                "KFbM",
+                "KFfM",
+                "KFjM",
+                "KFnM",
+                "KFrM",
+                "KFvM",
+                "KFzM",
+                "KFvO",
+                "KFzO",
+                "KF3O",
+                "KF7O"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "MrQ5h2ICCJjolLxLd",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "MF1KbSnZ7nCKewa6I",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "MIFjXCTIZCK8ovPUR",
+      "featureId": "F38p3AmhaWETT6f_352",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "088698e780363f6a8feb0983"
+  },
+  "jaw_l": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "jaw_l",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"&1ee$eJx1j0FvgzAMhf+Md50C2DQ5EuhUNFE2hx62G9CszWElA3rov18R2w6Tcnt+n5/1/KAJXq92vFWxUfC1qObmrVaru2hDcNiX9d60MF27ZcXZKetzUdHdspfZzWumhe3fYBB0XbyZDs5umoefSxJy3mbNckyB+/TDODftqUAp5X1z8HZsZzdcyqOOoTxmkfl4lPD0nHu908r372fShzVWexYmhbJ6qblZqnDCyMQpbwokJFbcseD+P8JYBFCMpIIIMYQSFQVQlKYyiCgJIhFqGBGF/ooIgymUm1/0DbqRkNw=\",id);",
+              "nodeId": "M47kOxkzij0pvCjfz",
+              "deterministicIds": [
+                "KFDM",
+                "KFHM",
+                "KFLM",
+                "KFDN",
+                "KFHN",
+                "KFLN",
+                "KFXO",
+                "KFbO",
+                "KFfO",
+                "KFjO",
+                "KFnO",
+                "KFrO"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "MsUYBpK7xXGMpCgvk",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "MM4hYt5iO61HiZQ/W",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "MIzzj6dsceEK+P5u2",
+      "featureId": "FCezU5R55QuZGcS_353",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "a44c9c696906ffd55ceb8b04"
+  },
+  "jaw_r": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "jaw_r",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"&1ee$eJx1zrFygzAMBuCXUdcedhC2RwzphesRWpkM7QaEJh4aXHCGvH3jo+3QO2+SPv06PWiE1+s432puFHyFqr25Uat1GmqDcNhXzd50sFz7sGLHJR+KpMb7aLx469dMB9u/xqSgm/LN9HC2i59+LkkoaJu34ZgC++mm2bfdqcQU5X1zcuPceTtdqqPmUB1zZj4eJTw9F07vtHLD+xn1YY01jhKTQVW/NNSGV2hDKSFlJEpkDElRTwkN/yhVKokQR8GjhCJKSRohJlWchIoSz2IkJItSFk+xzS99A79IkPE=\",id);",
+              "nodeId": "Me/nRh7ZZdY+6cbEP",
+              "deterministicIds": [
+                "KFzL",
+                "KF3L",
+                "KF7L",
+                "KF3M",
+                "KF7M",
+                "KF/M",
+                "KF/N",
+                "KFDO",
+                "KFHO",
+                "KFLO",
+                "KFPO",
+                "KFTO"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "MSLx/9HT/eHq/9CjZ",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "MKfSNDftTU3lxCplK",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "MmEYBGawp2XWwJtoc",
+      "featureId": "FFPv0PdKb5xGFsy_354",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "2542bcf14e14dfa2f95ae208"
+  },
+  "coupler_l": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "coupler_l",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"%B5$QueryM5Sa$entityTypeBa$EntityTypeS4$BODYSb$historyTypeS8$CREATIONS9$importTagD4393Sb$operationIdB2$IdA1Sf.8$FKCpBHB9pcZh5BUimportOpS9$queryTypeS6$IMPORT\",id);",
+              "nodeId": "M/OFiklVm3oa5kNob",
+              "deterministicIds": [
+                "KFPM"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "M7ec4S7PQgkCQnYXU",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "Mb5m5n10Bg5ielQ5I",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "M9eCkqMTq8q20btMF",
+      "featureId": "FBZhff5SNrslHsd_355",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "e6ec3d2a60d470dd3698da27"
+  },
+  "coupler_r": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "coupler_r",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"%B5$QueryM5Sa$entityTypeBa$EntityTypeS4$BODYSb$historyTypeS8$CREATIONS9$importTagD4963Sb$operationIdB2$IdA1Sf.8$FKCpBHB9pcZh5BUimportOpS9$queryTypeS6$IMPORT\",id);",
+              "nodeId": "M6YzmorrHo92gurEI",
+              "deterministicIds": [
+                "KF/L"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "MbR2sqQN2OVVn3pHb",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "MwdkZiQLp+r6jz1Gc",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "MdzZoB0BW43W65y4L",
+      "featureId": "F8hadorrL2b3cFh_356",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "06f242efbec94e97c3bfd6f9"
+  },
+  "camera_mount": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "camera_mount",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"&280$eJx1kD1vg0AMhv+Mu1b3zd3IQaqgitD6yNBukNCEoeEKZMi/bxBVK1XyZvvxa1nPg9fweu3GWymCg6+lqm+x826dLnXQsN8V1S40MF3bZaXvppSLjJX6Pusucz+voQY2v01Q4Kv8LbRw7qd5+DllIcNNWi/XHPSfcRjnujnlXDB13xxiNzZzP1yKoxdQHFMePh4tPD1n0W+9i4f3s/b7NVZFZMFAUb5UWC+voESFGg0mubUOHbbI8PCPJEwRxJAZIw1FBCeINpYiWlKEMYIoqykiBUV4QhBpKAeSUw4k6U1oyoFglDf+5+AbpDy4NQ==\",id);",
+              "nodeId": "MNY7qsVak5dj3aBcH",
+              "deterministicIds": [
+                "KFHP",
+                "KFLP",
+                "KFPP",
+                "KFTP",
+                "KFXP",
+                "KFbP",
+                "KFfP",
+                "KFjP",
+                "KFnP",
+                "KFrP",
+                "KFvP",
+                "KFzP",
+                "KF3P",
+                "KF7P",
+                "KF/P",
+                "KFDQ",
+                "KFHQ",
+                "KFLQ"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "MAqRdqqvXiFCSpdtO",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "MOSG2ZaFDE8+C3LWg",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "M1b3dL3k4yzd4JdGw",
+      "featureId": "FlZelo6BH1VwEAs_357",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "c3dcb525d666d5bba54b9587"
+  },
+  "camera_body": {
+    "btType": "BTFeatureDefinitionResponse-1617",
+    "rejectMicroversionSkew": false,
+    "microversionSkew": false,
+    "featureState": {
+      "btType": "BTFeatureState-1688",
+      "featureStatus": "OK",
+      "inactive": false
+    },
+    "feature": {
+      "btType": "BTMFeature-134",
+      "namespace": "",
+      "name": "camera_body",
+      "suppressed": false,
+      "parameters": [
+        {
+          "btType": "BTMParameterQueryList-148",
+          "libraryRelationType": "DEFAULT",
+          "queries": [
+            {
+              "btType": "BTMIndividualQuery-138",
+              "queryStatement": null,
+              "queryString": "query=qCompressed(1.0,\"%B5$QueryM2S9$queryTypeB9$QueryTypeS5$UNIONSa$subqueriesA3C0M5Sa$entityTypeBa$EntityTypeS4$BODYSb$historyTypeS8$CREATIONS9$importTagD100Sb$operationIdB2$IdA1Sf.8$FKCpBHB9pcZh5BUimportOpR0S6$IMPORTC0M5R3R4R5R6R7D35R9RbR0RcC0M5R3R4R5R6R7D8R9RbR0Rc\",id);",
+              "nodeId": "MeDifYDCfKXLhqKKw",
+              "deterministicIds": [
+                "KFPQ",
+                "KFTQ",
+                "KFXQ"
+              ]
+            }
+          ],
+          "filter": {
+            "btType": "BTAndFilter-110",
+            "operand1": {
+              "btType": "BTAndFilter-110",
+              "operand1": {
+                "btType": "BTAndFilter-110",
+                "operand1": {
+                  "btType": "BTEntityTypeFilter-124",
+                  "entityType": "BODY"
+                },
+                "operand2": {
+                  "btType": "BTModifiableEntityOnlyFilter-1593",
+                  "modifiableOnly": true
+                }
+              },
+              "operand2": {
+                "btType": "BTAllowMeshGeometryFilter-1026",
+                "allowsMeshGeometry": true
+              }
+            },
+            "operand2": {
+              "btType": "BTSketchObjectFilter-184",
+              "isSketchObject": false,
+              "objectType": "NOT_SKETCH_OBJECT"
+            }
+          },
+          "nodeId": "MRM16LYHBTM6Wh1xc",
+          "parameterId": "bodies",
+          "parameterName": ""
+        },
+        {
+          "btType": "BTMParameterBoolean-144",
+          "libraryRelationType": "DEFAULT",
+          "value": true,
+          "nodeId": "MOR8lM6Rps2gn7WfB",
+          "parameterId": "closed",
+          "parameterName": ""
+        }
+      ],
+      "nodeId": "MQxe4xYm3Vwpsz9s9",
+      "featureId": "F1wl5AOdYp4nSDH_358",
+      "featureType": "compositePart",
+      "returnAfterSubfeatures": false,
+      "subFeatures": [],
+      "parameterLibraries": [],
+      "suppressionState": null
+    },
+    "libraryVersion": 0,
+    "serializationVersion": "1.2.21",
+    "sourceMicroversion": "7c2801766fae0153fcbfd141"
+  }
+}

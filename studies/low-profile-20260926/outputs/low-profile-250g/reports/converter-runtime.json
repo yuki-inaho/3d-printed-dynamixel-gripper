@@ -1,0 +1,10 @@
+{
+  "converter": "0.2.0",
+  "pythonocc": "8.0.1",
+  "python": "3.12.14",
+  "occt": "8.0.1",
+  "occt_build": "all_hbfeb9d6_201",
+  "loaded_kernel": [
+    "temp/intake_d405_20260926/converter/.pixi/envs/default/lib/libTKernel.so.8.0.1"
+  ]
+}

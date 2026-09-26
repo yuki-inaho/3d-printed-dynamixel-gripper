@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "original_files": 1526,
+  "original_unchanged": 1514,
+  "modified_original_paths": [
+    "README.md",
+    "diary/handoff_Sep26-2026_low_profile_d405.md",
+    "diary/onshape-low-profile-20260926-manifest.json",
+    "diary/workdoc_Sep26-2026_low_profile_d405.md",
+    "studies/low-profile-20260926/README.md",
+    "studies/low-profile-20260926/SNAPSHOT-MANIFEST.json",
+    "studies/low-profile-20260926/outputs/low-profile-250g/CONVERTER.md",
+    "studies/low-profile-20260926/outputs/low-profile-250g/HANDOFF.md",
+    "studies/low-profile-20260926/outputs/low-profile-250g/WORKDOC.md",
+    "studies/low-profile-20260926/outputs/low-profile-250g/robot/README.md",
+    "studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation.py",
+    "studies/low-profile-20260926/outputs/low-profile-250g/robot/validate_robot.py"
+  ],
+  "missing_original_paths": [],
+  "geometry_images_pdf_skills_preserved": 523,
+  "protected_changes": [],
+  "font_files": [],
+  "note": "All original geometry, images, PDF, existing skills/references are byte-identical; generated manifests/documents and validation source may change."
+}

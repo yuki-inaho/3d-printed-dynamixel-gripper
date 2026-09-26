@@ -1,0 +1,62 @@
+{
+  "source": "Existing geometry.json, not rerun during Onshape task",
+  "input_sha256": "5a60d93b5feef6957bef5a0a732fd26d3b147f1e7e39917eb87cf5d28943dbf1",
+  "nonzero_intersections": [
+    {
+      "status": "PASS",
+      "method": "named_receiver_ROI",
+      "intersection_mm3": 5.089380098803906,
+      "outside_roi_mm3": 0.0,
+      "gap_mm": 0.0,
+      "actual_thread_strength_verified": false,
+      "receiver": "D405 rear M3x0.5, datasheet max insert 4.0 mm",
+      "a": "CAM5_D405_SCREW_0",
+      "b": "CAM5_D405_BODY"
+    },
+    {
+      "status": "PASS",
+      "method": "named_receiver_ROI",
+      "intersection_mm3": 5.089380098803902,
+      "outside_roi_mm3": 0.0,
+      "gap_mm": 0.0,
+      "actual_thread_strength_verified": false,
+      "receiver": "D405 rear M3x0.5, datasheet max insert 4.0 mm",
+      "a": "CAM5_D405_SCREW_1",
+      "b": "CAM5_D405_BODY"
+    }
+  ],
+  "thread_forming_contacts": [
+    {
+      "status": "PASS",
+      "method": "receiver_ROI_and_top_plane",
+      "outside_roi_signed_gap_mm": 0.0009999999993510755,
+      "thread_forming_contact_is_intended": true,
+      "a": "CAM5_BASE_TAP_0",
+      "b": "PG3_XL430_fixed"
+    },
+    {
+      "status": "PASS",
+      "method": "receiver_ROI_and_top_plane",
+      "outside_roi_signed_gap_mm": 0.0009999999993510755,
+      "thread_forming_contact_is_intended": true,
+      "a": "CAM5_BASE_TAP_1",
+      "b": "PG3_XL430_fixed"
+    },
+    {
+      "status": "PASS",
+      "method": "receiver_ROI_and_top_plane",
+      "outside_roi_signed_gap_mm": 0.0009999999993510755,
+      "thread_forming_contact_is_intended": true,
+      "a": "CAM5_BASE_TAP_2",
+      "b": "PG3_XL430_fixed"
+    },
+    {
+      "status": "PASS",
+      "method": "receiver_ROI_and_top_plane",
+      "outside_roi_signed_gap_mm": 0.0009999999993510755,
+      "thread_forming_contact_is_intended": true,
+      "a": "CAM5_BASE_TAP_3",
+      "b": "PG3_XL430_fixed"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "local-links",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "name": "final-cad-tests.xml",
+      "pass": true,
+      "tests": 18
+    },
+    {
+      "name": "final-converter-tests.xml",
+      "pass": true,
+      "tests": 17
+    },
+    {
+      "name": "new-urdf-validation",
+      "pass": true
+    },
+    {
+      "name": "version-step-hash",
+      "pass": true
+    },
+    {
+      "name": "manual",
+      "pass": true,
+      "images": 19
+    },
+    {
+      "name": "artifacts",
+      "pass": true
+    },
+    {
+      "name": "private-values-and-secret-patterns",
+      "pass": true,
+      "matching_files": []
+    },
+    {
+      "name": "private-permissions",
+      "pass": true,
+      "modes": [
+        384,
+        384,
+        448,
+        448
+      ]
+    },
+    {
+      "name": "api-counter",
+      "pass": true,
+      "direct_calls_this_study": 0
+    },
+    {
+      "name": "git-diff-check-text",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "original-tracked-source-low_cost_robot",
+      "pass": true,
+      "external_untracked": [
+        "skills/cad-reverse-parametric/studies/xl430_lowcost/intent/hn11_m2_idler.yaml",
+        "skills/cad-reverse-parametric/studies/xl430_lowcost/parts/hn11_m2_idler.py",
+        "skills/cad-reverse-parametric/studies/xl430_lowcost/validate_hn11_replacement.py",
+        "skills/cad-reverse-parametric/tests/test_hn11_replacement.py"
+      ],
+      "handling": "Unrelated untracked user work is preserved and excluded from this task's commits"
+    },
+    {
+      "name": "original-tracked-source-3d-printed-dynamixel-gripper",
+      "pass": true,
+      "external_untracked": [],
+      "handling": "Unrelated untracked user work is preserved and excluded from this task's commits"
+    }
+  ]
+}

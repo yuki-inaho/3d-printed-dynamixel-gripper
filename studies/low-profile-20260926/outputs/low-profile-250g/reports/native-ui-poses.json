@@ -1,0 +1,212 @@
+{
+  "status": "UI_APPLIED_NUMERICAL_CHECK_PENDING",
+  "direct_api_calls": 0,
+  "method": "Normal UI Named positions, stored values and applied notification",
+  "numerical_geometry_verification": "pending UI STEP export",
+  "cases": [
+    {
+      "name": "zero",
+      "stored_deg": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "applied_message": true,
+      "evidence": "interactive CLI zero is applied notification and onshape-pose-zero.png"
+    },
+    {
+      "name": "small_joint1_yaw",
+      "rowId": "0z/QhXG1E9KW7uLo",
+      "stored_deg": [
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      "applied_message": true,
+      "evidence": "interactive pilot result and onshape-pose-small_joint1_yaw.png"
+    },
+    {
+      "name": "small_joint2_shoulder",
+      "rowId": "y64CuidZMOY3IiA8",
+      "stored_deg": [
+        0,
+        10,
+        0,
+        0,
+        0
+      ],
+      "applied_message": true,
+      "method": "1-degree UI intermediate positions, all applied",
+      "evidence": "onshape-pose-small_joint2_shoulder.png"
+    },
+    {
+      "name": "small_joint3_elbow",
+      "rowId": "vxWJY67JD6yq7MMv",
+      "stored_deg": [
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "applied_message": true,
+      "apply_evidence": "applied message",
+      "numerical_geometry_check": "pending UI STEP export",
+      "notification_tail": "_r <1>\ncamera_mount <1>\ncamera_body <1>\nMate features (13)\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\ndof_jaw_left\ndof_jaw_right\ndof_coupler_left\ndof_coupler_right\ndof_camera_mount_fixed\ndof_camera_body_fixed\nclosing_left\nclosing_right\n \nNamed positions\nName\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\nAdd named position\nPart Studio 1\nLow Profile D405 - Rigid Groups\nLEGACY Static - before update\nCAD Imports\nLow Profile D405 - Motion and URDF\nsmall_joint3_elbow is applied.\n\u00d7\nClose"
+    },
+    {
+      "name": "small_joint4_wrist",
+      "rowId": "27ySCL4FlQ8oMMiy",
+      "stored_deg": [
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "applied_message": true,
+      "apply_evidence": "applied message",
+      "numerical_geometry_check": "pending UI STEP export",
+      "notification_tail": "_r <1>\ncamera_mount <1>\ncamera_body <1>\nMate features (13)\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\ndof_jaw_left\ndof_jaw_right\ndof_coupler_left\ndof_coupler_right\ndof_camera_mount_fixed\ndof_camera_body_fixed\nclosing_left\nclosing_right\n \nNamed positions\nName\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\nAdd named position\nPart Studio 1\nLow Profile D405 - Rigid Groups\nLEGACY Static - before update\nCAD Imports\nLow Profile D405 - Motion and URDF\nsmall_joint4_wrist is applied.\n\u00d7\nClose"
+    },
+    {
+      "name": "small_gripper_drive",
+      "rowId": "EB48cOLLBe3R17OS",
+      "stored_deg": [
+        0,
+        0,
+        0,
+        0,
+        10
+      ],
+      "applied_message": true,
+      "apply_evidence": "applied message",
+      "numerical_geometry_check": "pending UI STEP export",
+      "notification_tail": "r <1>\ncamera_mount <1>\ncamera_body <1>\nMate features (13)\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\ndof_jaw_left\ndof_jaw_right\ndof_coupler_left\ndof_coupler_right\ndof_camera_mount_fixed\ndof_camera_body_fixed\nclosing_left\nclosing_right\n \nNamed positions\nName\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\nAdd named position\nPart Studio 1\nLow Profile D405 - Rigid Groups\nLEGACY Static - before update\nCAD Imports\nLow Profile D405 - Motion and URDF\nsmall_gripper_drive is applied.\n\u00d7\nClose"
+    },
+    {
+      "name": "wrist_lower",
+      "rowId": "MWOF2azGwYbflYHo",
+      "stored_deg": [
+        0,
+        0,
+        0,
+        -102,
+        0
+      ],
+      "applied_message": true,
+      "apply_evidence": "applied message",
+      "numerical_geometry_check": "pending UI STEP export",
+      "notification_tail": "coupler_r <1>\ncamera_mount <1>\ncamera_body <1>\nMate features (13)\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\ndof_jaw_left\ndof_jaw_right\ndof_coupler_left\ndof_coupler_right\ndof_camera_mount_fixed\ndof_camera_body_fixed\nclosing_left\nclosing_right\n \nNamed positions\nName\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\nAdd named position\nPart Studio 1\nLow Profile D405 - Rigid Groups\nLEGACY Static - before update\nCAD Imports\nLow Profile D405 - Motion and URDF\nwrist_lower is applied.\n\u00d7\nClose"
+    },
+    {
+      "name": "wrist_upper",
+      "rowId": "fxBAkqfe89GFjuVx",
+      "stored_deg": [
+        0,
+        0,
+        0,
+        124,
+        0
+      ],
+      "captured_deg": [
+        0,
+        0,
+        0,
+        124,
+        0
+      ],
+      "applied_message": true,
+      "apply_evidence": "already-current according to menu",
+      "numerical_geometry_check": "pending UI STEP export",
+      "notification_tail": "er_r <1>\ncamera_mount <1>\ncamera_body <1>\nMate features (13)\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\ndof_jaw_left\ndof_jaw_right\ndof_coupler_left\ndof_coupler_right\ndof_camera_mount_fixed\ndof_camera_body_fixed\nclosing_left\nclosing_right\n \nNamed positions\nName\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\nAdd named position\nPart Studio 1\nLow Profile D405 - Rigid Groups\nLEGACY Static - before update\nCAD Imports\nLow Profile D405 - Motion and URDF\nwrist_upper has been updated\n\u00d7\nClose"
+    },
+    {
+      "name": "gripper_open",
+      "rowId": "0Kt1SHet+Wm09rYB",
+      "stored_deg": [
+        0,
+        0,
+        0,
+        0,
+        65
+      ],
+      "captured_deg": [
+        0,
+        0,
+        0,
+        0,
+        65
+      ],
+      "applied_message": true,
+      "apply_evidence": "applied message",
+      "numerical_geometry_check": "pending UI STEP export",
+      "notification_tail": "r_r <1>\ncamera_mount <1>\ncamera_body <1>\nMate features (13)\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\ndof_jaw_left\ndof_jaw_right\ndof_coupler_left\ndof_coupler_right\ndof_camera_mount_fixed\ndof_camera_body_fixed\nclosing_left\nclosing_right\n \nNamed positions\nName\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\nAdd named position\nPart Studio 1\nLow Profile D405 - Rigid Groups\nLEGACY Static - before update\nCAD Imports\nLow Profile D405 - Motion and URDF\ngripper_open has been updated\n\u00d7\nClose"
+    },
+    {
+      "name": "gripper_closed",
+      "rowId": "mGfybFhkBK1j/Zca",
+      "stored_deg": [
+        0,
+        0,
+        0,
+        0,
+        -45
+      ],
+      "captured_deg": [
+        0,
+        0,
+        0,
+        0,
+        -45
+      ],
+      "applied_message": true,
+      "apply_evidence": "applied message",
+      "numerical_geometry_check": "pending UI STEP export",
+      "notification_tail": "r <1>\ncamera_mount <1>\ncamera_body <1>\nMate features (13)\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\ndof_jaw_left\ndof_jaw_right\ndof_coupler_left\ndof_coupler_right\ndof_camera_mount_fixed\ndof_camera_body_fixed\nclosing_left\nclosing_right\n \nNamed positions\nName\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\nAdd named position\nPart Studio 1\nLow Profile D405 - Rigid Groups\nLEGACY Static - before update\nCAD Imports\nLow Profile D405 - Motion and URDF\ngripper_closed has been updated\n\u00d7\nClose"
+    },
+    {
+      "name": "restored_mid",
+      "rowId": "3pEe7ej5OeQPgCYt",
+      "stored_deg": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "captured_deg": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "applied_message": true,
+      "apply_evidence": "applied message",
+      "numerical_geometry_check": "pending UI STEP export",
+      "notification_tail": "r_r <1>\ncamera_mount <1>\ncamera_body <1>\nMate features (13)\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\ndof_jaw_left\ndof_jaw_right\ndof_coupler_left\ndof_coupler_right\ndof_camera_mount_fixed\ndof_camera_body_fixed\nclosing_left\nclosing_right\n \nNamed positions\nName\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\n\u27f3 - z\nAdd named position\nPart Studio 1\nLow Profile D405 - Rigid Groups\nLEGACY Static - before update\nCAD Imports\nLow Profile D405 - Motion and URDF\nrestored_mid has been updated\n\u00d7\nClose"
+    }
+  ],
+  "failure_history": [
+    {
+      "case": "small_joint2_shoulder",
+      "error": "### Error\nTimeoutError: page.waitForFunction: Timeout 20000ms exceeded.\n",
+      "resolution": "UI small increments 1..10 deg; saved-value stability checks"
+    },
+    {
+      "case": "wrist_upper",
+      "error": "### Error\nError: Named position solver failed: wrist_upper\n",
+      "resolution": "UI retry; see timestamped WORKDOC and captured values"
+    },
+    {
+      "case": "gripper_closed",
+      "error": "### Error\nError: Named position solver failed: gripper_closed\n",
+      "resolution": "UI retry; see timestamped WORKDOC and captured values"
+    }
+  ]
+}

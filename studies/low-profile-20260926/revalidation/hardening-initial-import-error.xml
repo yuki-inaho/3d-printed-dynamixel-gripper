@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.094" timestamp="2026-09-26T11:34:31.111558+00:00" hostname="local"><testcase classname="" name="studies.low-profile-20260926.outputs.low-profile-250g.robot.test_validation_hardening" time="0.000"><error message="collection failure">ImportError while importing test module './studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:11: in &lt;module&gt;
+    from validate_robot import ROOT, compare_native
+E   ModuleNotFoundError: No module named 'validate_robot'</error></testcase></testsuite></testsuites>

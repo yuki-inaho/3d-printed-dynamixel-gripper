@@ -1,0 +1,663 @@
+{
+  "camera_body_exclusion": "Depth origins inside nominal camera body; only CAM5_D405_BODY excluded, all support/cable included",
+  "hfov": 84,
+  "size": [
+    848,
+    480
+  ],
+  "physical_camera_calibrated": false,
+  "cases": [
+    {
+      "variant": "compact75",
+      "case": "open_empty",
+      "angle": 25.0,
+      "edge": null,
+      "side": "left",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 16416,
+          "visible_fraction": 0.9609527290448343,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 21195,
+          "visible_fraction": 0.9717386175984902,
+          "touches_border": false
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/compact75_open_empty_left.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "open_empty",
+      "angle": 25.0,
+      "edge": null,
+      "side": "right",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 21195,
+          "visible_fraction": 0.9686718565699457,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 16416,
+          "visible_fraction": 0.9629020467836257,
+          "touches_border": false
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/compact75_open_empty_right.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "mid_empty",
+      "angle": 90.0,
+      "edge": null,
+      "side": "left",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 12347,
+          "visible_fraction": 0.9182797440673848,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 16809,
+          "visible_fraction": 0.9618656672020941,
+          "touches_border": false
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/compact75_mid_empty_left.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "mid_empty",
+      "angle": 90.0,
+      "edge": null,
+      "side": "right",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 16809,
+          "visible_fraction": 0.9443155452436195,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 12347,
+          "visible_fraction": 0.9317243054993116,
+          "touches_border": false
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/compact75_mid_empty_right.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "closed_empty",
+      "angle": 135.0,
+      "edge": null,
+      "side": "left",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 12290,
+          "visible_fraction": 0.9140764849471115,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 14873,
+          "visible_fraction": 0.8624352854165266,
+          "touches_border": false
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/compact75_closed_empty_left.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "closed_empty",
+      "angle": 135.0,
+      "edge": null,
+      "side": "right",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 14873,
+          "visible_fraction": 0.8838835473677134,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 12288,
+          "visible_fraction": 0.8828938802083334,
+          "touches_border": false
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/compact75_closed_empty_right.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "cube_10_grasp",
+      "angle": 103.48702204296693,
+      "edge": 10,
+      "side": "left",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 3471,
+          "visible_fraction": 0.9155862863728033,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 12155,
+          "visible_fraction": 0.9152612093788565,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 16019,
+          "visible_fraction": 0.870653598851364,
+          "touches_border": false
+        }
+      },
+      "frustum": {
+        "edge": 10,
+        "side": "left",
+        "inside": true,
+        "min_depth_mm": 87.7273849431631
+      },
+      "target_pass": true,
+      "image": "images/camera/compact75_cube_10_grasp_left.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "cube_10_grasp",
+      "angle": 103.48702204296693,
+      "edge": 10,
+      "side": "right",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 3471,
+          "visible_fraction": 0.9155862863728033,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 16019,
+          "visible_fraction": 0.893751170485049,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 12155,
+          "visible_fraction": 0.9229946524064171,
+          "touches_border": false
+        }
+      },
+      "frustum": {
+        "edge": 10,
+        "side": "right",
+        "inside": true,
+        "min_depth_mm": 87.7273849431631
+      },
+      "target_pass": true,
+      "image": "images/camera/compact75_cube_10_grasp_right.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "cube_20_grasp",
+      "angle": 82.14723559179815,
+      "edge": 20,
+      "side": "left",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 14281,
+          "visible_fraction": 1.0,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 12724,
+          "visible_fraction": 0.9089908833700094,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 17335,
+          "visible_fraction": 0.828843380444188,
+          "touches_border": false
+        }
+      },
+      "frustum": {
+        "edge": 20,
+        "side": "left",
+        "inside": true,
+        "min_depth_mm": 81.60366058620515
+      },
+      "target_pass": true,
+      "image": "images/camera/compact75_cube_20_grasp_left.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "cube_20_grasp",
+      "angle": 82.14723559179815,
+      "edge": 20,
+      "side": "right",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 14281,
+          "visible_fraction": 1.0,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 17335,
+          "visible_fraction": 0.8084222670897029,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 12724,
+          "visible_fraction": 0.9232159698208111,
+          "touches_border": false
+        }
+      },
+      "frustum": {
+        "edge": 20,
+        "side": "right",
+        "inside": true,
+        "min_depth_mm": 81.60366058620515
+      },
+      "target_pass": true,
+      "image": "images/camera/compact75_cube_20_grasp_right.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "cube_30_grasp",
+      "angle": 64.25929128027107,
+      "edge": 30,
+      "side": "left",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 34291,
+          "visible_fraction": 0.990930564871249,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 13981,
+          "visible_fraction": 0.8504398826979472,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 18625,
+          "visible_fraction": 0.6956241610738255,
+          "touches_border": false
+        }
+      },
+      "frustum": {
+        "edge": 30,
+        "side": "left",
+        "inside": true,
+        "min_depth_mm": 75.47993622924722
+      },
+      "target_pass": true,
+      "image": "images/camera/compact75_cube_30_grasp_left.png"
+    },
+    {
+      "variant": "compact75",
+      "case": "cube_30_grasp",
+      "angle": 64.25929128027107,
+      "edge": 30,
+      "side": "right",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 34291,
+          "visible_fraction": 0.9909888892129131,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 18625,
+          "visible_fraction": 0.6781744966442953,
+          "touches_border": false
+        },
+        "jaw_R": {
+          "projected_pixels": 13981,
+          "visible_fraction": 0.8630999213217939,
+          "touches_border": false
+        }
+      },
+      "frustum": {
+        "edge": 30,
+        "side": "right",
+        "inside": true,
+        "min_depth_mm": 75.47993622924722
+      },
+      "target_pass": true,
+      "image": "images/camera/compact75_cube_30_grasp_right.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "open_empty",
+      "angle": 25.0,
+      "edge": null,
+      "side": "left",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 23336,
+          "visible_fraction": 0.8623585875899897,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 30687,
+          "visible_fraction": 0.8791670740052792,
+          "touches_border": true
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/low_profile30_open_empty_left.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "open_empty",
+      "angle": 25.0,
+      "edge": null,
+      "side": "right",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 30687,
+          "visible_fraction": 0.8791670740052792,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 23336,
+          "visible_fraction": 0.8623585875899897,
+          "touches_border": true
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/low_profile30_open_empty_right.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "mid_empty",
+      "angle": 90.0,
+      "edge": null,
+      "side": "left",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 16749,
+          "visible_fraction": 0.8665591975640337,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 23963,
+          "visible_fraction": 0.8740975670825857,
+          "touches_border": true
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/low_profile30_mid_empty_left.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "mid_empty",
+      "angle": 90.0,
+      "edge": null,
+      "side": "right",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 23963,
+          "visible_fraction": 0.8740975670825857,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 16749,
+          "visible_fraction": 0.8665591975640337,
+          "touches_border": true
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/low_profile30_mid_empty_right.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "closed_empty",
+      "angle": 135.0,
+      "edge": null,
+      "side": "left",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 16213,
+          "visible_fraction": 0.8620243014864615,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 20895,
+          "visible_fraction": 0.8051208423067719,
+          "touches_border": true
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/low_profile30_closed_empty_left.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "closed_empty",
+      "angle": 135.0,
+      "edge": null,
+      "side": "right",
+      "metrics": {
+        "jaw_L": {
+          "projected_pixels": 20895,
+          "visible_fraction": 0.8051208423067719,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 16213,
+          "visible_fraction": 0.8620243014864615,
+          "touches_border": true
+        }
+      },
+      "frustum": null,
+      "target_pass": null,
+      "image": "images/camera/low_profile30_closed_empty_right.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "cube_10_grasp",
+      "angle": 103.48702204296693,
+      "edge": 10,
+      "side": "left",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 3540,
+          "visible_fraction": 0.9327683615819209,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 16314,
+          "visible_fraction": 0.8628172122103714,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 22745,
+          "visible_fraction": 0.8433501868542537,
+          "touches_border": true
+        }
+      },
+      "frustum": {
+        "edge": 10,
+        "side": "left",
+        "inside": true,
+        "min_depth_mm": 92.34524108447474
+      },
+      "target_pass": true,
+      "image": "images/camera/low_profile30_cube_10_grasp_left.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "cube_10_grasp",
+      "angle": 103.48702204296693,
+      "edge": 10,
+      "side": "right",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 3540,
+          "visible_fraction": 0.9327683615819209,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 22745,
+          "visible_fraction": 0.8433501868542537,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 16314,
+          "visible_fraction": 0.8628172122103714,
+          "touches_border": true
+        }
+      },
+      "frustum": {
+        "edge": 10,
+        "side": "right",
+        "inside": true,
+        "min_depth_mm": 92.34524108447474
+      },
+      "target_pass": true,
+      "image": "images/camera/low_profile30_cube_10_grasp_right.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "cube_20_grasp",
+      "angle": 82.14723559179815,
+      "edge": 20,
+      "side": "left",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 14254,
+          "visible_fraction": 0.9999298442542445,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 17453,
+          "visible_fraction": 0.8610554059474016,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 24779,
+          "visible_fraction": 0.7929294967512813,
+          "touches_border": true
+        }
+      },
+      "frustum": {
+        "edge": 20,
+        "side": "left",
+        "inside": true,
+        "min_depth_mm": 85.51511406555254
+      },
+      "target_pass": true,
+      "image": "images/camera/low_profile30_cube_20_grasp_left.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "cube_20_grasp",
+      "angle": 82.14723559179815,
+      "edge": 20,
+      "side": "right",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 14254,
+          "visible_fraction": 0.9999298442542445,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 24779,
+          "visible_fraction": 0.7929294967512813,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 17453,
+          "visible_fraction": 0.8610554059474016,
+          "touches_border": true
+        }
+      },
+      "frustum": {
+        "edge": 20,
+        "side": "right",
+        "inside": true,
+        "min_depth_mm": 85.51511406555254
+      },
+      "target_pass": true,
+      "image": "images/camera/low_profile30_cube_20_grasp_right.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "cube_30_grasp",
+      "angle": 64.25929128027107,
+      "edge": 30,
+      "side": "left",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 33750,
+          "visible_fraction": 0.9595555555555556,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 19476,
+          "visible_fraction": 0.814284247278702,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 26848,
+          "visible_fraction": 0.7107047079856973,
+          "touches_border": true
+        }
+      },
+      "frustum": {
+        "edge": 30,
+        "side": "left",
+        "inside": true,
+        "min_depth_mm": 78.68498704663035
+      },
+      "target_pass": true,
+      "image": "images/camera/low_profile30_cube_30_grasp_left.png"
+    },
+    {
+      "variant": "low_profile30",
+      "case": "cube_30_grasp",
+      "angle": 64.25929128027107,
+      "edge": 30,
+      "side": "right",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 33750,
+          "visible_fraction": 0.9595555555555556,
+          "touches_border": false
+        },
+        "jaw_L": {
+          "projected_pixels": 26848,
+          "visible_fraction": 0.7107047079856973,
+          "touches_border": true
+        },
+        "jaw_R": {
+          "projected_pixels": 19476,
+          "visible_fraction": 0.814284247278702,
+          "touches_border": true
+        }
+      },
+      "frustum": {
+        "edge": 30,
+        "side": "right",
+        "inside": true,
+        "min_depth_mm": 78.68498704663035
+      },
+      "target_pass": true,
+      "image": "images/camera/low_profile30_cube_30_grasp_right.png"
+    }
+  ],
+  "selected_pass": true,
+  "selected_min_visibility": 0.9327683615819209,
+  "selected_min_axial_depth_mm": 78.68498704663035,
+  "720p_100mm_depth_pass": false
+}

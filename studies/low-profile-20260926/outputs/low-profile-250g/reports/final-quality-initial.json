@@ -1,0 +1,70 @@
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "name": "local-links",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "name": "final-cad-tests.xml",
+      "pass": true,
+      "tests": 18
+    },
+    {
+      "name": "final-converter-tests.xml",
+      "pass": true,
+      "tests": 17
+    },
+    {
+      "name": "new-urdf-validation",
+      "pass": true
+    },
+    {
+      "name": "version-step-hash",
+      "pass": true
+    },
+    {
+      "name": "manual",
+      "pass": true,
+      "images": 19
+    },
+    {
+      "name": "artifacts",
+      "pass": true
+    },
+    {
+      "name": "private-values-and-secret-patterns",
+      "pass": true,
+      "matching_files": []
+    },
+    {
+      "name": "private-permissions",
+      "pass": true,
+      "modes": [
+        384,
+        384,
+        448,
+        448
+      ]
+    },
+    {
+      "name": "api-counter",
+      "pass": true,
+      "direct_calls_this_study": 0
+    },
+    {
+      "name": "git-diff-check-text",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "original-repo-low_cost_robot",
+      "pass": false
+    },
+    {
+      "name": "original-repo-3d-printed-dynamixel-gripper",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "C_y185_z250_p75",
+  "kind": "central",
+  "pitch": 75,
+  "pose": {
+    "glass": [
+      -0.2,
+      185.0,
+      250.0
+    ],
+    "direction": [
+      0.0,
+      0.25881904510252074,
+      -0.9659258262890683
+    ],
+    "up": [
+      0.0,
+      0.9659258262890683,
+      0.25881904510252074
+    ],
+    "right": [
+      1.0,
+      -0.0,
+      0.0
+    ],
+    "eyes": {
+      "left": [
+        -9.2,
+        184.04236953312068,
+        253.57392555726955
+      ],
+      "right": [
+        8.8,
+        184.04236953312068,
+        253.57392555726955
+      ]
+    }
+  },
+  "screen": [
+    {
+      "edge": 10,
+      "side": "left",
+      "all_in_frame": true,
+      "min_depth_mm": 87.7273849431631,
+      "depth_480p": true,
+      "depth_720p": false
+    },
+    {
+      "edge": 10,
+      "side": "right",
+      "all_in_frame": true,
+      "min_depth_mm": 87.7273849431631,
+      "depth_480p": true,
+      "depth_720p": false
+    },
+    {
+      "edge": 20,
+      "side": "left",
+      "all_in_frame": true,
+      "min_depth_mm": 81.60366058620515,
+      "depth_480p": true,
+      "depth_720p": false
+    },
+    {
+      "edge": 20,
+      "side": "right",
+      "all_in_frame": true,
+      "min_depth_mm": 81.60366058620515,
+      "depth_480p": true,
+      "depth_720p": false
+    },
+    {
+      "edge": 30,
+      "side": "left",
+      "all_in_frame": true,
+      "min_depth_mm": 75.47993622924722,
+      "depth_480p": true,
+      "depth_720p": false
+    },
+    {
+      "edge": 30,
+      "side": "right",
+      "all_in_frame": true,
+      "min_depth_mm": 75.47993622924722,
+      "depth_480p": true,
+      "depth_720p": false
+    }
+  ],
+  "screen_pass": true,
+  "bare_optics": [
+    {
+      "case": "cube_10_grasp",
+      "side": "left",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 3471,
+          "visible_fraction": 0.9155862863728033,
+          "touches_border": false
+        }
+      }
+    },
+    {
+      "case": "cube_10_grasp",
+      "side": "right",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 3471,
+          "visible_fraction": 0.9155862863728033,
+          "touches_border": false
+        }
+      }
+    },
+    {
+      "case": "cube_20_grasp",
+      "side": "left",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 14281,
+          "visible_fraction": 1.0,
+          "touches_border": false
+        }
+      }
+    },
+    {
+      "case": "cube_20_grasp",
+      "side": "right",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 14281,
+          "visible_fraction": 1.0,
+          "touches_border": false
+        }
+      }
+    },
+    {
+      "case": "cube_30_grasp",
+      "side": "left",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 34291,
+          "visible_fraction": 0.990930564871249,
+          "touches_border": false
+        }
+      }
+    },
+    {
+      "case": "cube_30_grasp",
+      "side": "right",
+      "metrics": {
+        "cube": {
+          "projected_pixels": 34291,
+          "visible_fraction": 0.9909888892129131,
+          "touches_border": false
+        }
+      }
+    }
+  ],
+  "minimum_cube_visible": 0.9155862863728033,
+  "bare_optics_pass": true,
+  "camera_only_shoulder_M_Nm": [
+    -0.10522535449999999,
+    0.0,
+    0.0
+  ],
+  "camera_only_wrist_worst_orientation_Nm": 0.06659693623626813,
+  "selection_reason": "Pareto tradeoff: peak height reduction 9.49 mm, camera-group wrist gravity amplitude reduction 6.8%; positive wrist range 106 versus R5 110 deg. A candidate retaining 110 deg increased mass and wrist load, so no false claim of improvement in every metric.",
+  "lateral_decision": "Tested 70 side viewpoints rejected by object occlusion; not exhaustive over all side configurations."
+}

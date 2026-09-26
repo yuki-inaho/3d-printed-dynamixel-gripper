@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-26T16:27:15.830546+09:00",
+  "commit": "305ad0f6e8f19e4e739616160cbdc7cae1ab153f",
+  "existing_licensing_byte_match": true,
+  "files": [
+    {
+      "path": "SOFTWARE-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/roboninecom/SO-ARM100-101-Parallel-Gripper/305ad0f6e8f19e4e739616160cbdc7cae1ab153f/SOFTWARE-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "REUSE.toml",
+      "source": "https://raw.githubusercontent.com/roboninecom/SO-ARM100-101-Parallel-Gripper/305ad0f6e8f19e4e739616160cbdc7cae1ab153f/REUSE.toml",
+      "sha256": "f84e8a08aa1fb49d34abfe413c671ad21eb34af4e78900bf05999d2a5a710f5b"
+    },
+    {
+      "path": "simulation/so_arm_101_description/meshes/LICENSE.md",
+      "source": "https://raw.githubusercontent.com/roboninecom/SO-ARM100-101-Parallel-Gripper/305ad0f6e8f19e4e739616160cbdc7cae1ab153f/simulation/so_arm_101_description/meshes/LICENSE.md",
+      "sha256": "4288c65d0d945e29261a8b559d83f4af6e5a04ec9aa3cb64c94adc2548628eb3"
+    }
+  ]
+}

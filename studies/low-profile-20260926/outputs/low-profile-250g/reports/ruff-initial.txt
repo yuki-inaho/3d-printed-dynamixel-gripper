@@ -1,0 +1,38 @@
+studies/low-profile-20260926/work/low-profile/analyze_ui_step.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/analyze_ui_step.py:12:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/compare.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/compare.py:6:21: F401 [*] `pathlib.Path` imported but unused
+studies/low-profile-20260926/work/low-profile/compare.py:14:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/compare_ui_zero.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/compare_ui_zero.py:11:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/compare_ui_zero.py:33:37: E702 Multiple statements on one line (semicolon)
+studies/low-profile-20260926/work/low-profile/design.py:10:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/design.py:11:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/diagnose_step_geometry.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/diagnose_step_geometry.py:15:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/diagnose_step_geometry.py:33:20: E702 Multiple statements on one line (semicolon)
+studies/low-profile-20260926/work/low-profile/diagnose_step_geometry.py:33:29: E702 Multiple statements on one line (semicolon)
+studies/low-profile-20260926/work/low-profile/diagnose_step_geometry.py:59:27: E702 Multiple statements on one line (semicolon)
+studies/low-profile-20260926/work/low-profile/export_all_poses.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/export_cad.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/export_one.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/extract_native_poses.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/extract_native_poses.py:45:22: E702 Multiple statements on one line (semicolon)
+studies/low-profile-20260926/work/low-profile/log_work.py:42:5: E731 Do not assign a `lambda` expression, use a `def`
+studies/low-profile-20260926/work/low-profile/optics.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/research.py:11:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/service.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/study.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/study.py:14:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/study.py:14:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/study.py:15:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/study.py:16:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/study.py:17:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/study.py:18:1: E402 Module level import not at top of file
+studies/low-profile-20260926/work/low-profile/test_design.py:1:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/test_validation.py:1:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/validate_geometry.py:2:1: I001 [*] Import block is un-sorted or un-formatted
+studies/low-profile-20260926/work/low-profile/validate_geometry.py:7:17: F401 [*] `numpy` imported but unused
+studies/low-profile-20260926/work/low-profile/validate_geometry.py:111:5: I001 [*] Import block is un-sorted or un-formatted
+Found 36 errors.
+[*] 19 fixable with the `--fix` option (1 hidden fix can be enabled with the `--unsafe-fixes` option).

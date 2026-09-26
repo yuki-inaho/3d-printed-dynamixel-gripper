@@ -1,5 +1,9 @@
 # 3D Printed DYNAMIXEL Gripper
 
+**2026-09-26取り込み:** [低配置D405のレビュー・OCCT 8再実行](docs/D405_LOW_PROFILE_INTAKE.md)。
+俯角30°・爪20 mm延長のV2候補と改善検証器を取り込み、固定Pixi環境でwheel再ビルド・再変換した。
+新規URDFと12 STLは受領モデルと全バイト一致。製作承認はfalse。
+
 現行候補: **ID5だけでPG3を開閉、下流の追加モーターなし**。
 `outputs/pg3-id5-only-r1/`へ全腕3開度STEP/三面図を生成。原本保持、実機装着DoDは未達。
 仕様は[ID5単独開閉](docs/PG3_ID5_ONLY_DESIGN.md)、実行記録は
@@ -78,7 +82,7 @@ PG2の入力検証・独立STEP検査 (元ソースは実行しない):
 
 ```bash
 rtk proxy uv run python -m scripts.review_pg2 import \
-  /path/to/PG2_XL430_upright_printed_guide_R5.zip --out references/pg2-r5
+  outputs/PG2_XL430_upright_printed_guide_R5.zip --out references/pg2-r5
 rtk proxy uv run python -m scripts.review_pg2 review \
   --source references/pg2-r5/PG2_XL430 --out outputs/pg2-next --render
 ```
@@ -104,3 +108,7 @@ reviewは全腕未適合・未解決を理由にexit 2。JSONと画像は残し�
 
 Python 3.12 + uv。GitHubリポジトリは`yuki-inaho/3d-printed-dynamixel-gripper`。
 CAD作業中の実機通電・通信・モーター制御は行わない。
+
+## Onshape取り込み・検証・URDFの保存点
+
+[2026-09-26の成果と手順](studies/onshape-20260926/README.md)。短縮D405候補の公開V2、URDF、スクリーンショット付きマニュアル、作業記録を保存。次の低位置カメラ・爪延長設計の比較基準です。

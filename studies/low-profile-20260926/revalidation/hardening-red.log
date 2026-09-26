@@ -1,0 +1,201 @@
+FFFFF.FFFFFF                                                             [100%]
+=================================== FAILURES ===================================
+_______________ test_duplicate_pose_is_not_eleven_pose_coverage ________________
+
+evidence = (<Element 'robot' at 0x7eff337b3920>, {'baseline_version': 'f6162b4adc88af9d07f1194a', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+
+    def test_duplicate_pose_is_not_eleven_pose_coverage(evidence):
+        robot, data = evidence
+        data["cases"] = [copy.deepcopy(data["cases"][0]) for _ in range(11)]
+>       with pytest.raises((AssertionError, ValueError)):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:24: Failed
+________________________ test_wrong_pose_name_rejected _________________________
+
+evidence = (<Element 'robot' at 0x7eff3360d710>, {'baseline_version': 'f6162b4adc88af9d07f1194a', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+
+    def test_wrong_pose_name_rejected(evidence):
+        robot, data = evidence
+        data["cases"][0]["name"] = "unapproved_pose"
+>       with pytest.raises((AssertionError, ValueError)):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:31: Failed
+_________________ test_invalid_transform_rejected[bottom_row] __________________
+
+evidence = (<Element 'robot' at 0x7eff335aa3e0>, {'baseline_version': 'f6162b4adc88af9d07f1194a', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+corruption = 'bottom_row'
+
+    @pytest.mark.parametrize("corruption", ["bottom_row", "scaled_rotation", "nan", "infinity"])
+    def test_invalid_transform_rejected(evidence, corruption):
+        robot, data = evidence
+        matrix = data["cases"][0]["instances"]["camera_body"]["transform_m"]
+        if corruption == "bottom_row":
+            matrix[15] = 7.0
+        elif corruption == "scaled_rotation":
+            for i in (0, 5, 10):
+                matrix[i] *= 2.0
+        elif corruption == "nan":
+            matrix[3] = float("nan")
+        else:
+            matrix[3] = float("inf")
+>       with pytest.raises((AssertionError, ValueError)):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:48: Failed
+_______________ test_invalid_transform_rejected[scaled_rotation] _______________
+
+evidence = (<Element 'robot' at 0x7eff33403740>, {'baseline_version': 'f6162b4adc88af9d07f1194a', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+corruption = 'scaled_rotation'
+
+    @pytest.mark.parametrize("corruption", ["bottom_row", "scaled_rotation", "nan", "infinity"])
+    def test_invalid_transform_rejected(evidence, corruption):
+        robot, data = evidence
+        matrix = data["cases"][0]["instances"]["camera_body"]["transform_m"]
+        if corruption == "bottom_row":
+            matrix[15] = 7.0
+        elif corruption == "scaled_rotation":
+            for i in (0, 5, 10):
+                matrix[i] *= 2.0
+        elif corruption == "nan":
+            matrix[3] = float("nan")
+        else:
+            matrix[3] = float("inf")
+>       with pytest.raises((AssertionError, ValueError)):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:48: Failed
+_____________________ test_invalid_transform_rejected[nan] _____________________
+
+evidence = (<Element 'robot' at 0x7eff333c7a10>, {'baseline_version': 'f6162b4adc88af9d07f1194a', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+corruption = 'nan'
+
+    @pytest.mark.parametrize("corruption", ["bottom_row", "scaled_rotation", "nan", "infinity"])
+    def test_invalid_transform_rejected(evidence, corruption):
+        robot, data = evidence
+        matrix = data["cases"][0]["instances"]["camera_body"]["transform_m"]
+        if corruption == "bottom_row":
+            matrix[15] = 7.0
+        elif corruption == "scaled_rotation":
+            for i in (0, 5, 10):
+                matrix[i] *= 2.0
+        elif corruption == "nan":
+            matrix[3] = float("nan")
+        else:
+            matrix[3] = float("inf")
+>       with pytest.raises((AssertionError, ValueError)):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:48: Failed
+______________ test_body_count_not_just_representative_transform _______________
+
+evidence = (<Element 'robot' at 0x7eff33463d80>, {'baseline_version': 'f6162b4adc88af9d07f1194a', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+
+    def test_body_count_not_just_representative_transform(evidence):
+        robot, data = evidence
+        data["cases"][0]["instances"]["jaw_l"]["body_count"] -= 1
+>       with pytest.raises((AssertionError, ValueError)):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:55: Failed
+__________________ test_negative_diagnostic_is_not_zero_error __________________
+
+evidence = (<Element 'robot' at 0x7eff334bd850>, {'baseline_version': 'f6162b4adc88af9d07f1194a', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+
+    def test_negative_diagnostic_is_not_zero_error(evidence):
+        robot, data = evidence
+        data["cases"][0]["instances"]["jaw_l"]["max_member_translation_delta_mm"] = -1.0
+>       with pytest.raises((AssertionError, ValueError)):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:62: Failed
+____________________ test_source_pose_hash_must_match_file _____________________
+
+evidence = (<Element 'robot' at 0x7eff335023e0>, {'baseline_version': 'f6162b4adc88af9d07f1194a', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+
+    def test_source_pose_hash_must_match_file(evidence):
+        robot, data = evidence
+        data["cases"][0]["step_sha256"] = "0" * 64
+>       with pytest.raises((AssertionError, ValueError)):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:69: Failed
+_____________________ test_wrong_onshape_version_rejected ______________________
+
+evidence = (<Element 'robot' at 0x7eff3353f0b0>, {'baseline_version': '4577cc931e9bc290e2b31032', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+
+    def test_wrong_onshape_version_rejected(evidence):
+        robot, data = evidence
+        data["baseline_version"] = "4577cc931e9bc290e2b31032"
+>       with pytest.raises((AssertionError, ValueError)):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:76: Failed
+___________________ test_extra_group_is_not_silently_ignored ___________________
+
+evidence = (<Element 'robot' at 0x7eff332e7bf0>, {'baseline_version': 'f6162b4adc88af9d07f1194a', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+
+    def test_extra_group_is_not_silently_ignored(evidence):
+        robot, data = evidence
+        data["cases"][0]["instances"]["undeclared_group"] = copy.deepcopy(
+            data["cases"][0]["instances"]["camera_body"]
+        )
+>       with pytest.raises((AssertionError, ValueError)):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:85: Failed
+_______________ test_optimized_python_cannot_disable_validation ________________
+
+tmp_path = PosixPath('temp/pytest-of-root/pytest-0/test_optimized_python_cannot_d0')
+evidence = (<Element 'robot' at 0x7eff332d5080>, {'baseline_version': 'f6162b4adc88af9d07f1194a', 'cases': [{'expected_deg': {'gr...gth_unit': 'm for transform_m; mm only for explicit diagnostic fields', 'max_member_rotation_element_delta': 0.0, ...})
+
+    def test_optimized_python_cannot_disable_validation(tmp_path, evidence):
+        _, data = evidence
+        data["cases"] = [copy.deepcopy(data["cases"][0]) for _ in range(11)]
+        path = tmp_path / "duplicate.json"
+        path.write_text(json.dumps(data))
+        code = (
+            "import json,sys,xml.etree.ElementTree as E; "
+            "from validate_robot import ROOT,compare_native; "
+            "compare_native(E.parse(ROOT/'model/robot.urdf').getroot(),"
+            "json.load(open(sys.argv[1])))"
+        )
+        process = subprocess.run(
+            [sys.executable, "-O", "-c", code, str(path)],
+            cwd=ROOT,
+            text=True,
+            capture_output=True,
+            timeout=30,
+        )
+>       assert process.returncode != 0, "python -O incorrectly accepted duplicate pose evidence"
+E       AssertionError: python -O incorrectly accepted duplicate pose evidence
+E       assert 0 != 0
+E        +  where 0 = CompletedProcess(args=['python', '-O', '-c', "import json,sys,xml.etree.ElementTree as E; from validat...)", 'temp/pytest-of-root/pytest-0/test_optimized_python_cannot_d0/duplicate.json'], returncode=0, stdout='', stderr='').returncode
+
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:107: AssertionError
+=========================== short test summary info ============================
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_duplicate_pose_is_not_eleven_pose_coverage - Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_wrong_pose_name_rejected - Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_invalid_transform_rejected[bottom_row] - Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_invalid_transform_rejected[scaled_rotation] - Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_invalid_transform_rejected[nan] - Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_body_count_not_just_representative_transform - Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_negative_diagnostic_is_not_zero_error - Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_source_pose_hash_must_match_file - Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_wrong_onshape_version_rejected - Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_extra_group_is_not_silently_ignored - Failed: DID NOT RAISE any of (<class 'AssertionError'>, <class 'ValueError'>)
+FAILED studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py::test_optimized_python_cannot_disable_validation - AssertionError: python -O incorrectly accepted duplicate pose evidence
+assert 0 != 0
+ +  where 0 = CompletedProcess(args=['python', '-O', '-c', "import json,sys,xml.etree.ElementTree as E; from validat...)", 'temp/pytest-of-root/pytest-0/test_optimized_python_cannot_d0/duplicate.json'], returncode=0, stdout='', stderr='').returncode
+11 failed, 1 passed in 5.39s

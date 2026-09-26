@@ -1,0 +1,85 @@
+{
+  "mateValues": [
+    {
+      "jsonType": "Slider",
+      "translationZ": 1.8253379971363983e-16,
+      "ownerOccurrencePath": [],
+      "mateName": "dof_jaw_left",
+      "featureId": "M0Vy1q2gfiBoGXAWo"
+    },
+    {
+      "jsonType": "Revolute",
+      "rotationZ": -2.6645352591003757e-15,
+      "ownerOccurrencePath": [],
+      "mateName": "dof_gripper_drive",
+      "featureId": "M43v3fLGl3TWI6kMX"
+    },
+    {
+      "jsonType": "Revolute",
+      "rotationZ": 0.1745329251994327,
+      "ownerOccurrencePath": [],
+      "mateName": "dof_joint1_yaw",
+      "featureId": "MGn8sXAHxCaMfTkQn"
+    },
+    {
+      "jsonType": "Ball",
+      "rotationZ": 2.9385059274570176,
+      "rotationYPrevious": -8.881784197001252e-16,
+      "rotationZPrevious": -2.9385059274570446,
+      "ownerOccurrencePath": [],
+      "mateName": "closing_right",
+      "featureId": "MJMpEVxFMhpEHMhtp"
+    },
+    {
+      "jsonType": "Slider",
+      "translationZ": 9.106885210113025e-17,
+      "ownerOccurrencePath": [],
+      "mateName": "dof_jaw_right",
+      "featureId": "MJmuZZGaF0HTbJchN"
+    },
+    {
+      "jsonType": "Revolute",
+      "rotationZ": -2.5757174171303632e-14,
+      "ownerOccurrencePath": [],
+      "mateName": "dof_coupler_right",
+      "featureId": "MQNbiZcNc1mo2XiIy"
+    },
+    {
+      "jsonType": "Revolute",
+      "rotationZ": -8.881784197001252e-16,
+      "ownerOccurrencePath": [],
+      "mateName": "dof_joint3_elbow",
+      "featureId": "Mhk3NaScmkWYxg5l1"
+    },
+    {
+      "jsonType": "Revolute",
+      "rotationZ": -8.881784197001252e-16,
+      "ownerOccurrencePath": [],
+      "mateName": "dof_joint4_wrist",
+      "featureId": "MkSakAjU2oFAteMxT"
+    },
+    {
+      "jsonType": "Revolute",
+      "rotationZ": 0.0,
+      "ownerOccurrencePath": [],
+      "mateName": "dof_joint2_shoulder",
+      "featureId": "Mn58CYAiEU27EnJY9"
+    },
+    {
+      "jsonType": "Revolute",
+      "rotationZ": -5.5067062021407764e-14,
+      "ownerOccurrencePath": [],
+      "mateName": "dof_coupler_left",
+      "featureId": "Mre//bkvHQmyjoGQS"
+    },
+    {
+      "jsonType": "Ball",
+      "rotationZ": -2.90000637985902,
+      "rotationYPrevious": -8.881784197001252e-16,
+      "rotationZPrevious": 2.9000063798590743,
+      "ownerOccurrencePath": [],
+      "mateName": "closing_left",
+      "featureId": "Mwa2/K4YBaizZjcUb"
+    }
+  ]
+}

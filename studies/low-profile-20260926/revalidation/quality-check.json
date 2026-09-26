@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "new_document_local_links_checked": 33,
+  "broken_links": [],
+  "validator_and_replay_contain_assert_statements": false,
+  "syntax_compilation": "PASS",
+  "git_diff_check_exit": 0,
+  "ruff": "Not installed/not run; do not confuse with archived converter ruff log"
+}

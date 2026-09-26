@@ -1,0 +1,13 @@
+
+==================================== ERRORS ====================================
+_ ERROR collecting studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py _
+ImportError while importing test module './studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py:11: in <module>
+    from validate_robot import ROOT, compare_native
+E   ModuleNotFoundError: No module named 'validate_robot'
+=========================== short test summary info ============================
+ERROR studies/low-profile-20260926/outputs/low-profile-250g/robot/test_validation_hardening.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.09s

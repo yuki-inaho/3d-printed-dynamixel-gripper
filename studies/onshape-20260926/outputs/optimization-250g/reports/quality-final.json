@@ -1,0 +1,85 @@
+{
+  "time": "2026-09-26T15:17:30.298874+09:00",
+  "pass": true,
+  "checks": [
+    {
+      "name": "pytest",
+      "exit": 0,
+      "pass": true,
+      "output": "..........                                                               [100%]\n10 passed in 0.20s\n"
+    },
+    {
+      "name": "ruff-check",
+      "exit": 0,
+      "pass": true,
+      "output": "All checks passed!\n"
+    },
+    {
+      "name": "ruff-format",
+      "exit": 0,
+      "pass": true,
+      "output": "7 files already formatted\n"
+    },
+    {
+      "name": "local-links",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "name": "candidate-hashes",
+      "pass": true,
+      "sha256": "f7cd3b6d61363c328c9a26cd582d2eff2893cbee408143b11e9178c99498c065"
+    },
+    {
+      "name": "source-repo",
+      "path": "../low_cost_robot",
+      "pass": true,
+      "status": ""
+    },
+    {
+      "name": "source-repo",
+      "path": ".",
+      "pass": true,
+      "status": ""
+    },
+    {
+      "name": "whitespace",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "content-cache",
+      "pass": true,
+      "entries": 2
+    },
+    {
+      "name": "private-cache-permissions",
+      "pass": true,
+      "modes": [
+        "0o600",
+        "0o700",
+        "0o700"
+      ]
+    },
+    {
+      "name": "artifacts",
+      "pass": true,
+      "required": [
+        "REPORT.md",
+        "MANUAL.md",
+        "MANUAL.html",
+        "MANUAL.pdf",
+        "HEADLESS.md",
+        "WORKDOC.md",
+        "workdoc-review.md",
+        "reports/onshape.json",
+        "images/onshape-07-measure.png"
+      ]
+    },
+    {
+      "name": "private-state-excluded",
+      "pass": true,
+      "matching_files": []
+    }
+  ]
+}

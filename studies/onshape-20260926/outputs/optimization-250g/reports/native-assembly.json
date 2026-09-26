@@ -1,0 +1,45 @@
+{
+  "fixed_instances": [
+    "base_link"
+  ],
+  "instance_count": 12,
+  "mate_count": 13,
+  "all_mates_ok": true,
+  "max_zero_pose_matrix_error": 0.0,
+  "camera_origin_expressions": [
+    "-0.2 mm",
+    "185 mm",
+    "250 mm"
+  ],
+  "wrist_limit_readback": {
+    "limitAxialZMin": {
+      "btType": "BTMParameterNullableQuantity-807",
+      "value": 0.0,
+      "libraryRelationType": "DEFAULT",
+      "isInteger": false,
+      "expression": "-106 deg",
+      "nodeId": "Mrl0ue6YdFKWpp67i",
+      "parameterId": "limitAxialZMin",
+      "units": "",
+      "nullValue": "No minimum",
+      "parameterName": "",
+      "isNull": false
+    },
+    "limitAxialZMax": {
+      "btType": "BTMParameterNullableQuantity-807",
+      "value": 0.0,
+      "libraryRelationType": "DEFAULT",
+      "isInteger": false,
+      "expression": "138 deg",
+      "nodeId": "MbbpUi7OdUsvxVvXD",
+      "parameterId": "limitAxialZMax",
+      "units": "",
+      "nullValue": "No maximum",
+      "parameterName": "",
+      "isNull": false
+    }
+  },
+  "limits_runtime_verification": "PASS: both wrist limits and all gripper endpoints achieved",
+  "membership_bodies": 262,
+  "membership_unique": true
+}

@@ -1,0 +1,74 @@
+### Result
+{"name":"restored_mid","rowId":"3pEe7ej5OeQPgCYt","stored_deg":[0,0,0,0,0],"captured_deg":[0,0,0,0,0],"applied_message":true,"apply_evidence":"applied message","numerical_geometry_check":"pending UI STEP export","notification_tail":"r_r <1>\ncamera_mount <1>\ncamera_body <1>\nMate features (13)\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\ndof_jaw_left\ndof_jaw_right\ndof_coupler_left\ndof_coupler_right\ndof_camera_mount_fixed\ndof_camera_body_fixed\nclosing_left\nclosing_right\n \nNamed positions\nName\ndof_joint1_yaw\ndof_joint2_shoulder\ndof_joint3_elbow\ndof_joint4_wrist\ndof_gripper_drive\n⟳ - z\n⟳ - z\n⟳ - z\n⟳ - z\n⟳ - z\nAdd named position\nPart Studio 1\nLow Profile D405 - Rigid Groups\nLEGACY Static - before update\nCAD Imports\nLow Profile D405 - Motion and URDF\nrestored_mid has been updated\n×\nClose"}
+### Ran Playwright code
+```js
+await (async page => {
+  const target={"name": "restored_mid", "col": null, "deg": 0, "reuse": "restored_mid"};
+  const namesSelector='[data-parameter-id="namedPositionParameterValue"] input';
+  const readNames=()=>page.locator(namesSelector).evaluateAll(es=>es.map(e=>({name:e.value,id:e.closest('.os-tr').getAttribute('data-id')})));
+  const nameCell=id=>page.locator('.os-tr[data-id="'+id+'"] .os-td').filter({has:page.locator('[data-parameter-id="namedPositionParameterValue"]')});
+  const settle=()=>page.waitForTimeout(2000);
+  const apply=async (id,name)=>{
+    await nameCell(id).click({button:'right'});
+    await page.getByText('Edit named position',{exact:true}).waitFor();
+    const action=page.getByText('Apply named position',{exact:true});
+    if(!await action.isVisible()){
+      await page.keyboard.press('Escape');
+      return 'already-current according to menu';
+    }
+    await action.click();
+    await page.waitForFunction(n=>document.body.innerText.includes(n+' is applied.')||document.body.innerText.includes(n+' could not'),name,{timeout:20000});
+    if((await page.locator('body').innerText()).includes(name+' could not'))throw new Error('Named position solver failed: '+name);
+    await settle();
+    return 'applied message';
+  };
+  if(!page.url().includes('/29e8557c76e89bcf64f50566/'))throw new Error('Wrong document');
+  let rows=await readNames();
+  let row=rows.find(r=>r.name===target.reuse);
+  if(!row){
+    if(rows.some(r=>r.name===target.name))throw new Error('Already exists: '+target.name);
+    const zero=rows.find(r=>r.name==='zero');
+    if(!zero)throw new Error('Missing zero');
+    await apply(zero.id,'zero');
+    await nameCell(zero.id).click({button:'right'});
+    await page.getByText('Duplicate named position',{exact:true}).click();
+    await page.waitForFunction(n=>document.querySelectorAll('[data-parameter-id="namedPositionParameterValue"] input').length===n,rows.length+1,{timeout:15000});
+    const next=await readNames();
+    const newRows=next.filter(r=>!rows.some(old=>old.id===r.id));
+    if(newRows.length!==1)throw new Error('Ambiguous new row');
+    row=newRows[0];rows=next;
+    await settle();
+  }
+  const cell=nameCell(row.id);
+  await cell.dblclick();
+  const nameInput=cell.locator('input');
+  await nameInput.fill(target.name);await nameInput.press('Enter');
+  await page.waitForFunction(({id,name})=>[...document.querySelectorAll('.os-tr[data-id="'+id+'"] [data-parameter-id="namedPositionParameterValue"] input')].some(e=>e.value===name),{id:row.id,name:target.name},{timeout:10000});
+  await settle();
+  if(await nameInput.inputValue()!==target.name)throw new Error('Name did not persist');
+  const angleCells=page.locator('.os-tr[data-id="'+row.id+'"] .os-td').filter({has:page.locator('input.os-param-number')});
+  if(await angleCells.count()!==5)throw new Error('Expected 5 angles');
+  for(let col=0;col<5;col++){
+    const deg=col===target.col?target.deg:0;
+    const angleCell=angleCells.nth(col);
+    if(Math.abs(parseFloat(await angleCell.locator('input').inputValue())-deg)<1e-8)continue;
+    await angleCell.dblclick();
+    const input=angleCell.locator('input.os-param-number');
+    await input.fill(deg+' deg');await input.press('Enter');
+    await page.waitForFunction(({id,col,deg})=>parseFloat(document.querySelectorAll('.os-tr[data-id="'+id+'"] input.os-param-number')[col]?.value)===deg,{id:row.id,col,deg},{timeout:10000});
+    await settle();
+  }
+  const values=await page.locator('.os-tr[data-id="'+row.id+'"] input.os-param-number').evaluateAll(es=>es.map(e=>e.value));
+  if(values.some((v,i)=>Math.abs(parseFloat(v)-(i===target.col?target.deg:0))>1e-8))throw new Error('Wrong saved values: '+JSON.stringify(values));
+  const applyEvidence=await apply(row.id,target.name);
+  await cell.click({button:'right'});
+  await page.getByText('Update named position',{exact:true}).click();
+  await settle();
+  const captured=await page.locator('.os-tr[data-id="'+row.id+'"] input.os-param-number').evaluateAll(es=>es.map(e=>parseFloat(e.value)));
+  if(captured.some((v,i)=>Math.abs(v-(i===target.col?target.deg:0))>0.001))throw new Error('Captured pose differs: '+JSON.stringify(captured));
+  const notification=await page.locator('body').innerText();
+  await page.screenshot({path:'studies/low-profile-20260926/outputs/low-profile-250g/images/onshape-pose-'+target.name+'.png'});
+  return {name:target.name,rowId:row.id,stored_deg:values.map(parseFloat),captured_deg:captured,applied_message:true,apply_evidence:applyEvidence,numerical_geometry_check:'pending UI STEP export',notification_tail:notification.slice(-600)};
+}
+)(page);
+```

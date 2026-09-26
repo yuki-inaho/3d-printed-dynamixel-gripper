@@ -1,0 +1,16 @@
+{
+  "python": "3.13.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "trimesh": "4.11.1",
+    "pytest": "9.0.2",
+    "cadquery": "2.8.0",
+    "cadquery-ocp": "7.9.3.1.1"
+  },
+  "scope": "Installed environment actually used; direct package inventory, not a resolved lock or fresh install test",
+  "onshape_api_calls_this_continuation": 0,
+  "onshape_ui_operations_this_continuation": 0,
+  "git_remote_writes": 0
+}

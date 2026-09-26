@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "source_r5_sha256": "5a60d93b5feef6957bef5a0a732fd26d3b147f1e7e39917eb87cf5d28943dbf1",
+  "final_step_sha256": "9f58c947753e9229b30939da23ce4c87c1cc85eeb39372518de4ffb98991b93f",
+  "checks": {
+    "PG3_finger_L": {
+      "valid": true,
+      "solid_count": 1,
+      "root_difference_mm3": 0,
+      "tip_difference_mm3": 0,
+      "pass": true
+    },
+    "PG3_pad_L": {
+      "difference_mm3": 0,
+      "pass": true
+    },
+    "PG3_finger_R": {
+      "valid": true,
+      "solid_count": 1,
+      "root_difference_mm3": 0,
+      "tip_difference_mm3": 0,
+      "pass": true
+    },
+    "PG3_pad_R": {
+      "difference_mm3": 0,
+      "pass": true
+    }
+  },
+  "printed_parts": {
+    "CAM5_BASE": {
+      "brep_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "step_sha256": "9a0ac2a77153b0a5196f2746074d6f5f72db823e039c05b64d67a52eee553a65",
+      "pass": true
+    },
+    "CAM5_D405_CARRIER": {
+      "brep_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "step_sha256": "f72189d80b8e9d4003da81fc680f6c4826bc3133c3b159ecef69c0eb0a13f5e0",
+      "pass": true
+    },
+    "PG3_finger_L": {
+      "brep_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "step_sha256": "249a99c00cd6cfe5cbbd3ce7da2ce9d540795208f94ce46c6c6a6fdb84fadbb3",
+      "pass": true
+    },
+    "PG3_finger_R": {
+      "brep_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "step_sha256": "eeaf8293665ea4e50124ff3ce1b2ce495c7c1c956d0ea00fb931fa316ae72688",
+      "pass": true
+    }
+  },
+  "fabrication_approved": false,
+  "scope": "Independent-copy Boolean controls on saved V2 fingers/pads and four individual printed-part exports; no complete collision rescan"
+}

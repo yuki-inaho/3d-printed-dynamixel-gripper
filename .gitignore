@@ -10,3 +10,23 @@ outputs/
 *.duckdb
 *.duckdb.wal
 .env
+
+# Reviewed study snapshots are intentional source/evidence imports.
+!studies/onshape-20260926/outputs/
+!studies/onshape-20260926/outputs/**
+!studies/low-profile-20260926/outputs/
+!studies/low-profile-20260926/outputs/**
+# Original UI captures and embedded manuals contain account identifiers.
+# They remain available locally in the supplied archives, outside Git.
+studies/**/*.html
+studies/**/*.pdf
+studies/**/*.zip
+studies/**/onshape-*.png
+studies/**/headless-*.png
+studies/onshape-20260926/outputs/manual/images/
+studies/onshape-20260926/outputs/rebuild/*.png
+# Never include conversation/work caches, including nested snapshots.
+temp/
+__pycache__/
+.pytest_cache/
+.ruff_cache/

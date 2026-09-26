@@ -1,0 +1,12 @@
+zero: 262 members; angle_error_deg=1.78932166e-14; local_bbox_delta_mm=0
+small_joint1_yaw: 262 members; angle_error_deg=1.52666625e-13; local_bbox_delta_mm=0
+small_joint2_shoulder: 262 members; angle_error_deg=1.77635684e-14; local_bbox_delta_mm=0
+small_joint3_elbow: 262 members; angle_error_deg=6.58988944e-12; local_bbox_delta_mm=0
+small_joint4_wrist: 262 members; angle_error_deg=3.55271368e-14; local_bbox_delta_mm=0
+small_gripper_drive: 262 members; angle_error_deg=1.77635684e-14; local_bbox_delta_mm=0
+wrist_lower: 262 members; angle_error_deg=1.23912535e-12; local_bbox_delta_mm=0
+wrist_upper: 262 members; angle_error_deg=1.67622769e-13; local_bbox_delta_mm=0
+gripper_open: 262 members; angle_error_deg=6.73453227e-13; local_bbox_delta_mm=0
+gripper_closed: 262 members; angle_error_deg=3.0579356e-06; local_bbox_delta_mm=0
+restored_mid: 262 members; angle_error_deg=3.91018163e-15; local_bbox_delta_mm=0
+PASS: all eleven STEP poses reread; run validate_robot.py --native on this report

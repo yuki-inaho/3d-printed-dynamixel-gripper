@@ -1,0 +1,17 @@
+{
+  "status": "CONVERTED_KINEMATIC_VALIDATION_PENDING",
+  "versions": {
+    "converter": "0.2.0",
+    "pythonocc": "8.0.1",
+    "python": "3.12.14",
+    "occt": "8.0.1",
+    "occt_build": "all_hbfeb9d6_201",
+    "loaded_kernel": [
+      "temp/intake_d405_20260926/converter/.pixi/envs/default/lib/libTKernel.so.8.0.1"
+    ]
+  },
+  "input_sha256": "9f58c947753e9229b30939da23ce4c87c1cc85eeb39372518de4ffb98991b93f",
+  "links": 16,
+  "joints": 15,
+  "occurrences": 262
+}

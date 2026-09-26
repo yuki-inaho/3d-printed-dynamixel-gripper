@@ -1,0 +1,441 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape https://cad.onshape.com/documents/7b85d8922959cbe564b6e0cb/v/e21cffef1877c8f91d2b03f8/e/848ae15cd82797bd99cdc330 -->
+<robot name="low_cost_xl430_pg3_compact_d405">
+  <!-- Link base_link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part base_link -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/base_link.stl"/>
+      </geometry>
+      <material name="base_link_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/base_link.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link shoulder_yaw -->
+  <link name="shoulder_yaw">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part shoulder_yaw -->
+    <visual>
+      <origin xyz="0 0 0.02" rpy="-3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/shoulder_yaw.stl"/>
+      </geometry>
+      <material name="shoulder_yaw_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.02" rpy="-3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/shoulder_yaw.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link upper_arm -->
+  <link name="upper_arm">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part upper_arm -->
+    <visual>
+      <origin xyz="-0.0563 -0 0.0002" rpy="-3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/upper_arm.stl"/>
+      </geometry>
+      <material name="upper_arm_material">
+        <color rgba="0.972549 0.529412 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0563 -0 0.0002" rpy="-3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/upper_arm.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link forearm -->
+  <link name="forearm">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part forearm -->
+    <visual>
+      <origin xyz="0.1646 0.0148 -0.0002" rpy="3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/forearm.stl"/>
+      </geometry>
+      <material name="forearm_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1646 0.0148 -0.0002" rpy="3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/forearm.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link wrist -->
+  <link name="wrist">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part wrist -->
+    <visual>
+      <origin xyz="0.1646 0.1049 -0.0002" rpy="-3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/wrist.stl"/>
+      </geometry>
+      <material name="wrist_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1646 0.1049 -0.0002" rpy="-3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/wrist.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link gripper_crank -->
+  <link name="gripper_crank">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part gripper_crank -->
+    <visual>
+      <origin xyz="0.0002 -0.1646 0.1649" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/gripper_crank.stl"/>
+      </geometry>
+      <material name="gripper_crank_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 -0.1646 0.1649" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/gripper_crank.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link coupler_l -->
+  <link name="coupler_l">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part coupler_l -->
+    <visual>
+      <origin xyz="0.0002 -0.1786 0.1649" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/coupler_l.stl"/>
+      </geometry>
+      <material name="coupler_l_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 -0.1786 0.1649" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/coupler_l.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Frame closing_left_1 (dummy link + fixed joint) -->
+  <link name="closing_left_1">
+    <origin xyz="0 0 0" rpy="0 -0 0"/>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <joint name="closing_left_1_frame" type="fixed">
+    <origin xyz="-0.0194936 -0.014 -0.028" rpy="3.14159 -0 0"/>
+    <parent link="coupler_l"/>
+    <child link="closing_left_1"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+  <!-- Joint from gripper_crank to coupler_l -->
+  <joint name="coupler_left" type="revolute">
+    <origin xyz="-0 0.014 0" rpy="0 -0 0"/>
+    <parent link="gripper_crank"/>
+    <child link="coupler_l"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Link coupler_r -->
+  <link name="coupler_r">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part coupler_r -->
+    <visual>
+      <origin xyz="0.0002 -0.1506 0.1649" rpy="-1.5708 -0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/coupler_r.stl"/>
+      </geometry>
+      <material name="coupler_r_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 -0.1506 0.1649" rpy="-1.5708 -0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/coupler_r.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Frame closing_right_1 (dummy link + fixed joint) -->
+  <link name="closing_right_1">
+    <origin xyz="0 0 0" rpy="0 -0 0"/>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <joint name="closing_right_1_frame" type="fixed">
+    <origin xyz="0.0194936 0.014 -0.028" rpy="-3.14159 -0 -0"/>
+    <parent link="coupler_r"/>
+    <child link="closing_right_1"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+  <!-- Joint from gripper_crank to coupler_r -->
+  <joint name="coupler_right" type="revolute">
+    <origin xyz="-0 -0.014 0" rpy="0 -0 0"/>
+    <parent link="gripper_crank"/>
+    <child link="coupler_r"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from wrist to gripper_crank -->
+  <joint name="gripper_drive" type="revolute">
+    <origin xyz="-0 -0.06 -0" rpy="-1.5708 1.5708 0"/>
+    <parent link="wrist"/>
+    <child link="gripper_crank"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0" lower="-0.785398" upper="1.13446"/>
+  </joint>
+  <!-- Link jaw_l -->
+  <link name="jaw_l">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part jaw_l -->
+    <visual>
+      <origin xyz="0.1646 0.1649 -0.0002" rpy="3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/jaw_l.stl"/>
+      </geometry>
+      <material name="jaw_l_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1646 0.1649 -0.0002" rpy="3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/jaw_l.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Frame closing_left_2 (dummy link + fixed joint) -->
+  <link name="closing_left_2">
+    <origin xyz="0 0 0" rpy="0 -0 0"/>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <joint name="closing_left_2_frame" type="fixed">
+    <origin xyz="0 -0.028 0.0194936" rpy="1.5708 1.5708 0"/>
+    <parent link="jaw_l"/>
+    <child link="closing_left_2"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+  <!-- Joint from wrist to jaw_l -->
+  <joint name="jaw_left" type="prismatic">
+    <origin xyz="-0 -0.06 -0" rpy="0 -0 -0"/>
+    <parent link="wrist"/>
+    <child link="jaw_l"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0" lower="-0.00752987" upper="0.016454"/>
+  </joint>
+  <!-- Link jaw_r -->
+  <link name="jaw_r">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part jaw_r -->
+    <visual>
+      <origin xyz="0.1646 0.1649 -0.0002" rpy="3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/jaw_r.stl"/>
+      </geometry>
+      <material name="jaw_r_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1646 0.1649 -0.0002" rpy="3.14159 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/jaw_r.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Frame closing_right_2 (dummy link + fixed joint) -->
+  <link name="closing_right_2">
+    <origin xyz="0 0 0" rpy="0 -0 0"/>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <joint name="closing_right_2_frame" type="fixed">
+    <origin xyz="0 -0.028 -0.0194936" rpy="1.5708 1.5708 0"/>
+    <parent link="jaw_r"/>
+    <child link="closing_right_2"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+  <!-- Joint from wrist to jaw_r -->
+  <joint name="jaw_right" type="prismatic">
+    <origin xyz="-0 -0.06 -0" rpy="0 -0 -0"/>
+    <parent link="wrist"/>
+    <child link="jaw_r"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0" lower="-0.016454" upper="0.00752987"/>
+  </joint>
+  <!-- Link camera_mount -->
+  <link name="camera_mount">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part camera_mount -->
+    <visual>
+      <origin xyz="0.0002 0.1649 0.19985" rpy="-3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/camera_mount.stl"/>
+      </geometry>
+      <material name="camera_mount_material">
+        <color rgba="0.972549 0.529412 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 0.1649 0.19985" rpy="-3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/camera_mount.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link camera_body -->
+  <link name="camera_body">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <!-- Part camera_body -->
+    <visual>
+      <origin xyz="0.0002 0.185 0.25" rpy="-3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/camera_body.stl"/>
+      </geometry>
+      <material name="camera_body_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 0.185 0.25" rpy="-3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/camera_body.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from camera_mount to camera_body -->
+  <joint name="camera_body_fixed" type="fixed">
+    <origin xyz="0 -0.0201 -0.05015" rpy="0 -0 0"/>
+    <parent link="camera_mount"/>
+    <child link="camera_body"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0"/>
+  </joint>
+  <!-- Joint from wrist to camera_mount -->
+  <joint name="camera_mount_fixed" type="fixed">
+    <origin xyz="-0.03525 -0.06 -0" rpy="0 1.5708 0"/>
+    <parent link="wrist"/>
+    <child link="camera_mount"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0"/>
+  </joint>
+  <!-- Joint from forearm to wrist -->
+  <joint name="joint4_wrist" type="revolute">
+    <origin xyz="0 -0.0901 0" rpy="0 -0 0"/>
+    <parent link="forearm"/>
+    <child link="wrist"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0" lower="-1.85005" upper="2.40855"/>
+  </joint>
+  <!-- Joint from upper_arm to forearm -->
+  <joint name="joint3_elbow" type="revolute">
+    <origin xyz="0.1083 -0.0148 0" rpy="3.14159 0 -3.14159"/>
+    <parent link="upper_arm"/>
+    <child link="forearm"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from shoulder_yaw to upper_arm -->
+  <joint name="joint2_shoulder" type="revolute">
+    <origin xyz="-0.0002 -0 -0.0363" rpy="0 1.5708 0"/>
+    <parent link="shoulder_yaw"/>
+    <child link="upper_arm"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from base_link to shoulder_yaw -->
+  <joint name="joint1_yaw" type="revolute">
+    <origin xyz="0 0 0.02" rpy="3.14159 -0 0"/>
+    <parent link="base_link"/>
+    <child link="shoulder_yaw"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="0" velocity="0" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+</robot>

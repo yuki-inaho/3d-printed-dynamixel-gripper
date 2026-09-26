@@ -1,0 +1,6 @@
+WARN `--no-project` was provided, but no project was found
+zero: 262 members; angle_error_deg=1.78932166e-14; local_bbox_delta_mm=0
+small_joint1_yaw: 262 members; angle_error_deg=1.52666625e-13; local_bbox_delta_mm=0
+small_joint2_shoulder: 262 members; angle_error_deg=1.77635684e-14; local_bbox_delta_mm=0
+small_joint3_elbow: 262 members; angle_error_deg=6.58988944e-12; local_bbox_delta_mm=0
+small_joint4_wrist: 262 members; angle_error_deg=3.55271368e-14; local_bbox_delta_mm=0

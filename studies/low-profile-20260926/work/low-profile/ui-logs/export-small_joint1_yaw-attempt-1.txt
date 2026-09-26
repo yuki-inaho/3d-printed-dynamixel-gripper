@@ -1,0 +1,2 @@
+### Error
+Error: Missing named position small_joint1_yaw
