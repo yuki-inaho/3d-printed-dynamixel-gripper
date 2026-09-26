@@ -176,8 +176,8 @@
   },
   {
     "path": "outputs/low-profile-250g/DELIVERY.md",
-    "bytes": 1468,
-    "sha256": "bb8ba592fd9e48ad0bca48b20d692c3b5017df0891da7f1472844bf99da9a509"
+    "bytes": 2358,
+    "sha256": "783017251132fd2444074fcb5e429a4d047cdce7d6313ac18b33900db438a0da"
   },
   {
     "path": "outputs/low-profile-250g/EXPORT.md",
@@ -188,6 +188,11 @@
     "path": "outputs/low-profile-250g/GEOMETRY.md",
     "bytes": 2498,
     "sha256": "8dadda836d8c13c8186b8d7829cd6604a16aa76dc571b51f4734ab99d0682be5"
+  },
+  {
+    "path": "outputs/low-profile-250g/HANDOFF.md",
+    "bytes": 12673,
+    "sha256": "72ce10b5ab4406447f089e6963c5ecedef0bf936ac5723517f8f7f8bb7ef7b09"
   },
   {
     "path": "outputs/low-profile-250g/MANUAL.html",
@@ -236,13 +241,13 @@
   },
   {
     "path": "outputs/low-profile-250g/WORKDOC.md",
-    "bytes": 69512,
-    "sha256": "8df196d90273ea14ca280606ab3699c1046f3b9f0b516f1e2d0f90b5d99aac71"
+    "bytes": 75923,
+    "sha256": "bb59d4a932b07b206926138e4ae6f51b7f3ea93d5f8b134dd66701fe78692170"
   },
   {
     "path": "outputs/low-profile-250g/final-review.md",
-    "bytes": 3608,
-    "sha256": "56f5cc75e2d3dad6b52e284ff93cc55a1c85ba0a64549daea6eb3894056f39b2"
+    "bytes": 4116,
+    "sha256": "56a74061c9bfd70a4478bf9f80e7b6ff69d24477f7896b3cacfb9d3c0d40dcda"
   },
   {
     "path": "outputs/low-profile-250g/headless-reconnected.png",
@@ -681,8 +686,8 @@
   },
   {
     "path": "outputs/low-profile-250g/project.json",
-    "bytes": 1327,
-    "sha256": "6bcec3c1414a2bed5ae6c80f5f6628d768d42081852927784ff88bd207a84a69"
+    "bytes": 1323,
+    "sha256": "fa075448893086b41ee46b22f20865ebd561807712f1af82953c2abeef718272"
   },
   {
     "path": "outputs/low-profile-250g/reports/cad-export.json",
@@ -1205,11 +1210,6 @@
     "sha256": "8228f282d06921115fca0585e2239fa1c2a7f4dfef5714229e1f850d1e28e62a"
   },
   {
-    "path": "work/low-profile/active-item.json",
-    "bytes": 195,
-    "sha256": "b4f5ee64e4f8ad2abccae42d74fda6e1aea570f4490049d376727197ebaebed9"
-  },
-  {
     "path": "work/low-profile/add-pose-drivers.js",
     "bytes": 1068,
     "sha256": "41aaa093b75656c80ddb90085df37b105a316844c922ce0bde042bfcade68a0b"
@@ -1241,8 +1241,8 @@
   },
   {
     "path": "work/low-profile/checkpoint.py",
-    "bytes": 2181,
-    "sha256": "e3220b0c5a25a24136c3564f9cd4e21d678905d104b3a4b0f68ab60c49a06e45"
+    "bytes": 2597,
+    "sha256": "079f5195489b19e92d642c4e255ba816e4809677b107022fda5e3e316394eb74"
   },
   {
     "path": "work/low-profile/compare.py",
@@ -1420,9 +1420,9 @@
     "sha256": "c4c152bd59b57031a777164df3b32e5234476f89eba8b872c433082814d6e6b5"
   },
   {
-    "path": "work/low-profile/suspended-item.json",
-    "bytes": 145,
-    "sha256": "9d4b7a2ce54fa2c8b99e07899bdfbae97ebd4f78c61632c556884fd4dca147ee"
+    "path": "work/low-profile/sync_diary.py",
+    "bytes": 1860,
+    "sha256": "ee40a8a081ca342fb72ee5af2dee6646ecd5eda86b9f4dd5a7d4639bde425973"
   },
   {
     "path": "work/low-profile/sync_skills.py",

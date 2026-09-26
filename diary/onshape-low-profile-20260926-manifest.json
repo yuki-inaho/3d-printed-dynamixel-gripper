@@ -1,0 +1,17 @@
+[
+  {
+    "path": "workdoc_Sep26-2026_low_profile_d405.md",
+    "source": "outputs/low-profile-250g/WORKDOC.md",
+    "sha256": "bb59d4a932b07b206926138e4ae6f51b7f3ea93d5f8b134dd66701fe78692170"
+  },
+  {
+    "path": "review_Sep26-2026_low_profile_d405.md",
+    "source": "outputs/low-profile-250g/final-review.md",
+    "sha256": "56a74061c9bfd70a4478bf9f80e7b6ff69d24477f7896b3cacfb9d3c0d40dcda"
+  },
+  {
+    "path": "handoff_Sep26-2026_low_profile_d405.md",
+    "source": "outputs/low-profile-250g/HANDOFF.md",
+    "sha256": "5ba866272437b8faca2e19589a4c0608c6cd43c1b7235ba2ab2825fccf5afb23"
+  }
+]

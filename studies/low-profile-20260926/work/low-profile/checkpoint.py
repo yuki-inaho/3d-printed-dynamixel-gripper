@@ -22,11 +22,20 @@ def check(data, label):
 
 def main():
     records = []
+    # These are live coordinator state, not reproducible deliverables. The full
+    # chronological record and pending checklist remain in WORKDOC/HANDOFF.
+    state_names = {"active-item.json", "suspended-item.json"}
+    for name in state_names:
+        stale = DEST / "work/low-profile" / name
+        if stale.exists():
+            stale.unlink()
     for scope in ("outputs/low-profile-250g", "work/low-profile"):
         for path in sorted((ROOT / scope).rglob("*")):
             if not path.is_file() or "__pycache__" in path.parts:
                 continue
             if path.suffix in {".pyc", ".pyo"}:
+                continue
+            if path.name in state_names:
                 continue
             if path.name in FORBIDDEN or path.is_symlink():
                 raise ValueError(f"Forbidden archive input: {path.name}")
