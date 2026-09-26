@@ -1,0 +1,127 @@
+{
+  "method": "Bidirectional vertices and triangle centers to opposite mesh after absolute OCCT tessellation; raw distances, no new acceptance threshold.",
+  "tessellation_linear_mm": 0.001,
+  "tessellation_angular_rad": 0.1,
+  "scope": "Seven selected components only; discrete surface comparison, not a complete Hausdorff or material symmetric-difference proof.",
+  "parts": [
+    {
+      "name": "ARM_P03_shoulder_XL430",
+      "source_volume_default_mm3": 35199.15349534208,
+      "native_volume_default_mm3": 35204.72769564287,
+      "source_volume_adaptive_1e10_mm3": 35198.4080049304,
+      "native_volume_adaptive_1e10_mm3": 35197.120275807785,
+      "sample_counts": [
+        85962,
+        59806
+      ],
+      "max_reported_mesh_deflection_mm": [
+        0.06251475999089115,
+        0.04026527933321297
+      ],
+      "max_bidir_sample_distance_mm": 0.03743291709736516,
+      "p99_bidir_sample_distance_mm": 0.010546340033216218
+    },
+    {
+      "name": "ARM_P02_yaw_carrier",
+      "source_volume_default_mm3": 6744.920701881764,
+      "native_volume_default_mm3": 6745.26531098383,
+      "source_volume_adaptive_1e10_mm3": 6744.827544702053,
+      "native_volume_adaptive_1e10_mm3": 6744.76346874683,
+      "sample_counts": [
+        41957,
+        32972
+      ],
+      "max_reported_mesh_deflection_mm": [
+        0.050034211263442936,
+        0.04794145894006079
+      ],
+      "max_bidir_sample_distance_mm": 0.037548295283749845,
+      "p99_bidir_sample_distance_mm": 0.011644602994194574
+    },
+    {
+      "name": "ARM_M04_ref08",
+      "source_volume_default_mm3": 207.15648869044387,
+      "native_volume_default_mm3": 207.14000205251014,
+      "source_volume_adaptive_1e10_mm3": 207.15628595946583,
+      "native_volume_adaptive_1e10_mm3": 207.1400020763177,
+      "sample_counts": [
+        14036,
+        13482
+      ],
+      "max_reported_mesh_deflection_mm": [
+        0.004037930467966592,
+        0.009457360648433066
+      ],
+      "max_bidir_sample_distance_mm": 0.009339566370354399,
+      "p99_bidir_sample_distance_mm": 0.0033881658639410635
+    },
+    {
+      "name": "CAM5_BASE",
+      "source_volume_default_mm3": 13599.441443727601,
+      "native_volume_default_mm3": 13599.441443702837,
+      "source_volume_adaptive_1e10_mm3": 13599.441443727645,
+      "native_volume_adaptive_1e10_mm3": 13599.441443754444,
+      "sample_counts": [
+        15736,
+        15736
+      ],
+      "max_reported_mesh_deflection_mm": [
+        0.000496949155846296,
+        0.0004969491516070912
+      ],
+      "max_bidir_sample_distance_mm": 1.6282190904207823e-09,
+      "p99_bidir_sample_distance_mm": 5.71016934469764e-12
+    },
+    {
+      "name": "CAM5_D405_CARRIER",
+      "source_volume_default_mm3": 13241.982314008666,
+      "native_volume_default_mm3": 13241.982314015007,
+      "source_volume_adaptive_1e10_mm3": 13241.98231400867,
+      "native_volume_adaptive_1e10_mm3": 13241.98231401527,
+      "sample_counts": [
+        12696,
+        12696
+      ],
+      "max_reported_mesh_deflection_mm": [
+        0.0004963760661899672,
+        0.0004963760639609037
+      ],
+      "max_bidir_sample_distance_mm": 8.380692021162463e-10,
+      "p99_bidir_sample_distance_mm": 3.0340752986434655e-11
+    },
+    {
+      "name": "PG3_finger_L",
+      "source_volume_default_mm3": 11621.943321592764,
+      "native_volume_default_mm3": 11621.94332159268,
+      "source_volume_adaptive_1e10_mm3": 11621.943321592697,
+      "native_volume_adaptive_1e10_mm3": 11621.943321592677,
+      "sample_counts": [
+        3236,
+        3236
+      ],
+      "max_reported_mesh_deflection_mm": [
+        0.00045177195573067533,
+        0.0004517719557290517
+      ],
+      "max_bidir_sample_distance_mm": 1.4745944598179123e-11,
+      "p99_bidir_sample_distance_mm": 4.600764214046649e-12
+    },
+    {
+      "name": "PG3_finger_R",
+      "source_volume_default_mm3": 11621.943321606459,
+      "native_volume_default_mm3": 11621.943321606686,
+      "source_volume_adaptive_1e10_mm3": 11621.943321606448,
+      "native_volume_adaptive_1e10_mm3": 11621.943321606686,
+      "sample_counts": [
+        3236,
+        3236
+      ],
+      "max_reported_mesh_deflection_mm": [
+        0.0004517719557290517,
+        0.0004517719557290517
+      ],
+      "max_bidir_sample_distance_mm": 5.763881329121279e-12,
+      "p99_bidir_sample_distance_mm": 4.1504454959835567e-13
+    }
+  ]
+}

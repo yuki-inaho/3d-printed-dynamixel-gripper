@@ -1,0 +1,20 @@
+{
+  "document_id": "29e8557c76e89bcf64f50566",
+  "assembly_id": "d5415bf725ba822741b01703",
+  "method": "Playwright normal UI Interference detection",
+  "direct_api_calls": 0,
+  "pose": "restored_mid",
+  "selected_instances": ["base_link", "shoulder_yaw", "upper_arm", "forearm", "wrist", "gripper_crank", "jaw_l", "jaw_r", "coupler_l", "coupler_r", "camera_mount", "camera_body"],
+  "include_standard_content": false,
+  "show_top_level_only": false,
+  "results": [
+    {"index": 0, "pair": ["wrist", "camera_mount"], "displayed_box": "0.003 m x 0.003 m x 0.003 m"},
+    {"index": 1, "pair": ["wrist", "camera_mount"], "displayed_box": "0.003 m x 0.003 m x 0.003 m"},
+    {"index": 2, "pair": ["wrist", "camera_mount"], "displayed_box": "0.003 m x 0.003 m x 0.003 m"},
+    {"index": 3, "pair": ["wrist", "camera_mount"], "displayed_box": "0.003 m x 0.003 m x 0.003 m"},
+    {"index": 4, "pair": ["camera_body", "camera_mount"], "displayed_box": "0.003 m x 0.003 m x 0.003 m"},
+    {"index": 5, "pair": ["camera_body", "camera_mount"], "displayed_box": "0.003 m x 0.003 m x 0.003 m"}
+  ],
+  "interpretation": "All six individual highlights inspected: four base fastener engagements and two camera screw engagements. Rounded UI boxes are not exact dimensions. This is not certification of real threads or continuous whole-robot collision freedom.",
+  "evidence": "images/onshape-interference-mid.png and images/onshape-interference-mid-0.png through -5.png"
+}

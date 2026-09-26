@@ -1,0 +1,116 @@
+{
+  "status": "expected targets, not achieved-pose evidence",
+  "method": "UI Named positions table; verify native exports independently",
+  "cases": [
+    {
+      "name": "zero",
+      "expected_deg": {
+        "joint1_yaw": 0,
+        "joint2_shoulder": 0,
+        "joint3_elbow": 0,
+        "joint4_wrist": 0,
+        "gripper_drive": 0
+      }
+    },
+    {
+      "name": "small_joint1_yaw",
+      "expected_deg": {
+        "joint1_yaw": 10,
+        "joint2_shoulder": 0,
+        "joint3_elbow": 0,
+        "joint4_wrist": 0,
+        "gripper_drive": 0
+      }
+    },
+    {
+      "name": "small_joint2_shoulder",
+      "expected_deg": {
+        "joint1_yaw": 0,
+        "joint2_shoulder": 10,
+        "joint3_elbow": 0,
+        "joint4_wrist": 0,
+        "gripper_drive": 0
+      }
+    },
+    {
+      "name": "small_joint3_elbow",
+      "expected_deg": {
+        "joint1_yaw": 0,
+        "joint2_shoulder": 0,
+        "joint3_elbow": 10,
+        "joint4_wrist": 0,
+        "gripper_drive": 0
+      }
+    },
+    {
+      "name": "small_joint4_wrist",
+      "expected_deg": {
+        "joint1_yaw": 0,
+        "joint2_shoulder": 0,
+        "joint3_elbow": 0,
+        "joint4_wrist": 10,
+        "gripper_drive": 0
+      }
+    },
+    {
+      "name": "small_gripper_drive",
+      "expected_deg": {
+        "joint1_yaw": 0,
+        "joint2_shoulder": 0,
+        "joint3_elbow": 0,
+        "joint4_wrist": 0,
+        "gripper_drive": 10
+      }
+    },
+    {
+      "name": "wrist_lower",
+      "expected_deg": {
+        "joint1_yaw": 0,
+        "joint2_shoulder": 0,
+        "joint3_elbow": 0,
+        "joint4_wrist": -102,
+        "gripper_drive": 0
+      }
+    },
+    {
+      "name": "wrist_upper",
+      "expected_deg": {
+        "joint1_yaw": 0,
+        "joint2_shoulder": 0,
+        "joint3_elbow": 0,
+        "joint4_wrist": 124,
+        "gripper_drive": 0
+      }
+    },
+    {
+      "name": "gripper_open",
+      "expected_deg": {
+        "joint1_yaw": 0,
+        "joint2_shoulder": 0,
+        "joint3_elbow": 0,
+        "joint4_wrist": 0,
+        "gripper_drive": 65
+      }
+    },
+    {
+      "name": "gripper_closed",
+      "expected_deg": {
+        "joint1_yaw": 0,
+        "joint2_shoulder": 0,
+        "joint3_elbow": 0,
+        "joint4_wrist": 0,
+        "gripper_drive": -45
+      }
+    },
+    {
+      "name": "restored_mid",
+      "expected_deg": {
+        "joint1_yaw": 0,
+        "joint2_shoulder": 0,
+        "joint3_elbow": 0,
+        "joint4_wrist": 0,
+        "gripper_drive": 0
+      }
+    }
+  ]
+}

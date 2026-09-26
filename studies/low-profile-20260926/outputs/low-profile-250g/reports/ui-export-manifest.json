@@ -1,0 +1,773 @@
+{
+  "direct_api_calls": 0,
+  "exports": [
+    {
+      "pose": "zero",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/v/4577cc931e9bc290e2b31032/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-zero.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/zero.step",
+      "error": null,
+      "sha256": "4a49d515746987cd35773bf8649ccb0cd95e23357b3afb85ec09dd72641629a5",
+      "bytes": 10592591,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "small_joint1_yaw",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/v/4577cc931e9bc290e2b31032/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_joint1_yaw.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/version-yaw10-exported-zero.step",
+      "error": null,
+      "sha256": "769c329e96d53c3f90d52d437474f0a5f6ec16b4237d7814acf548dd715e7098",
+      "bytes": 10592591,
+      "accepted_for_native_pose": false,
+      "reason": "Version export ignored transient displayed named pose; actual matrices all identity"
+    },
+    {
+      "pose": "small_joint1_yaw",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_joint1_yaw.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/small_joint1_yaw.step",
+      "error": null,
+      "sha256": "b3c0e28503c1f76604bc43136fd02d9ffcb1163f71aeb3176908c7984820c164",
+      "bytes": 10607988,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "small_joint2_shoulder",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_joint2_shoulder.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/small_joint2_shoulder.step",
+      "error": null,
+      "sha256": "69edbb01500fb88ef0a8b127a5de6a976e4d7a2ffa4754c9e76a6bc319af3a45",
+      "bytes": 10613542,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "small_joint3_elbow",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_joint3_elbow.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/small_joint3_elbow.step",
+      "error": null,
+      "sha256": "dd4e984ae5ea634fe69a6a10f6b7350f0a1dc885be5e2a32e957221c2288bd55",
+      "bytes": 10614032,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "small_joint4_wrist",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_joint4_wrist.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/small_joint4_wrist.step",
+      "error": null,
+      "sha256": "47d621171353c0f277fa11a32f338390f83efccd790718579646ac1dfb5024ef",
+      "bytes": 10603700,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "small_gripper_drive",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_gripper_drive.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/small_gripper_drive.step",
+      "error": null,
+      "sha256": "90f54655d8b1d7abae5939ef10ab7e81909c2cd2528d9123df0b88a1a1dfcbda",
+      "bytes": 10591975,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "wrist_lower",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-wrist_lower.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/wrist_lower.step",
+      "error": null,
+      "sha256": "6d37595f716b726a44e79ea166c7bffbab278a15a733c13960f0e16102f8febc",
+      "bytes": 10603736,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "wrist_upper",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-wrist_upper.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/wrist_upper.step",
+      "error": null,
+      "sha256": "3f6d90c149ed3aaea7417eaba748f61d2a2a1801f8945f26bb3f742185e625f2",
+      "bytes": 10603689,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "gripper_open",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-gripper_open.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/gripper_open.step",
+      "error": null,
+      "sha256": "9fc898a48a7c8c98b52af793ba8d55768fc44e9db8ecfd114ea440aabd129d54",
+      "bytes": 10598638,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "gripper_closed",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-gripper_closed.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/gripper_closed.step",
+      "error": null,
+      "sha256": "dc974c6b890750d63deee47d903f0cb225532bbeb6a3d9d3eb33d32c24c901af",
+      "bytes": 10594783,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "restored_mid",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-restored_mid.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/restored_mid.step",
+      "error": null,
+      "sha256": "7552c4964de3ca0759759e76804d338e5b36401811c32356f246501e56794219",
+      "bytes": 10589310,
+      "accepted_for_native_pose": false,
+      "reason": "Superseded: PG3_pad_L/R followed opposite jaw in pre-repair assembly"
+    },
+    {
+      "pose": "zero",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-zero.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/zero.step",
+      "error": null,
+      "sha256": "790086b3c9f3fc8801d8fa27417fb4617111f0a2f35eca6ac7664189342aa259",
+      "bytes": 10592665
+    },
+    {
+      "pose": "small_joint1_yaw",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_joint1_yaw.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/small_joint1_yaw.step",
+      "error": null,
+      "sha256": "6212e898cc90f68badf96f6e8e7731f6a77b7abd89272f3b73d9ab43f38671fb",
+      "bytes": 10608231
+    },
+    {
+      "pose": "small_joint2_shoulder",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_joint2_shoulder.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/small_joint2_shoulder.step",
+      "error": null,
+      "sha256": "2c8ba5a9a8dd3327f7a8adc42d39007a290e9c086157948fea527c804e05f47f",
+      "bytes": 10613488
+    },
+    {
+      "pose": "small_joint3_elbow",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_joint3_elbow.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/small_joint3_elbow.step",
+      "error": null,
+      "sha256": "567fa017a8af62a66b17b029348a21e7562102beb4d1852431a53b062db4b184",
+      "bytes": 10614071
+    },
+    {
+      "pose": "small_joint4_wrist",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_joint4_wrist.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/small_joint4_wrist.step",
+      "error": null,
+      "sha256": "9f1f99160fe6dc3b12b36ced09c1e0f76e4724aabc9fe5cebd9d815d7104e84a",
+      "bytes": 10603715
+    },
+    {
+      "pose": "small_gripper_drive",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-small_gripper_drive.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/small_gripper_drive.step",
+      "error": null,
+      "sha256": "4d2dd2ccec9136ef4bb1bd5c2b9d0e55b3eefc67a76a5f5d8bc0fed2cd3a3b50",
+      "bytes": 10591959
+    },
+    {
+      "pose": "wrist_lower",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-wrist_lower.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/wrist_lower.step",
+      "error": null,
+      "sha256": "05760304386f2aa78c4cceaa9db65684f1ea75d98048c79fa6c5853c78431f35",
+      "bytes": 10603732
+    },
+    {
+      "pose": "wrist_upper",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-wrist_upper.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/wrist_upper.step",
+      "error": null,
+      "sha256": "0ad1749fbf005071a4c75aa834d9cf0d8aabd4d9d23c87f4a11cba02325cc140",
+      "bytes": 10606469
+    },
+    {
+      "pose": "gripper_open",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-gripper_open.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/gripper_open.step",
+      "error": null,
+      "sha256": "090c470c0fa9434ccec1a2eed16879958718b4df041ad51ed914e4b8ed6af03f",
+      "bytes": 10594755
+    },
+    {
+      "pose": "gripper_closed",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-gripper_closed.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/gripper_closed.step",
+      "error": null,
+      "sha256": "f1bacf4a7c6c352020a29989b03e5524e6ccc3f58b3a57454b61e58e7c2e8b84",
+      "bytes": 10591970
+    },
+    {
+      "pose": "restored_mid",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-restored_mid.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/restored_mid.step",
+      "error": null,
+      "sha256": "f47b50277b4fc04afd74039cc80e0fc1cbf18453f60a9c2dad7e36e6214783ff",
+      "bytes": 10592665
+    },
+    {
+      "pose": "version_zero",
+      "source_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/v/f6162b4adc88af9d07f1194a/e/d5415bf725ba822741b01703",
+      "settings": [
+        {
+          "id": "export-format-dropdown",
+          "selected": "STEP"
+        },
+        {
+          "id": "step-parasolid-preprocessing-on-read",
+          "selected": "None"
+        },
+        {
+          "id": "step-export-version-dropdown",
+          "selected": "AP242"
+        },
+        {
+          "id": "",
+          "selected": "Millimeter"
+        },
+        {
+          "id": "export-options-dropdown",
+          "selected": "Download"
+        }
+      ],
+      "suggested": "low-profile-V2-final.step",
+      "path": "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/final-version.step",
+      "error": null,
+      "sha256": "9f58c947753e9229b30939da23ce4c87c1cc85eeb39372518de4ffb98991b93f",
+      "bytes": 10592665
+    }
+  ]
+}

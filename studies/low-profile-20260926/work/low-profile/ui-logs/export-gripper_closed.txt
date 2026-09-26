@@ -1,0 +1,57 @@
+### Result
+{"pose":"gripper_closed","source_url":"https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703","settings":[{"id":"export-format-dropdown","selected":"STEP"},{"id":"step-parasolid-preprocessing-on-read","selected":"None"},{"id":"step-export-version-dropdown","selected":"AP242"},{"id":"","selected":"Millimeter"},{"id":"export-options-dropdown","selected":"Download"}],"suggested":"low-profile-gripper_closed.step","path":"/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/gripper_closed.step","error":null}
+### Ran Playwright code
+```js
+await (async page => {
+  const name="gripper_closed";
+  if(!await page.locator('[data-parameter-id=namedPositionParameterValue] input').count()){
+    await page.locator('[data-bs-original-title="Named positions"]').click();
+  }
+  await page.locator('[data-parameter-id=namedPositionParameterValue] input').first().waitFor();
+  const rows=await page.locator('[data-parameter-id=namedPositionParameterValue] input').evaluateAll(es=>es.map(e=>({name:e.value,id:e.closest('.os-tr').getAttribute('data-id')})));
+  for(const desired of name==='zero'?['zero']:['zero',name]){
+    const row=rows.find(r=>r.name===desired);
+    if(!row)throw new Error('Missing named position '+desired);
+    const cell=page.locator('.os-tr[data-id="'+row.id+'"] .os-td').filter({has:page.locator('[data-parameter-id=namedPositionParameterValue]')});
+    await cell.click({button:'right'});
+    await page.getByRole('menu').waitFor();
+    const apply=page.getByText('Apply named position',{exact:true});
+    if(await apply.isVisible()){
+      await apply.click();
+      await page.waitForFunction(n=>document.body.innerText.includes(n+' is applied.')||document.body.innerText.includes(n+' could not'),desired,{timeout:30000});
+      if((await page.locator('body').innerText()).includes(desired+' could not'))throw new Error('Solver failed '+desired);
+      await page.waitForTimeout(2000);
+    }else await page.keyboard.press('Escape');
+  }
+  await page.locator('.os-tab-name').filter({hasText:'Low Profile D405 - Motion and URDF'}).click({button:'right'});
+  await page.getByText('Export…',{exact:true}).click();
+
+  const d=page.getByRole('dialog');
+  await d.getByRole('textbox').first().fill('low-profile-gripper_closed');
+  await d.locator('#export-format-dropdown').selectOption({label:'STEP'});
+  await d.locator('#step-parasolid-preprocessing-on-read').selectOption({label:'None'});
+  await d.getByRole('checkbox',{name:'Export models oriented Y axis up',exact:true}).uncheck();
+  await d.getByRole('checkbox',{name:'Use latest version',exact:true}).uncheck();
+  await d.locator('#step-export-version-dropdown').selectOption({label:'AP242'});
+  await d.getByRole('checkbox',{name:'Use custom units for export',exact:true}).check();
+  const units=d.getByRole('combobox').filter({has:page.getByRole('option',{name:'Millimeter',exact:true})});
+  await units.selectOption({label:'Millimeter'});
+  await d.getByRole('checkbox',{name:'Export unique parts as individual files',exact:true}).uncheck();
+  await d.getByRole('checkbox',{name:'Include hidden instances in export',exact:true}).check();
+  const settings=await d.getByRole('combobox').evaluateAll(es=>es.map(e=>({id:e.id,selected:e.selectedOptions[0]?.textContent})));
+  await page.screenshot({path:'/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/images/onshape-step-export-gripper_closed.png'});
+  const pending=page.waitForEvent('download',{timeout:180000});
+  await d.getByRole('button',{name:'Export',exact:true}).click();
+  const download=await pending;
+  const suggested=download.suggestedFilename();
+  const ext=suggested.split('.').pop().toLowerCase();
+  if(!['step','stp','zip'].includes(ext))throw new Error('Unexpected download '+suggested);
+  const path='/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/CAD/native-poses/gripper_closed.'+ext;
+  await download.saveAs(path);
+  return {pose:"gripper_closed",source_url:page.url(),settings,suggested,path,error:await download.failure()};
+}
+)(page);
+```
+### Events
+- Downloading file low-profile-gripper_closed.step ...
+- Downloaded file low-profile-gripper_closed.step to ".playwright-cli/low-profile-gripper-closed.step"

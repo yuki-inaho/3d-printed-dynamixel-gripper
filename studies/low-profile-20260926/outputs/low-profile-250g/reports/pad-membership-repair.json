@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "cause": "Import Update preserved stale union queries that assigned PG3_pad_L/R to opposite jaw",
+  "repair": "Both jaw composites rebuilt through normal UI with twelve explicitly named parts each",
+  "negative_control": "All original files retained and rejected by rigid-member motion guard",
+  "cases": [
+    {
+      "pose": "zero",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 0.0,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "zero",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 0.0,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "small_joint1_yaw",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 0.0,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "small_joint1_yaw",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 0.0,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "small_joint2_shoulder",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 1.933696774688876e-13,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "small_joint2_shoulder",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 1.933696774688876e-13,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "small_joint3_elbow",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 1.4348376171125629e-12,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "small_joint3_elbow",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 1.4348376171125629e-12,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "small_joint4_wrist",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 4.731493807567819e-13,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "small_joint4_wrist",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 4.731493807567819e-13,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "small_gripper_drive",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 5.16416212733822,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "small_gripper_drive",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 5.16416212733822,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "wrist_lower",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 1.5821289214079181e-12,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "wrist_lower",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 1.5821289214079181e-12,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "wrist_upper",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 4.00058609592943e-12,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "wrist_upper",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 4.00058609592943e-12,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "gripper_open",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 32.9079610877987,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "gripper_open",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 32.9079610877987,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "gripper_closed",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 15.059744456073851,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "gripper_closed",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 15.059744456073851,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "restored_mid",
+      "group": "jaw_l",
+      "before_max_member_delta_mm": 0.0,
+      "after_max_member_delta_mm": 0.0
+    },
+    {
+      "pose": "restored_mid",
+      "group": "jaw_r",
+      "before_max_member_delta_mm": 0.0,
+      "after_max_member_delta_mm": 0.0
+    }
+  ]
+}

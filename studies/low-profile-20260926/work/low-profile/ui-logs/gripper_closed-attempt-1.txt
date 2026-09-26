@@ -1,0 +1,2 @@
+### Error
+Error: Named position solver failed: gripper_closed

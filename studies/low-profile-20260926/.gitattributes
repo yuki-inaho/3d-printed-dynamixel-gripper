@@ -1,0 +1,5 @@
+# Generated CAD is preserved byte-for-byte, including STEP serialization spacing.
+*.step binary
+*.stl binary
+# Preserve original pytest failure evidence without rewriting captured tracebacks.
+outputs/low-profile-250g/reports/converter-tests-red-color.xml -whitespace
