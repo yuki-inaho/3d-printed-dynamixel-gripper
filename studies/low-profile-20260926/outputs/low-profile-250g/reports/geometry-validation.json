@@ -1,0 +1,3451 @@
+{
+  "cad_sha256": "b7ece605181c219434720dd24d32191afa48c2b2f16fa48cebe476a1a40d4b3a",
+  "gripper_step_deg": 5,
+  "cases": [
+    {
+      "angle": 25,
+      "baseline": {
+        "angle": 25,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 25,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 30,
+      "baseline": {
+        "angle": 30,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 30,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 35,
+      "baseline": {
+        "angle": 35,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 35,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 40,
+      "baseline": {
+        "angle": 40,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 40,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 45,
+      "baseline": {
+        "angle": 45,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 45,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 50,
+      "baseline": {
+        "angle": 50,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 50,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 55,
+      "baseline": {
+        "angle": 55,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 55,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998714
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 60,
+      "baseline": {
+        "angle": 60,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 60,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999998076
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.1499999999999984
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 65,
+      "baseline": {
+        "angle": 65,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999147
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999147
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 65,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999147
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999147
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 70,
+      "baseline": {
+        "angle": 70,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 70,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 75,
+      "baseline": {
+        "angle": 75,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 75,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 80,
+      "baseline": {
+        "angle": 80,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 80,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 85,
+      "baseline": {
+        "angle": 85,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 85,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 90,
+      "baseline": {
+        "angle": 90,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 90,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 95,
+      "baseline": {
+        "angle": 95,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 95,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 100,
+      "baseline": {
+        "angle": 100,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 100,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 105,
+      "baseline": {
+        "angle": 105,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 105,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 110,
+      "baseline": {
+        "angle": 110,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 110,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 115,
+      "baseline": {
+        "angle": 115,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 115,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 120,
+      "baseline": {
+        "angle": 120,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 120,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 125,
+      "baseline": {
+        "angle": 125,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 125,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999689
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 130,
+      "baseline": {
+        "angle": 130,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 130,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "new_or_worsened": []
+    },
+    {
+      "angle": 135,
+      "baseline": {
+        "angle": 135,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "candidate": {
+        "angle": 135,
+        "pair_count": 6100,
+        "nonpass": [
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_R",
+            "b": "PG3_finger_R_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999997934
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_-14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_washer",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.0
+          },
+          {
+            "a": "PG3_finger_L",
+            "b": "PG3_finger_L_14_bolt",
+            "status": "FAIL",
+            "method": "insufficient_gap",
+            "intersection_mm3": 0.0,
+            "gap_mm": 0.14999999999999508
+          }
+        ]
+      },
+      "new_or_worsened": []
+    }
+  ],
+  "scope": "all changed parts and camera versus all retained parts; unchanged/unchanged pairs inherit source evidence",
+  "physical_installation_approved": false,
+  "wrist": {
+    "axis_point_mm": [
+      0.0,
+      104.9,
+      164.6
+    ],
+    "axis_direction": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "step_deg": 2,
+    "continuous_proof": false,
+    "cases": [
+      {
+        "gripper_angle_deg": 25.0,
+        "zero": null,
+        "limits": [
+          -180,
+          102
+        ],
+        "stops": [
+          null,
+          {
+            "angle_deg": 104,
+            "first_hit": {
+              "moving": "CAM5_D405_CARRIER",
+              "upstream": "ARM_M03_ref00",
+              "status": "FAIL",
+              "method": "material_intersection_before_distance",
+              "intersection_mm3": 181.53710621699713
+            }
+          }
+        ]
+      },
+      {
+        "gripper_angle_deg": 90.0,
+        "zero": null,
+        "limits": [
+          -124,
+          102
+        ],
+        "stops": [
+          {
+            "angle_deg": -126,
+            "first_hit": {
+              "moving": "PG3_pad_R",
+              "upstream": "ARM_M02_ref00",
+              "status": "FAIL",
+              "method": "insufficient_gap",
+              "intersection_mm3": 0.0,
+              "gap_mm": 0.21016233349230617
+            }
+          },
+          {
+            "angle_deg": 104,
+            "first_hit": {
+              "moving": "CAM5_D405_CARRIER",
+              "upstream": "ARM_M03_ref00",
+              "status": "FAIL",
+              "method": "material_intersection_before_distance",
+              "intersection_mm3": 181.53710621699713
+            }
+          }
+        ]
+      },
+      {
+        "gripper_angle_deg": 135.0,
+        "zero": null,
+        "limits": [
+          -124,
+          102
+        ],
+        "stops": [
+          {
+            "angle_deg": -126,
+            "first_hit": {
+              "moving": "PG3_pad_R",
+              "upstream": "ARM_M02_ref00",
+              "status": "FAIL",
+              "method": "insufficient_gap",
+              "intersection_mm3": 0.0,
+              "gap_mm": 0.21016233349230617
+            }
+          },
+          {
+            "angle_deg": 104,
+            "first_hit": {
+              "moving": "CAM5_D405_CARRIER",
+              "upstream": "ARM_M03_ref00",
+              "status": "FAIL",
+              "method": "material_intersection_before_distance",
+              "intersection_mm3": 181.53710621699713
+            }
+          }
+        ]
+      }
+    ],
+    "unchanged_arm_reference": {
+      "free_interval_deg": [
+        -138.0,
+        128.0
+      ],
+      "negative_stop": {
+        "deg": -140.0,
+        "first_hit": {
+          "moving": "ARM_P05_wrist_XL430",
+          "upstream": "ARM_P04_extension_XL430",
+          "volume_mm3": 21.729921580581912
+        }
+      },
+      "positive_stop": {
+        "deg": 130.0,
+        "first_hit": {
+          "moving": "ARM_P05_wrist_XL430",
+          "upstream": "ARM_P04_extension_XL430",
+          "volume_mm3": 1.140076113707525
+        }
+      }
+    },
+    "physical_limits_deg": [
+      -124,
+      102
+    ],
+    "onshape_urdf_limits_deg": [
+      -102,
+      124
+    ]
+  },
+  "no_new_or_worsened_gripper_defects": true,
+  "zero_wrist_clear": true
+}

@@ -1,0 +1,10 @@
+{
+  "post-lint-robot-tests": {
+    "exit_code": 0,
+    "seconds": 8.671
+  },
+  "post-lint-cad-tests": {
+    "exit_code": 0,
+    "seconds": 28.709
+  }
+}

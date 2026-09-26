@@ -1,0 +1,32 @@
+{
+  "name": "Low Cost Robot - D405 30deg Fingers +20mm - 250g Study",
+  "document_id": "29e8557c76e89bcf64f50566",
+  "workspace_id": "6bce790334ee57d808213530",
+  "motion_assembly_id": "d5415bf725ba822741b01703",
+  "part_studio_id": "2195f3c400eb079287ae06af",
+  "workspace_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/w/6bce790334ee57d808213530/e/d5415bf725ba822741b01703",
+  "visibility": "public",
+  "creation_method": "Onshape UI Copy workspace / Create public document",
+  "source_document": "7b85d8922959cbe564b6e0cb",
+  "direct_api_calls": 0,
+  "status": "V2_URDF_KINEMATICS_VALIDATED_HANDOFF_D6_D7_PENDING",
+  "version_id": "f6162b4adc88af9d07f1194a",
+  "version_name": "V2 Low profile D405 - corrected jaw pads",
+  "version_url": "https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/v/f6162b4adc88af9d07f1194a/e/d5415bf725ba822741b01703",
+  "target_step_sha256": "b7ece605181c219434720dd24d32191afa48c2b2f16fa48cebe476a1a40d4b3a",
+  "part_studio_name": "Low Profile D405 - Rigid Groups",
+  "motion_assembly_name": "Low Profile D405 - Motion and URDF",
+  "unassigned_parts": 0,
+  "composite_parts": 12,
+  "mate_features": 13,
+  "wrist_limits_deg": [
+    -102,
+    124
+  ],
+  "camera_connector_xyz_mm": [
+    -0.2,
+    165,
+    235
+  ],
+  "prior_version_id": "4577cc931e9bc290e2b31032"
+}

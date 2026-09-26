@@ -1,0 +1,1637 @@
+[
+  {
+    "path": "outputs/low-profile-250g/API-USAGE.md",
+    "bytes": 14709,
+    "sha256": "9a89129fa637a6d239915695125a40d6a3d6dbe26bf338b5ae6fc4d6b54ace8e"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/CAM5_BASE.step",
+    "bytes": 201649,
+    "sha256": "9a0ac2a77153b0a5196f2746074d6f5f72db823e039c05b64d67a52eee553a65"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/CAM5_BASE.stl",
+    "bytes": 343084,
+    "sha256": "9f798ab8789bd5a603821e2e0b4f41c0c691aa3c95c5d81ba0cb189fee5fd7d9"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/CAM5_D405_CARRIER.step",
+    "bytes": 126669,
+    "sha256": "f72189d80b8e9d4003da81fc680f6c4826bc3133c3b159ecef69c0eb0a13f5e0"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/CAM5_D405_CARRIER.stl",
+    "bytes": 281484,
+    "sha256": "9f4f8c414e49a865869caca3eb91028f281cfc844cf6597f796a55be58fdbe67"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/PG3_finger_L.step",
+    "bytes": 98217,
+    "sha256": "249a99c00cd6cfe5cbbd3ce7da2ce9d540795208f94ce46c6c6a6fdb84fadbb3"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/PG3_finger_L.stl",
+    "bytes": 79884,
+    "sha256": "72dd501bd3eb493b398869ad2189ab2585eea65d9c50520c4ba27688f1ee46f2"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/PG3_finger_R.step",
+    "bytes": 92980,
+    "sha256": "eeaf8293665ea4e50124ff3ce1b2ce495c7c1c956d0ea00fb931fa316ae72688"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/PG3_finger_R.stl",
+    "bytes": 79884,
+    "sha256": "10166241c44c6e825d2b4cfb1c8c3d6201def97425b37a151e7a69c1d1a53ef1"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/Robot_250g_low_profile_D405.step",
+    "bytes": 29585963,
+    "sha256": "b7ece605181c219434720dd24d32191afa48c2b2f16fa48cebe476a1a40d4b3a"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/final-version.step",
+    "bytes": 10592665,
+    "sha256": "9f58c947753e9229b30939da23ce4c87c1cc85eeb39372518de4ffb98991b93f"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/gripper_closed.step",
+    "bytes": 10594783,
+    "sha256": "dc974c6b890750d63deee47d903f0cb225532bbeb6a3d9d3eb33d32c24c901af"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/gripper_open.step",
+    "bytes": 10598638,
+    "sha256": "9fc898a48a7c8c98b52af793ba8d55768fc44e9db8ecfd114ea440aabd129d54"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/restored_mid.step",
+    "bytes": 10589310,
+    "sha256": "7552c4964de3ca0759759e76804d338e5b36401811c32356f246501e56794219"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/small_gripper_drive.step",
+    "bytes": 10591975,
+    "sha256": "90f54655d8b1d7abae5939ef10ab7e81909c2cd2528d9123df0b88a1a1dfcbda"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/small_joint1_yaw.step",
+    "bytes": 10607988,
+    "sha256": "b3c0e28503c1f76604bc43136fd02d9ffcb1163f71aeb3176908c7984820c164"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/small_joint2_shoulder.step",
+    "bytes": 10613542,
+    "sha256": "69edbb01500fb88ef0a8b127a5de6a976e4d7a2ffa4754c9e76a6bc319af3a45"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/small_joint3_elbow.step",
+    "bytes": 10614032,
+    "sha256": "dd4e984ae5ea634fe69a6a10f6b7350f0a1dc885be5e2a32e957221c2288bd55"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/small_joint4_wrist.step",
+    "bytes": 10603700,
+    "sha256": "47d621171353c0f277fa11a32f338390f83efccd790718579646ac1dfb5024ef"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/wrist_lower.step",
+    "bytes": 10603736,
+    "sha256": "6d37595f716b726a44e79ea166c7bffbab278a15a733c13960f0e16102f8febc"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/wrist_upper.step",
+    "bytes": 10603689,
+    "sha256": "3f6d90c149ed3aaea7417eaba748f61d2a2a1801f8945f26bb3f742185e625f2"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/v1-pad-misassigned/zero.step",
+    "bytes": 10592591,
+    "sha256": "4a49d515746987cd35773bf8649ccb0cd95e23357b3afb85ec09dd72641629a5"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/diagnostics/version-yaw10-exported-zero.step",
+    "bytes": 10592591,
+    "sha256": "769c329e96d53c3f90d52d437474f0a5f6ec16b4237d7814acf548dd715e7098"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/gripper_closed.step",
+    "bytes": 10591970,
+    "sha256": "f1bacf4a7c6c352020a29989b03e5524e6ccc3f58b3a57454b61e58e7c2e8b84"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/gripper_open.step",
+    "bytes": 10594755,
+    "sha256": "090c470c0fa9434ccec1a2eed16879958718b4df041ad51ed914e4b8ed6af03f"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/restored_mid.step",
+    "bytes": 10592665,
+    "sha256": "f47b50277b4fc04afd74039cc80e0fc1cbf18453f60a9c2dad7e36e6214783ff"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/small_gripper_drive.step",
+    "bytes": 10591959,
+    "sha256": "4d2dd2ccec9136ef4bb1bd5c2b9d0e55b3eefc67a76a5f5d8bc0fed2cd3a3b50"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/small_joint1_yaw.step",
+    "bytes": 10608231,
+    "sha256": "6212e898cc90f68badf96f6e8e7731f6a77b7abd89272f3b73d9ab43f38671fb"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/small_joint2_shoulder.step",
+    "bytes": 10613488,
+    "sha256": "2c8ba5a9a8dd3327f7a8adc42d39007a290e9c086157948fea527c804e05f47f"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/small_joint3_elbow.step",
+    "bytes": 10614071,
+    "sha256": "567fa017a8af62a66b17b029348a21e7562102beb4d1852431a53b062db4b184"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/small_joint4_wrist.step",
+    "bytes": 10603715,
+    "sha256": "9f1f99160fe6dc3b12b36ced09c1e0f76e4724aabc9fe5cebd9d815d7104e84a"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/wrist_lower.step",
+    "bytes": 10603732,
+    "sha256": "05760304386f2aa78c4cceaa9db65684f1ea75d98048c79fa6c5853c78431f35"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/wrist_upper.step",
+    "bytes": 10606469,
+    "sha256": "0ad1749fbf005071a4c75aa834d9cf0d8aabd4d9d23c87f4a11cba02325cc140"
+  },
+  {
+    "path": "outputs/low-profile-250g/CAD/native-poses/zero.step",
+    "bytes": 10592665,
+    "sha256": "790086b3c9f3fc8801d8fa27417fb4617111f0a2f35eca6ac7664189342aa259"
+  },
+  {
+    "path": "outputs/low-profile-250g/CONVERTER.md",
+    "bytes": 7812,
+    "sha256": "fcefb26740c53f08d806f18009ee0e962f22f62afaf2831a50b74517daf496c1"
+  },
+  {
+    "path": "outputs/low-profile-250g/DELIVERY.md",
+    "bytes": 2358,
+    "sha256": "783017251132fd2444074fcb5e429a4d047cdce7d6313ac18b33900db438a0da"
+  },
+  {
+    "path": "outputs/low-profile-250g/EXPORT.md",
+    "bytes": 6478,
+    "sha256": "4d5fc7cac91c427bd3321b56cce7e3178a2a57c471b4f302e0d93daa6b900f7f"
+  },
+  {
+    "path": "outputs/low-profile-250g/GEOMETRY.md",
+    "bytes": 2498,
+    "sha256": "8dadda836d8c13c8186b8d7829cd6604a16aa76dc571b51f4734ab99d0682be5"
+  },
+  {
+    "path": "outputs/low-profile-250g/HANDOFF.md",
+    "bytes": 12673,
+    "sha256": "72ce10b5ab4406447f089e6963c5ecedef0bf936ac5723517f8f7f8bb7ef7b09"
+  },
+  {
+    "path": "outputs/low-profile-250g/MANUAL.html",
+    "bytes": 4168244,
+    "sha256": "4b53ac0401ae013dfd946c328a44cc3f69f8da6fcf863f7fb6c19043925eb1d9"
+  },
+  {
+    "path": "outputs/low-profile-250g/MANUAL.md",
+    "bytes": 20082,
+    "sha256": "13c0d8c5cc134dbb817a5761aeec562197f51b66d9ab43cde421bdc626afc2e7"
+  },
+  {
+    "path": "outputs/low-profile-250g/MANUAL.pdf",
+    "bytes": 3756275,
+    "sha256": "aedb96f2eed0589cfed0467e56595d1c485bb57d0f4c8bb6f6a8e793f4fd00f1"
+  },
+  {
+    "path": "outputs/low-profile-250g/NATIVE-VALIDATION.md",
+    "bytes": 7086,
+    "sha256": "44b09a40ccab12f6417dd31b55e99f9ec5b98317f483011bc668b31ab58e6409"
+  },
+  {
+    "path": "outputs/low-profile-250g/REPORT.md",
+    "bytes": 4671,
+    "sha256": "cae44e09ed0cf63ef65a6c85507e759d623c78b77c26c0a58dc932559d8a6243"
+  },
+  {
+    "path": "outputs/low-profile-250g/RESEARCH.md",
+    "bytes": 2890,
+    "sha256": "ea24eea84a4c7d2843725bde46f19965328f6d7a63b9084659da04fae451c258"
+  },
+  {
+    "path": "outputs/low-profile-250g/SELECTION.md",
+    "bytes": 3740,
+    "sha256": "239c26caa4d61cf6ab69ef391ca8244a09166094226ac96e7d2dd7023ee711fe"
+  },
+  {
+    "path": "outputs/low-profile-250g/SERVICE.md",
+    "bytes": 2101,
+    "sha256": "eae0896ed4f66a59b0dc63cfd2463318879c6af1c339dde3fe287b07646a6659"
+  },
+  {
+    "path": "outputs/low-profile-250g/SPEC.md",
+    "bytes": 5605,
+    "sha256": "157854091fc0d742229834f8eb44b24ca0467fee8c2beece958271a86468212e"
+  },
+  {
+    "path": "outputs/low-profile-250g/WORKDOC.md",
+    "bytes": 75923,
+    "sha256": "bb59d4a932b07b206926138e4ae6f51b7f3ea93d5f8b134dd66701fe78692170"
+  },
+  {
+    "path": "outputs/low-profile-250g/final-review.md",
+    "bytes": 4116,
+    "sha256": "56a74061c9bfd70a4478bf9f80e7b6ff69d24477f7896b3cacfb9d3c0d40dcda"
+  },
+  {
+    "path": "outputs/low-profile-250g/headless-reconnected.png",
+    "bytes": 207540,
+    "sha256": "1b76e6472ec6c52de4b1c98036e34575346ed64e370b118de0819d5e9b7d6da6"
+  },
+  {
+    "path": "outputs/low-profile-250g/headless-start.png",
+    "bytes": 189283,
+    "sha256": "3451004974694934eb8844aae71fd5db2776384b7702232edafd9d671e97aa61"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_closed_empty_left.png",
+    "bytes": 8983,
+    "sha256": "7306032b3b1810851b8a52a04baee30118d50b560d6d15796824d52d5c4aa368"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_closed_empty_right.png",
+    "bytes": 8942,
+    "sha256": "6863258438b658a3e35354195da54f8773f59eaee5c51a65a6e6ea1667fc7890"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_cube_10_grasp_left.png",
+    "bytes": 9376,
+    "sha256": "8e18ec43c95a71be6dc8addcdff747f70ca87f85443d91fe84b737a62676a15b"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_cube_10_grasp_right.png",
+    "bytes": 9457,
+    "sha256": "2dfe25739816b8cee0e7094ca431944a89b0bb1838d730d036b0e254c502d7a9"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_cube_20_grasp_left.png",
+    "bytes": 9564,
+    "sha256": "56a142a573734e7e2937db3b03b49bffe1e1c7460a1e62cb47f72c1d28311b58"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_cube_20_grasp_right.png",
+    "bytes": 9657,
+    "sha256": "f670c453fd1df85e27c96e444782cea2bdc4afe9a12243e8f80943b4ae86b2c5"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_cube_30_grasp_left.png",
+    "bytes": 9701,
+    "sha256": "7d16cab4292835661e06b9395b296056c51ea03779337da0aeb06c9902363935"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_cube_30_grasp_right.png",
+    "bytes": 9700,
+    "sha256": "7934cbe4efe3db7cdcde1842b8d0fc3a13578fc149f4b5f9f80cc85b1a293392"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_mid_empty_left.png",
+    "bytes": 9447,
+    "sha256": "751257ec9074db87aded47b8658d47f27a8eb56e45e868ba9a9436552cc7a654"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_mid_empty_right.png",
+    "bytes": 9542,
+    "sha256": "e9d9d3118f1b5be5112c0cdaef207e277e84ce15f5fca20ec60187e103d61abe"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_open_empty_left.png",
+    "bytes": 10343,
+    "sha256": "60dae23cae00adb70d6d98bd50e54a6b279773c08d9ad9dacfd0aed883c02a9c"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/compact75_open_empty_right.png",
+    "bytes": 10437,
+    "sha256": "02b806aa2be5be95c5a46e66f00d8729e180f6dbcde55e0977c2b6ff9cad8737"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_closed_empty_left.png",
+    "bytes": 4807,
+    "sha256": "6a7d934f0926c7c6ca927127f454f1b88bd2f6d3fda798a443b8e7e92c06f6a0"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_closed_empty_right.png",
+    "bytes": 4753,
+    "sha256": "2d089a17ee353f04bdd308603e2615c4d9cc9c860e9dcc343b08c4215cf1705f"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_cube_10_grasp_left.png",
+    "bytes": 5091,
+    "sha256": "a3df308f3496a6f6a753299ba4d5ba3929353e2466867949358843bb544ba54f"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_cube_10_grasp_right.png",
+    "bytes": 5045,
+    "sha256": "89c66f0c40306770ed964262ee6d7ed226d77ddf68c58ce1298483dd25211703"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_cube_20_grasp_left.png",
+    "bytes": 5257,
+    "sha256": "86e51ad5251f2ba7c9b8f4a77b3d1e62388f4da01469ec15ba9514c4de7352d4"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_cube_20_grasp_right.png",
+    "bytes": 5225,
+    "sha256": "18ad8112fde093e6cfaf7ddcd6746b5457d4d605b93148492045627d4123163d"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_cube_30_grasp_left.png",
+    "bytes": 5334,
+    "sha256": "e08c60e8410997e480ab79ecba5e5107b7b5e9c0c9c9ab7ba66e149160f979fe"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_cube_30_grasp_right.png",
+    "bytes": 5348,
+    "sha256": "2aea8f0b43fcb069f167d906f440f3f71540417a279f3518d5109ebd31564c61"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_mid_empty_left.png",
+    "bytes": 5092,
+    "sha256": "6c33b9095a6ff03b87680764c8335e42f43e24f4b708350f52f9bf58a3f22a08"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_mid_empty_right.png",
+    "bytes": 5079,
+    "sha256": "cc24947cecebc77b86b4267ae646f4043671d846ab0c6843cfbdcd78fb7b1c78"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_open_empty_left.png",
+    "bytes": 6158,
+    "sha256": "273ae9fc0e0c8169a147dd5fbdfe85aaaead28ee832487aff633fbd686488db2"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/camera/low_profile30_open_empty_right.png",
+    "bytes": 6204,
+    "sha256": "1c24496692bc442049770a294a50c31ca6a02b527905c9a5cb12a9a174710fec"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/compact75_assembly.png",
+    "bytes": 58687,
+    "sha256": "f539a816e8aac6f425514834ed3222c7ac14c9b87875ee027bdae0ac5267ad57"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/compact75_side.png",
+    "bytes": 25694,
+    "sha256": "9a65fdf89da5f9aed6c61c5fa0deea4c97314605a39b1730a9e8dd54b24cfa10"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/low_profile30_assembly.png",
+    "bytes": 58396,
+    "sha256": "2a0e766d7bcbb794f4c252fa0d1dd419505ec05f65c5d254ecb26b2c6b601f6f"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/low_profile30_side.png",
+    "bytes": 28042,
+    "sha256": "d387ef1d2b4b8514005425aa71a0f592f29ae3ee07ec23e79a8e2f23296455f0"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-camera-body-members.png",
+    "bytes": 218751,
+    "sha256": "d0ce08fb57a7ec58c2e218c2da185a211f5fbdc748fab7bcbc509641a6d6a535"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-camera-connector-a.png",
+    "bytes": 209184,
+    "sha256": "c5aec507d32b27e1d801a6eea19e6927e8cbb78406a29ca93b0e32fc3d4c40d9"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-camera-connector-b.png",
+    "bytes": 209786,
+    "sha256": "1080c12b9dbb48f6fe99eef2f96c57c4e3cc364ec04c39632458736de6679bcd"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-camera-mount-members.png",
+    "bytes": 211069,
+    "sha256": "998609efd8dd1c4ed1cd065451229421c448985f057c1cf68ad8018ccd95b43f"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-copy-dialog.png",
+    "bytes": 159178,
+    "sha256": "f63a05aa8b40658cded7501435f73c0866ebb8815801781cc0661c6af3da8576"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-create-version-v2.png",
+    "bytes": 235632,
+    "sha256": "737c6ee36cd014ce42174be66080a305740388a997b78a1f2eeb3a072b9b1465"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-create-version.png",
+    "bytes": 249212,
+    "sha256": "bc2526458dcc72591992ff90e6c2a1a02cbe8e4652a8bc701ad22975fd683d80"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-import-update.png",
+    "bytes": 218720,
+    "sha256": "1d13924a439c457d0c68ade9fd1b336d5629c15534877385757ec1d41794d8bd"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-interference-mid-0.png",
+    "bytes": 252220,
+    "sha256": "7925a93efa23077adc94ec8fd98cd5b4edc99542de2d65395cc8a2b6bdfa6cbc"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-interference-mid-1.png",
+    "bytes": 252520,
+    "sha256": "ce698f5f59fb9ff9eb27e785841c0393cfd8e8532ddba064a00336bb8e0801c2"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-interference-mid-2.png",
+    "bytes": 251628,
+    "sha256": "0de028b2ff3627fc01f67c8e4e4b7f8b8b620a8132ca7b9ce11f9e65c4f0cf48"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-interference-mid-3.png",
+    "bytes": 252543,
+    "sha256": "ac41be800fdc6b7ae913eae739ecb2a253fa9778e604a0e9eda348fdc72c6483"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-interference-mid-4.png",
+    "bytes": 247065,
+    "sha256": "1244c69bd2472bc62db019193079c79f4ec71159ab3feea128a8bb31116732ad"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-interference-mid-5.png",
+    "bytes": 249591,
+    "sha256": "e558438202afec206ba47e3c3739f3cc7e8e1be0c0126950c384687575c33978"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-interference-mid.png",
+    "bytes": 224130,
+    "sha256": "6bcaeef1aa47ee8b4e8d8f7c29474251e64054e4cee1ad8330521593a3939fd8"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-jaw-left-repaired.png",
+    "bytes": 243909,
+    "sha256": "1f0a060090e042ad68b530d6949c142ba084caf72d8d2eb9512e5bd10a8c48a9"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-jaw-right-repaired.png",
+    "bytes": 240830,
+    "sha256": "bed77022816f0435b0ae7cde6756f738896c63555bfc4355519b4edd4eb763aa"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-mate-position-discovery.png",
+    "bytes": 211534,
+    "sha256": "f1f9cba6949f1630ff1eed974c9a48f0da8679ef7c42152a90bd95ea64872b5b"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-native-updated.png",
+    "bytes": 202983,
+    "sha256": "54520098401ea41dbebb1eefc7b4cb8e01247fa06fc5a4457f83b1c02dfc7edc"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-native-urdf-export.png",
+    "bytes": 152524,
+    "sha256": "22fdc8cef24a9eeefabfe74fe5c5414e2b36323e030b8250219b1d0ea9e6a3a8"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-drivers.png",
+    "bytes": 222793,
+    "sha256": "cb2d76295fbafbf77a9da371ad703061fdab7799e607ba992c5cfbf7c6e4a4e7"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-gripper_closed.png",
+    "bytes": 252562,
+    "sha256": "77d9f0433939c7c519f7055b57dda7b1a44bf13b5a73e3b213439a51d94c75d9"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-gripper_open.png",
+    "bytes": 252327,
+    "sha256": "b716db673fb1615ec6d2388e5992fbf7873feadf9d9dbd59123e1e9121453b36"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-restored_mid.png",
+    "bytes": 251950,
+    "sha256": "e177156e9bc71c0174ca451d4f8bb292b89b4bd4bf81d0491ef3063c9e551c2a"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-shoulder-apply-diagnostic.png",
+    "bytes": 235524,
+    "sha256": "42a42035caf4cbad9381243a1bff39357e7e680672b806e9b0f6dc24e8a7b3fa"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-small_gripper_drive.png",
+    "bytes": 239847,
+    "sha256": "0f800188311a253fb0354f6f71a022e493e8e5a0e4044e7c0438e21997bae298"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-small_joint1_yaw.png",
+    "bytes": 234051,
+    "sha256": "41dccd3d746bedf26804cf179e928419ab5efe34eef2b18b5272ff64df262168"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-small_joint2_shoulder.png",
+    "bytes": 240414,
+    "sha256": "39b5a1ad01ba87ee2ace1858bb9785159349aa5521ed8a60220d1f85eb0e8677"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-small_joint3_elbow.png",
+    "bytes": 236890,
+    "sha256": "e103869017d84f61eef88ddd3469a4fd305a628dbd08bbddbe89ed80807c4dd8"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-small_joint4_wrist.png",
+    "bytes": 239900,
+    "sha256": "0a8c177334c94a02c8673e636432f1bc7d274f823c6535d62915a1ff7ddc6cfd"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-wrist_lower.png",
+    "bytes": 252500,
+    "sha256": "af5c799001180bd5bfef1b2ae3810243bfe5860f5998f5b92b062f1dd2c7b49e"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-wrist_upper.png",
+    "bytes": 240154,
+    "sha256": "3620609c568dcb04b88eb62bd757b0d3c3325ed2f6334cded5ae761f19f3ef4f"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-pose-zero.png",
+    "bytes": 199333,
+    "sha256": "00b6aa02e58b8a8a4366f7e45e60f5c47c3c21e96974d850f005d189207d9f5a"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-repair-camera-mount.png",
+    "bytes": 212615,
+    "sha256": "3c767c73246f94ede52a4cfd19d460c2629a8d7cb396a267158bedff0f160476"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-shoulder-animation-complete.png",
+    "bytes": 246375,
+    "sha256": "370d2104df7e387ff3b0d3fc06a3d97414fbe0ab952b5c0413171cd2dd483ce2"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-shoulder-animation-diagnostic.png",
+    "bytes": 243495,
+    "sha256": "c240b63540277f29676534c5d8e6efdb1b2dae8a1bbf256d03b15ee63672c131"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-gripper_closed.png",
+    "bytes": 165749,
+    "sha256": "c2b411bc08af2a09759876f4abb201d6b7a9fe8281087433de69cd6895773732"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-gripper_open.png",
+    "bytes": 165263,
+    "sha256": "2a41f65929c96935aa4082347dc62ca3e83e7440260836838d379c7f0c97dea5"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-restored_mid.png",
+    "bytes": 165338,
+    "sha256": "7844b77cb2189080d23cc1d6df20dd522e0209fe4a609317335875ce127d914e"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-settings.png",
+    "bytes": 152562,
+    "sha256": "58c35b47c9a97e2bad139f8f1b2b6c31984a11823237eb2192a35586658dcfac"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-small_gripper_drive.png",
+    "bytes": 166687,
+    "sha256": "1a89fe6f92e715974d339966af9eeb5426fcc3e443cec8c198a2a053517a18ca"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-small_joint1_yaw.png",
+    "bytes": 170712,
+    "sha256": "746c8c96cf0e32b0ad2317d5cde58002e828b2d8d832333e6669bcf9d54df0ae"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-small_joint2_shoulder.png",
+    "bytes": 168324,
+    "sha256": "f68da7be5332d4b0b7e232651af16ab5f32ea8cd6f28efcf997479c2cc1f3734"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-small_joint3_elbow.png",
+    "bytes": 166229,
+    "sha256": "4e65f3fb4287b65e7f97613d8d379455262bc95747566e21491780aeab4a1aa1"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-small_joint4_wrist.png",
+    "bytes": 166205,
+    "sha256": "01880d16ac691c58bf5537c7e030cb486d23c9622d578217a1c9d2de4ea14632"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-v2.png",
+    "bytes": 233562,
+    "sha256": "55d9c103009467339e354db43f2ea9b92c83b0814ebba71720a6def35ad4fc2e"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-wrist_lower.png",
+    "bytes": 167486,
+    "sha256": "4e3f51c046d57151cb063a84c402a40e07c4cfafb5e91aa3ca4710caf3c1cfc4"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-wrist_upper.png",
+    "bytes": 166294,
+    "sha256": "7af595eefc59c123da6c61ebf3f608616069d15fbfe1b96f2dab4e58aaacd972"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-step-export-zero.png",
+    "bytes": 168294,
+    "sha256": "c70f82b62ccf52d26188f85017d3a74b7f4a06d567918415003bce1f5b7297a6"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-updated-groups.png",
+    "bytes": 213183,
+    "sha256": "71cea3897630dffda0e635fa5eafd7aa9b4a67a3758d0cc1b1ff908682d5be16"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-urdf-ui-option.png",
+    "bytes": 223197,
+    "sha256": "f8749e0f873376e270418bf920b605ea904482678c374ac4898f973b4208e54d"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-v2-final-ready.png",
+    "bytes": 276109,
+    "sha256": "3051ec0410a98abe2f09dbbc694db02004e573080016dcbc87e93d0cb26eb795"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-v2-repaired.png",
+    "bytes": 71666,
+    "sha256": "eb25c20068fd52c58ac5c1df9e30bb8a9e7beaba1a1796a4f3ebaa03b158c2b3"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-wrist-animation-end.png",
+    "bytes": 244319,
+    "sha256": "da1ff537e9d0fa4c94efbe4239ba28cd08818aad1492bb8855616bdda58e134e"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-wrist-limits-verified.png",
+    "bytes": 220899,
+    "sha256": "f23df19b565583b7e7dc9767b26163e057696e9f533a33f9f100bb2367ab2ee3"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-wrist-limits.png",
+    "bytes": 220995,
+    "sha256": "0ca5c0f9c7c24b56b885d6e1cedacb6e283d3bc5e794efaf4a0f2c24e77751eb"
+  },
+  {
+    "path": "outputs/low-profile-250g/images/onshape-wrist-upper-captured.png",
+    "bytes": 240227,
+    "sha256": "093ae587e892fb9aa0e27653dfc50890b367fa84b501d3c566b24c3dd9f65726"
+  },
+  {
+    "path": "outputs/low-profile-250g/project.json",
+    "bytes": 1323,
+    "sha256": "fa075448893086b41ee46b22f20865ebd561807712f1af82953c2abeef718272"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/cad-export.json",
+    "bytes": 56915,
+    "sha256": "e28aedd8fbe8b2bebd0b30be504e13ce5dc743564ac5c29dd92aeebe9c9135ff"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/converter-build.log",
+    "bytes": 181,
+    "sha256": "9c5b31a5670aac93844b49f019a96fc280e8dff0c37f2df76a8c90f8aeaf5d4f"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/converter-runtime.json",
+    "bytes": 276,
+    "sha256": "7cafe608d0640c26d7d036b7ebb496be91cd09df1cb9cfe0d3f4e475e0b132e1"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/converter-tests-red-color.xml",
+    "bytes": 48499,
+    "sha256": "468498cec97aa3fda1af5b3ea124216d0f7068a9388d085959b57f8f3bfdf7ea"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/converter-tests.xml",
+    "bytes": 1721,
+    "sha256": "6d1ea781329cf46b45cfbb82990562d8e729b335c3dd4381b6e3aaf0d5abd169"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/converter-v2-convert.log",
+    "bytes": 729,
+    "sha256": "e6ab06f3be3e79febe6a0514d95234c6275dcad5c9c2eaedd8de8f73a3a8fa79"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/converter-v2-intake.json",
+    "bytes": 213143,
+    "sha256": "d7c79e04fdcd749e1872c51e829c87ae53f53b8ddd082c529e741ccb696515f9"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/converter-wheel-intake.json",
+    "bytes": 213143,
+    "sha256": "d7c79e04fdcd749e1872c51e829c87ae53f53b8ddd082c529e741ccb696515f9"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/design-tests.xml",
+    "bytes": 1721,
+    "sha256": "e972eb36cbf0827fb1e7580305248f126e3213a019e36bca4b3b6813abf6491c"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/expected-groups.json",
+    "bytes": 21577,
+    "sha256": "5a4a4030d82e9711c5db990825daa52e22117ec0d6a51dd26ab6de417fcd83d9"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/final-cad-tests.xml",
+    "bytes": 2688,
+    "sha256": "82277b9115dfb63423e7d09655306d4d60e7fd91ce28b08e2e5fbd86b8ed331f"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/final-converter-tests.xml",
+    "bytes": 2901,
+    "sha256": "07ebfd17552d268cb2ca3d65b6e6749cf6e60e4653b3c8ba03b7178e32998165"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/final-quality-initial.json",
+    "bytes": 1193,
+    "sha256": "6a72884aff80dccd267893e777331961d9a19c2917e3a38400a1c18f73d92faa"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/final-quality.json",
+    "bytes": 1825,
+    "sha256": "b83143396bb69d4c953e3db13581e1fe2d05d3598f1a50a62b1955d7911496ab"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/final-quality.log",
+    "bytes": 1825,
+    "sha256": "b83143396bb69d4c953e3db13581e1fe2d05d3598f1a50a62b1955d7911496ab"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/full-optics.json",
+    "bytes": 17631,
+    "sha256": "6f4a78144547841c2daca815864208e01d95ddba982801cce2796209fee7b364"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/geometry-validation.json",
+    "bytes": 99420,
+    "sha256": "8ec84430a1544c5d15b140a11ee0579f11e228bc0fd6d1e78c52295ed446148e"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/input-intake.json",
+    "bytes": 136617,
+    "sha256": "9d8035b5663bd3181fa3f88fceb2fa358d559c64e06e6b89af252d032304da8c"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/manual-final-verification.json",
+    "bytes": 1751,
+    "sha256": "846fc661573a8109038afb8571e28695c622244b4458b7bb3e279dad853e27a9"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-interference.json",
+    "bytes": 1458,
+    "sha256": "b5f723ab095f051a45cc6308696b23f7fa96508185b6cdc9f9c4e7d3eac9518f"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-pose-targets.json",
+    "bytes": 2515,
+    "sha256": "8424438912da21cf057367a1355ad97143a3f2ac7a5c7f0e155f710614149d7b"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-pose-transforms.json",
+    "bytes": 85727,
+    "sha256": "c7e771f770f8f561573308fb78a47efd9fab44b30c7d8fb7e9581800317b2c6c"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-final-version.json",
+    "bytes": 246471,
+    "sha256": "133a722a32bd0f2136b790db3d957cd610b8998af65ef845948fe8871c91d7cb"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-geometry-diagnostic.json",
+    "bytes": 4378,
+    "sha256": "b554c299d0d966886b7eab7a570c38c5a0b52a131647a80c06bd4fd8989dceef"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-gripper_closed.json",
+    "bytes": 245380,
+    "sha256": "c6f19406743d496a068f686d99892576e87b2c957a6394df8cf388a50d44a1df"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-gripper_open.json",
+    "bytes": 251171,
+    "sha256": "d12f581547fdae886351cb7d011f4b2a8879debf239f5e08af445a6787b2c3a3"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-restored_mid.json",
+    "bytes": 246483,
+    "sha256": "778a0793516779cd8523a3a7f77400f630bf2a9e2ed8ad69293d70ee1fe5318a"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-small_gripper_drive.json",
+    "bytes": 245534,
+    "sha256": "172d9e8117903003b3c2a7f682101e87d9a6fef4fd76dca0e27c5acf4feebd6c"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-small_joint1_yaw.json",
+    "bytes": 276984,
+    "sha256": "cb2b4ac1112f6677e5b699ccd1d12d454dbc1f1f8b5aaa48e016f0df33925c27"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-small_joint2_shoulder.json",
+    "bytes": 282668,
+    "sha256": "ba2dc2299e31789fa8ba47751cd44d0777768b4875abaa02b2fb7e83fe65f51f"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-small_joint3_elbow.json",
+    "bytes": 286070,
+    "sha256": "52d50540acb440eee11abe842fd5af0419e8e9a1db7476abff4cd1016e9f4f5f"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-small_joint4_wrist.json",
+    "bytes": 265910,
+    "sha256": "8158a268fdc4c8b61e16bbbb923b641dedd5bdfa2377fe79420a10d1adc7b307"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-version-yaw10-exported-zero.json",
+    "bytes": 246549,
+    "sha256": "bd99d0ccf15e262414a1f3f28449c8ecea30f931e6b81bcd5a13dddff673a78c"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-wrist_lower.json",
+    "bytes": 266095,
+    "sha256": "ec91c155d53bd8ed5097f12445980314a1b779ad50253d3cf6e61b580c08be83"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-wrist_upper.json",
+    "bytes": 270955,
+    "sha256": "c2b7756932c8e9770b410b78c5df75f5472304ae76764683c64a5b15f882db20"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-step-zero.json",
+    "bytes": 248299,
+    "sha256": "99aecac1bf4a3262ca1244243ae51bfb01f038cbb275c5cf705d8536b858db5f"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-ui-poses.json",
+    "bytes": 10110,
+    "sha256": "70e8c9008ee8a8816e75ad41493e043ecb956ccef67e6d981a336492fda6e34f"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/native-zero-source-comparison.json",
+    "bytes": 190615,
+    "sha256": "c70ecbfa68b33204e2502efa518c84518263fd2d552b144782d3bda4691069cc"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/onshape-native-urdf-intake.json",
+    "bytes": 3585,
+    "sha256": "ed6822541d0bb59f8e6f95e2eeda50ac9b4c252e8763d2b462f1a1bcb166d881"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/optical-shortlist.json",
+    "bytes": 917503,
+    "sha256": "7289f6c69e3e94d7a6366a0213ae10db9671fcfc4ce2d890faf6dba5cc6bec26"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/pad-membership-repair.json",
+    "bytes": 3882,
+    "sha256": "3096a352df5532e66e96a0cdf6886b1e9de4bdc871875ea4e8d3251e0d992dce"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/physical-comparison.json",
+    "bytes": 500329,
+    "sha256": "abe8f5123f40f9fc7339205fd494167bf0239e87f344d251acbf12db9c223893"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/robot-negative-tests-red-fixture.xml",
+    "bytes": 1654,
+    "sha256": "e3a1b36347b1b964075cd88b344c54c1c731ffb663b2ca6882011323e4d41c46"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/robot-negative-tests.xml",
+    "bytes": 854,
+    "sha256": "b5e7356268b49395bd6a30f80514a6f5c4ddc5a335e465cc61a0a60dbfe01d92"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/root-tests.xml",
+    "bytes": 1328,
+    "sha256": "20b13b8e4650f70a72f1170d9e0a5908349a93f2b836190ce2d76e149c611561"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/ruff-initial.txt",
+    "bytes": 5122,
+    "sha256": "fc63bea4f3638252e37279e85c622108e05680e7951bd959d9c8da5c398f796e"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/search.json",
+    "bytes": 9599803,
+    "sha256": "451543590ee916c91029f20abd74d0f74d50382c5909906fd7bed2bad0c22c73"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/selection.json",
+    "bytes": 14826,
+    "sha256": "e4c6e92d916bc6c4101ba5cd9c756dc4364edb93fbbc621e898c8e5c58229eaf"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/service-validation.json",
+    "bytes": 89542,
+    "sha256": "810765b8682592a67f0fdcda2850c3d0eef4605f873cfe66df67cdd6e86fdafa"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/ui-export-manifest.json",
+    "bytes": 25802,
+    "sha256": "d0e98a52fa132b992ed212c6e992df9d8afa63556cd9d353bf8bb826b971df23"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-pose-transforms.json",
+    "bytes": 86183,
+    "sha256": "ad54186e7c99aeb2bee1f90f3533f319382561063a9e70dc7c3d1d524040f05c"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-gripper_closed.json",
+    "bytes": 249907,
+    "sha256": "3a4129e6617e04d49521259148f994beed27b1574daa940c7600953b2feea52a"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-gripper_open.json",
+    "bytes": 259756,
+    "sha256": "1cc540247f0fe6cb708776b344269d446f01d2ae3d162c42b344c778f96f0f3b"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-restored_mid.json",
+    "bytes": 241105,
+    "sha256": "c24158e2dcb0d0a2b8d722d163fa722a3d292c1815026377c3749b019e031e93"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-small_gripper_drive.json",
+    "bytes": 245648,
+    "sha256": "54e499eaf684437178463b5e885ad0a86e15fc4f503b5390d0248c709be6f2dd"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-small_joint1_yaw.json",
+    "bytes": 278793,
+    "sha256": "01cac8977879c48642ee1100f8d3b6c0cd3a61f6c1279e7600d9a3a812c9cb2f"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-small_joint2_shoulder.json",
+    "bytes": 282403,
+    "sha256": "097ce5043d275f3145b0e09191a7ebd0720dc15696b657bb307759a5c20aef36"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-small_joint3_elbow.json",
+    "bytes": 285612,
+    "sha256": "e3b03a682998731baa5149d123f154d09c5f4ea03846647c987eb8be79723410"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-small_joint4_wrist.json",
+    "bytes": 265990,
+    "sha256": "0beb9128548346e0d83ac4ab82cf53b55f88ab1ffab15c070c133363095b5135"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-wrist_lower.json",
+    "bytes": 266098,
+    "sha256": "ef0583a8162d7f61fd4c4de6af20e6ebfa1cb11f9e31952cc47380ae0e4d5b33"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-wrist_upper.json",
+    "bytes": 266150,
+    "sha256": "6a205553ae71da9bea2fae57a0a4cda53812643c0c29d887b66c51a48ee8b0c6"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/v1-pad-misassigned/native-step-zero.json",
+    "bytes": 246395,
+    "sha256": "fce357d325e09cfbef7d1c22b7bc4033733d5a2c5d4b3ced006aa0ec8f007262"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/validation-tests.xml",
+    "bytes": 2686,
+    "sha256": "ff31cc336e7336f1a70f5c36f76878ed152da30bd5d22e02541d8ea7bd031f5c"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/version-data-check.json",
+    "bytes": 567,
+    "sha256": "14cc8eb74d48e343ed854108cf72b79a602f121f4d4b92bef1be3097cd46a207"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/README.md",
+    "bytes": 1348,
+    "sha256": "4914dd83c33ce132d79de443296ace0966cb3e2c80b49b5735b7386891d007b4"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/converter-config.json",
+    "bytes": 18808,
+    "sha256": "76cdecbfc3eb5a52302689e0dae9413267c2af7e63d308d18bad3ea291c811e1"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/joint-definitions.json",
+    "bytes": 2783,
+    "sha256": "7a3f8e9822bf5009f0809a0bfba84642b1588bea69110867e9d5309ef789c675"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/base_link.stl",
+    "bytes": 6179834,
+    "sha256": "caa25a248015cd494290e5f6fb83666f268bce2248e0e52afb4df32ffc4a951e"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/camera_body.stl",
+    "bytes": 102284,
+    "sha256": "d8399c7169f9d187dd7129ad74260056613dee2111444bf114c08cacce72d209"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/camera_mount.stl",
+    "bytes": 1390884,
+    "sha256": "20e763a91755d4d1fa1b463defb8a573e4e552fb5a4be9b13cc93b8d5f8903ed"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/coupler_l.stl",
+    "bytes": 97884,
+    "sha256": "a5db062d366d052aa9171e9a60cb6f35c9a9004a6d3e812e18cd4726f61b623f"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/coupler_r.stl",
+    "bytes": 97884,
+    "sha256": "2a4f116f50530e9a7622df2d27ded3c6f78cdeeae58eef03d09c397131706fbf"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/forearm.stl",
+    "bytes": 5991934,
+    "sha256": "213183473db10f8f7e4f729cf3dd0d728e273306788ab84e2911e38db1388fa9"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/gripper_crank.stl",
+    "bytes": 1300484,
+    "sha256": "1a014322978cb6bb807f67645af6408fd08647bb8b0baaafe8efa5082b134fc8"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/jaw_l.stl",
+    "bytes": 595884,
+    "sha256": "671632d85909a457b7e5a15c6c8a82f47d937cdad847af02205b8cfe6e3e6c25"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/jaw_r.stl",
+    "bytes": 595884,
+    "sha256": "7940a73567ee917af09d010c63bb58b7e422aa31fd1ee0cb89341794b49e8573"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/shoulder_yaw.stl",
+    "bytes": 6091934,
+    "sha256": "2e769aa680f89047b48540bb87ea57aee49232b5fd560aeb66125d034af1a4fd"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/upper_arm.stl",
+    "bytes": 6377834,
+    "sha256": "1216785312b2abb9556691c74df8a841896f4b4de09e1853e4309d72d6c6955c"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/wrist.stl",
+    "bytes": 6831934,
+    "sha256": "3a50e0889d77181c8bbc17dc3f6a64fa9578d178e5b32f820dd1edb6591ce698"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/config.json",
+    "bytes": 18808,
+    "sha256": "76cdecbfc3eb5a52302689e0dae9413267c2af7e63d308d18bad3ea291c811e1"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/conversion.json",
+    "bytes": 227155,
+    "sha256": "70f01463e6ffcb8848156e0ecca6b853935419df6ecac4f5d135dc32390d2216"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/robot.urdf",
+    "bytes": 11389,
+    "sha256": "ed3031ef6d79f53a2b09110997f06aacaff781d705c3142c770ad196807c4ab2"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/onshape-native/README.md",
+    "bytes": 790,
+    "sha256": "9d5c7fcd732fabca3891c894d6b381fc8d67b7f2f7de1f8df009e59eff9b41cd"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/onshape-native/low-profile-onshape-native.zip",
+    "bytes": 8392197,
+    "sha256": "06d745e43342a56760c7bb3c1e9efc96e29de904d4338f5972300d6f4e9c26d8"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/pg3_states.py",
+    "bytes": 1620,
+    "sha256": "44d7946252786d801a5096c67e1dd617c9e02a373563d8f57019de8bfc74cce6"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/test_validation.py",
+    "bytes": 1480,
+    "sha256": "a7bac1b0193f54bc40bd50fb82f6678726cd8bf2ae444ebab339416a754ca03c"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/validate_robot.py",
+    "bytes": 8143,
+    "sha256": "79105b55604ceed545c70d81ed007fedab86df3dea8661fb5288720f6bade0e4"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/validation.json",
+    "bytes": 21237,
+    "sha256": "3229c6f521f6b6fad910eb9dfa7739c7a1fc33625b31c6505b0dad5089ba35c6"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/ONSHAPE-WORKFLOW.md",
+    "bytes": 1494,
+    "sha256": "8c05364fc96bfc46c92c087e16577cadf41668ded2326579d2c2445cabe6d270"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-robot-workflow/SKILL.md",
+    "bytes": 2579,
+    "sha256": "630dd2b80a69d71a65e4f414b8dadeeae73cc5c8a3a22ac53714161cad76236f"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-robot-workflow/references/api-and-export.md",
+    "bytes": 4100,
+    "sha256": "963b994799310bc052cd3149ea33ed5ee11cb4e70b06adaee15b7b9cc90f474f"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-robot-workflow/references/compact-camera-and-headless.md",
+    "bytes": 7778,
+    "sha256": "66b060961cad6c63e5cd72e0e5765ad3e5297251046182635e29ca89702881c5"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-robot-workflow/references/ui-first-step-pixi.md",
+    "bytes": 9929,
+    "sha256": "6686546f09f81ab13461c0e8848a80138966801aeb46b02f29ed4cdd7fade6f8"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-robot-workflow/references/validation.md",
+    "bytes": 3908,
+    "sha256": "388f4c924a38079728a7d99164863b7bd29782c9ce0adfa9f24b657e3d5837a5"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-workflow-snapshot.json",
+    "bytes": 3497,
+    "sha256": "7fa7155c0569c4c97dd1d152ccba7bafb36659ff7c7dfb6e331293a4d24e5e99"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/review-written-workdoc/SKILL.md",
+    "bytes": 6547,
+    "sha256": "5641b9bbdee8fbda795ade1ba9a5362104053f88b15cc0a64131202557593885"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/review-written-workdoc/agents/openai.yaml",
+    "bytes": 255,
+    "sha256": "ea4a1d4e02f397a799c8c71e2c632da23ac729b857d6697535b9cdf06cf2d32d"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/review-written-workdoc/references/review-rubric.md",
+    "bytes": 6140,
+    "sha256": "ae965052c2e7a232fef088cddeb7c4223e6663f639d6f8824cb35a9d005b8544"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/start-work-with-docs/SKILL.md",
+    "bytes": 6835,
+    "sha256": "cc8b5ef1ab093e8061ce96f571ed6c7f983b5e9b6d16c855190f6889db753bef"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/start-work-with-docs/agents/openai.yaml",
+    "bytes": 245,
+    "sha256": "194b81c265c7195d0db99ea9199e12cfdf0fb51b6731cf7603b6fafc400bcf97"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/write-workdoc-uv/SKILL.md",
+    "bytes": 4453,
+    "sha256": "79fea44d8ddd7b33eee491d6c4e5a82341c6aaa0ea72b3a0c12ffcc78e7b45c7"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/write-workdoc-uv/agents/openai.yaml",
+    "bytes": 221,
+    "sha256": "2620c925ba4509f89dd1ac9ab743c9b94ac2a8472b6177a2383cecf0391137fb"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/write-workdoc-uv/references/workdoc-template.md",
+    "bytes": 19538,
+    "sha256": "3fa327bd8d6bf610dac8a61cfd97e280b02211d5449fe46f2393e056ddc010c1"
+  },
+  {
+    "path": "outputs/low-profile-250g/workdoc-review.md",
+    "bytes": 3073,
+    "sha256": "8228f282d06921115fca0585e2239fa1c2a7f4dfef5714229e1f850d1e28e62a"
+  },
+  {
+    "path": "work/low-profile/add-pose-drivers.js",
+    "bytes": 1068,
+    "sha256": "41aaa093b75656c80ddb90085df37b105a316844c922ce0bde042bfcade68a0b"
+  },
+  {
+    "path": "work/low-profile/analyze_ui_step.py",
+    "bytes": 2106,
+    "sha256": "fad8d550ca62aea981600e5e790fe2ea3e9b840eb7631b361216d0c08ae72503"
+  },
+  {
+    "path": "work/low-profile/archive_v1_poses.py",
+    "bytes": 1584,
+    "sha256": "7cd2e3b9a744f19fd7635ee14d0629b0379a8df30fc83c5b2385494479a97cab"
+  },
+  {
+    "path": "work/low-profile/build_manual.py",
+    "bytes": 4415,
+    "sha256": "504a58d268f6b6f81d6ee740fbe36d971ef8d7a47ec25f9a1d2c810e1da19535"
+  },
+  {
+    "path": "work/low-profile/cache/RB9.01.060.110 D405 holder.STL",
+    "bytes": 268084,
+    "sha256": "2adbda6d87aebbe64fb6f773b1509fe8b5602ff45eabc854d0522eb952373a31"
+  },
+  {
+    "path": "work/low-profile/check_pad_repair.py",
+    "bytes": 1641,
+    "sha256": "993ed80aae2f5e3cc2cf325949096d24fcae4bcef70c662b2b0976e78439c61a"
+  },
+  {
+    "path": "work/low-profile/checkpoint.py",
+    "bytes": 2597,
+    "sha256": "079f5195489b19e92d642c4e255ba816e4809677b107022fda5e3e316394eb74"
+  },
+  {
+    "path": "work/low-profile/compare.py",
+    "bytes": 6391,
+    "sha256": "4c1e6492227447ff67fe42a4cd8588cf7cc8d869be0ae18fde016a9ea732caab"
+  },
+  {
+    "path": "work/low-profile/compare_ui_zero.py",
+    "bytes": 3564,
+    "sha256": "0b5c6a9521bf7928db96f1910b238e1a2f6e8566582de6496546d7a6e9a51132"
+  },
+  {
+    "path": "work/low-profile/create-repaired-version.js",
+    "bytes": 928,
+    "sha256": "a7f91babe7dfff48ad6465f60925b8000a193d82a8601ccf983d4c338d1efba9"
+  },
+  {
+    "path": "work/low-profile/current-export.js",
+    "bytes": 1887,
+    "sha256": "bf9e20ea5cedf2cc27dd2fcf347cdf4183a51363bc50a3e1566aec10b7792327"
+  },
+  {
+    "path": "work/low-profile/current-increment.js",
+    "bytes": 2741,
+    "sha256": "98a177f98a74850e4dd0399438fe26c3f4701f4ea7ddc8efbfa3a6bd46294ab7"
+  },
+  {
+    "path": "work/low-profile/current-pose.js",
+    "bytes": 4624,
+    "sha256": "57be5173012e15a275b24dbeb9ecec7ff0ba52d33c740c68207ff858a15be6bc"
+  },
+  {
+    "path": "work/low-profile/design.py",
+    "bytes": 3746,
+    "sha256": "fb188056d95a920d2ebd724a9407beea9b358994414bbe49a3fa0eb5e1c2f5b9"
+  },
+  {
+    "path": "work/low-profile/diagnose_step_geometry.py",
+    "bytes": 3600,
+    "sha256": "6e0de56a448588681037cdf89f19aae5fc277ada6b42aa17120cfc9f549338ec"
+  },
+  {
+    "path": "work/low-profile/export-step-dialog.js",
+    "bytes": 1881,
+    "sha256": "fed242ccfbc5382322c3b379b086d9fd9c2564f9b7ca953a0ec33c71d5e2c48e"
+  },
+  {
+    "path": "work/low-profile/export_all_poses.py",
+    "bytes": 1370,
+    "sha256": "828ca8a4cfdac42450484ba2ecaae74647f4ee08f9d36c0068062c4b4047ecbb"
+  },
+  {
+    "path": "work/low-profile/export_cad.py",
+    "bytes": 5335,
+    "sha256": "bb4adff5eb78c354211b2b1cbd8edb9510689c63aa66a8fc2c66e408f3c98761"
+  },
+  {
+    "path": "work/low-profile/export_one.py",
+    "bytes": 4384,
+    "sha256": "90caf0e0b26030fa2ac5061f147cff9d6eb0eaebdd25a8f49286e4b5513f051a"
+  },
+  {
+    "path": "work/low-profile/extract_native_poses.py",
+    "bytes": 5242,
+    "sha256": "2b2d41a022f7296a4587dbb0b6e645c8320589d73540d0a937531f5b22601e2b"
+  },
+  {
+    "path": "work/low-profile/increment-pose.template.js",
+    "bytes": 2759,
+    "sha256": "009a9126239696d0c03d8ad52492a239913d2847b3569c0d300d83403860aec1"
+  },
+  {
+    "path": "work/low-profile/increment_pose.py",
+    "bytes": 1976,
+    "sha256": "018ef9041e0a53a7374a6c79e7b64020b986f7f53af0ef137a5db0299c67060c"
+  },
+  {
+    "path": "work/low-profile/inspect-interferences.js",
+    "bytes": 898,
+    "sha256": "ba11b46b69c72eea489bd3d24b1cb529a6e6ce769fe708734417dc445c0eb3b1"
+  },
+  {
+    "path": "work/low-profile/log_work.py",
+    "bytes": 2105,
+    "sha256": "d662170493a57e1ef367de43875aefaa9c3c08235263c3333f4394f4bcfe6908"
+  },
+  {
+    "path": "work/low-profile/manual-audit.txt",
+    "bytes": 2774,
+    "sha256": "458456ae70a2e2beccc357e45d32a2e5ed5ca0ee5edb46266dbb8d54555c4abd"
+  },
+  {
+    "path": "work/low-profile/manual-page13.png",
+    "bytes": 147381,
+    "sha256": "56c6131c20f2d9e164d45db5454c9b8e6768c07b2c7d3f68a554915aceb3b2cf"
+  },
+  {
+    "path": "work/low-profile/manual-page17.png",
+    "bytes": 107499,
+    "sha256": "37453bbf8240a290d18e8daebff3bf948f3caa1c66bd8812bbc28804f74dc970"
+  },
+  {
+    "path": "work/low-profile/manual-pdf-text.txt",
+    "bytes": 21233,
+    "sha256": "f4b0889fde2acd7e829403812e345505d9f3a547699099dd448077ef787cd8b6"
+  },
+  {
+    "path": "work/low-profile/named-pose.template.js",
+    "bytes": 4560,
+    "sha256": "f3d9db05c3514f4b7eaf4cbbfde05d71056af7143527e29e901ef93f107b8ecc"
+  },
+  {
+    "path": "work/low-profile/optics.py",
+    "bytes": 4086,
+    "sha256": "73f43298abe972aba1f35388d2f3e472f9a9b9891fa1ad13750ffbd2270aa549"
+  },
+  {
+    "path": "work/low-profile/prepare_robot_config.py",
+    "bytes": 3496,
+    "sha256": "96c93740ab193f75c8b7d529c065a53aa2d2983db689b60008434c6216cb1da3"
+  },
+  {
+    "path": "work/low-profile/quality_check.py",
+    "bytes": 6244,
+    "sha256": "34ee7095b0508d3a551cd65bdf753cc18298658021f489e7d03e3f7bc19f2dd9"
+  },
+  {
+    "path": "work/low-profile/record_poses.py",
+    "bytes": 3841,
+    "sha256": "5ac3d6ee35b27edc9b8d8556433da9ba114451026f48f4326e97a8d9f81e4004"
+  },
+  {
+    "path": "work/low-profile/repair-body.js",
+    "bytes": 1832,
+    "sha256": "9add7b4b53982c99b9335ab8983550870379fae138e995b1649e7af37cd8c0b2"
+  },
+  {
+    "path": "work/low-profile/repair-jaw-left.js",
+    "bytes": 1325,
+    "sha256": "184c6efe16cd7b87657877c2802f62307ce00009a28a60e281ab1075f46b9465"
+  },
+  {
+    "path": "work/low-profile/repair-jaw-right.js",
+    "bytes": 1326,
+    "sha256": "898ae4ae953e25b040595ae3c9b86b12a88de92b0fb8ca6c11c8ae19f66e916b"
+  },
+  {
+    "path": "work/low-profile/repair-mount.js",
+    "bytes": 1519,
+    "sha256": "e35adc0ba94813239cf66390784e94f7447bc8a8c29152316cbf3eae3d1f75de"
+  },
+  {
+    "path": "work/low-profile/research.py",
+    "bytes": 3215,
+    "sha256": "64810aa9cc51abafe8ac7dd558cc9540e64a72de92da083efac22339ecd7e792"
+  },
+  {
+    "path": "work/low-profile/select_candidate.py",
+    "bytes": 4094,
+    "sha256": "ce5407504dcd4145a5474603417012ce2867420c5ca4d52980968daeaf6103e6"
+  },
+  {
+    "path": "work/low-profile/service.py",
+    "bytes": 5784,
+    "sha256": "451ecae852b0e263f3809869b73e66cf99a17eb2ddca5ae2cd25cfd5b31ff928"
+  },
+  {
+    "path": "work/low-profile/shoulder-increment.js",
+    "bytes": 1704,
+    "sha256": "1c25c1f8a8a9d43f482cd659dac03c16e73eee0b36938b10a6ed4c5d9d536251"
+  },
+  {
+    "path": "work/low-profile/study.py",
+    "bytes": 5385,
+    "sha256": "c4c152bd59b57031a777164df3b32e5234476f89eba8b872c433082814d6e6b5"
+  },
+  {
+    "path": "work/low-profile/sync_diary.py",
+    "bytes": 1860,
+    "sha256": "ee40a8a081ca342fb72ee5af2dee6646ecd5eda86b9f4dd5a7d4639bde425973"
+  },
+  {
+    "path": "work/low-profile/sync_skills.py",
+    "bytes": 1966,
+    "sha256": "c43e576d3017372de06386ddc448d5f28e1f386a7e18fc109dc8e5937733ad5f"
+  },
+  {
+    "path": "work/low-profile/test_design.py",
+    "bytes": 1789,
+    "sha256": "a71f681bcf24f139eb206ceeaf78bf408e206ba96b56d11b97e5a6174ab454a9"
+  },
+  {
+    "path": "work/low-profile/test_validation.py",
+    "bytes": 2353,
+    "sha256": "85046e106f38e14853b181e1bd74b2a231a5f79000e5275f50c78a18b3df09c7"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-gripper_closed-attempt-1.txt",
+    "bytes": 4324,
+    "sha256": "bcec1ec4842f423ff8b216ef54d8a123d5482abba9008d65455dbb8d693825d7"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-gripper_closed.txt",
+    "bytes": 4324,
+    "sha256": "bcec1ec4842f423ff8b216ef54d8a123d5482abba9008d65455dbb8d693825d7"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-gripper_open-attempt-1.txt",
+    "bytes": 4302,
+    "sha256": "0e7ebdfb8d53617955dbdf650d12ebdf7ea7eba02f68105109b0e7764c3f9ea0"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-gripper_open.txt",
+    "bytes": 4302,
+    "sha256": "0e7ebdfb8d53617955dbdf650d12ebdf7ea7eba02f68105109b0e7764c3f9ea0"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-restored_mid-attempt-1.txt",
+    "bytes": 4302,
+    "sha256": "76bdbb60835046e91df44282e88427a1785fbeb998ff282a973d2843cd746c8d"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-restored_mid.txt",
+    "bytes": 4302,
+    "sha256": "76bdbb60835046e91df44282e88427a1785fbeb998ff282a973d2843cd746c8d"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_gripper_drive-attempt-1.txt",
+    "bytes": 4379,
+    "sha256": "9b7dc8e23819b712f7f33f298deb4ef3e7c479d47d72f345a547f0219eba2cc8"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_gripper_drive.txt",
+    "bytes": 4379,
+    "sha256": "9b7dc8e23819b712f7f33f298deb4ef3e7c479d47d72f345a547f0219eba2cc8"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_joint1_yaw-attempt-1.txt",
+    "bytes": 57,
+    "sha256": "c1bf00e8544d29ffdb15b457d37bed033a027a2b019fe68cf72cc6cf7e473b19"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_joint1_yaw-attempt-2.txt",
+    "bytes": 4241,
+    "sha256": "944513c627e0d500ce83fb6e5ad30bb43c97abe89e8fe00af99c8f59a9dff17f"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_joint1_yaw.txt",
+    "bytes": 4346,
+    "sha256": "8dd9c790a7ec7372b80129fd7248dfee79b4cd950df4d676d80d3c5d773f3c84"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_joint2_shoulder-attempt-1.txt",
+    "bytes": 4401,
+    "sha256": "f6bbd0a917f2eecf32a4cc6837f7b9866b09cea29042eebdda0a53b9e34adfdb"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_joint2_shoulder.txt",
+    "bytes": 4401,
+    "sha256": "f6bbd0a917f2eecf32a4cc6837f7b9866b09cea29042eebdda0a53b9e34adfdb"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_joint3_elbow-attempt-1.txt",
+    "bytes": 4368,
+    "sha256": "9c2784fcf68b090a2b944558798587df9be82f883fdbda973668d953d7e83d50"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_joint3_elbow.txt",
+    "bytes": 4368,
+    "sha256": "9c2784fcf68b090a2b944558798587df9be82f883fdbda973668d953d7e83d50"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_joint4_wrist-attempt-1.txt",
+    "bytes": 4368,
+    "sha256": "a4f1abc2671f592606dd3652ce96e0e52954d7b83b582f0236ce5259dfc1d311"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-small_joint4_wrist.txt",
+    "bytes": 4368,
+    "sha256": "a4f1abc2671f592606dd3652ce96e0e52954d7b83b582f0236ce5259dfc1d311"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-wrist_lower-attempt-1.txt",
+    "bytes": 4291,
+    "sha256": "432d525af285d8d7cc73c68e4b987c246859fae86f2db62d6b2dfe5033a86b1a"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-wrist_lower.txt",
+    "bytes": 4291,
+    "sha256": "432d525af285d8d7cc73c68e4b987c246859fae86f2db62d6b2dfe5033a86b1a"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-wrist_upper-attempt-1.txt",
+    "bytes": 4291,
+    "sha256": "3de43d3c9e588d86bc7ea09b69cc50fcc0b610147e519e4d2698ea1dac4e14a6"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-wrist_upper.txt",
+    "bytes": 4291,
+    "sha256": "3de43d3c9e588d86bc7ea09b69cc50fcc0b610147e519e4d2698ea1dac4e14a6"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-zero-attempt-1.txt",
+    "bytes": 4214,
+    "sha256": "9bb5f9d8a0b1055a59664e5a7b504f92e029560b1194179eb8d038026dc5778d"
+  },
+  {
+    "path": "work/low-profile/ui-logs/export-zero.txt",
+    "bytes": 2690,
+    "sha256": "285e0a3096fe3b640e2c504137741d8bbf883c9cc3c8d18ae004cb629466221a"
+  },
+  {
+    "path": "work/low-profile/ui-logs/gripper_closed-attempt-1.txt",
+    "bytes": 62,
+    "sha256": "687e31fbdef2ae0d9d7b97ac0e64e1d4c7ecce4bf415767bf4e39e4df083db9e"
+  },
+  {
+    "path": "work/low-profile/ui-logs/gripper_closed.txt",
+    "bytes": 5579,
+    "sha256": "a6fae34ea0c4a67a088f22f3749dfb5db66a16b8b2de73ebb6bb2fa6e11c3478"
+  },
+  {
+    "path": "work/low-profile/ui-logs/gripper_open.txt",
+    "bytes": 5462,
+    "sha256": "d7af92b703d0723f55a3addd71d01691acac3600c606be555c04d93a14e892e0"
+  },
+  {
+    "path": "work/low-profile/ui-logs/restored_mid.txt",
+    "bytes": 5570,
+    "sha256": "bcaf44845bba260c6541b247d5d0c032f2d8e013dbbddfbfd7857accacaf0919"
+  },
+  {
+    "path": "work/low-profile/ui-logs/small_gripper_drive.txt",
+    "bytes": 4935,
+    "sha256": "f8c94eb928aee18c59c285089a1b771228da00786961c2dc00f56e6e4b819066"
+  },
+  {
+    "path": "work/low-profile/ui-logs/small_joint2_shoulder.txt",
+    "bytes": 72,
+    "sha256": "f50fb3525027106d2ee64d13eb9192c73bb63fe661c63db830715268ecb8a62d"
+  },
+  {
+    "path": "work/low-profile/ui-logs/small_joint3_elbow.txt",
+    "bytes": 4933,
+    "sha256": "aaf5b2ba427f96c168c330e90f1ca5abc57092ac79ab1d717435dbd7c41c4373"
+  },
+  {
+    "path": "work/low-profile/ui-logs/small_joint4_wrist.txt",
+    "bytes": 4933,
+    "sha256": "e9b484e8b442f77fe50973c4f566994ccbb072ab005a421d38de5fb36a944aac"
+  },
+  {
+    "path": "work/low-profile/ui-logs/wrist_lower.txt",
+    "bytes": 4923,
+    "sha256": "c414c9e8a8c9680d3f36a99cd5772981c2bdda46839d0de9864a04b65d7d3b1b"
+  },
+  {
+    "path": "work/low-profile/ui-logs/wrist_upper-attempt-1.txt",
+    "bytes": 59,
+    "sha256": "32100aadf5c37d329a0b20bedf4ac67dad9cfeb4999522317e2c3d43c4796f59"
+  },
+  {
+    "path": "work/low-profile/ui-logs/wrist_upper-increment.txt",
+    "bytes": 55,
+    "sha256": "46329e4cba23da3360789e0294072fc1b4f88fe703183d343872521734a590af"
+  },
+  {
+    "path": "work/low-profile/ui-logs/wrist_upper.txt",
+    "bytes": 5480,
+    "sha256": "500d2aed1445f6ae3a13293ea94492c3f928305977e03b9044a2f945b52a2297"
+  },
+  {
+    "path": "work/low-profile/ui-state.yaml",
+    "bytes": 9278,
+    "sha256": "05f71cc63fdb863020d31e581e9649140f818a88656ea5ff9fca557dc358530a"
+  },
+  {
+    "path": "work/low-profile/update-camera-connectors.js",
+    "bytes": 1020,
+    "sha256": "c69c53fe113a1ec3ceabf8e81b13045e12b411d5c7a582470e7b20e4ef95a01e"
+  },
+  {
+    "path": "work/low-profile/validate_geometry.py",
+    "bytes": 7744,
+    "sha256": "377799b997317d8a28a6e3b024e6c9734f6013b9542c7b65cbeaa506a1940256"
+  },
+  {
+    "path": "work/low-profile/verify_snapshot.py",
+    "bytes": 2194,
+    "sha256": "b9f8d49d96285fa0300dedc3f6863489b9c515a8c00ae86f5ce6247f294af25c"
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "files": 263,
+  "stl": 261,
+  "urdfs": [
+    {
+      "path": "low_profile_d405_motion_and_urdf/urdf/low_profile_d405_motion_and_urdf.urdf",
+      "links": 19,
+      "joints": [
+        {
+          "name": "closing_left_loop_closure",
+          "type": "continuous",
+          "parent": "pg3_finger_l_14_bolt",
+          "child": "closing_left_loop_closure_1"
+        },
+        {
+          "name": "closing_left_loop_closure_1",
+          "type": "continuous",
+          "parent": "closing_left_loop_closure_1",
+          "child": "closing_left_loop_closure"
+        },
+        {
+          "name": "closing_left_loop_closure_2",
+          "type": "continuous",
+          "parent": "closing_left_loop_closure",
+          "child": "coupler_l__1__loop_closure"
+        },
+        {
+          "name": "closing_right",
+          "type": "continuous",
+          "parent": "pg3_pad_l",
+          "child": "closing_right_1"
+        },
+        {
+          "name": "closing_right_1",
+          "type": "continuous",
+          "parent": "closing_right_1",
+          "child": "closing_right"
+        },
+        {
+          "name": "closing_right_2",
+          "type": "continuous",
+          "parent": "closing_right",
+          "child": "pg3_link_r"
+        },
+        {
+          "name": "dof_camera_body_fixed",
+          "type": "fixed",
+          "parent": "cam5_tie_bolt_1",
+          "child": "cam5_d405_body"
+        },
+        {
+          "name": "dof_camera_mount_fixed",
+          "type": "fixed",
+          "parent": "arm_m05_ref23",
+          "child": "cam5_tie_bolt_1"
+        },
+        {
+          "name": "dof_coupler_left",
+          "type": "continuous",
+          "parent": "pg3_pivot_drive_r_bolt",
+          "child": "pg3_link_l"
+        },
+        {
+          "name": "dof_coupler_right_loop_closure",
+          "type": "continuous",
+          "parent": "pg3_pivot_drive_r_bolt",
+          "child": "coupler_r__1__loop_closure"
+        },
+        {
+          "name": "dof_gripper_drive",
+          "type": "revolute",
+          "parent": "arm_m05_ref23",
+          "child": "pg3_pivot_drive_r_bolt"
+        },
+        {
+          "name": "dof_jaw_left",
+          "type": "prismatic",
+          "parent": "arm_m05_ref23",
+          "child": "pg3_finger_l_14_bolt"
+        },
+        {
+          "name": "dof_jaw_right",
+          "type": "prismatic",
+          "parent": "arm_m05_ref23",
+          "child": "pg3_pad_l"
+        },
+        {
+          "name": "dof_joint1_yaw",
+          "type": "continuous",
+          "parent": "arm_m01_ref11",
+          "child": "arm_m02_ref27"
+        },
+        {
+          "name": "dof_joint2_shoulder",
+          "type": "continuous",
+          "parent": "arm_m02_ref27",
+          "child": "arm_m03_ref07"
+        },
+        {
+          "name": "dof_joint3_elbow",
+          "type": "continuous",
+          "parent": "arm_m03_ref07",
+          "child": "arm_m04_ref20"
+        },
+        {
+          "name": "dof_joint4_wrist",
+          "type": "revolute",
+          "parent": "arm_m04_ref20",
+          "child": "arm_m05_ref23"
+        },
+        {
+          "name": "fixed_node_to_root_joint",
+          "type": "fixed",
+          "parent": "root",
+          "child": "arm_m01_ref11"
+        }
+      ]
+    }
+  ],
+  "visuals": 261,
+  "collisions": 0,
+  "inertials": 14,
+  "top_level_tags": [
+    "joint",
+    "link"
+  ],
+  "gripper_crank_expected_bodies": 13,
+  "gripper_crank_exported_visuals": 12,
+  "status": "Reference export; one crank visual count discrepancy, no collision elements, closed-loop behavior not validated"
+}

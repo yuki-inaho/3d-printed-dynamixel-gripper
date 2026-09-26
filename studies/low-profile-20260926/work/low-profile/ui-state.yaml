@@ -1,0 +1,192 @@
+- generic [ref=f1e3]:
+  - navigation [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - link [ref=f1e8] [cursor=pointer]:
+        - /url: /documents
+        - img "The Onshape logo." [ref=f1e9]
+      - generic [ref=f1e11] [cursor=pointer]
+    - generic [ref=f1e14]:
+      - generic [ref=f1e16]:
+        - generic [ref=f1e17]: Low Cost Robot - D405 30deg Fingers +20mm - 250g Study
+        - generic [ref=f1e18]: Main
+      - generic [ref=f1e1207] [cursor=pointer]
+      - generic [ref=f1e1213]:
+        - paragraph [ref=f1e1218]: "0"
+        - paragraph [ref=f1e1223]: "0"
+        - paragraph [ref=f1e1228] [cursor=pointer]: "0"
+    - generic [ref=f1e19]:
+      - button "Explore Onshape" [ref=f1e98] [cursor=pointer]
+      - button "Notifications" [ref=f1e21] [cursor=pointer]:
+        - generic "(4 unread notifications)" [ref=f1e2577]: "4"
+      - link "Navigates you to Onshape app store in a new window." [ref=f1e32] [cursor=pointer]
+      - link "Navigates you to Onshape Learning Center in a new window." [ref=f1e37] [cursor=pointer]
+      - button "Share" [ref=f1e1229] [cursor=pointer]
+      - generic "Help menu" [ref=f1e41] [cursor=pointer]
+      - button "ACCOUNT_REDACTED" [ref=f1e45] [cursor=pointer]
+  - generic [ref=f1e1232]:
+    - generic [ref=f1e1234]:
+      - generic [ref=f1e1236]:
+        - generic [ref=f1e1237] [cursor=pointer]
+        - generic [ref=f1e1240] [cursor=pointer]
+        - generic [ref=f1e1243] [cursor=pointer]
+        - generic [ref=f1e1246] [cursor=pointer]
+        - generic [ref=f1e1249] [cursor=pointer]
+        - generic [ref=f1e1252] [cursor=pointer]
+        - generic [ref=f1e1257] [cursor=pointer]
+      - generic [ref=f1e1261] [cursor=pointer]
+    - generic [ref=f1e1267]:
+      - generic [ref=f1e1268]:
+        - generic [ref=f1e1279] [cursor=pointer]
+        - generic [ref=f1e1437]:
+          - generic [ref=f1e3537]:
+            - generic [ref=f1e3538]:
+              - generic [ref=f1e3540]:
+                - button [ref=f1e3542] [cursor=pointer]
+                - textbox "Filter by name" [ref=f1e3547]
+                - button [ref=f1e3548] [cursor=pointer]
+              - generic [ref=f1e3551]:
+                - generic [ref=f1e3552]: Instances (12)
+                - button [ref=f1e3553] [cursor=pointer]
+            - generic [ref=f1e3557]:
+              - generic [ref=f1e3558]: Low Profile D405 - Motion and URDF
+              - generic [ref=f1e3576]:
+                - generic [ref=f1e3577]: Origin
+                - generic [ref=f1e3588]:
+                  - generic [ref=f1e3590] [cursor=pointer]
+                  - generic [ref=f1e3593]: base_link <1>
+                - generic [ref=f1e3609]:
+                  - generic [ref=f1e3611] [cursor=pointer]
+                  - generic [ref=f1e3614]: shoulder_yaw <1>
+                - generic [ref=f1e3622]:
+                  - generic [ref=f1e3624] [cursor=pointer]
+                  - generic [ref=f1e3627]: upper_arm <1>
+                - generic [ref=f1e3643]:
+                  - generic [ref=f1e3645] [cursor=pointer]
+                  - generic [ref=f1e3648]: forearm <1>
+                - generic [ref=f1e3664]:
+                  - generic [ref=f1e3666] [cursor=pointer]
+                  - generic [ref=f1e3669]: wrist <1>
+                - generic [ref=f1e3685]:
+                  - generic [ref=f1e3687] [cursor=pointer]
+                  - generic [ref=f1e3690]: gripper_crank <1>
+                - generic [ref=f1e3706]:
+                  - generic [ref=f1e3708] [cursor=pointer]
+                  - generic [ref=f1e3711]: jaw_l <1>
+                - generic [ref=f1e3727]:
+                  - generic [ref=f1e3729] [cursor=pointer]
+                  - generic [ref=f1e3732]: jaw_r <1>
+                - generic [ref=f1e3748]:
+                  - generic [ref=f1e3750] [cursor=pointer]
+                  - generic [ref=f1e3753]: coupler_l <1>
+                - generic [ref=f1e3769]:
+                  - generic [ref=f1e3771] [cursor=pointer]
+                  - generic [ref=f1e3774]: coupler_r <1>
+                - generic [ref=f1e3790]:
+                  - generic [ref=f1e3792] [cursor=pointer]
+                  - generic [ref=f1e3795]: camera_mount <1>
+                - generic [ref=f1e3811]:
+                  - generic [ref=f1e3813] [cursor=pointer]
+                  - generic [ref=f1e3816]: camera_body <1>
+                - generic [ref=f1e3832]:
+                  - generic [ref=f1e3834] [cursor=pointer]
+                  - generic [ref=f1e3837]: Mate features (13)
+                - generic [ref=f1e3839]: dof_joint1_yaw
+                - generic [ref=f1e3851]: dof_joint2_shoulder
+                - generic [ref=f1e3863]: dof_joint3_elbow
+                - generic [ref=f1e3875]: dof_joint4_wrist
+                - generic [ref=f1e3893]: dof_gripper_drive
+                - generic [ref=f1e3911]: dof_jaw_left
+                - generic [ref=f1e3929]: dof_jaw_right
+                - generic [ref=f1e3947]: dof_coupler_left
+                - generic [ref=f1e3959]: dof_coupler_right
+                - generic [ref=f1e3971]: dof_camera_mount_fixed
+                - generic [ref=f1e3983]: dof_camera_body_fixed
+                - generic [ref=f1e3995]: closing_left
+                - generic [ref=f1e4007]: closing_right
+          - generic [ref=f1e1933]:
+            - generic [ref=f1e4020] [cursor=pointer]
+            - generic [ref=f1e1939]:
+              - generic [ref=f1e1940]:
+                - button [ref=f1e4313] [cursor=pointer]
+                - button [ref=f1e4317] [cursor=pointer]
+                - button [ref=f1e4321] [cursor=pointer]
+              - generic [ref=f1e818] [cursor=pointer]
+            - generic [ref=f1e1955]:
+              - generic [ref=f1e4038] [cursor=pointer]
+              - generic [ref=f1e4042] [cursor=pointer]
+              - generic [ref=f1e4046] [cursor=pointer]
+              - generic [ref=f1e4050] [cursor=pointer]
+              - generic [ref=f1e4054] [cursor=pointer]
+              - generic [ref=f1e4058] [cursor=pointer]
+          - generic [ref=f1e4172]:
+            - generic [ref=f1e4173]: Named positions
+            - generic [ref=f1e4213]:
+              - generic [ref=f1e4214]:
+                - generic [ref=f1e4215]: Name
+                - generic [ref=f1e4223]:
+                  - generic [ref=f1e4226]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - textbox: Named position 1
+                  - textbox "Name" [ref=f1e4233]
+              - generic [ref=f1e4234]:
+                - generic [ref=f1e4235]:
+                  - generic [ref=f1e4327]:
+                    - generic [ref=f1e4328]: dof_joint1_yaw
+                    - generic [ref=f1e4330]: dof_joint2_shoulder
+                    - generic [ref=f1e4332]: dof_joint3_elbow
+                    - generic [ref=f1e4334]: dof_joint4_wrist
+                    - generic [ref=f1e4336]: dof_gripper_drive
+                  - generic [ref=f1e4236]:
+                    - generic [ref=f1e4338]: ⟳ - z
+                    - generic [ref=f1e4344]: ⟳ - z
+                    - generic [ref=f1e4350]: ⟳ - z
+                    - generic [ref=f1e4356]: ⟳ - z
+                    - generic [ref=f1e4362]: ⟳ - z
+                - generic [ref=f1e4239]:
+                  - generic [ref=f1e4369]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - textbox: "-27.711 deg"
+                  - generic [ref=f1e4371]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - textbox: 0 deg
+                  - generic [ref=f1e4373]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - textbox: 0 deg
+                  - generic [ref=f1e4375]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - textbox: 0 deg
+                  - generic [ref=f1e4377]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - textbox: 0 deg
+            - generic [ref=f1e4192]:
+              - button "Add named position" [ref=f1e4379] [cursor=pointer]
+              - link [ref=f1e4196] [cursor=pointer]:
+                - /url: /help/index.htm#cshid=assemblyNamedPositions
+        - generic [ref=f1e1981]:
+          - img [ref=f1e1984] [cursor=pointer]
+          - generic [ref=f1e1987]:
+            - generic [ref=f1e4079] [cursor=pointer]: Part Studio 1
+            - generic [ref=f1e4085] [cursor=pointer]: Low Profile D405 - Rigid Groups
+            - generic [ref=f1e4091] [cursor=pointer]: LEGACY Static - before update
+            - generic [ref=f1e4097] [cursor=pointer]: CAD Imports
+            - generic [ref=f1e4103]: Low Profile D405 - Motion and URDF
+      - generic [ref=f1e4306]:
+        - generic [ref=f1e4307]: Editing Named position 1
+        - button "Done" [ref=f1e4309] [cursor=pointer]

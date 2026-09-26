@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "path": "outputs/low-profile-250g/CAD/final-version.step",
+      "data_sha256": "e5f7a1d5f53831af6e4ce957bde77eb5d058a2d1f00506a42876d701908a5420"
+    },
+    {
+      "path": "outputs/low-profile-250g/CAD/native-poses/restored_mid.step",
+      "data_sha256": "e5f7a1d5f53831af6e4ce957bde77eb5d058a2d1f00506a42876d701908a5420"
+    },
+    {
+      "path": "outputs/low-profile-250g/CAD/native-poses/zero.step",
+      "data_sha256": "51dea510dbd32f87d4bd31581d1782b17c875b2456408866e0f11d86ee1cee17"
+    }
+  ],
+  "final_equals_restored": true
+}

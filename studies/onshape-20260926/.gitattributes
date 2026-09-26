@@ -1,0 +1,6 @@
+# Preserve opaque CAD exports byte-for-byte, including exporter whitespace.
+*.step binary
+*.stl binary
+# Retained upstream texts and historical manual include a final empty line.
+outputs/**/licenses/** whitespace=-blank-at-eof
+outputs/manual/MANUAL.md whitespace=-blank-at-eof

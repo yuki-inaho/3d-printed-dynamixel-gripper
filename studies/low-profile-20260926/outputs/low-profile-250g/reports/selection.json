@@ -1,0 +1,601 @@
+{
+  "id": "E20_P30_Y165_Z235",
+  "extension_mm": 20,
+  "pitch": 30,
+  "pose": {
+    "glass": [
+      -0.2,
+      165.0,
+      235.0
+    ],
+    "direction": [
+      0.0,
+      0.8660254037844387,
+      -0.49999999999999994
+    ],
+    "up": [
+      0.0,
+      0.49999999999999994,
+      0.8660254037844387
+    ],
+    "right": [
+      1.0,
+      -0.0,
+      0.0
+    ],
+    "eyes": {
+      "left": [
+        -9.2,
+        161.79570600599757,
+        236.85
+      ],
+      "right": [
+        8.8,
+        161.79570600599757,
+        236.85
+      ]
+    }
+  },
+  "screen": [
+    {
+      "edge": 10,
+      "side": "left",
+      "inside": true,
+      "min_depth_mm": 92.34524108447474
+    },
+    {
+      "edge": 10,
+      "side": "right",
+      "inside": true,
+      "min_depth_mm": 92.34524108447474
+    },
+    {
+      "edge": 20,
+      "side": "left",
+      "inside": true,
+      "min_depth_mm": 85.51511406555254
+    },
+    {
+      "edge": 20,
+      "side": "right",
+      "inside": true,
+      "min_depth_mm": 85.51511406555254
+    },
+    {
+      "edge": 30,
+      "side": "left",
+      "inside": true,
+      "min_depth_mm": 78.68498704663035
+    },
+    {
+      "edge": 30,
+      "side": "right",
+      "inside": true,
+      "min_depth_mm": 78.68498704663035
+    }
+  ],
+  "screen_pass": true,
+  "bare_optics": [
+    {
+      "edge": 30,
+      "side": "left",
+      "projected_pixels": 33750,
+      "visible_fraction": 0.9595555555555556,
+      "touches_border": false
+    },
+    {
+      "edge": 30,
+      "side": "right",
+      "projected_pixels": 33750,
+      "visible_fraction": 0.9595555555555556,
+      "touches_border": false
+    },
+    {
+      "edge": 20,
+      "side": "left",
+      "projected_pixels": 14254,
+      "visible_fraction": 0.9999298442542445,
+      "touches_border": false
+    },
+    {
+      "edge": 20,
+      "side": "right",
+      "projected_pixels": 14254,
+      "visible_fraction": 0.9999298442542445,
+      "touches_border": false
+    },
+    {
+      "edge": 10,
+      "side": "left",
+      "projected_pixels": 3540,
+      "visible_fraction": 0.9327683615819209,
+      "touches_border": false
+    },
+    {
+      "edge": 10,
+      "side": "right",
+      "projected_pixels": 3540,
+      "visible_fraction": 0.9327683615819209,
+      "touches_border": false
+    }
+  ],
+  "bare_optics_pass": true,
+  "minimum_cube_visible": 0.9327683615819209,
+  "spec": {
+    "revision": "E20_P30_Y165_Z235",
+    "motor": "XL430-W250-T",
+    "parent": "fixed_case_external_top_holes",
+    "extra_motor_count": 0,
+    "camera": "Intel RealSense D405 (nominal datasheet envelope)",
+    "pitch_deg": 30,
+    "glass_center": [
+      -0.2,
+      165.0,
+      235.0
+    ],
+    "plate_thickness": 4.0,
+    "plate_half_width": 31.5,
+    "plate_v_range": [
+      -29.0,
+      25.0
+    ],
+    "cheek_inner_x": 22.5,
+    "cheek_thickness": 8.0,
+    "cheek_attach_v": [
+      -27.0,
+      -11.0
+    ],
+    "tie_bolt_local": [
+      26.5,
+      -19.0
+    ],
+    "d405_screw_length": 6.0,
+    "d405_counterbore_depth": 1.0,
+    "d405_slot_half_travel": 1.0,
+    "base_seat_thickness": 2.0,
+    "base_screw_length": 5.0,
+    "hole_depth": 4.0,
+    "usb_plug_side": -1,
+    "structural_mass_rating_kg": null
+  },
+  "validity": {
+    "CAM5_BASE": {
+      "valid": true,
+      "solids": 1
+    },
+    "CAM5_D405_CARRIER": {
+      "valid": true,
+      "solids": 1
+    }
+  },
+  "loads": {
+    "camera_group": {
+      "items": [
+        {
+          "name": "CAM5_BASE",
+          "mass_g": 16.863307390220665,
+          "com_mm": [
+            -0.19999999999993318,
+            155.59417705767515,
+            211.7063903871216
+          ],
+          "basis": "solid PLA 1.24 g/cm3"
+        },
+        {
+          "name": "CAM5_D405_CARRIER",
+          "mass_g": 16.42005806939857,
+          "com_mm": [
+            -0.199999999999999,
+            142.3823530821925,
+            245.8107987679832
+          ],
+          "basis": "solid PLA 1.24 g/cm3"
+        },
+        {
+          "name": "CAM5_BASE_WASHER_0",
+          "mass_g": 0.0868084882039932,
+          "com_mm": [
+            -8.200000000000001,
+            158.90000000000006,
+            202.10000000000005
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_BASE_TAP_0",
+          "mass_g": 0.4866654013123664,
+          "com_mm": [
+            -8.200000000000001,
+            158.9,
+            201.80597601275826
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_BASE_WASHER_1",
+          "mass_g": 0.0868084882039932,
+          "com_mm": [
+            -8.200000000000001,
+            170.90000000000003,
+            202.10000000000005
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_BASE_TAP_1",
+          "mass_g": 0.4866654013123664,
+          "com_mm": [
+            -8.200000000000001,
+            170.90000000000006,
+            201.80597601275826
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_BASE_WASHER_2",
+          "mass_g": 0.08680848820399317,
+          "com_mm": [
+            7.8000000000000025,
+            158.90000000000006,
+            202.10000000000005
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_BASE_TAP_2",
+          "mass_g": 0.4866654013123664,
+          "com_mm": [
+            7.8000000000000025,
+            158.90000000000003,
+            201.80597601275832
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_BASE_WASHER_3",
+          "mass_g": 0.08680848820399317,
+          "com_mm": [
+            7.8000000000000025,
+            170.90000000000006,
+            202.10000000000005
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_BASE_TAP_3",
+          "mass_g": 0.4866654013123664,
+          "com_mm": [
+            7.8000000000000025,
+            170.90000000000006,
+            201.80597601275832
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_TIE_WASHER_0",
+          "mass_g": 0.11541583090758122,
+          "com_mm": [
+            -26.700000000000003,
+            131.90080774687408,
+            232.17051732809568
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_TIE_BOLT_0",
+          "mass_g": 1.115235946456389,
+          "com_mm": [
+            -26.700000000000003,
+            134.31458222538802,
+            230.77692398316256
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_TIE_NUT_0",
+          "mass_g": 0.36038442528511866,
+          "com_mm": [
+            -26.7,
+            140.17135035301547,
+            227.39551732809565
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_TIE_WASHER_1",
+          "mass_g": 0.11541583090758122,
+          "com_mm": [
+            26.299999999999997,
+            131.90080774687408,
+            232.17051732809568
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_TIE_BOLT_1",
+          "mass_g": 1.1152359464563888,
+          "com_mm": [
+            26.300000000000004,
+            134.31458222538802,
+            230.7769239831626
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_TIE_NUT_1",
+          "mass_g": 0.3603844252851187,
+          "com_mm": [
+            26.300000000000004,
+            140.1713503530154,
+            227.39551732809565
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_D405_SCREW_0",
+          "mass_g": 0.7677000294132887,
+          "com_mm": [
+            -10.199999999999996,
+            142.83323471485772,
+            247.79798790444016
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_D405_SCREW_1",
+          "mass_g": 0.7677000294132887,
+          "com_mm": [
+            9.8,
+            142.83323471485772,
+            247.79798790444016
+          ],
+          "basis": "nominal steel envelope 7.85 g/cm3"
+        },
+        {
+          "name": "CAM5_D405_BODY",
+          "mass_g": 58.0,
+          "com_mm": [
+            -0.19999999999999732,
+            155.04874138279214,
+            240.74536184142053
+          ],
+          "basis": "datasheet nominal +/-10%"
+        },
+        {
+          "name": "CAM5_D405_USB_PLUG",
+          "mass_g": 6.0,
+          "com_mm": [
+            -34.2,
+            150.9877089667678,
+            243.09000000000003
+          ],
+          "basis": "assumed 6 g envelope, weigh actual cable"
+        },
+        {
+          "name": "CAM5_D405_USB_CABLE_STUB",
+          "mass_g": 1.0,
+          "com_mm": [
+            -54.70000000000001,
+            150.9877089667678,
+            243.09000000000003
+          ],
+          "basis": "assumed 1 g short stub, excludes free cable"
+        }
+      ],
+      "mass_g": 105.29473348180944,
+      "com_mm": [
+        -2.6550135742986307,
+        152.3355616637181,
+        235.97462113593915
+      ],
+      "printed_mass_g": 33.28336545961923,
+      "height_above_motor_top_mm": 70.30063509461095,
+      "wrist": {
+        "reference_M_Nm": [
+          -0.04898142011839568,
+          -0.0025350190249999877,
+          0.0
+        ],
+        "pitch_gravity_amplitude_Nm": 0.08849271666103288,
+        "plus_payload_reference_M_Nm": [
+          -0.31792879636839566,
+          -0.0025350190249999877,
+          0.0
+        ]
+      },
+      "shoulder": {
+        "reference_M_Nm": [
+          -0.1572999640590213,
+          -0.0025350190249999877,
+          0.0
+        ],
+        "pitch_gravity_amplitude_Nm": 0.24323783970132562,
+        "plus_payload_reference_M_Nm": [
+          -0.6834267365590212,
+          -0.0025350190249999877,
+          0.0
+        ]
+      },
+      "payload_only": {
+        "mass_kg": 0.25,
+        "com_mm": [
+          -0.2,
+          214.6,
+          164.6
+        ],
+        "wrist_M_Nm": [
+          -0.26894737625,
+          0.0,
+          0.0
+        ],
+        "shoulder_M_Nm": [
+          -0.5261267725,
+          0.0,
+          0.0
+        ]
+      },
+      "full_arm_mass_included": false,
+      "motor_continuous_rating_verified": false
+    },
+    "added_finger_pad_mass_g": 13.362076183478342,
+    "signed_finger_pad_changes": [
+      {
+        "name": "PG3_finger_L",
+        "signed_mass_kg": -0.007730171627039757,
+        "com_mm": [
+          -13.161012451898976,
+          209.7492245465806,
+          164.59999999999732
+        ]
+      },
+      {
+        "name": "PG3_finger_L",
+        "signed_mass_kg": 0.014411209718775507,
+        "com_mm": [
+          -13.386260786603103,
+          218.938543740721,
+          164.59999999999638
+        ]
+      },
+      {
+        "name": "PG3_finger_R",
+        "signed_mass_kg": -0.007730171627049483,
+        "com_mm": [
+          12.761012451901546,
+          209.74922454658304,
+          164.6000000000019
+        ]
+      },
+      {
+        "name": "PG3_finger_R",
+        "signed_mass_kg": 0.014411209718792076,
+        "com_mm": [
+          12.986260786605783,
+          218.93854374072455,
+          164.60000000000264
+        ]
+      },
+      {
+        "name": "PG3_pad_L",
+        "signed_mass_kg": -0.000616,
+        "com_mm": [
+          -8.693588689618,
+          214.59999999999997,
+          164.6
+        ]
+      },
+      {
+        "name": "PG3_pad_L",
+        "signed_mass_kg": 0.000616,
+        "com_mm": [
+          -8.693588689617998,
+          234.6,
+          164.6
+        ]
+      },
+      {
+        "name": "PG3_pad_R",
+        "signed_mass_kg": -0.0006160000000000002,
+        "com_mm": [
+          8.293588689617998,
+          214.59999999999994,
+          164.59999999999997
+        ]
+      },
+      {
+        "name": "PG3_pad_R",
+        "signed_mass_kg": 0.000616,
+        "com_mm": [
+          8.293588689618,
+          234.6,
+          164.6
+        ]
+      }
+    ],
+    "payload_only_increment_Nm": 0.049033249999999994,
+    "partial_load_including_finger_pad_delta": {
+      "wrist": {
+        "reference_abs_Mx_Nm": 0.3835402052405824,
+        "pitch_amplitude_Nm": 0.39055712824274896
+      },
+      "shoulder": {
+        "reference_abs_Mx_Nm": 0.7627839481732619,
+        "pitch_amplitude_Nm": 0.8934675184744598
+      }
+    },
+    "included": "camera group + 250g payload + finger/pad delta from baseline; excludes unchanged arm and gripper mass",
+    "finger_uniform_beam_stress_ratio": 2.197604790419162,
+    "finger_uniform_beam_deflection_ratio": 10.613259407535821,
+    "physical_strength_verified": false
+  },
+  "hits": [
+    {
+      "a": "CAM5_BASE_TAP_0",
+      "b": "ARM_M05_ref23",
+      "gap_mm": 0.833090417606204,
+      "type": "surface_bbox_unresolved"
+    },
+    {
+      "a": "CAM5_BASE_TAP_0",
+      "b": "PG3_XL430_fixed",
+      "volume_mm3": 4.473889738100567,
+      "type": "volume"
+    },
+    {
+      "a": "CAM5_BASE_TAP_1",
+      "b": "ARM_M05_ref15",
+      "gap_mm": 0.833090417606204,
+      "type": "surface_bbox_unresolved"
+    },
+    {
+      "a": "CAM5_BASE_TAP_1",
+      "b": "PG3_XL430_fixed",
+      "volume_mm3": 4.473889738100567,
+      "type": "volume"
+    },
+    {
+      "a": "CAM5_BASE_TAP_2",
+      "b": "ARM_M05_ref25",
+      "gap_mm": 0.8330904176062067,
+      "type": "surface_bbox_unresolved"
+    },
+    {
+      "a": "CAM5_BASE_TAP_2",
+      "b": "PG3_XL430_fixed",
+      "volume_mm3": 4.473889738100565,
+      "type": "volume"
+    },
+    {
+      "a": "CAM5_BASE_TAP_3",
+      "b": "ARM_M05_ref17",
+      "gap_mm": 0.8330904176062067,
+      "type": "surface_bbox_unresolved"
+    },
+    {
+      "a": "CAM5_BASE_TAP_3",
+      "b": "PG3_XL430_fixed",
+      "volume_mm3": 4.473889738100567,
+      "type": "volume"
+    }
+  ],
+  "within_mount": [
+    {
+      "a": "CAM5_D405_BODY",
+      "b": "CAM5_D405_SCREW_0",
+      "volume_mm3": 5.089380098815473,
+      "type": "volume"
+    },
+    {
+      "a": "CAM5_D405_BODY",
+      "b": "CAM5_D405_SCREW_1",
+      "volume_mm3": 5.089380098815473,
+      "type": "volume"
+    }
+  ],
+  "new_outer": [],
+  "new_internal": [],
+  "static_candidate_pass": true,
+  "status": "selected_for_full_validation",
+  "reason": "Among the 33 explicitly screened physical candidates, choose the lowest passing pitch, then shortest extension at that pitch, then lowest complete camera-group height. Increased payload/extra-material torque is retained as a tradeoff, not scored away.",
+  "full_mechanical_global_optimum_claimed": false
+}

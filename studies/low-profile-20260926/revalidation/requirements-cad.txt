@@ -1,0 +1,4 @@
+# Independent STEP replay, not the archived pythonocc/OCCT8 converter.
+-r requirements-kinematics.txt
+cadquery==2.8.0
+cadquery-ocp==7.9.3.1.1

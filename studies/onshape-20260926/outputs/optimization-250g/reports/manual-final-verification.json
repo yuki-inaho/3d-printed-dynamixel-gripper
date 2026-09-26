@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-26T16:23:54.170618+09:00",
+  "pages": 13,
+  "embedded_images": 9,
+  "all_images_loaded": true,
+  "content_footer_overlaps": [],
+  "image_zoom_open_close_pass": true,
+  "pdf_pages": 13,
+  "pdf_text_japanese": true,
+  "pdf_representative_page_visually_reviewed": 11,
+  "sha256": {
+    "MANUAL.md": "70ddcc76c93922aa71a9b9054caf5a40039b6fecbce7cd89608dfd6c5d9cc705",
+    "MANUAL.html": "26a693a0dde88c57ff61b28e91ce1708dadd75cc728baa0b72951acafdb6d754",
+    "MANUAL.pdf": "271ae4a35511cab6b303c2f8807b965cb107b14e43f9b2f8aea897336772abdf"
+  }
+}

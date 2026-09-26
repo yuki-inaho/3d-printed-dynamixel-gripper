@@ -1,0 +1,14 @@
+{
+  "base_link": null,
+  "shoulder_yaw": null,
+  "upper_arm": null,
+  "forearm": null,
+  "wrist": null,
+  "gripper_crank": null,
+  "jaw_l": null,
+  "jaw_r": null,
+  "coupler_l": null,
+  "coupler_r": null,
+  "camera_mount": null,
+  "camera_body": null
+}

@@ -1,0 +1,2 @@
+### Error
+Error: Solver failed: wrist_upper_waypoint_2

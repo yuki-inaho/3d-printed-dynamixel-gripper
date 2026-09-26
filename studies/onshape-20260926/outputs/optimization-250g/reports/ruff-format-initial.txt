@@ -1,0 +1,1210 @@
+unformatted: File would be reformatted
+  --> work/optimization/build_manual.py:3:1
+   |
+2  | import base64, re, markdown, html, json
+   - root=Path(__file__).resolve().parents[2]
+   - man=root/'outputs/optimization-250g'
+   - source=(man/'MANUAL.md').read_text()
+   - chunks=source.split('\n---\n')
+   - sections=[];toc=[]
+   - for i,chunk in enumerate(chunks):
+   -  body=markdown.markdown(chunk,extensions=['tables','fenced_code'])
+   -  title=re.search(r'<h[12]>(.*?)</h[12]>',body).group(1)
+   -  toc.append(f'<a href="#page-{i+1}">{title}</a>')
+   -  count=body.count('<img ')
+   -  cls='cover' if i==0 else ('multi' if count>1 else 'single')
+   -  def embed(m):
+   -   path=man/m.group(1)
+   -   return 'src="data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode()+'"'
+   -  body=re.sub(r'src="(images/[^\"]+)"',embed,body)
+   -  sections.append(f'<section class="page {cls}" id="page-{i+1}"><div class="running">D405 COMPACT MOUNT · VALIDATION GUIDE</div><div class="content">{body}</div><footer>2026-09-26　Free / Public　<span>{i+1} / {len(chunks)}</span></footer></section>')
+   - css='''
+3  +
+4  + root = Path(__file__).resolve().parents[2]
+5  + man = root / "outputs/optimization-250g"
+6  + source = (man / "MANUAL.md").read_text()
+7  + chunks = source.split("\n---\n")
+8  + sections = []
+9  + toc = []
+10 + for i, chunk in enumerate(chunks):
+11 +     body = markdown.markdown(chunk, extensions=["tables", "fenced_code"])
+12 +     title = re.search(r"<h[12]>(.*?)</h[12]>", body).group(1)
+13 +     toc.append(f'<a href="#page-{i + 1}">{title}</a>')
+14 +     count = body.count("<img ")
+15 +     cls = "cover" if i == 0 else ("multi" if count > 1 else "single")
+16 +
+17 +     def embed(m):
+18 +         path = man / m.group(1)
+19 +         return (
+20 +             'src="data:image/png;base64,'
+21 +             + base64.b64encode(path.read_bytes()).decode()
+22 +             + '"'
+23 +         )
+24 +
+25 +     body = re.sub(r'src="(images/[^\"]+)"', embed, body)
+26 +     sections.append(
+27 +         f'<section class="page {cls}" id="page-{i + 1}"><div class="running">D405 COMPACT MOUNT · VALIDATION GUIDE</div><div class="content">{body}</div><footer>2026-09-26　Free / Public　<span>{i + 1} / {len(chunks)}</span></footer></section>'
+28 +     )
+29 + css = """
+30 | :root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#e9eef0;color:#152a35;font-family:"Noto Sans CJK JP",sans-serif;font-size:13px;line-height:1.72}nav{position:fixed;inset:0 auto 0 0;width:260px;background:#102e3b;color:white;overflow:auto;padding:26px 18px}nav strong{display:block;font-size:20px;margin-bottom:16px}nav a{color:#d7e7ed;text-decoration:none;display:block;font-size:12px;padding:6px 0;border-bottom:1px solid #294651}nav button{width:100%;padding:9px;background:#a5dfcd;color:#102e3b;border:0;border-radius:5px;margin:10px 0;cursor:pointer}main{margin-left:280px;padding:24px 0}.page{background:white;width:186mm;height:270mm;margin:0 auto 24px;padding:14px 18px 35px;box-shadow:0 3px 16px #182a3520;position:relative;overflow:visible}.running{font:600 9px/1.4 sans-serif;letter-spacing:1.8px;color:#61818e;border-bottom:2px solid #20836f;padding-bottom:8px;margin-bottom:16px}h1{font-size:32px;line-height:1.35;color:#123e50;margin:24px 0 10px}h2{font-size:21px;line-height:1.5;color:#123e50;margin:5px 0 14px}h3{font-size:14px;line-height:1.5;color:#16705e;border-left:3px solid #20836f;padding-left:8px;margin:16px 0 8px}p{margin:9px 0}li{margin:4px 0}ol,ul{padding-left:23px;margin:9px 0}a{color:#176c8b;overflow-wrap:anywhere}strong{font-weight:700}code{font-family:"Noto Sans Mono CJK JP",monospace;font-size:11.5px;overflow-wrap:anywhere}pre{font-size:11.5px;line-height:1.55;padding:12px 14px;background:#f0f5f6;border-left:3px solid #4b8799;white-space:pre-wrap;overflow-wrap:anywhere;margin:12px 0}pre code{font-size:inherit}table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.65;margin:12px 0;table-layout:auto}th{text-align:left;background:#e1efeb;font-weight:700}th,td{border:1px solid #cbd9dc;padding:6px 8px;overflow-wrap:anywhere}tr{break-inside:avoid}img{display:block;max-width:100%;max-height:300px;object-fit:contain;margin:10px auto;cursor:zoom-in;border:1px solid #d4dddf}.multi img{max-height:185px}#page-21 img,#page-23 img{max-height:235px}.cover img{max-height:410px}.cover h2{font-size:23px}footer{position:absolute;bottom:12px;left:18px;right:18px;font-size:9px;color:#6b818a;border-top:1px solid #d4dfe2;padding-top:5px}footer span{float:right}dialog{padding:14px;border:0;border-radius:8px;max-width:96vw;max-height:95vh;background:#132e3b}dialog img{max-height:88vh;max-width:92vw;border:0;cursor:zoom-out}dialog::backdrop{background:#001018d9}dialog button{position:absolute;right:12px;top:5px;border:0;background:white;color:black;font-size:24px;cursor:pointer}
+31 | @media(max-width:1000px){nav{position:static;width:auto;max-height:260px}main{margin-left:0;padding:12px}.page{max-width:100%;height:auto;min-height:270mm;padding-bottom:45px}}
+32 | @page{size:A4;margin:12mm} @media print{body{background:white}nav,dialog{display:none!important}main{margin:0;padding:0}.page{box-shadow:none;margin:0;padding-top:0;break-after:page;width:186mm;height:270mm;max-width:none;min-height:0}.page:last-child{break-after:auto}a{color:#176c8b;text-decoration:none}img{cursor:default}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+   - '''
+   - js='''const d=document.querySelector('dialog');document.querySelectorAll('main img').forEach(im=>im.onclick=()=>{d.querySelector('img').src=im.src;d.querySelector('img').alt=im.alt;d.showModal()});d.onclick=()=>d.close();'''
+   - page='<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>D405短縮候補・操作マニュアル</title><style>'+css+'</style></head><body><nav><strong>D405短縮候補<br>操作マニュアル</strong><div>画像をクリックすると拡大できます。</div><button onclick="window.print()">印刷 / PDFに保存</button>'+''.join(toc)+'</nav><main>'+''.join(sections)+'</main><dialog><button aria-label="閉じる">×</button><img alt="拡大画像"></dialog><script>'+js+'</script></body></html>'
+   - (man/'MANUAL.html').write_text(page)
+   - print(json.dumps({'pages':len(chunks),'images':len(list((man/'images').glob('*.png'))),'html_bytes':len(page.encode())}))
+33 + """
+34 + js = """const d=document.querySelector('dialog');document.querySelectorAll('main img').forEach(im=>im.onclick=()=>{d.querySelector('img').src=im.src;d.querySelector('img').alt=im.alt;d.showModal()});d.onclick=()=>d.close();"""
+35 + page = (
+36 +     '<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>D405短縮候補・操作マニュアル</title><style>'
+37 +     + css
+38 +     + '</style></head><body><nav><strong>D405短縮候補<br>操作マニュアル</strong><div>画像をクリックすると拡大できます。</div><button onclick="window.print()">印刷 / PDFに保存</button>'
+39 +     + "".join(toc)
+40 +     + "</nav><main>"
+41 +     + "".join(sections)
+42 +     + '</main><dialog><button aria-label="閉じる">×</button><img alt="拡大画像"></dialog><script>'
+43 +     + js
+44 +     + "</script></body></html>"
+45 + )
+46 + (man / "MANUAL.html").write_text(page)
+47 + print(
+48 +     json.dumps(
+49 +         {
+50 +             "pages": len(chunks),
+51 +             "images": len(list((man / "images").glob("*.png"))),
+52 +             "html_bytes": len(page.encode()),
+53 +         }
+54 +     )
+55 + )
+   |
+
+unformatted: File would be reformatted
+  --> work/optimization/log_work.py:2:1
+   |
+1  | """Update exactly one next workdoc checkbox and its immediate evidence row."""
+2  +
+3  | import argparse
+--------------------------------------------------------------------------------
+8  | ROOT = Path(__file__).resolve().parents[2]
+   - DOC = ROOT / 'work/temp/workdoc_Sep26-2026_robot_250g_optimization.md'
+   - STATE = ROOT / 'work/optimization/log_state.json'
+9  + DOC = ROOT / "work/temp/workdoc_Sep26-2026_robot_250g_optimization.md"
+10 + STATE = ROOT / "work/optimization/log_state.json"
+11 |
+12 |
+13 | def main():
+14 |     parser = argparse.ArgumentParser()
+   -     parser.add_argument('mode', choices=['start', 'done', 'note', 'sync'])
+   -     parser.add_argument('message', nargs='?', default='')
+15 +     parser.add_argument("mode", choices=["start", "done", "note", "sync"])
+16 +     parser.add_argument("message", nargs="?", default="")
+17 |     args = parser.parse_args()
+18 |     now = datetime.datetime.now().astimezone()
+19 |     content = DOC.read_text()
+   -     if args.mode == 'start':
+20 +     if args.mode == "start":
+21 |         if STATE.exists():
+   -             raise RuntimeError('Previous item remains active')
+   -         item = next(line for line in content.splitlines() if line.startswith('- [ ]'))
+   -         STATE.write_text(json.dumps({'item': item, 'started': now.isoformat()}))
+22 +             raise RuntimeError("Previous item remains active")
+23 +         item = next(line for line in content.splitlines() if line.startswith("- [ ]"))
+24 +         STATE.write_text(json.dumps({"item": item, "started": now.isoformat()}))
+25 |         print(item)
+   -     elif args.mode == 'done':
+26 +     elif args.mode == "done":
+27 |         active = json.loads(STATE.read_text())
+   -         item = next(line for line in content.splitlines() if line.startswith('- [ ]'))
+   -         if item != active['item']:
+   -             raise RuntimeError('Checklist order changed')
+   -         content = content.replace(item, item.replace('[ ]', '[x]', 1), 1)
+28 +         item = next(line for line in content.splitlines() if line.startswith("- [ ]"))
+29 +         if item != active["item"]:
+30 +             raise RuntimeError("Checklist order changed")
+31 +         content = content.replace(item, item.replace("[ ]", "[x]", 1), 1)
+32 |         args.message = f"開始 {active['started']} / 完了: {args.message}"
+33 |         STATE.unlink()
+   -     if args.mode != 'sync':
+   -         message = args.message.replace('|', '/').replace('\n', '<br>')
+   -         content += f'| {now:%Y-%m-%d} | {now:%H:%M:%S %Z%z} | Codex | {args.mode} | {message} |\n'
+34 +     if args.mode != "sync":
+35 +         message = args.message.replace("|", "/").replace("\n", "<br>")
+36 +         content += f"| {now:%Y-%m-%d} | {now:%H:%M:%S %Z%z} | Codex | {args.mode} | {message} |\n"
+37 |     DOC.write_text(content)
+   -     (ROOT / 'outputs/optimization-250g/WORKDOC.md').write_text(content)
+   -     print(now.isoformat(), args.mode, content.count('- [x]'), '/', content.count('- [ ]') + content.count('- [x]'))
+38 +     (ROOT / "outputs/optimization-250g/WORKDOC.md").write_text(content)
+39 +     print(
+40 +         now.isoformat(),
+41 +         args.mode,
+42 +         content.count("- [x]"),
+43 +         "/",
+44 +         content.count("- [ ]") + content.count("- [x]"),
+45 +     )
+46 |
+47 |
+   - if __name__ == '__main__':
+48 + if __name__ == "__main__":
+49 |     main()
+   |
+
+unformatted: File would be reformatted
+  --> work/optimization/mechanics.py:2:1
+   |
+1  | """Explicit-unit gravity and camera geometry helpers; no motor safety rating."""
+2  +
+3  | import math
+--------------------------------------------------------------------------------
+20 |     if np.linalg.norm(right) < 1e-8:
+   -         raise ValueError('Vertical view needs an explicit roll reference')
+21 +         raise ValueError("Vertical view needs an explicit roll reference")
+22 |     right /= np.linalg.norm(right)
+--------------------------------------------------------------------------------
+33 |     tv = th * size[1] / size[0]
+   -     inside = (depth > 0) & (abs(delta @ right) <= depth * th) & (abs(delta @ up) <= depth * tv)
+34 +     inside = (
+35 +         (depth > 0)
+36 +         & (abs(delta @ right) <= depth * th)
+37 +         & (abs(delta @ up) <= depth * tv)
+38 +     )
+39 |     return inside, depth
+40 |
+41 |
+42 | def depth_ok(depth_mm, resolution):
+   -     return bool(depth_mm >= {'848x480': 70, '1280x720': 100}[resolution])
+43 +     return bool(depth_mm >= {"848x480": 70, "1280x720": 100}[resolution])
+44 |
+   |
+
+unformatted: File would be reformatted
+  --> work/optimization/onshape_static.py:2:1
+   |
+1  | """Populate only the dedicated 250g study document with fixed inspection instances."""
+2  +
+3  | import json
+--------------------------------------------------------------------------------
+7  | ROOT = Path(__file__).resolve().parents[2]
+   - sys.path.insert(0, str(ROOT/'work'))
+8  + sys.path.insert(0, str(ROOT / "work"))
+9  | from onshape_api import api  # noqa: E402
+10 |
+   - P = ROOT/'work/optimization/onshape'
+   - project = json.loads((P/'project.json').read_text())
+   - did,wid,ps,asm = (project[k] for k in ('did','wid','ps','asm'))
+   - assert did == '7b85d8922959cbe564b6e0cb'
+   - parts=[p for p in json.loads((P/'composite-parts.json').read_text()) if p['bodyType']=='composite']
+   - names=list(json.loads((P/'composites.json').read_text()))
+   - assert len(parts)==len(names)==12
+   - ledger=P/'static-instances.json'
+   - instances=json.loads(ledger.read_text()) if ledger.exists() else {}
+   - for name,part in zip(names,parts):
+11 + P = ROOT / "work/optimization/onshape"
+12 + project = json.loads((P / "project.json").read_text())
+13 + did, wid, ps, asm = (project[k] for k in ("did", "wid", "ps", "asm"))
+14 + assert did == "7b85d8922959cbe564b6e0cb"
+15 + parts = [
+16 +     p
+17 +     for p in json.loads((P / "composite-parts.json").read_text())
+18 +     if p["bodyType"] == "composite"
+19 + ]
+20 + names = list(json.loads((P / "composites.json").read_text()))
+21 + assert len(parts) == len(names) == 12
+22 + ledger = P / "static-instances.json"
+23 + instances = json.loads(ledger.read_text()) if ledger.exists() else {}
+24 + for name, part in zip(names, parts):
+25 |     if name in instances:
+26 |         continue
+   -     api(f'/metadata/d/{did}/w/{wid}/e/{ps}/p/{part["partId"]}','POST',{'properties':[{'propertyId':'57f3fb8efa3416c06701d60d','value':name}]})
+   -     result=api(f'/assemblies/d/{did}/w/{wid}/e/{asm}/instances','POST',{'documentId':did,'elementId':ps,'partId':part['partId'],'isAssembly':False,'isFixed':True})
+   -     instances[name]=result
+   -     ledger.write_text(json.dumps(instances,indent=2))
+   -     print('inserted fixed',name,flush=True)
+   - for eid,name in [(ps,'Compact D405 - Rigid Groups'),(asm,'Compact D405 - Static Validation')]:
+   -     api(f'/metadata/d/{did}/w/{wid}/e/{eid}','POST',{'properties':[{'propertyId':'57f3fb8efa3416c06701d60d','value':name}]})
+   - assembly=api(f'/assemblies/d/{did}/w/{wid}/e/{asm}',query={'includeNonSolids':'true'})
+   - (P/'static-assembly.json').write_text(json.dumps(assembly,indent=2))
+   - assert len(assembly['rootAssembly']['instances'])==12
+   - print('static assembly 12 instances saved')
+27 +     api(
+28 +         f"/metadata/d/{did}/w/{wid}/e/{ps}/p/{part['partId']}",
+29 +         "POST",
+30 +         {"properties": [{"propertyId": "57f3fb8efa3416c06701d60d", "value": name}]},
+31 +     )
+32 +     result = api(
+33 +         f"/assemblies/d/{did}/w/{wid}/e/{asm}/instances",
+34 +         "POST",
+35 +         {
+36 +             "documentId": did,
+37 +             "elementId": ps,
+38 +             "partId": part["partId"],
+39 +             "isAssembly": False,
+40 +             "isFixed": True,
+41 +         },
+42 +     )
+43 +     instances[name] = result
+44 +     ledger.write_text(json.dumps(instances, indent=2))
+45 +     print("inserted fixed", name, flush=True)
+46 + for eid, name in [
+47 +     (ps, "Compact D405 - Rigid Groups"),
+48 +     (asm, "Compact D405 - Static Validation"),
+49 + ]:
+50 +     api(
+51 +         f"/metadata/d/{did}/w/{wid}/e/{eid}",
+52 +         "POST",
+53 +         {"properties": [{"propertyId": "57f3fb8efa3416c06701d60d", "value": name}]},
+54 +     )
+55 + assembly = api(
+56 +     f"/assemblies/d/{did}/w/{wid}/e/{asm}", query={"includeNonSolids": "true"}
+57 + )
+58 + (P / "static-assembly.json").write_text(json.dumps(assembly, indent=2))
+59 + assert len(assembly["rootAssembly"]["instances"]) == 12
+60 + print("static assembly 12 instances saved")
+   |
+
+unformatted: File would be reformatted
+   --> work/optimization/optimize.py:2:1
+    |
+1   | """Reproducible 250 g camera-mount trade study. All output goes to this task."""
+2   +
+3   | import argparse
+--------------------------------------------------------------------------------
+24  | ROOT = Path(__file__).resolve().parents[2]
+    - OUT = ROOT / 'outputs/optimization-250g'
+    - SOURCE = r5.RUN / 'CAD/ID5_D405_mid_ASSEMBLY.step'
+    - CENTER = np.array([-.2, 214.6, 164.6])
+    - WRIST = np.array([-.2, 104.9, 164.6])
+    - SHOULDER = np.array([-.2, 0, 56.3])
+25  + OUT = ROOT / "outputs/optimization-250g"
+26  + SOURCE = r5.RUN / "CAD/ID5_D405_mid_ASSEMBLY.step"
+27  + CENTER = np.array([-0.2, 214.6, 164.6])
+28  + WRIST = np.array([-0.2, 104.9, 164.6])
+29  + SHOULDER = np.array([-0.2, 0, 56.3])
+30  | SIZE = (848, 480)
+31  |
+32  |
+33  | def save(name, data):
+    -     (OUT / 'reports' / name).write_text(json.dumps(data, indent=2))
+34  +     (OUT / "reports" / name).write_text(json.dumps(data, indent=2))
+35  |
+--------------------------------------------------------------------------------
+53  |         right, up, d = orient(d)
+    -     return {'glass': g.tolist(), 'direction': d.tolist(), 'up': up.tolist(), 'right': right.tolist(),
+    -             'eyes': {k: (g - 3.7 * d + sign * 9 * right).tolist() for k, sign in [('left', -1), ('right', 1)]}}
+54  +     return {
+55  +         "glass": g.tolist(),
+56  +         "direction": d.tolist(),
+57  +         "up": up.tolist(),
+58  +         "right": right.tolist(),
+59  +         "eyes": {
+60  +             k: (g - 3.7 * d + sign * 9 * right).tolist()
+61  +             for k, sign in [("left", -1), ("right", 1)]
+62  +         },
+63  +     }
+64  |
+65  |
+66  | def screen(p):
+    -     d, up = p['direction'], p['up']
+67  +     d, up = p["direction"], p["up"]
+68  |     rows = []
+69  |     for edge in (10, 20, 30):
+    -         for side, eye in p['eyes'].items():
+70  +         for side, eye in p["eyes"].items():
+71  |             inside, dep = project_points(corners(edge), eye, d, up)
+    -             rows.append({'edge': edge, 'side': side, 'all_in_frame': bool(inside.all()),
+    -                          'min_depth_mm': float(min(dep)),
+    -                          'depth_480p': depth_ok(min(dep), '848x480'), 'depth_720p': depth_ok(min(dep), '1280x720')})
+72  +             rows.append(
+73  +                 {
+74  +                     "edge": edge,
+75  +                     "side": side,
+76  +                     "all_in_frame": bool(inside.all()),
+77  +                     "min_depth_mm": float(min(dep)),
+78  +                     "depth_480p": depth_ok(min(dep), "848x480"),
+79  +                     "depth_720p": depth_ok(min(dep), "1280x720"),
+80  +                 }
+81  +             )
+82  |     return rows
+--------------------------------------------------------------------------------
+86  |     cam = view.renderer.GetActiveCamera()
+    -     eye = np.array(p['eyes'][side])
+87  +     eye = np.array(p["eyes"][side])
+88  |     cam.SetPosition(eye)
+    -     cam.SetFocalPoint(eye + np.array(p['direction']) * 100)
+    -     cam.SetViewUp(p['up'])
+89  +     cam.SetFocalPoint(eye + np.array(p["direction"]) * 100)
+90  +     cam.SetViewUp(p["up"])
+91  |     if image:
+92  |         view.capture(image)
+93  |     actual = view.capture(seg=True)
+94  |     result = {}
+    -     for label, names in {'cube': {'DIAGNOSTIC_CUBE'}, 'jaw_L': {'PG3_finger_L', 'PG3_pad_L'}, 'jaw_R': {'PG3_finger_R', 'PG3_pad_R'}}.items():
+    -         if cube_only and label != 'cube':
+95  +     for label, names in {
+96  +         "cube": {"DIAGNOSTIC_CUBE"},
+97  +         "jaw_L": {"PG3_finger_L", "PG3_pad_L"},
+98  +         "jaw_R": {"PG3_finger_R", "PG3_pad_R"},
+99  +     }.items():
+100 +         if cube_only and label != "cube":
+101 |             continue
+--------------------------------------------------------------------------------
+107 |         mask = np.isin(reference, codes)
+    -         result[label] = {'projected_pixels': int(mask.sum()),
+    -                          'visible_fraction': float((mask & np.isin(actual, codes)).sum() / mask.sum()) if mask.any() else 0,
+    -                          'touches_border': bool(mask[0].any() or mask[-1].any() or mask[:, 0].any() or mask[:, -1].any())}
+108 +         result[label] = {
+109 +             "projected_pixels": int(mask.sum()),
+110 +             "visible_fraction": float(
+111 +                 (mask & np.isin(actual, codes)).sum() / mask.sum()
+112 +             )
+113 +             if mask.any()
+114 +             else 0,
+115 +             "touches_border": bool(
+116 +                 mask[0].any() or mask[-1].any() or mask[:, 0].any() or mask[:, -1].any()
+117 +             ),
+118 +         }
+119 |     return result
+--------------------------------------------------------------------------------
+123 |     parts = source()
+    -     arm = {n: s for n, s in parts.items() if not n.startswith('CAM5_')}
+124 +     arm = {n: s for n, s in parts.items() if not n.startswith("CAM5_")}
+125 |     rows = []
+    -     for y, z, pitch in itertools.product(range(145, 200, 5), range(210, 260, 5), range(40, 85, 5)):
+    -         p = pose([-.2, y, z], pitch)
+126 +     for y, z, pitch in itertools.product(
+127 +         range(145, 200, 5), range(210, 260, 5), range(40, 85, 5)
+128 +     ):
+129 +         p = pose([-0.2, y, z], pitch)
+130 |         checks = screen(p)
+    -         rows.append({'id': f'C_y{y}_z{z}_p{pitch}', 'kind': 'central', 'pitch': pitch, 'pose': p, 'screen': checks,
+    -                      'screen_pass': all(c['all_in_frame'] and c['min_depth_mm'] >= 75 for c in checks)})
+    -     for sign, x, y, z in itertools.product((-1, 1), range(40, 100, 10), range(150, 205, 10), range(180, 245, 10)):
+    -         p = pose([-.2 + sign*x, y, z])
+131 +         rows.append(
+132 +             {
+133 +                 "id": f"C_y{y}_z{z}_p{pitch}",
+134 +                 "kind": "central",
+135 +                 "pitch": pitch,
+136 +                 "pose": p,
+137 +                 "screen": checks,
+138 +                 "screen_pass": all(
+139 +                     c["all_in_frame"] and c["min_depth_mm"] >= 75 for c in checks
+140 +                 ),
+141 +             }
+142 +         )
+143 +     for sign, x, y, z in itertools.product(
+144 +         (-1, 1), range(40, 100, 10), range(150, 205, 10), range(180, 245, 10)
+145 +     ):
+146 +         p = pose([-0.2 + sign * x, y, z])
+147 |         checks = screen(p)
+    -         rows.append({'id': f'S_x{sign*x}_y{y}_z{z}', 'kind': 'lateral_concept', 'pose': p, 'screen': checks,
+    -                      'screen_pass': all(c['all_in_frame'] and c['min_depth_mm'] >= 75 for c in checks)})
+    -     baseline = {'id': 'R5', 'kind': 'baseline', 'pitch': 65, 'pose': pose(r5.Spec().glass_center, 65)}
+    -     baseline['screen'] = screen(baseline['pose'])
+148 +         rows.append(
+149 +             {
+150 +                 "id": f"S_x{sign * x}_y{y}_z{z}",
+151 +                 "kind": "lateral_concept",
+152 +                 "pose": p,
+153 +                 "screen": checks,
+154 +                 "screen_pass": all(
+155 +                     c["all_in_frame"] and c["min_depth_mm"] >= 75 for c in checks
+156 +                 ),
+157 +             }
+158 +         )
+159 +     baseline = {
+160 +         "id": "R5",
+161 +         "kind": "baseline",
+162 +         "pitch": 65,
+163 +         "pose": pose(r5.Spec().glass_center, 65),
+164 +     }
+165 +     baseline["screen"] = screen(baseline["pose"])
+166 |     # Search optics with unchanged arm first. This is explicitly optimistic: no new support yet.
+    -     central = sorted((r for r in rows if r['kind']=='central' and r['screen_pass']), key=lambda r: (r['pose']['glass'][2], np.linalg.norm(np.array(r['pose']['glass'])-WRIST), abs(r['pitch']-math.degrees(math.atan2(r['pose']['glass'][2]-CENTER[2], CENTER[1]-r['pose']['glass'][1])))))
+    -     lateral = sorted((r for r in rows if r['kind']=='lateral_concept' and r['screen_pass']), key=lambda r: (r['pose']['glass'][2], abs(r['pose']['glass'][0])))
+167 +     central = sorted(
+168 +         (r for r in rows if r["kind"] == "central" and r["screen_pass"]),
+169 +         key=lambda r: (
+170 +             r["pose"]["glass"][2],
+171 +             np.linalg.norm(np.array(r["pose"]["glass"]) - WRIST),
+172 +             abs(
+173 +                 r["pitch"]
+174 +                 - math.degrees(
+175 +                     math.atan2(
+176 +                         r["pose"]["glass"][2] - CENTER[2],
+177 +                         CENTER[1] - r["pose"]["glass"][1],
+178 +                     )
+179 +                 )
+180 +             ),
+181 +         ),
+182 +     )
+183 +     lateral = sorted(
+184 +         (r for r in rows if r["kind"] == "lateral_concept" and r["screen_pass"]),
+185 +         key=lambda r: (r["pose"]["glass"][2], abs(r["pose"]["glass"][0])),
+186 +     )
+187 +
+188 |     # Cover distinct positions, not 20 tiny angular variants of one location.
+189 |     def diverse(items, count):
+190 |         chosen, seen = [], set()
+191 |         for r in items:
+    -             g = tuple(r['pose']['glass'])
+192 +             g = tuple(r["pose"]["glass"])
+193 |             if g in seen:
+194 |                 continue
+    -             chosen.append(r); seen.add(g)
+195 +             chosen.append(r)
+196 +             seen.add(g)
+197 |             if len(chosen) == count:
+198 |                 break
+199 |         return chosen
+200 +
+201 |     candidates = [baseline] + diverse(central, 110)
+    -     for z in range(180,245,10):
+    -         candidates += diverse([r for r in lateral if r['pose']['glass'][2]==z], 10)
+202 +     for z in range(180, 245, 10):
+203 +         candidates += diverse([r for r in lateral if r["pose"]["glass"][2] == z], 10)
+204 |     for r in candidates:
+    -         r['bare_optics'] = []
+205 +         r["bare_optics"] = []
+206 |     for label, angle, edge in cases():
+207 |         if not edge:
+208 |             continue
+    -         h = edge/2
+209 +         h = edge / 2
+210 |         scene = retained_at(arm, angle)
+    -         scene['DIAGNOSTIC_CUBE'] = box(*(x for pair in zip(CENTER-h, CENTER+h) for x in pair))
+    -         view = View(scene, (0,0,0), (0,1,0), (0,0,1), 84, SIZE)
+211 +         scene["DIAGNOSTIC_CUBE"] = box(
+212 +             *(x for pair in zip(CENTER - h, CENTER + h) for x in pair)
+213 +         )
+214 +         view = View(scene, (0, 0, 0), (0, 1, 0), (0, 0, 1), 84, SIZE)
+215 |         for r in candidates:
+    -             for side in ('left','right'):
+    -                 metrics = view_metrics(view, r['pose'], side, cube_only=True)
+    -                 r['bare_optics'].append({'case':label,'side':side,'metrics':metrics})
+216 +             for side in ("left", "right"):
+217 +                 metrics = view_metrics(view, r["pose"], side, cube_only=True)
+218 +                 r["bare_optics"].append(
+219 +                     {"case": label, "side": side, "metrics": metrics}
+220 +                 )
+221 |         view.close()
+    -         print('bare optics completed', label, len(candidates), flush=True)
+222 +         print("bare optics completed", label, len(candidates), flush=True)
+223 |     for r in candidates:
+    -         r['minimum_cube_visible'] = min(x['metrics']['cube']['visible_fraction'] for x in r['bare_optics'])
+    -         r['bare_optics_pass'] = r['minimum_cube_visible'] >= .9
+    -         g = np.array(r['pose']['glass'])
+    -         r['camera_only_shoulder_M_Nm'] = moment([g], [.058], SHOULDER).tolist()
+    -         r['camera_only_wrist_worst_orientation_Nm'] = float(.058*G*np.linalg.norm((g-WRIST)[1:])/1000)
+    -     save('search.json', {'grid_count':len(rows),'screen_pass_count':sum(r['screen_pass'] for r in rows),
+    -                          'own_mount_in_bare_optics':False,'all_grid':rows,'rendered_candidates':candidates})
+    -     print('CENTRAL',[(r['id'],round(r['minimum_cube_visible'],3)) for r in candidates if r['kind']=='central'],flush=True)
+    -     print('LATERAL',[(r['id'],round(r['minimum_cube_visible'],3)) for r in candidates if r['kind']=='lateral_concept'],flush=True)
+224 +         r["minimum_cube_visible"] = min(
+225 +             x["metrics"]["cube"]["visible_fraction"] for x in r["bare_optics"]
+226 +         )
+227 +         r["bare_optics_pass"] = r["minimum_cube_visible"] >= 0.9
+228 +         g = np.array(r["pose"]["glass"])
+229 +         r["camera_only_shoulder_M_Nm"] = moment([g], [0.058], SHOULDER).tolist()
+230 +         r["camera_only_wrist_worst_orientation_Nm"] = float(
+231 +             0.058 * G * np.linalg.norm((g - WRIST)[1:]) / 1000
+232 +         )
+233 +     save(
+234 +         "search.json",
+235 +         {
+236 +             "grid_count": len(rows),
+237 +             "screen_pass_count": sum(r["screen_pass"] for r in rows),
+238 +             "own_mount_in_bare_optics": False,
+239 +             "all_grid": rows,
+240 +             "rendered_candidates": candidates,
+241 +         },
+242 +     )
+243 +     print(
+244 +         "CENTRAL",
+245 +         [
+246 +             (r["id"], round(r["minimum_cube_visible"], 3))
+247 +             for r in candidates
+248 +             if r["kind"] == "central"
+249 +         ],
+250 +         flush=True,
+251 +     )
+252 +     print(
+253 +         "LATERAL",
+254 +         [
+255 +             (r["id"], round(r["minimum_cube_visible"], 3))
+256 +             for r in candidates
+257 +             if r["kind"] == "lateral_concept"
+258 +         ],
+259 +         flush=True,
+260 +     )
+261 |
+262 |
+263 | def selected():
+    -     data = json.loads((OUT/'reports/selection.json').read_text())
+    -     return data, replace(r5.Spec(), revision=data['id'], glass_center=tuple(data['pose']['glass']), pitch_deg=data['pitch'])
+264 +     data = json.loads((OUT / "reports/selection.json").read_text())
+265 +     return data, replace(
+266 +         r5.Spec(),
+267 +         revision=data["id"],
+268 +         glass_center=tuple(data["pose"]["glass"]),
+269 +         pitch_deg=data["pitch"],
+270 +     )
+271 |
+272 |
+273 | def mass_report(mount):
+    -     items=[]
+    -     for n,s in mount.items():
+    -         if n in ('CAM5_BASE','CAM5_D405_CARRIER'):
+    -             mass=s.Volume()*.00124; basis='solid PLA 1.24 g/cm3'
+    -         elif n=='CAM5_D405_BODY':
+    -             mass=58.; basis='datasheet nominal +/-10%'
+    -         elif n=='CAM5_D405_USB_PLUG':
+    -             mass=6.; basis='assumed 6 g envelope, weigh actual cable'
+    -         elif n=='CAM5_D405_USB_CABLE_STUB':
+    -             mass=1.; basis='assumed 1 g short stub, excludes free cable'
+274 +     items = []
+275 +     for n, s in mount.items():
+276 +         if n in ("CAM5_BASE", "CAM5_D405_CARRIER"):
+277 +             mass = s.Volume() * 0.00124
+278 +             basis = "solid PLA 1.24 g/cm3"
+279 +         elif n == "CAM5_D405_BODY":
+280 +             mass = 58.0
+281 +             basis = "datasheet nominal +/-10%"
+282 +         elif n == "CAM5_D405_USB_PLUG":
+283 +             mass = 6.0
+284 +             basis = "assumed 6 g envelope, weigh actual cable"
+285 +         elif n == "CAM5_D405_USB_CABLE_STUB":
+286 +             mass = 1.0
+287 +             basis = "assumed 1 g short stub, excludes free cable"
+288 |         else:
+    -             mass=s.Volume()*.00785; basis='nominal steel envelope 7.85 g/cm3'
+    -         items.append({'name':n,'mass_g':mass,'com_mm':list(s.Center().toTuple()),'basis':basis})
+    -     masses=np.array([r['mass_g']/1000 for r in items]); coms=np.array([r['com_mm'] for r in items])
+    -     com=np.average(coms,axis=0,weights=masses)
+    -     M_payload={'mass_kg':.25,'com_mm':CENTER.tolist(),'wrist_M_Nm':moment([CENTER],[.25],WRIST).tolist(),'shoulder_M_Nm':moment([CENTER],[.25],SHOULDER).tolist()}
+289 +             mass = s.Volume() * 0.00785
+290 +             basis = "nominal steel envelope 7.85 g/cm3"
+291 +         items.append(
+292 +             {
+293 +                 "name": n,
+294 +                 "mass_g": mass,
+295 +                 "com_mm": list(s.Center().toTuple()),
+296 +                 "basis": basis,
+297 +             }
+298 +         )
+299 +     masses = np.array([r["mass_g"] / 1000 for r in items])
+300 +     coms = np.array([r["com_mm"] for r in items])
+301 +     com = np.average(coms, axis=0, weights=masses)
+302 +     M_payload = {
+303 +         "mass_kg": 0.25,
+304 +         "com_mm": CENTER.tolist(),
+305 +         "wrist_M_Nm": moment([CENTER], [0.25], WRIST).tolist(),
+306 +         "shoulder_M_Nm": moment([CENTER], [0.25], SHOULDER).tolist(),
+307 +     }
+308 +
+309 |     def both(origin):
+    -         m=moment(coms,masses,origin)
+    -         rel=(coms-origin)/1000
+    -         sy=float((masses*rel[:,1]).sum()); sz=float((masses*rel[:,2]).sum())
+    -         return {'reference_M_Nm':m.tolist(),'pitch_gravity_amplitude_Nm':G*math.hypot(sy,sz),'plus_payload_reference_M_Nm':(m+moment([CENTER],[.25],origin)).tolist()}
+    -     zmax=max(bounds(s)[5] for s in mount.values())
+    -     return {'items':items,'mass_g':float(masses.sum()*1000),'com_mm':com.tolist(),'printed_mass_g':sum(r['mass_g'] for r in items if r['basis'].startswith('solid PLA')),
+    -             'height_above_motor_top_mm':zmax-TOP,'wrist':both(WRIST),'shoulder':both(SHOULDER),'payload_only':M_payload,
+    -             'full_arm_mass_included':False,'motor_continuous_rating_verified':False}
+310 +         m = moment(coms, masses, origin)
+311 +         rel = (coms - origin) / 1000
+312 +         sy = float((masses * rel[:, 1]).sum())
+313 +         sz = float((masses * rel[:, 2]).sum())
+314 +         return {
+315 +             "reference_M_Nm": m.tolist(),
+316 +             "pitch_gravity_amplitude_Nm": G * math.hypot(sy, sz),
+317 +             "plus_payload_reference_M_Nm": (
+318 +                 m + moment([CENTER], [0.25], origin)
+319 +             ).tolist(),
+320 +         }
+321 +
+322 +     zmax = max(bounds(s)[5] for s in mount.values())
+323 +     return {
+324 +         "items": items,
+325 +         "mass_g": float(masses.sum() * 1000),
+326 +         "com_mm": com.tolist(),
+327 +         "printed_mass_g": sum(
+328 +             r["mass_g"] for r in items if r["basis"].startswith("solid PLA")
+329 +         ),
+330 +         "height_above_motor_top_mm": zmax - TOP,
+331 +         "wrist": both(WRIST),
+332 +         "shoulder": both(SHOULDER),
+333 +         "payload_only": M_payload,
+334 +         "full_arm_mass_included": False,
+335 +         "motor_continuous_rating_verified": False,
+336 +     }
+337 |
+338 |
+339 | def export():
+    -     selection,s=selected()
+    -     original=source()
+    -     arm={n:v for n,v in original.items() if not n.startswith('CAM5_')}
+    -     mount=r5.build(s)
+    -     for n in ('CAM5_BASE','CAM5_D405_CARRIER'):
+    -         assert mount[n].isValid() and len(mount[n].Solids())==1 and mount[n].Volume()>0,n
+    -     assembly=cq.Assembly(name='Robot_250g_compact_D405')
+    -     for n,shape in (arm|mount).items():
+    -         assembly.add(shape,name=n,color=cq.Color(*color(n)))
+    -     path=OUT/'CAD/Robot_250g_compact_D405.step'
+340 +     selection, s = selected()
+341 +     original = source()
+342 +     arm = {n: v for n, v in original.items() if not n.startswith("CAM5_")}
+343 +     mount = r5.build(s)
+344 +     for n in ("CAM5_BASE", "CAM5_D405_CARRIER"):
+345 +         assert (
+346 +             mount[n].isValid() and len(mount[n].Solids()) == 1 and mount[n].Volume() > 0
+347 +         ), n
+348 +     assembly = cq.Assembly(name="Robot_250g_compact_D405")
+349 +     for n, shape in (arm | mount).items():
+350 +         assembly.add(shape, name=n, color=cq.Color(*color(n)))
+351 +     path = OUT / "CAD/Robot_250g_compact_D405.step"
+352 |     assembly.save(str(path))
+    -     for n in ('CAM5_BASE','CAM5_D405_CARRIER'):
+    -         cq.exporters.export(mount[n],str(OUT/'CAD'/f'{n}.step'))
+    -         cq.exporters.export(mount[n],str(OUT/'CAD'/f'{n}.stl'),tolerance=.05,angularTolerance=.1)
+    -     reload={r.name:r.world for r in read_step(path)[2]}
+    -     errors=[]
+    -     for n,sh in (arm|mount).items():
+    -         other=reload[n]
+    -         if abs(sh.Volume()-other.Volume())>.01 or max(abs(np.array(bounds(sh))-bounds(other)))>1e-4:
+353 +     for n in ("CAM5_BASE", "CAM5_D405_CARRIER"):
+354 +         cq.exporters.export(mount[n], str(OUT / "CAD" / f"{n}.step"))
+355 +         cq.exporters.export(
+356 +             mount[n],
+357 +             str(OUT / "CAD" / f"{n}.stl"),
+358 +             tolerance=0.05,
+359 +             angularTolerance=0.1,
+360 +         )
+361 +     reload = {r.name: r.world for r in read_step(path)[2]}
+362 +     errors = []
+363 +     for n, sh in (arm | mount).items():
+364 +         other = reload[n]
+365 +         if (
+366 +             abs(sh.Volume() - other.Volume()) > 0.01
+367 +             or max(abs(np.array(bounds(sh)) - bounds(other))) > 1e-4
+368 +         ):
+369 |             errors.append(n)
+    -     assert len(reload)==257 and not errors,(len(reload),errors)
+    -     anchor_checks=[]
+    -     for x,y,z in ANCHORS:
+    -         plug=cq.Solid.makeCylinder(1.3,2,cq.Vector(x,y,z+.05))
+    -         anchor_checks.append(abs(mount['CAM5_BASE'].intersect(plug).Volume()))
+    -     assert max(anchor_checks)<1e-5
+    -     for name,parts in [('R5',original),('compact',arm|mount)]:
+    -         if name=='R5' and (OUT/'images/R5_side.png').exists() and (OUT/'images/R5_assembly.png').exists():
+370 +     assert len(reload) == 257 and not errors, (len(reload), errors)
+371 +     anchor_checks = []
+372 +     for x, y, z in ANCHORS:
+373 +         plug = cq.Solid.makeCylinder(1.3, 2, cq.Vector(x, y, z + 0.05))
+374 +         anchor_checks.append(abs(mount["CAM5_BASE"].intersect(plug).Volume()))
+375 +     assert max(anchor_checks) < 1e-5
+376 +     for name, parts in [("R5", original), ("compact", arm | mount)]:
+377 +         if (
+378 +             name == "R5"
+379 +             and (OUT / "images/R5_side.png").exists()
+380 +             and (OUT / "images/R5_assembly.png").exists()
+381 +         ):
+382 |             continue  # unchanged, hash-pinned input; preserve its existing reference renders
+    -         render([(sh,color(n)) for n,sh in parts.items()],OUT/'images'/f'{name}_assembly.png',direction=(1,-.6,.5),focus=(-.2,140,170),scale=165,size=(1200,1000))
+    -         render([(sh,color(n)) for n,sh in parts.items()],OUT/'images'/f'{name}_side.png',direction=(1,0,0),focus=(-.2,180,214),scale=85,size=(1100,900))
+    -     old={n:sh for n,sh in original.items() if n.startswith('CAM5_')}
+    -     save('export.json',{'selection':selection,'spec':asdict(s),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'occurrences':len(reload),
+    -                         'roundtrip_errors':errors,'anchor_probe_overlap_mm3':anchor_checks,'screw_stack':r5.d405_stack(s),
+    -                         'baseline':mass_report(old),'candidate':mass_report(mount),
+    -                         'camera_glass_delta_mm':(np.array(s.glass_center)-r5.Spec().glass_center).tolist(),
+    -                         'existing_urdf_matches_candidate':False})
+    -     print('EXPORT PASS',len(reload),mass_report(mount)['mass_g'],flush=True)
+383 +         render(
+384 +             [(sh, color(n)) for n, sh in parts.items()],
+385 +             OUT / "images" / f"{name}_assembly.png",
+386 +             direction=(1, -0.6, 0.5),
+387 +             focus=(-0.2, 140, 170),
+388 +             scale=165,
+389 +             size=(1200, 1000),
+390 +         )
+391 +         render(
+392 +             [(sh, color(n)) for n, sh in parts.items()],
+393 +             OUT / "images" / f"{name}_side.png",
+394 +             direction=(1, 0, 0),
+395 +             focus=(-0.2, 180, 214),
+396 +             scale=85,
+397 +             size=(1100, 900),
+398 +         )
+399 +     old = {n: sh for n, sh in original.items() if n.startswith("CAM5_")}
+400 +     save(
+401 +         "export.json",
+402 +         {
+403 +             "selection": selection,
+404 +             "spec": asdict(s),
+405 +             "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+406 +             "occurrences": len(reload),
+407 +             "roundtrip_errors": errors,
+408 +             "anchor_probe_overlap_mm3": anchor_checks,
+409 +             "screw_stack": r5.d405_stack(s),
+410 +             "baseline": mass_report(old),
+411 +             "candidate": mass_report(mount),
+412 +             "camera_glass_delta_mm": (
+413 +                 np.array(s.glass_center) - r5.Spec().glass_center
+414 +             ).tolist(),
+415 +             "existing_urdf_matches_candidate": False,
+416 +         },
+417 +     )
+418 +     print("EXPORT PASS", len(reload), mass_report(mount)["mass_g"], flush=True)
+419 |
+420 |
+421 | def overlaps(first, second, same=False):
+    -     result=[]
+    -     bb={n:bounds(s) for n,s in second.items()}
+    -     for n,s in first.items():
+    -         ab=bounds(s)
+    -         for m,t in second.items():
+    -             if same and n>=m:
+422 +     result = []
+423 +     bb = {n: bounds(s) for n, s in second.items()}
+424 +     for n, s in first.items():
+425 +         ab = bounds(s)
+426 +         for m, t in second.items():
+427 +             if same and n >= m:
+428 |                 continue
+    -             if box_distance(ab,bb[m])>1e-6:
+429 +             if box_distance(ab, bb[m]) > 1e-6:
+430 |                 continue
+431 |             if not s.Solids() or not t.Solids():
+432 |                 # Supplier surfaces have no certified interior. A non-separated
+433 |                 # bounding box is unresolved, even if nearest face is distant.
+    -                 result.append({'a':n,'b':m,'gap_mm':s.distance(t),'type':'surface_bbox_unresolved'})
+434 +                 result.append(
+435 +                     {
+436 +                         "a": n,
+437 +                         "b": m,
+438 +                         "gap_mm": s.distance(t),
+439 +                         "type": "surface_bbox_unresolved",
+440 +                     }
+441 +                 )
+442 |                 continue
+    -             v=abs(s.intersect(t).Volume())
+    -             distance=s.distance(t)
+    -             if v>1e-5:
+    -                 result.append({'a':n,'b':m,'volume_mm3':v,'type':'volume'})
+443 +             v = abs(s.intersect(t).Volume())
+444 +             distance = s.distance(t)
+445 +             if v > 1e-5:
+446 +                 result.append({"a": n, "b": m, "volume_mm3": v, "type": "volume"})
+447 |     return result
+--------------------------------------------------------------------------------
+451 |     from scripts.id4_sweep_d405_r5 import id4_axis, MOVING
+    -     selection,s=selected()
+    -     original=source()
+    -     candidate={r.name:r.world for r in read_step(OUT/'CAD/Robot_250g_compact_D405.step')[2]}
+    -     arm={n:v for n,v in original.items() if not n.startswith('CAM5_')}
+    -     mounts={'R5':{n:v for n,v in original.items() if n.startswith('CAM5_')},'compact':{n:v for n,v in candidate.items() if n.startswith('CAM5_')}}
+    -     report={'fov_h_deg':84,'size':SIZE,'real_intrinsics_verified':False,'physical_strength_verified':False,'cases':[],'collisions':[]}
+    -     for label,angle,edge in cases():
+    -         bare=retained_at(arm,angle)
+    -         for variant,mount in mounts.items():
+    -             p=pose(r5.Spec().glass_center,65) if variant=='R5' else selection['pose']
+    -             scene=bare|{n:v for n,v in mount.items() if n!='CAM5_D405_BODY'}
+452 +
+453 +     selection, s = selected()
+454 +     original = source()
+455 +     candidate = {
+456 +         r.name: r.world for r in read_step(OUT / "CAD/Robot_250g_compact_D405.step")[2]
+457 +     }
+458 +     arm = {n: v for n, v in original.items() if not n.startswith("CAM5_")}
+459 +     mounts = {
+460 +         "R5": {n: v for n, v in original.items() if n.startswith("CAM5_")},
+461 +         "compact": {n: v for n, v in candidate.items() if n.startswith("CAM5_")},
+462 +     }
+463 +     report = {
+464 +         "fov_h_deg": 84,
+465 +         "size": SIZE,
+466 +         "real_intrinsics_verified": False,
+467 +         "physical_strength_verified": False,
+468 +         "cases": [],
+469 +         "collisions": [],
+470 +     }
+471 +     for label, angle, edge in cases():
+472 +         bare = retained_at(arm, angle)
+473 +         for variant, mount in mounts.items():
+474 +             p = (
+475 +                 pose(r5.Spec().glass_center, 65)
+476 +                 if variant == "R5"
+477 +                 else selection["pose"]
+478 +             )
+479 +             scene = bare | {n: v for n, v in mount.items() if n != "CAM5_D405_BODY"}
+480 |             if edge:
+    -                 h=edge/2
+    -                 scene['DIAGNOSTIC_CUBE']=box(*(x for pair in zip(CENTER-h,CENTER+h) for x in pair))
+    -             view=View(scene,(0,0,0),(0,1,0),(0,0,1),84,SIZE)
+    -             for side in ('left','right'):
+    -                 image=OUT/'images'/f'{variant}_{label}_{side}.png'
+    -                 met=view_metrics(view,p,side,image)
+    -                 for key,names in {'jaw_L':['PG3_finger_L','PG3_pad_L'],'jaw_R':['PG3_finger_R','PG3_pad_R'],'cube':['DIAGNOSTIC_CUBE']}.items():
+481 +                 h = edge / 2
+482 +                 scene["DIAGNOSTIC_CUBE"] = box(
+483 +                     *(x for pair in zip(CENTER - h, CENTER + h) for x in pair)
+484 +                 )
+485 +             view = View(scene, (0, 0, 0), (0, 1, 0), (0, 0, 1), 84, SIZE)
+486 +             for side in ("left", "right"):
+487 +                 image = OUT / "images" / f"{variant}_{label}_{side}.png"
+488 +                 met = view_metrics(view, p, side, image)
+489 +                 for key, names in {
+490 +                     "jaw_L": ["PG3_finger_L", "PG3_pad_L"],
+491 +                     "jaw_R": ["PG3_finger_R", "PG3_pad_R"],
+492 +                     "cube": ["DIAGNOSTIC_CUBE"],
+493 +                 }.items():
+494 |                     if key not in met:
+495 |                         continue
+    -                     pts=np.array([v.toTuple() for n in names for v in scene[n].tessellate(.2,.3)[0]])
+    -                     inside,dep=project_points(pts,p['eyes'][side],p['direction'],p['up'])
+    -                     met[key].update({'vertex_fraction_in_frame':float(inside.mean()),'min_depth_mm':float(min(dep)),'depth_480p':depth_ok(min(dep),'848x480'),'depth_720p':depth_ok(min(dep),'1280x720')})
+    -                 report['cases'].append({'variant':variant,'case':label,'side':side,'metrics':met,'image':str(image.relative_to(OUT))})
+496 +                     pts = np.array(
+497 +                         [
+498 +                             v.toTuple()
+499 +                             for n in names
+500 +                             for v in scene[n].tessellate(0.2, 0.3)[0]
+501 +                         ]
+502 +                     )
+503 +                     inside, dep = project_points(
+504 +                         pts, p["eyes"][side], p["direction"], p["up"]
+505 +                     )
+506 +                     met[key].update(
+507 +                         {
+508 +                             "vertex_fraction_in_frame": float(inside.mean()),
+509 +                             "min_depth_mm": float(min(dep)),
+510 +                             "depth_480p": depth_ok(min(dep), "848x480"),
+511 +                             "depth_720p": depth_ok(min(dep), "1280x720"),
+512 +                         }
+513 +                     )
+514 +                 report["cases"].append(
+515 +                     {
+516 +                         "variant": variant,
+517 +                         "case": label,
+518 +                         "side": side,
+519 +                         "metrics": met,
+520 +                         "image": str(image.relative_to(OUT)),
+521 +                     }
+522 +                 )
+523 |             view.close()
+524 |             if not edge:
+    -                 report['collisions'].append({'variant':variant,'case':label,'mount_to_arm':overlaps(mount,bare),'within_mount':overlaps(mount,mount,True)})
+    -             save('validation.json',report)
+    -             print('validate',variant,label,flush=True)
+    -     upstream={n:v for n,v in original.items() if not n.startswith(MOVING)}
+    -     ub={n:bounds(v) for n,v in upstream.items()}
+    -     point,axis,_=id4_axis(original)
+    -     sweep={}
+525 +                 report["collisions"].append(
+526 +                     {
+527 +                         "variant": variant,
+528 +                         "case": label,
+529 +                         "mount_to_arm": overlaps(mount, bare),
+530 +                         "within_mount": overlaps(mount, mount, True),
+531 +                     }
+532 +                 )
+533 +             save("validation.json", report)
+534 +             print("validate", variant, label, flush=True)
+535 +     upstream = {n: v for n, v in original.items() if not n.startswith(MOVING)}
+536 +     ub = {n: bounds(v) for n, v in upstream.items()}
+537 +     point, axis, _ = id4_axis(original)
+538 +     sweep = {}
+539 +
+540 |     def conservative_hits(group, degrees):
+    -         for n,shape in group.items():
+    -             moved=shape.rotate(tuple(point),tuple(point+axis),float(degrees)) if degrees else shape
+    -             b=bounds(moved)
+    -             for m,t in upstream.items():
+    -                 if box_distance(b,ub[m])>=.3:
+541 +         for n, shape in group.items():
+542 +             moved = (
+543 +                 shape.rotate(tuple(point), tuple(point + axis), float(degrees))
+544 +                 if degrees
+545 +                 else shape
+546 +             )
+547 +             b = bounds(moved)
+548 +             for m, t in upstream.items():
+549 +                 if box_distance(b, ub[m]) >= 0.3:
+550 |                     continue
+551 |                 if not moved.Solids() or not t.Solids():
+    -                     return [{'moving':n,'upstream':m,'status':'surface_bbox_unresolved','gap_mm':moved.distance(t)}]
+    -                 vol=abs(moved.intersect(t).Volume())
+    -                 if vol>1e-5 or moved.distance(t)<.3:
+    -                     return [{'moving':n,'upstream':m,'status':'collision_or_gap_below_0.3mm','volume_mm3':vol}]
+552 +                     return [
+553 +                         {
+554 +                             "moving": n,
+555 +                             "upstream": m,
+556 +                             "status": "surface_bbox_unresolved",
+557 +                             "gap_mm": moved.distance(t),
+558 +                         }
+559 +                     ]
+560 +                 vol = abs(moved.intersect(t).Volume())
+561 +                 if vol > 1e-5 or moved.distance(t) < 0.3:
+562 +                     return [
+563 +                         {
+564 +                             "moving": n,
+565 +                             "upstream": m,
+566 +                             "status": "collision_or_gap_below_0.3mm",
+567 +                             "volume_mm3": vol,
+568 +                         }
+569 +                     ]
+570 |         return []
+    -     def sample(group,sign):
+    -         last=0
+    -         for deg in range(sign*2,sign*182,sign*2):
+    -             h=conservative_hits(group,deg)
+571 +
+572 +     def sample(group, sign):
+573 +         last = 0
+574 +         for deg in range(sign * 2, sign * 182, sign * 2):
+575 +             h = conservative_hits(group, deg)
+576 |             if h:
+    -                 return last,{'deg':deg,'first_hit':h[0]}
+    -             last=deg
+    -         return last,None
+    -     for variant,mount in mounts.items():
+    -         zero=conservative_hits(mount,0)
+    -         lo,lohit=sample(mount,-1)
+    -         hi,hihit=sample(mount,1)
+    -         sweep[variant]={'free_interval_deg':[lo,hi],'negative_stop':lohit,'positive_stop':hihit,'hits_at_zero':zero}
+    -     report['mount_sweep']=sweep
+    -     report['sweep_step_deg']=2;report['continuous_proof']=False
+    -     report['retained_arm_sweep_evidence']=str(r5.RUN/'reports/id4_sweep.json')
+    -     report['limitations']=['whole arm mass and material unknown','nominal fastener envelopes','no physical fatigue/creep/pullout tests','free cable omitted except stub','surface-only bounding-box overlap is unresolved, never declared clear by zero volume']
+    -     ex=json.loads((OUT/'reports/export.json').read_text())
+    -     l0=ex['baseline']['height_above_motor_top_mm'];l1=ex['candidate']['height_above_motor_top_mm']
+    -     report['beam_sensitivity']={'model':'illustrative equal-section cantilever only; height is proxy length, not FEA','width_mm':16,'height_mm':8,'load_N':.058*G,'rows':[{'E_MPa':e,'R5_stress_deflection':beam(.058*G,l0,16,8,e),'compact_stress_deflection':beam(.058*G,l1,16,8,e)} for e in (500,1000,3000)]}
+    -     search_result=json.loads((OUT/'reports/search.json').read_text())
+    -     side=max((r for r in search_result['rendered_candidates'] if r['kind']=='lateral_concept'),key=lambda r:r['minimum_cube_visible'])
+    -     _,angle,edge=next(c for c in cases() if c[0]=='cube_10_grasp')
+    -     scene=retained_at(arm,angle)
+    -     h=edge/2
+    -     scene['DIAGNOSTIC_CUBE']=box(*(x for pair in zip(CENTER-h,CENTER+h) for x in pair))
+    -     view=View(scene,(0,0,0),(0,1,0),(0,0,1),84,SIZE)
+    -     report['rejected_side_example']={'id':side['id'],'own_mount_in_scene':False,'images':[]}
+    -     for eye_side in ('left','right'):
+    -         image=OUT/'images'/f'rejected_side_cube10_{eye_side}.png'
+    -         met=view_metrics(view,side['pose'],eye_side,image)
+    -         report['rejected_side_example']['images'].append({'side':eye_side,'path':str(image.relative_to(OUT)),'metrics':met})
+577 +                 return last, {"deg": deg, "first_hit": h[0]}
+578 +             last = deg
+579 +         return last, None
+580 +
+581 +     for variant, mount in mounts.items():
+582 +         zero = conservative_hits(mount, 0)
+583 +         lo, lohit = sample(mount, -1)
+584 +         hi, hihit = sample(mount, 1)
+585 +         sweep[variant] = {
+586 +             "free_interval_deg": [lo, hi],
+587 +             "negative_stop": lohit,
+588 +             "positive_stop": hihit,
+589 +             "hits_at_zero": zero,
+590 +         }
+591 +     report["mount_sweep"] = sweep
+592 +     report["sweep_step_deg"] = 2
+593 +     report["continuous_proof"] = False
+594 +     report["retained_arm_sweep_evidence"] = str(r5.RUN / "reports/id4_sweep.json")
+595 +     report["limitations"] = [
+596 +         "whole arm mass and material unknown",
+597 +         "nominal fastener envelopes",
+598 +         "no physical fatigue/creep/pullout tests",
+599 +         "free cable omitted except stub",
+600 +         "surface-only bounding-box overlap is unresolved, never declared clear by zero volume",
+601 +     ]
+602 +     ex = json.loads((OUT / "reports/export.json").read_text())
+603 +     l0 = ex["baseline"]["height_above_motor_top_mm"]
+604 +     l1 = ex["candidate"]["height_above_motor_top_mm"]
+605 +     report["beam_sensitivity"] = {
+606 +         "model": "illustrative equal-section cantilever only; height is proxy length, not FEA",
+607 +         "width_mm": 16,
+608 +         "height_mm": 8,
+609 +         "load_N": 0.058 * G,
+610 +         "rows": [
+611 +             {
+612 +                 "E_MPa": e,
+613 +                 "R5_stress_deflection": beam(0.058 * G, l0, 16, 8, e),
+614 +                 "compact_stress_deflection": beam(0.058 * G, l1, 16, 8, e),
+615 +             }
+616 +             for e in (500, 1000, 3000)
+617 +         ],
+618 +     }
+619 +     search_result = json.loads((OUT / "reports/search.json").read_text())
+620 +     side = max(
+621 +         (
+622 +             r
+623 +             for r in search_result["rendered_candidates"]
+624 +             if r["kind"] == "lateral_concept"
+625 +         ),
+626 +         key=lambda r: r["minimum_cube_visible"],
+627 +     )
+628 +     _, angle, edge = next(c for c in cases() if c[0] == "cube_10_grasp")
+629 +     scene = retained_at(arm, angle)
+630 +     h = edge / 2
+631 +     scene["DIAGNOSTIC_CUBE"] = box(
+632 +         *(x for pair in zip(CENTER - h, CENTER + h) for x in pair)
+633 +     )
+634 +     view = View(scene, (0, 0, 0), (0, 1, 0), (0, 0, 1), 84, SIZE)
+635 +     report["rejected_side_example"] = {
+636 +         "id": side["id"],
+637 +         "own_mount_in_scene": False,
+638 +         "images": [],
+639 +     }
+640 +     for eye_side in ("left", "right"):
+641 +         image = OUT / "images" / f"rejected_side_cube10_{eye_side}.png"
+642 +         met = view_metrics(view, side["pose"], eye_side, image)
+643 +         report["rejected_side_example"]["images"].append(
+644 +             {"side": eye_side, "path": str(image.relative_to(OUT)), "metrics": met}
+645 +         )
+646 |     view.close()
+    -     report['source_sha256']=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
+    -     report['candidate_sha256']=hashlib.sha256((OUT/'CAD/Robot_250g_compact_D405.step').read_bytes()).hexdigest()
+    -     save('validation.json',report)
+647 +     report["source_sha256"] = hashlib.sha256(SOURCE.read_bytes()).hexdigest()
+648 +     report["candidate_sha256"] = hashlib.sha256(
+649 +         (OUT / "CAD/Robot_250g_compact_D405.step").read_bytes()
+650 +     ).hexdigest()
+651 +     save("validation.json", report)
+652 |
+653 |
+    - if __name__=='__main__':
+    -     parser=argparse.ArgumentParser();parser.add_argument('command',choices=['search','export','validate']);args=parser.parse_args()
+    -     {'search':search,'export':export,'validate':validate}[args.command]()
+654 + if __name__ == "__main__":
+655 +     parser = argparse.ArgumentParser()
+656 +     parser.add_argument("command", choices=["search", "export", "validate"])
+657 +     args = parser.parse_args()
+658 +     {"search": search, "export": export, "validate": validate}[args.command]()
+    |
+
+unformatted: File would be reformatted
+  --> work/optimization/refine.py:2:1
+   |
+1  | """Resolve the measured compactness/wrist-travel tradeoff within the declared grid."""
+2  +
+3  | import json
+--------------------------------------------------------------------------------
+13 | parts = source()
+   - upstream = {n:v for n,v in parts.items() if not n.startswith(MOVING)}
+   - ub = {n:bounds(v) for n,v in upstream.items()}
+   - point,axis,_ = id4_axis(parts)
+   - search=json.loads((OUT/'reports/search.json').read_text())
+   - report=[]
+   - for row in search['rendered_candidates']:
+   -     if row['kind'] != 'central' or not row['bare_optics_pass']:
+14 + upstream = {n: v for n, v in parts.items() if not n.startswith(MOVING)}
+15 + ub = {n: bounds(v) for n, v in upstream.items()}
+16 + point, axis, _ = id4_axis(parts)
+17 + search = json.loads((OUT / "reports/search.json").read_text())
+18 + report = []
+19 + for row in search["rendered_candidates"]:
+20 +     if row["kind"] != "central" or not row["bare_optics_pass"]:
+21 |         continue
+   -     s=replace(r5.Spec(), glass_center=tuple(row['pose']['glass']),pitch_deg=row['pitch'])
+   -     mount=r5.build(s)
+   -     stop=None
+   -     for degree in range(0,132,2):
+   -         hit=hits(mount,upstream,ub,point,axis,degree,set(),True)
+22 +     s = replace(
+23 +         r5.Spec(), glass_center=tuple(row["pose"]["glass"]), pitch_deg=row["pitch"]
+24 +     )
+25 +     mount = r5.build(s)
+26 +     stop = None
+27 +     for degree in range(0, 132, 2):
+28 +         hit = hits(mount, upstream, ub, point, axis, degree, set(), True)
+29 |         if hit:
+   -             stop={'degree':degree,'hit':hit};break
+   -     mass=mass_report(mount)
+   -     record={'id':row['id'],'positive_stop':stop,'mass':mass,
+   -             'all_printed_single_valid':all(mount[n].isValid() and len(mount[n].Solids())==1 for n in ['CAM5_BASE','CAM5_D405_CARRIER']),
+   -             'camera_radius_mm':float(np.linalg.norm(np.array(s.glass_center)-WRIST))}
+30 +             stop = {"degree": degree, "hit": hit}
+31 +             break
+32 +     mass = mass_report(mount)
+33 +     record = {
+34 +         "id": row["id"],
+35 +         "positive_stop": stop,
+36 +         "mass": mass,
+37 +         "all_printed_single_valid": all(
+38 +             mount[n].isValid() and len(mount[n].Solids()) == 1
+39 +             for n in ["CAM5_BASE", "CAM5_D405_CARRIER"]
+40 +         ),
+41 +         "camera_radius_mm": float(np.linalg.norm(np.array(s.glass_center) - WRIST)),
+42 +     }
+43 |     report.append(record)
+   -     (OUT/'reports/nearby.json').write_text(json.dumps(report,indent=2))
+   -     print(row['id'],'stop',stop['degree'] if stop else None,'mass',round(mass['mass_g'],2),'height',round(mass['height_above_motor_top_mm'],2),'wrist',round(mass['wrist']['pitch_gravity_amplitude_Nm'],5),flush=True)
+44 +     (OUT / "reports/nearby.json").write_text(json.dumps(report, indent=2))
+45 +     print(
+46 +         row["id"],
+47 +         "stop",
+48 +         stop["degree"] if stop else None,
+49 +         "mass",
+50 +         round(mass["mass_g"], 2),
+51 +         "height",
+52 +         round(mass["height_above_motor_top_mm"], 2),
+53 +         "wrist",
+54 +         round(mass["wrist"]["pitch_gravity_amplitude_Nm"], 5),
+55 +         flush=True,
+56 +     )
+   |
+
+unformatted: File would be reformatted
+  --> work/optimization/test_mechanics.py:8:47
+   |
+7  | def test_payload_250g_300mm():
+   -     assert np.allclose(moment([[0, 300, 0]], [.25]), [-.73549875, 0, 0])
+8  +     assert np.allclose(moment([[0, 300, 0]], [0.25]), [-0.73549875, 0, 0])
+9  |
+10 |
+11 | def test_vertical_base_axis_has_zero_gravity_torque():
+   -     m = moment([[80, 300, 160]], [.25])
+12 +     m = moment([[80, 300, 160]], [0.25])
+13 |     assert m[2] == 0
+   -     assert np.linalg.norm(m[:2]) > .735
+14 +     assert np.linalg.norm(m[:2]) > 0.735
+15 |
+16 |
+17 | def test_reference_translation_and_mass_sum():
+   -     assert np.allclose(moment([[0, 200, 0], [0, 400, 0]], [.1, .1], [0, 100, 0]), [-.392266, 0, 0])
+18 +     assert np.allclose(
+19 +         moment([[0, 200, 0], [0, 400, 0]], [0.1, 0.1], [0, 100, 0]), [-0.392266, 0, 0]
+20 +     )
+21 |
+--------------------------------------------------------------------------------
+28 |
+   - @pytest.mark.parametrize('depth,small,large', [(69.9, False, False), (70, True, False), (99.9, True, False), (100, True, True)])
+29 + @pytest.mark.parametrize(
+30 +     "depth,small,large",
+31 +     [(69.9, False, False), (70, True, False), (99.9, True, False), (100, True, True)],
+32 + )
+33 | def test_minz_resolution_boundaries(depth, small, large):
+   -     assert depth_ok(depth, '848x480') == small
+   -     assert depth_ok(depth, '1280x720') == large
+34 +     assert depth_ok(depth, "848x480") == small
+35 +     assert depth_ok(depth, "1280x720") == large
+36 |
+37 |
+38 | def test_projection_positive_negative_control():
+   -     inside, depths = project_points([[0, 100, 0], [200, 100, 0], [0, -10, 0]], [0, 0, 0], [0, 1, 0], [0, 0, 1])
+39 +     inside, depths = project_points(
+40 +         [[0, 100, 0], [200, 100, 0], [0, -10, 0]], [0, 0, 0], [0, 1, 0], [0, 0, 1]
+41 +     )
+42 |     assert inside.tolist() == [True, False, False]
+--------------------------------------------------------------------------------
+48 |     stress, delta = beam(1, 100, 10, 10, 1000)
+   -     assert stress == pytest.approx(.6)
+   -     assert delta == pytest.approx(.4)
+   -     assert beam(1, 50, 10, 10, 1000)[1] == pytest.approx(.05)
+49 +     assert stress == pytest.approx(0.6)
+50 +     assert delta == pytest.approx(0.4)
+51 +     assert beam(1, 50, 10, 10, 1000)[1] == pytest.approx(0.05)
+   |
+
+7 files would be reformatted
+WARN `pyproject.toml` does not contain a `project` table: `LOCAL_HOME/pyproject.toml`

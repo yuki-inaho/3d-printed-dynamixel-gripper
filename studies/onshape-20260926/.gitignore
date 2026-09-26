@@ -1,0 +1,6 @@
+work/cache/
+work/*private*
+work/*auth-state*
+**/__pycache__/
+*.pyc
+.env

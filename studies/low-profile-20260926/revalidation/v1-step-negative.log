@@ -1,0 +1,6 @@
+zero: 262 members; angle_error_deg=3.91018163e-15; local_bbox_delta_mm=0
+small_joint1_yaw: 262 members; angle_error_deg=1.27222187e-13; local_bbox_delta_mm=0
+small_joint2_shoulder: 262 members; angle_error_deg=5.57892064e-14; local_bbox_delta_mm=0
+small_joint3_elbow: 262 members; angle_error_deg=4.29142505e-12; local_bbox_delta_mm=0
+small_joint4_wrist: 262 members; angle_error_deg=3.55271368e-14; local_bbox_delta_mm=0
+{"status": "FAIL", "error_type": "ValidationError", "error": "small_gripper_drive/jaw_l: rigid members move differently (rotation_rad=0.0, translation_mm=5.16416212733822)"}

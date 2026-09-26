@@ -1,0 +1,2 @@
+All checks passed!
+WARN `pyproject.toml` does not contain a `project` table: `LOCAL_HOME/pyproject.toml`

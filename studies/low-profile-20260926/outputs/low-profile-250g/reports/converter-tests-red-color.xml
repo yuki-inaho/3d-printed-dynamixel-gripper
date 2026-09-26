@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="11" skipped="0" tests="13" time="2.265" timestamp="2026-09-26T19:52:34.595396+09:00" hostname="local"><testcase classname="tests.test_conversion" name="test_real_step_units_nested_placement_repeated_compound[MM]" time="0.033"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_real_step_units_nested_pl0')
+unit = 'MM'
+
+    @pytest.mark.parametrize("unit", ["MM", "INCH"])
+    def test_real_step_units_nested_placement_repeated_compound(tmp_path, unit):
+        path = fixture_step(tmp_path / "fixture.step", unit)
+&gt;       _doc, rows = read_step(path)
+                     ^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:74: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_real_step_units_nested_placement_repeated_compound[INCH]" time="0.026"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_real_step_units_nested_pl1')
+unit = 'INCH'
+
+    @pytest.mark.parametrize("unit", ["MM", "INCH"])
+    def test_real_step_units_nested_placement_repeated_compound(tmp_path, unit):
+        path = fixture_step(tmp_path / "fixture.step", unit)
+&gt;       _doc, rows = read_step(path)
+                     ^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:74: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_mesh_scale_inventory_and_existing_output_guard" time="0.023"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_mesh_scale_inventory_and_0')
+
+    def test_mesh_scale_inventory_and_existing_output_guard(tmp_path):
+        path = fixture_step(tmp_path / "fixture.step")
+&gt;       _doc, rows = read_step(path)
+                     ^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:91: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_bad_configuration_is_rejected[unassigned]" time="0.023"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_bad_configuration_is_reje0')
+mutation = 'unassigned'
+
+    @pytest.mark.parametrize("mutation", ["unassigned", "duplicate", "count", "scale", "cycle", "axis", "limits", "unit"])
+    def test_bad_configuration_is_rejected(tmp_path, mutation):
+&gt;       _doc, rows = read_step(fixture_step(tmp_path / "fixture.step"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_bad_configuration_is_rejected[duplicate]" time="0.026"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_bad_configuration_is_reje1')
+mutation = 'duplicate'
+
+    @pytest.mark.parametrize("mutation", ["unassigned", "duplicate", "count", "scale", "cycle", "axis", "limits", "unit"])
+    def test_bad_configuration_is_rejected(tmp_path, mutation):
+&gt;       _doc, rows = read_step(fixture_step(tmp_path / "fixture.step"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_bad_configuration_is_rejected[count]" time="0.024"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_bad_configuration_is_reje2')
+mutation = 'count'
+
+    @pytest.mark.parametrize("mutation", ["unassigned", "duplicate", "count", "scale", "cycle", "axis", "limits", "unit"])
+    def test_bad_configuration_is_rejected(tmp_path, mutation):
+&gt;       _doc, rows = read_step(fixture_step(tmp_path / "fixture.step"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_bad_configuration_is_rejected[scale]" time="0.030"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_bad_configuration_is_reje3')
+mutation = 'scale'
+
+    @pytest.mark.parametrize("mutation", ["unassigned", "duplicate", "count", "scale", "cycle", "axis", "limits", "unit"])
+    def test_bad_configuration_is_rejected(tmp_path, mutation):
+&gt;       _doc, rows = read_step(fixture_step(tmp_path / "fixture.step"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_bad_configuration_is_rejected[cycle]" time="0.029"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_bad_configuration_is_reje4')
+mutation = 'cycle'
+
+    @pytest.mark.parametrize("mutation", ["unassigned", "duplicate", "count", "scale", "cycle", "axis", "limits", "unit"])
+    def test_bad_configuration_is_rejected(tmp_path, mutation):
+&gt;       _doc, rows = read_step(fixture_step(tmp_path / "fixture.step"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_bad_configuration_is_rejected[axis]" time="0.030"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_bad_configuration_is_reje5')
+mutation = 'axis'
+
+    @pytest.mark.parametrize("mutation", ["unassigned", "duplicate", "count", "scale", "cycle", "axis", "limits", "unit"])
+    def test_bad_configuration_is_rejected(tmp_path, mutation):
+&gt;       _doc, rows = read_step(fixture_step(tmp_path / "fixture.step"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_bad_configuration_is_rejected[limits]" time="0.028"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_bad_configuration_is_reje6')
+mutation = 'limits'
+
+    @pytest.mark.parametrize("mutation", ["unassigned", "duplicate", "count", "scale", "cycle", "axis", "limits", "unit"])
+    def test_bad_configuration_is_rejected(tmp_path, mutation):
+&gt;       _doc, rows = read_step(fixture_step(tmp_path / "fixture.step"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_bad_configuration_is_rejected[unit]" time="0.033"><failure message="TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.&#10;  Possible C/C++ prototypes are:&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)&#10;    XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)">tmp_path = PosixPath('temp/pytest/pytest-42/test_bad_configuration_is_reje7')
+mutation = 'unit'
+
+    @pytest.mark.parametrize("mutation", ["unassigned", "duplicate", "count", "scale", "cycle", "axis", "limits", "unit"])
+    def test_bad_configuration_is_rejected(tmp_path, mutation):
+&gt;       _doc, rows = read_step(fixture_step(tmp_path / "fixture.step"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_conversion.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/urdf_from_step/occ_reader.py:115: in read_step
+    walk(roots.Value(i), TopLoc_Location(), [])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+src/urdf_from_step/occ_reader.py:99: in walk
+    walk(children.Value(i), location, hierarchy + [name])
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+label = &lt;class 'TDF_Label'&gt;, parent_location = &lt;class 'TopLoc_Location'&gt;
+hierarchy = ['Fixture', 'rotated_subassembly']
+
+    def walk(label, parent_location, hierarchy):
+        name = label.GetLabelName()
+        ref = label
+        location = parent_location
+        if shapes.IsReference(label):
+            location = parent_location.Multiplied(shapes.GetLocation(label))
+            ref = TDF_Label()
+            if not shapes.GetReferredShape(label, ref):
+                raise ValueError(f"Unresolved STEP reference: {name}")
+        name = name or ref.GetLabelName() or "unnamed"
+        if shapes.IsAssembly(ref):
+            children = TDF_LabelSequence()
+            shapes.GetComponents(ref, children)
+            for i in range(1, children.Length() + 1):
+                walk(children.Value(i), location, hierarchy + [name])
+            return
+        shape = shapes.GetShape(ref)
+        if shape.IsNull():
+            raise ValueError(f"Empty STEP occurrence: {name}")
+        color = Quantity_Color(0.7, 0.7, 0.7, Quantity_TOC_RGB)
+        for lab in (label, ref):
+&gt;           if colors.GetColor(lab, XCAFDoc_ColorSurf, color) or colors.GetColor(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                lab, XCAFDoc_ColorGen, color
+            ):
+E           TypeError: Wrong number or type of arguments for overloaded function 'XCAFDoc_ColorTool_GetColor'.
+E             Possible C/C++ prototypes are:
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TDF_Label const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,TDF_Label &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_Color &amp;)
+E               XCAFDoc_ColorTool::GetColor(TopoDS_Shape const &amp;,XCAFDoc_ColorType const,Quantity_ColorRGBA &amp;)
+
+src/urdf_from_step/occ_reader.py:106: TypeError</failure></testcase><testcase classname="tests.test_conversion" name="test_invalid_step_cli_and_config_required" time="0.003" /><testcase classname="tests.test_conversion" name="test_legacy_draft_preserves_unknown_limits" time="0.005" /></testsuite></testsuites>

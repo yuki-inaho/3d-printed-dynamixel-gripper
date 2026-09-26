@@ -1,0 +1,32 @@
+[
+  {
+    "path": "workdoc_Sep26-2026_low_profile_d405.md",
+    "sha256": "45bef4e61c79a703f02b516cc4ef0183bca161e0729428f64ef3ea6d96b63d78",
+    "source_repository_relative": "studies/low-profile-20260926/outputs/low-profile-250g/WORKDOC.md",
+    "source_sha256": "45bef4e61c79a703f02b516cc4ef0183bca161e0729428f64ef3ea6d96b63d78"
+  },
+  {
+    "path": "review_Sep26-2026_low_profile_d405.md",
+    "sha256": "56a74061c9bfd70a4478bf9f80e7b6ff69d24477f7896b3cacfb9d3c0d40dcda",
+    "source_repository_relative": "studies/low-profile-20260926/outputs/low-profile-250g/final-review.md",
+    "source_sha256": "56a74061c9bfd70a4478bf9f80e7b6ff69d24477f7896b3cacfb9d3c0d40dcda"
+  },
+  {
+    "path": "handoff_Sep26-2026_low_profile_d405.md",
+    "sha256": "384e51659b4576a1194d50396372ac86dec36646db3c0ae3609b7d9462b23ee3",
+    "source_repository_relative": "studies/low-profile-20260926/outputs/low-profile-250g/HANDOFF.md",
+    "source_sha256": "a34597b210f2cff01571837f7ad313cab1453b862d56f75d165d7b60bb013c0e"
+  },
+  {
+    "path": "workdoc_Sep26-2026_low_profile_continuation.md",
+    "sha256": "6d58add082bdd60a93a23a9bdf124e875fa2c4b63c849b58fe5c55b7426d44d4",
+    "source_repository_relative": "temp/workdoc_Sep26-2026_low_profile_continuation.md",
+    "source_sha256": "6d58add082bdd60a93a23a9bdf124e875fa2c4b63c849b58fe5c55b7426d44d4"
+  },
+  {
+    "path": "handoff_Sep26-2026_low_profile_continuation.md",
+    "sha256": "0b2961b3465260d12a1d1d772bac9645fabf2f5eed889bbff60b33eb3d59bc7f",
+    "source_repository_relative": "diary/handoff_Sep26-2026_low_profile_continuation.md",
+    "source_sha256": "0b2961b3465260d12a1d1d772bac9645fabf2f5eed889bbff60b33eb3d59bc7f"
+  }
+]
