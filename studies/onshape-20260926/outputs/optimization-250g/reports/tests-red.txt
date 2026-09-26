@@ -1,0 +1,17 @@
+WARN `pyproject.toml` does not contain a `project` table: `/home/inaho-omen/pyproject.toml`
+
+==================================== ERRORS ====================================
+_ ERROR collecting Codex/2026-09-26/onshape/work/optimization/test_mechanics.py _
+ImportError while importing test module '/home/inaho-omen/Documents/Codex/2026-09-26/onshape/work/optimization/test_mechanics.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../../../../.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+work/optimization/test_mechanics.py:4: in <module>
+    from mechanics import moment, orient, project_points, depth_ok, beam
+E   ModuleNotFoundError: No module named 'mechanics'
+=========================== short test summary info ============================
+ERROR work/optimization/test_mechanics.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.35s

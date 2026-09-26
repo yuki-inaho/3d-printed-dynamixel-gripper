@@ -1,0 +1,25 @@
+{
+  "url": "https://cad.onshape.com/documents/7b85d8922959cbe564b6e0cb/v/e21cffef1877c8f91d2b03f8/e/848ae15cd82797bd99cdc330",
+  "robot_name": "low_cost_xl430_pg3_compact_d405",
+  "output_format": "urdf",
+  "output_filename": "robot",
+  "no_dynamics": true,
+  "joint_properties": {
+    "default": {
+      "max_effort": 0.0,
+      "max_velocity": 0.0
+    },
+    "jaw_left": {
+      "actuated": false
+    },
+    "jaw_right": {
+      "actuated": false
+    },
+    "coupler_left": {
+      "actuated": false
+    },
+    "coupler_right": {
+      "actuated": false
+    }
+  }
+}

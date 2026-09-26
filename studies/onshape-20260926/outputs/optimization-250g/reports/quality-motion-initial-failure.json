@@ -1,0 +1,137 @@
+{
+  "time": "2026-09-26T16:26:19.675421+09:00",
+  "pass": false,
+  "checks": [
+    {
+      "name": "ruff-check",
+      "pass": false,
+      "exit": 1,
+      "output": "PLW1510 `subprocess.run` without explicit `check` argument\n  --> work/optimization/quality_check.py:25:14\n   |\n24 | def command(name, args, cwd=ROOT):\n25 |     result = subprocess.run(\n   |              ^^^^^^^^^^^^^^\n26 |         [\"rtk\", \"proxy\", *args], cwd=cwd, text=True, capture_output=True\n27 |     )\n   |\nhelp: Add explicit `check=False`\n\nPLW1510 `subprocess.run` without explicit `check` argument\n  --> work/optimization/quality_check.py:76:14\n   |\n75 | for repo in [\"/home/inaho-omen/Project/low_cost_robot\", PROJECT]:\n76 |     result = subprocess.run(\n   |              ^^^^^^^^^^^^^^\n77 |         [\"rtk\", \"proxy\", \"git\", \"status\", \"--porcelain\"],\n78 |         cwd=repo,\n   |\nhelp: Add explicit `check=False`\n\nPLW1510 `subprocess.run` without explicit `check` argument\n  --> work/optimization/quality_check.py:95:14\n   |\n93 | whitespace = []\n94 | for path in texts:\n95 |     result = subprocess.run(\n   |              ^^^^^^^^^^^^^^\n96 |         [\n97 |             \"rtk\",\n   |\nhelp: Add explicit `check=False`\n\nFURB167 [*] Use of regular expression alias `re.I`\n   --> work/optimization/quality_check.py:135:48\n    |\n133 |     value\n134 |     for name, value in keys.items()\n135 |     if re.search(r\"secret|access|token\", name, re.I)\n    |                                                ^^^^\n136 |     and isinstance(value, str)\n137 |     and len(value) > 20\n    |\nhelp: Replace with `re.IGNORECASE`\n    |\n134 |     for name, value in keys.items()\n    -     if re.search(r\"secret|access|token\", name, re.I)\n135 +     if re.search(r\"secret|access|token\", name, re.IGNORECASE)\n136 |     and isinstance(value, str)\n    |\n\nFound 4 errors.\n[*] 1 fixable with the `--fix` option.\n"
+    },
+    {
+      "name": "ruff-format",
+      "pass": true,
+      "exit": 0,
+      "output": "12 files already formatted\n"
+    },
+    {
+      "name": "pytest",
+      "pass": true,
+      "exit": 0,
+      "output": "..........                                                               [100%]\n10 passed in 0.23s\n"
+    },
+    {
+      "name": "urdf-validation",
+      "pass": true,
+      "exit": 0,
+      "output": "{\n  \"status\": \"PASS_KINEMATIC_ONLY\",\n  \"links\": 16,\n  \"joints\": 15,\n  \"actuated_joints\": 5,\n  \"passive_joints\": 4,\n  \"fixed_joints\": 6,\n  \"mesh_links\": 12,\n  \"sampled_configurations\": 441,\n  \"max_closure_error_m\": 2.3076457301700162e-07,\n  \"native_pose_cases\": 11,\n  \"native_max_matrix_error\": 8.550800259894006e-06,\n  \"max_zero_pose_matrix_error\": 7.346429700989214e-06,\n  \"bounds_m\": [\n    [\n      -0.06650000065565109,\n      -0.06800000369548798,\n      -6.396792817664476e-17\n    ],\n    [\n      0.06650000065565109,\n      0.22560090560037857,\n      0.28255119048486005\n    ]\n  ],\n  \"limitations\": [\n    \"No measured mass/inertia or effort/velocity limits\",\n    \"No hardware homing/calibration\",\n    \"Nonlinear coupling supplied by pg3_states.py, not encoded as URDF mimic\",\n    \"No whole-arm continuous collision validation\",\n    \"Motor M01-M04 visuals retain unsplit supplier bodies\"\n  ]\n}\n"
+    },
+    {
+      "name": "local-links",
+      "pass": false,
+      "missing": [
+        {
+          "file": "outputs/optimization-250g/robot/licenses/robonine/LICENSING.md",
+          "target": "SOFTWARE-LICENSE.txt"
+        },
+        {
+          "file": "outputs/optimization-250g/robot/licenses/robonine/LICENSING.md",
+          "target": "REUSE.toml"
+        },
+        {
+          "file": "outputs/optimization-250g/robot/licenses/robonine/LICENSING.md",
+          "target": "simulation/so_arm_101_description/meshes/LICENSE.md"
+        }
+      ]
+    },
+    {
+      "name": "source-and-export-hashes",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "source-repo",
+      "pass": true,
+      "path": "/home/inaho-omen/Project/low_cost_robot",
+      "status": ""
+    },
+    {
+      "name": "source-repo-whitespace",
+      "pass": true,
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "name": "source-repo",
+      "pass": true,
+      "path": "/home/inaho-omen/Project/3d-printed-dynamixel-gripper",
+      "status": ""
+    },
+    {
+      "name": "source-repo-whitespace",
+      "pass": true,
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "name": "whitespace",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "content-cache",
+      "pass": true,
+      "entries": 2
+    },
+    {
+      "name": "private-permissions",
+      "pass": true,
+      "modes": [
+        384,
+        384,
+        448,
+        448
+      ]
+    },
+    {
+      "name": "private-state-excluded",
+      "pass": true,
+      "matching_files": []
+    },
+    {
+      "name": "artifacts",
+      "pass": true,
+      "required": [
+        "REPORT.md",
+        "MANUAL.md",
+        "MANUAL.html",
+        "MANUAL.pdf",
+        "HEADLESS.md",
+        "WORKDOC.md",
+        "workdoc-review.md",
+        "robot/README.md",
+        "robot/native-reference.json",
+        "robot/robot.urdf",
+        "robot/robot.onshape-raw.urdf",
+        "robot/validation.json",
+        "reports/native-motion.json",
+        "reports/native-assembly.json",
+        "reports/export-provenance.json",
+        "reports/manual-final-verification.json",
+        "images/onshape-08-animate.png",
+        "images/onshape-09-motion-interference.png"
+      ],
+      "mesh_files": 12
+    },
+    {
+      "name": "manual-verified-hashes",
+      "pass": true,
+      "pages": 13,
+      "images": 9
+    },
+    {
+      "name": "skill-copy",
+      "pass": true
+    }
+  ]
+}

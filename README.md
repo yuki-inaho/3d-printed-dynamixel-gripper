@@ -104,3 +104,7 @@ reviewは全腕未適合・未解決を理由にexit 2。JSONと画像は残し�
 
 Python 3.12 + uv。GitHubリポジトリは`yuki-inaho/3d-printed-dynamixel-gripper`。
 CAD作業中の実機通電・通信・モーター制御は行わない。
+
+## Onshape取り込み・検証・URDFの保存点
+
+[2026-09-26の成果と手順](studies/onshape-20260926/README.md)。短縮D405候補の公開V2、URDF、スクリーンショット付きマニュアル、作業記録を保存。次の低位置カメラ・爪延長設計の比較基準です。

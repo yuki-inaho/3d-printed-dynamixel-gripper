@@ -1,0 +1,117 @@
+{
+  "status": "PASS_WITH_EXPORT_ROUNDING",
+  "independent_source_reimport": true,
+  "topology_identical": true,
+  "mesh_comparison": {
+    "base_link": {
+      "sha256_identical": false,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 6.938893903907228e-18,
+      "triangles": [
+        21038,
+        21038
+      ]
+    },
+    "camera_body": {
+      "sha256_identical": false,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 1.734723475976807e-18,
+      "triangles": [
+        1180,
+        1180
+      ]
+    },
+    "camera_mount": {
+      "sha256_identical": false,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 0.0,
+      "triangles": [
+        16280,
+        16280
+      ]
+    },
+    "coupler_l": {
+      "sha256_identical": true,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 0.0,
+      "triangles": [
+        1132,
+        1132
+      ]
+    },
+    "coupler_r": {
+      "sha256_identical": true,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 0.0,
+      "triangles": [
+        1132,
+        1132
+      ]
+    },
+    "forearm": {
+      "sha256_identical": false,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 3.469446951953614e-18,
+      "triangles": [
+        20694,
+        20694
+      ]
+    },
+    "gripper_crank": {
+      "sha256_identical": false,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 8.673617379884035e-19,
+      "triangles": [
+        14518,
+        14518
+      ]
+    },
+    "jaw_l": {
+      "sha256_identical": false,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 0.0,
+      "triangles": [
+        6982,
+        6982
+      ]
+    },
+    "jaw_r": {
+      "sha256_identical": false,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 8.673617379884035e-19,
+      "triangles": [
+        6982,
+        6982
+      ]
+    },
+    "shoulder_yaw": {
+      "sha256_identical": false,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 0.0,
+      "triangles": [
+        20486,
+        20486
+      ]
+    },
+    "upper_arm": {
+      "sha256_identical": false,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 3.469446951953614e-18,
+      "triangles": [
+        21502,
+        21502
+      ]
+    },
+    "wrist": {
+      "sha256_identical": false,
+      "max_bidirectional_vertex_distance_m": 0.0,
+      "surface_area_delta_m2": 0.0,
+      "triangles": [
+        24374,
+        24374
+      ]
+    }
+  },
+  "max_joint_translation_axis_limit_difference": 0.0,
+  "max_joint_rotation_matrix_difference": 5.30717958670546e-06
+}

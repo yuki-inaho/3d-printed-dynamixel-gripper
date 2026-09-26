@@ -1,0 +1,128 @@
+{
+  "status": "PASS_KINEMATIC_ONLY",
+  "links": 16,
+  "joints": 15,
+  "actuated_joints": 5,
+  "passive_joints": 4,
+  "fixed_joints": 6,
+  "mesh_links": 12,
+  "sampled_configurations": 441,
+  "max_closure_error_m": 2.3076457302116243e-07,
+  "max_zero_pose_matrix_error": 1.2653599540167413e-05,
+  "bounds_m": [
+    [
+      -0.06650000065565109,
+      -0.06800000369548798,
+      -6.396792817664476e-17
+    ],
+    [
+      0.06650000065565109,
+      0.2256009931629434,
+      0.2920343493215772
+    ]
+  ],
+  "meshes": {
+    "base_link": {
+      "triangles": 21038,
+      "path": "assets/base_link.stl"
+    },
+    "shoulder_yaw": {
+      "triangles": 20486,
+      "path": "assets/shoulder_yaw.stl"
+    },
+    "upper_arm": {
+      "triangles": 21502,
+      "path": "assets/upper_arm.stl"
+    },
+    "forearm": {
+      "triangles": 20694,
+      "path": "assets/forearm.stl"
+    },
+    "wrist": {
+      "triangles": 24374,
+      "path": "assets/wrist.stl"
+    },
+    "gripper_crank": {
+      "triangles": 14518,
+      "path": "assets/gripper_crank.stl"
+    },
+    "coupler_l": {
+      "triangles": 1132,
+      "path": "assets/coupler_l.stl"
+    },
+    "coupler_r": {
+      "triangles": 1132,
+      "path": "assets/coupler_r.stl"
+    },
+    "jaw_l": {
+      "triangles": 6982,
+      "path": "assets/jaw_l.stl"
+    },
+    "jaw_r": {
+      "triangles": 6982,
+      "path": "assets/jaw_r.stl"
+    },
+    "camera_mount": {
+      "triangles": 16280,
+      "path": "assets/camera_mount.stl"
+    },
+    "camera_body": {
+      "triangles": 1180,
+      "path": "assets/camera_body.stl"
+    }
+  },
+  "samples": [
+    {
+      "theta_deg": 25.0,
+      "opening_mm": 48.895138467034755,
+      "joint_positions": {
+        "joint1_yaw": 0.0,
+        "joint2_shoulder": 0.0,
+        "joint3_elbow": 0.0,
+        "joint4_wrist": 0.0,
+        "gripper_drive": 1.1344640137963142,
+        "jaw_left": 0.01645398054389945,
+        "jaw_right": -0.01645398054389945,
+        "coupler_left": -1.5081952617621623,
+        "coupler_right": -1.5081952617621623
+      }
+    },
+    {
+      "theta_deg": 90.0,
+      "opening_mm": 15.987177379235852,
+      "joint_positions": {
+        "joint1_yaw": 0.0,
+        "joint2_shoulder": 0.0,
+        "joint3_elbow": 0.0,
+        "joint4_wrist": 0.0,
+        "gripper_drive": -0.0,
+        "jaw_left": 0.0,
+        "jaw_right": -0.0,
+        "coupler_left": 0.0,
+        "coupler_right": 0.0
+      }
+    },
+    {
+      "theta_deg": 135.0,
+      "opening_mm": 0.927432344927567,
+      "joint_positions": {
+        "joint1_yaw": 0.0,
+        "joint2_shoulder": 0.0,
+        "joint3_elbow": 0.0,
+        "joint4_wrist": 0.0,
+        "gripper_drive": -0.7853981633974483,
+        "jaw_left": -0.007529872517154142,
+        "jaw_right": 0.007529872517154142,
+        "coupler_left": 0.5877452041538196,
+        "coupler_right": 0.5877452041538196
+      }
+    }
+  ],
+  "limitations": [
+    "No measured mass/inertia or effort/velocity limits",
+    "No hardware homing/calibration",
+    "Nonlinear coupling supplied by pg3_states.py, not encoded as URDF mimic",
+    "No whole-arm continuous collision validation",
+    "Motor M01-M04 visuals retain unsplit supplier bodies"
+  ]
+}

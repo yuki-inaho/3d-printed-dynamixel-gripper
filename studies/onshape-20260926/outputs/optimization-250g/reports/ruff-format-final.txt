@@ -1,0 +1,2 @@
+7 files already formatted
+WARN `pyproject.toml` does not contain a `project` table: `/home/inaho-omen/pyproject.toml`

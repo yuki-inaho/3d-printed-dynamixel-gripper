@@ -1,0 +1,68 @@
+{
+  "scope": "12 composite instances; gripper open/mid/closed, arm near source pose",
+  "poses": [
+    {
+      "pose": "open",
+      "requested_theta_deg": 25,
+      "achieved_theta_deg": 25.00000000002683,
+      "passive_coordinate_max_error": 3.1086244689504383e-15,
+      "max_closure_error_m": 6.206335383118183e-17,
+      "mate_values": {
+        "joint3_elbow": -4.1744385725905886e-14,
+        "jaw_left": 0.016453980543895203,
+        "jaw_right": -0.016453980543895224,
+        "joint1_yaw": -3.9968028886505635e-14,
+        "joint2_shoulder": -2.6645352591003757e-15,
+        "gripper_drive": 1.134464013795846,
+        "joint4_wrist": -1.0125233984581428e-13,
+        "coupler_left": -1.5081952617614416,
+        "coupler_right": -1.508195261761438
+      },
+      "interference_count": 6
+    },
+    {
+      "pose": "mid",
+      "requested_theta_deg": 90,
+      "achieved_theta_deg": 90.0,
+      "passive_coordinate_max_error": 1.687538997430238e-14,
+      "max_closure_error_m": 3.64275408404521e-16,
+      "mate_values": {
+        "joint3_elbow": -4.3520742565306136e-14,
+        "jaw_left": -1.7997756063259374e-17,
+        "jaw_right": -4.576688420604436e-16,
+        "joint1_yaw": -3.375077994860476e-14,
+        "joint2_shoulder": -3.552713678800501e-15,
+        "gripper_drive": 0.0,
+        "joint4_wrist": -1.021405182655144e-13,
+        "coupler_left": -8.881784197001252e-15,
+        "coupler_right": -1.687538997430238e-14
+      },
+      "interference_count": 6
+    },
+    {
+      "pose": "closed",
+      "requested_theta_deg": 135,
+      "achieved_theta_deg": 134.99963172805582,
+      "passive_coordinate_max_error": 4.884981308350689e-15,
+      "max_closure_error_m": 4.0608835428777945e-17,
+      "mate_values": {
+        "joint3_elbow": -4.3520742565306136e-14,
+        "jaw_left": -0.007529837698377664,
+        "jaw_right": 0.0075298376983775235,
+        "joint1_yaw": -3.375077994860476e-14,
+        "joint2_shoulder": -3.552713678800501e-15,
+        "gripper_drive": -0.7853917358394797,
+        "joint4_wrist": -1.021405182655144e-13,
+        "coupler_left": 0.5877416869375565,
+        "coupler_right": 0.5877416869375479
+      },
+      "interference_count": 6
+    }
+  ],
+  "native_animate_observed": true,
+  "interference_pairs": {
+    "wrist--camera_mount": 4,
+    "camera_body--camera_mount": 2
+  },
+  "interpretation": "Fastener engagement candidates; not manufacturing acceptance. Does not inspect contacts within composites or whole-arm sweep."
+}

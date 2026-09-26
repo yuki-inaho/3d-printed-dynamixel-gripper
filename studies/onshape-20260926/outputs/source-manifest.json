@@ -1,0 +1,10 @@
+{
+  "input_path": "/home/inaho-omen/Project/3d-printed-dynamixel-gripper/outputs/camera-mount-id5-overhead-d405-r5/CAD/ID5_D405_mid_ASSEMBLY.step",
+  "sha256": "5a60d93b5feef6957bef5a0a732fd26d3b147f1e7e39917eb87cf5d28943dbf1",
+  "bytes": 29566551,
+  "cad_units": "mm",
+  "urdf_units": "m,rad",
+  "source_gripper_commit": "19a9e7e1fb82b51924dfee0277c36620bbc4f0fb",
+  "source_arm_commit": "f29f33b3b99320b3ad35171ec08897bede459fbb",
+  "note": "Hash identifies actual generated input; repository commit alone may not contain it."
+}

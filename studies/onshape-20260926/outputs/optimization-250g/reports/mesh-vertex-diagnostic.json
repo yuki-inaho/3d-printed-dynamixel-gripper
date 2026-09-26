@@ -1,0 +1,110 @@
+{
+  "base_link": {
+    "vertex_distance_m": 0.0,
+    "bbox_max_delta_m": 0.0,
+    "area_delta_m2": 6.938893903907228e-18,
+    "triangles": [
+      21038,
+      21038
+    ]
+  },
+  "camera_body": {
+    "vertex_distance_m": 0.014983620319619056,
+    "bbox_max_delta_m": 0.010748013854026794,
+    "area_delta_m2": 3.791659987720242e-09,
+    "triangles": [
+      1180,
+      1180
+    ]
+  },
+  "camera_mount": {
+    "vertex_distance_m": 0.012674696926530584,
+    "bbox_max_delta_m": 0.00948527455329895,
+    "area_delta_m2": 1.3398561968656908e-05,
+    "triangles": [
+      16258,
+      16280
+    ]
+  },
+  "coupler_l": {
+    "vertex_distance_m": 0.0,
+    "bbox_max_delta_m": 0.0,
+    "area_delta_m2": 0.0,
+    "triangles": [
+      1132,
+      1132
+    ]
+  },
+  "coupler_r": {
+    "vertex_distance_m": 0.0,
+    "bbox_max_delta_m": 0.0,
+    "area_delta_m2": 0.0,
+    "triangles": [
+      1132,
+      1132
+    ]
+  },
+  "forearm": {
+    "vertex_distance_m": 9.28431004387157e-06,
+    "bbox_max_delta_m": 0.0,
+    "area_delta_m2": 1.7756036224669813e-11,
+    "triangles": [
+      20694,
+      20694
+    ]
+  },
+  "gripper_crank": {
+    "vertex_distance_m": 0.0,
+    "bbox_max_delta_m": 0.0,
+    "area_delta_m2": 8.673617379884035e-19,
+    "triangles": [
+      14518,
+      14518
+    ]
+  },
+  "jaw_l": {
+    "vertex_distance_m": 0.0,
+    "bbox_max_delta_m": 0.0,
+    "area_delta_m2": 8.673617379884035e-19,
+    "triangles": [
+      6982,
+      6982
+    ]
+  },
+  "jaw_r": {
+    "vertex_distance_m": 0.0,
+    "bbox_max_delta_m": 0.0,
+    "area_delta_m2": 8.673617379884035e-19,
+    "triangles": [
+      6982,
+      6982
+    ]
+  },
+  "shoulder_yaw": {
+    "vertex_distance_m": 0.0,
+    "bbox_max_delta_m": 0.0,
+    "area_delta_m2": 0.0,
+    "triangles": [
+      20486,
+      20486
+    ]
+  },
+  "upper_arm": {
+    "vertex_distance_m": 0.0,
+    "bbox_max_delta_m": 0.0,
+    "area_delta_m2": 0.0,
+    "triangles": [
+      21502,
+      21502
+    ]
+  },
+  "wrist": {
+    "vertex_distance_m": 1.8765939416907664e-05,
+    "bbox_max_delta_m": 0.0,
+    "area_delta_m2": 2.4057776604191616e-10,
+    "triangles": [
+      24374,
+      24374
+    ]
+  }
+}

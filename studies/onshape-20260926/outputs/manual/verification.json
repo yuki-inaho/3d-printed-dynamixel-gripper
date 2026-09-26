@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-26",
+  "pdf_pages": 25,
+  "main_figures": 20,
+  "additional_evidence_images": 2,
+  "html_embedded_images_loaded": 20,
+  "html_image_zoom": "PASS",
+  "html_footer_overlaps": 0,
+  "pdf_visual_review_pages": [
+    16,
+    19
+  ],
+  "portable_conversion_validation": "PASS_KINEMATIC_ONLY",
+  "artifacts": {
+    "MANUAL.md": "732e764048fae40b81d6353c4bfa5429b2ce54a021b8a285d43ae5ffcf3577ca",
+    "MANUAL.html": "82563bf97b7d257013a4061c5b87be5c4c979d6596dee93cbc6fdc7af1b634c4",
+    "MANUAL.pdf": "d822dfa3ee3ff3e890bc14ae1324813c3fff6273c4a9f59ad35ae7df4c570f8f"
+  },
+  "html_visual_review_pages": [
+    5
+  ]
+}

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="low_cost_xl430_pg3_d405">
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="assets/base_link.stl" />
+      </geometry>
+      <material name="base_link_material">
+        <color rgba="0.917647 0.917647 0.917647 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="assets/base_link.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="shoulder_yaw">
+    <visual>
+      <origin xyz="0 0 0.02" rpy="-3.14159 -0 -0" />
+      <geometry>
+        <mesh filename="assets/shoulder_yaw.stl" />
+      </geometry>
+      <material name="shoulder_yaw_material">
+        <color rgba="0.768627 0.886275 0.952941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.02" rpy="-3.14159 -0 -0" />
+      <geometry>
+        <mesh filename="assets/shoulder_yaw.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="upper_arm">
+    <visual>
+      <origin xyz="-0.0563 -0 0.0002" rpy="-3.14159 -1.5708 0" />
+      <geometry>
+        <mesh filename="assets/upper_arm.stl" />
+      </geometry>
+      <material name="upper_arm_material">
+        <color rgba="0.972549 0.529412 0.00392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0563 -0 0.0002" rpy="-3.14159 -1.5708 0" />
+      <geometry>
+        <mesh filename="assets/upper_arm.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="forearm">
+    <visual>
+      <origin xyz="0.1646 0.0148 -0.0002" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="assets/forearm.stl" />
+      </geometry>
+      <material name="forearm_material">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1646 0.0148 -0.0002" rpy="-3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="assets/forearm.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="wrist">
+    <visual>
+      <origin xyz="0.1646 0.1049 -0.0002" rpy="3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="assets/wrist.stl" />
+      </geometry>
+      <material name="wrist_material">
+        <color rgba="0.980392 0.713725 0.00392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1646 0.1049 -0.0002" rpy="3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="assets/wrist.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="gripper_crank">
+    <visual>
+      <origin xyz="0.0002 -0.1646 0.1649" rpy="-1.5708 -0 -0" />
+      <geometry>
+        <mesh filename="assets/gripper_crank.stl" />
+      </geometry>
+      <material name="gripper_crank_material">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 -0.1646 0.1649" rpy="-1.5708 -0 -0" />
+      <geometry>
+        <mesh filename="assets/gripper_crank.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="coupler_l">
+    <visual>
+      <origin xyz="0.0002 -0.1786 0.1649" rpy="-1.5708 -0 -0" />
+      <geometry>
+        <mesh filename="assets/coupler_l.stl" />
+      </geometry>
+      <material name="coupler_l_material">
+        <color rgba="0.917647 0.917647 0.917647 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 -0.1786 0.1649" rpy="-1.5708 -0 -0" />
+      <geometry>
+        <mesh filename="assets/coupler_l.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="closing_left_1">
+    </link>
+  <joint name="closing_left_1_frame" type="fixed">
+    <origin xyz="-0.0194936 -0.014 -0.028" rpy="-3.14159 -0 -0" />
+    <parent link="coupler_l" />
+    <child link="closing_left_1" />
+  </joint>
+  <joint name="coupler_left" type="revolute">
+    <origin xyz="-0 0.014 -0" rpy="-0 -0 -0" />
+    <parent link="gripper_crank" />
+    <child link="coupler_l" />
+    <axis xyz="0 0 1" />
+    <limit effort="0" velocity="0" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  <link name="coupler_r">
+    <visual>
+      <origin xyz="0.0002 -0.1506 0.1649" rpy="-1.5708 -0 0" />
+      <geometry>
+        <mesh filename="assets/coupler_r.stl" />
+      </geometry>
+      <material name="coupler_r_material">
+        <color rgba="0.768627 0.886275 0.952941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 -0.1506 0.1649" rpy="-1.5708 -0 0" />
+      <geometry>
+        <mesh filename="assets/coupler_r.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="closing_right_1">
+    </link>
+  <joint name="closing_right_1_frame" type="fixed">
+    <origin xyz="0.0194936 0.014 -0.028" rpy="-3.14159 -0 0" />
+    <parent link="coupler_r" />
+    <child link="closing_right_1" />
+  </joint>
+  <joint name="coupler_right" type="revolute">
+    <origin xyz="0 -0.014 0" rpy="-0 -0 -0" />
+    <parent link="gripper_crank" />
+    <child link="coupler_r" />
+    <axis xyz="0 0 1" />
+    <limit effort="0" velocity="0" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  <joint name="gripper_drive" type="revolute">
+    <origin xyz="0 -0.06 -0" rpy="-1.5708 1.5708 0" />
+    <parent link="wrist" />
+    <child link="gripper_crank" />
+    <axis xyz="0 0 1" />
+    <limit effort="0" velocity="0" lower="-0.785398" upper="1.13446" />
+  </joint>
+  <link name="jaw_l">
+    <visual>
+      <origin xyz="0.1646 0.1649 -0.0002" rpy="3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="assets/jaw_l.stl" />
+      </geometry>
+      <material name="jaw_l_material">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1646 0.1649 -0.0002" rpy="3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="assets/jaw_l.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="closing_left_2">
+    </link>
+  <joint name="closing_left_2_frame" type="fixed">
+    <origin xyz="0 -0.028 0.0194936" rpy="1.5708 1.5708 0" />
+    <parent link="jaw_l" />
+    <child link="closing_left_2" />
+  </joint>
+  <joint name="jaw_left" type="prismatic">
+    <origin xyz="0 -0.06 -0" rpy="0 -0 0" />
+    <parent link="wrist" />
+    <child link="jaw_l" />
+    <axis xyz="0 0 1" />
+    <limit effort="0" velocity="0" lower="-0.00752987" upper="0.016454" />
+  </joint>
+  <link name="jaw_r">
+    <visual>
+      <origin xyz="0.1646 0.1649 -0.0002" rpy="3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="assets/jaw_r.stl" />
+      </geometry>
+      <material name="jaw_r_material">
+        <color rgba="0.231373 0.380392 0.705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1646 0.1649 -0.0002" rpy="3.14159 1.5708 0" />
+      <geometry>
+        <mesh filename="assets/jaw_r.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="closing_right_2">
+    </link>
+  <joint name="closing_right_2_frame" type="fixed">
+    <origin xyz="0 -0.028 -0.0194936" rpy="1.5708 1.5708 0" />
+    <parent link="jaw_r" />
+    <child link="closing_right_2" />
+  </joint>
+  <joint name="jaw_right" type="prismatic">
+    <origin xyz="0 -0.06 -0" rpy="0 -0 0" />
+    <parent link="wrist" />
+    <child link="jaw_r" />
+    <axis xyz="0 0 1" />
+    <limit effort="0" velocity="0" lower="-0.016454" upper="0.00752987" />
+  </joint>
+  <link name="camera_mount">
+    <visual>
+      <origin xyz="0.0002 0.1649 0.19985" rpy="-3.14159 0 -0" />
+      <geometry>
+        <mesh filename="assets/camera_mount.stl" />
+      </geometry>
+      <material name="camera_mount_material">
+        <color rgba="0.972549 0.529412 0.00392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 0.1649 0.19985" rpy="-3.14159 0 -0" />
+      <geometry>
+        <mesh filename="assets/camera_mount.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="camera_body">
+    <visual>
+      <origin xyz="0.0002 0.197 0.257" rpy="3.14159 0 -0" />
+      <geometry>
+        <mesh filename="assets/camera_body.stl" />
+      </geometry>
+      <material name="camera_body_material">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0002 0.197 0.257" rpy="3.14159 0 -0" />
+      <geometry>
+        <mesh filename="assets/camera_body.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="camera_body_fixed" type="fixed">
+    <origin xyz="-0 -0.0321 -0.05715" rpy="0 0 -0" />
+    <parent link="camera_mount" />
+    <child link="camera_body" />
+  </joint>
+  <joint name="camera_mount_fixed" type="fixed">
+    <origin xyz="-0.03525 -0.06 -0" rpy="-0 1.5708 0" />
+    <parent link="wrist" />
+    <child link="camera_mount" />
+  </joint>
+  <joint name="joint4_wrist" type="revolute">
+    <origin xyz="-0 -0.0901 0" rpy="-0 0 -0" />
+    <parent link="forearm" />
+    <child link="wrist" />
+    <axis xyz="0 0 1" />
+    <limit effort="0" velocity="0" lower="-1.91986" upper="2.40855" />
+  </joint>
+  <joint name="joint3_elbow" type="revolute">
+    <origin xyz="0.1083 -0.0148 0" rpy="-3.14159 0 -3.14159" />
+    <parent link="upper_arm" />
+    <child link="forearm" />
+    <axis xyz="0 0 1" />
+    <limit effort="0" velocity="0" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  <joint name="joint2_shoulder" type="revolute">
+    <origin xyz="-0.0002 0 -0.0363" rpy="0 1.5708 0" />
+    <parent link="shoulder_yaw" />
+    <child link="upper_arm" />
+    <axis xyz="0 0 1" />
+    <limit effort="0" velocity="0" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+  <joint name="joint1_yaw" type="revolute">
+    <origin xyz="0 0 0.02" rpy="3.14159 -0 0" />
+    <parent link="base_link" />
+    <child link="shoulder_yaw" />
+    <axis xyz="0 0 1" />
+    <limit effort="0" velocity="0" lower="-3.141592653589793" upper="3.141592653589793" />
+  </joint>
+</robot>
