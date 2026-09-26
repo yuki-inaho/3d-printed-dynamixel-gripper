@@ -1,8 +1,8 @@
 [
   {
     "path": "outputs/low-profile-250g/API-USAGE.md",
-    "bytes": 13547,
-    "sha256": "2d430d2809263c39f62434ea39532d1794239b451ba94fb440c11a247ccb4b07"
+    "bytes": 14709,
+    "sha256": "9a89129fa637a6d239915695125a40d6a3d6dbe26bf338b5ae6fc4d6b54ace8e"
   },
   {
     "path": "outputs/low-profile-250g/CAD/CAM5_BASE.step",
@@ -171,8 +171,13 @@
   },
   {
     "path": "outputs/low-profile-250g/CONVERTER.md",
-    "bytes": 4924,
-    "sha256": "c3fbeead4bddc91e9517c925f0957af2cbccaa8f18886644220a31a08fff397b"
+    "bytes": 7812,
+    "sha256": "fcefb26740c53f08d806f18009ee0e962f22f62afaf2831a50b74517daf496c1"
+  },
+  {
+    "path": "outputs/low-profile-250g/DELIVERY.md",
+    "bytes": 1468,
+    "sha256": "bb8ba592fd9e48ad0bca48b20d692c3b5017df0891da7f1472844bf99da9a509"
   },
   {
     "path": "outputs/low-profile-250g/EXPORT.md",
@@ -185,9 +190,29 @@
     "sha256": "8dadda836d8c13c8186b8d7829cd6604a16aa76dc571b51f4734ab99d0682be5"
   },
   {
+    "path": "outputs/low-profile-250g/MANUAL.html",
+    "bytes": 4168244,
+    "sha256": "4b53ac0401ae013dfd946c328a44cc3f69f8da6fcf863f7fb6c19043925eb1d9"
+  },
+  {
+    "path": "outputs/low-profile-250g/MANUAL.md",
+    "bytes": 20082,
+    "sha256": "13c0d8c5cc134dbb817a5761aeec562197f51b66d9ab43cde421bdc626afc2e7"
+  },
+  {
+    "path": "outputs/low-profile-250g/MANUAL.pdf",
+    "bytes": 3756275,
+    "sha256": "aedb96f2eed0589cfed0467e56595d1c485bb57d0f4c8bb6f6a8e793f4fd00f1"
+  },
+  {
     "path": "outputs/low-profile-250g/NATIVE-VALIDATION.md",
-    "bytes": 6565,
-    "sha256": "a4e5298ebd2677406200d9139407293078a7ba9b8c02de5624f5d39d2d4cd431"
+    "bytes": 7086,
+    "sha256": "44b09a40ccab12f6417dd31b55e99f9ec5b98317f483011bc668b31ab58e6409"
+  },
+  {
+    "path": "outputs/low-profile-250g/REPORT.md",
+    "bytes": 4671,
+    "sha256": "cae44e09ed0cf63ef65a6c85507e759d623c78b77c26c0a58dc932559d8a6243"
   },
   {
     "path": "outputs/low-profile-250g/RESEARCH.md",
@@ -211,8 +236,13 @@
   },
   {
     "path": "outputs/low-profile-250g/WORKDOC.md",
-    "bytes": 59482,
-    "sha256": "d8ec9294dbcca9caca28895f7b0538805d40fb0d9fe7147279fa51e045b2c94f"
+    "bytes": 69512,
+    "sha256": "8df196d90273ea14ca280606ab3699c1046f3b9f0b516f1e2d0f90b5d99aac71"
+  },
+  {
+    "path": "outputs/low-profile-250g/final-review.md",
+    "bytes": 3608,
+    "sha256": "56f5cc75e2d3dad6b52e284ff93cc55a1c85ba0a64549daea6eb3894056f39b2"
   },
   {
     "path": "outputs/low-profile-250g/headless-reconnected.png",
@@ -620,6 +650,11 @@
     "sha256": "f8749e0f873376e270418bf920b605ea904482678c374ac4898f973b4208e54d"
   },
   {
+    "path": "outputs/low-profile-250g/images/onshape-v2-final-ready.png",
+    "bytes": 276109,
+    "sha256": "3051ec0410a98abe2f09dbbc694db02004e573080016dcbc87e93d0cb26eb795"
+  },
+  {
     "path": "outputs/low-profile-250g/images/onshape-v2-repaired.png",
     "bytes": 71666,
     "sha256": "eb25c20068fd52c58ac5c1df9e30bb8a9e7beaba1a1796a4f3ebaa03b158c2b3"
@@ -646,8 +681,8 @@
   },
   {
     "path": "outputs/low-profile-250g/project.json",
-    "bytes": 1320,
-    "sha256": "eb3d6b0e4732b5e5d35bb1456804f4c1b645fa10ac1539563cf4d0268964e0fa"
+    "bytes": 1327,
+    "sha256": "6bcec3c1414a2bed5ae6c80f5f6628d768d42081852927784ff88bd207a84a69"
   },
   {
     "path": "outputs/low-profile-250g/reports/cad-export.json",
@@ -675,7 +710,17 @@
     "sha256": "6d1ea781329cf46b45cfbb82990562d8e729b335c3dd4381b6e3aaf0d5abd169"
   },
   {
+    "path": "outputs/low-profile-250g/reports/converter-v2-convert.log",
+    "bytes": 729,
+    "sha256": "e6ab06f3be3e79febe6a0514d95234c6275dcad5c9c2eaedd8de8f73a3a8fa79"
+  },
+  {
     "path": "outputs/low-profile-250g/reports/converter-v2-intake.json",
+    "bytes": 213143,
+    "sha256": "d7c79e04fdcd749e1872c51e829c87ae53f53b8ddd082c529e741ccb696515f9"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/converter-wheel-intake.json",
     "bytes": 213143,
     "sha256": "d7c79e04fdcd749e1872c51e829c87ae53f53b8ddd082c529e741ccb696515f9"
   },
@@ -688,6 +733,31 @@
     "path": "outputs/low-profile-250g/reports/expected-groups.json",
     "bytes": 21577,
     "sha256": "5a4a4030d82e9711c5db990825daa52e22117ec0d6a51dd26ab6de417fcd83d9"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/final-cad-tests.xml",
+    "bytes": 2688,
+    "sha256": "82277b9115dfb63423e7d09655306d4d60e7fd91ce28b08e2e5fbd86b8ed331f"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/final-converter-tests.xml",
+    "bytes": 2901,
+    "sha256": "07ebfd17552d268cb2ca3d65b6e6749cf6e60e4653b3c8ba03b7178e32998165"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/final-quality-initial.json",
+    "bytes": 1193,
+    "sha256": "6a72884aff80dccd267893e777331961d9a19c2917e3a38400a1c18f73d92faa"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/final-quality.json",
+    "bytes": 1825,
+    "sha256": "b83143396bb69d4c953e3db13581e1fe2d05d3598f1a50a62b1955d7911496ab"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/final-quality.log",
+    "bytes": 1825,
+    "sha256": "b83143396bb69d4c953e3db13581e1fe2d05d3598f1a50a62b1955d7911496ab"
   },
   {
     "path": "outputs/low-profile-250g/reports/full-optics.json",
@@ -703,6 +773,11 @@
     "path": "outputs/low-profile-250g/reports/input-intake.json",
     "bytes": 136617,
     "sha256": "9d8035b5663bd3181fa3f88fceb2fa358d559c64e06e6b89af252d032304da8c"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/manual-final-verification.json",
+    "bytes": 1751,
+    "sha256": "846fc661573a8109038afb8571e28695c622244b4458b7bb3e279dad853e27a9"
   },
   {
     "path": "outputs/low-profile-250g/reports/native-interference.json",
@@ -820,9 +895,24 @@
     "sha256": "abe8f5123f40f9fc7339205fd494167bf0239e87f344d251acbf12db9c223893"
   },
   {
+    "path": "outputs/low-profile-250g/reports/robot-negative-tests-red-fixture.xml",
+    "bytes": 1654,
+    "sha256": "e3a1b36347b1b964075cd88b344c54c1c731ffb663b2ca6882011323e4d41c46"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/robot-negative-tests.xml",
+    "bytes": 854,
+    "sha256": "b5e7356268b49395bd6a30f80514a6f5c4ddc5a335e465cc61a0a60dbfe01d92"
+  },
+  {
     "path": "outputs/low-profile-250g/reports/root-tests.xml",
     "bytes": 1328,
     "sha256": "20b13b8e4650f70a72f1170d9e0a5908349a93f2b836190ce2d76e149c611561"
+  },
+  {
+    "path": "outputs/low-profile-250g/reports/ruff-initial.txt",
+    "bytes": 5122,
+    "sha256": "fc63bea4f3638252e37279e85c622108e05680e7951bd959d9c8da5c398f796e"
   },
   {
     "path": "outputs/low-profile-250g/reports/search.json",
@@ -915,9 +1005,94 @@
     "sha256": "14cc8eb74d48e343ed854108cf72b79a602f121f4d4b92bef1be3097cd46a207"
   },
   {
+    "path": "outputs/low-profile-250g/robot/README.md",
+    "bytes": 1348,
+    "sha256": "4914dd83c33ce132d79de443296ace0966cb3e2c80b49b5735b7386891d007b4"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/converter-config.json",
+    "bytes": 18808,
+    "sha256": "76cdecbfc3eb5a52302689e0dae9413267c2af7e63d308d18bad3ea291c811e1"
+  },
+  {
     "path": "outputs/low-profile-250g/robot/joint-definitions.json",
     "bytes": 2783,
     "sha256": "7a3f8e9822bf5009f0809a0bfba84642b1588bea69110867e9d5309ef789c675"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/base_link.stl",
+    "bytes": 6179834,
+    "sha256": "caa25a248015cd494290e5f6fb83666f268bce2248e0e52afb4df32ffc4a951e"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/camera_body.stl",
+    "bytes": 102284,
+    "sha256": "d8399c7169f9d187dd7129ad74260056613dee2111444bf114c08cacce72d209"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/camera_mount.stl",
+    "bytes": 1390884,
+    "sha256": "20e763a91755d4d1fa1b463defb8a573e4e552fb5a4be9b13cc93b8d5f8903ed"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/coupler_l.stl",
+    "bytes": 97884,
+    "sha256": "a5db062d366d052aa9171e9a60cb6f35c9a9004a6d3e812e18cd4726f61b623f"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/coupler_r.stl",
+    "bytes": 97884,
+    "sha256": "2a4f116f50530e9a7622df2d27ded3c6f78cdeeae58eef03d09c397131706fbf"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/forearm.stl",
+    "bytes": 5991934,
+    "sha256": "213183473db10f8f7e4f729cf3dd0d728e273306788ab84e2911e38db1388fa9"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/gripper_crank.stl",
+    "bytes": 1300484,
+    "sha256": "1a014322978cb6bb807f67645af6408fd08647bb8b0baaafe8efa5082b134fc8"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/jaw_l.stl",
+    "bytes": 595884,
+    "sha256": "671632d85909a457b7e5a15c6c8a82f47d937cdad847af02205b8cfe6e3e6c25"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/jaw_r.stl",
+    "bytes": 595884,
+    "sha256": "7940a73567ee917af09d010c63bb58b7e422aa31fd1ee0cb89341794b49e8573"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/shoulder_yaw.stl",
+    "bytes": 6091934,
+    "sha256": "2e769aa680f89047b48540bb87ea57aee49232b5fd560aeb66125d034af1a4fd"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/upper_arm.stl",
+    "bytes": 6377834,
+    "sha256": "1216785312b2abb9556691c74df8a841896f4b4de09e1853e4309d72d6c6955c"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/assets/wrist.stl",
+    "bytes": 6831934,
+    "sha256": "3a50e0889d77181c8bbc17dc3f6a64fa9578d178e5b32f820dd1edb6591ce698"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/config.json",
+    "bytes": 18808,
+    "sha256": "76cdecbfc3eb5a52302689e0dae9413267c2af7e63d308d18bad3ea291c811e1"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/conversion.json",
+    "bytes": 227155,
+    "sha256": "70f01463e6ffcb8848156e0ecca6b853935419df6ecac4f5d135dc32390d2216"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/model/robot.urdf",
+    "bytes": 11389,
+    "sha256": "ed3031ef6d79f53a2b09110997f06aacaff781d705c3142c770ad196807c4ab2"
   },
   {
     "path": "outputs/low-profile-250g/robot/onshape-native/README.md",
@@ -930,14 +1105,109 @@
     "sha256": "06d745e43342a56760c7bb3c1e9efc96e29de904d4338f5972300d6f4e9c26d8"
   },
   {
+    "path": "outputs/low-profile-250g/robot/pg3_states.py",
+    "bytes": 1620,
+    "sha256": "44d7946252786d801a5096c67e1dd617c9e02a373563d8f57019de8bfc74cce6"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/test_validation.py",
+    "bytes": 1480,
+    "sha256": "a7bac1b0193f54bc40bd50fb82f6678726cd8bf2ae444ebab339416a754ca03c"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/validate_robot.py",
+    "bytes": 8143,
+    "sha256": "79105b55604ceed545c70d81ed007fedab86df3dea8661fb5288720f6bade0e4"
+  },
+  {
+    "path": "outputs/low-profile-250g/robot/validation.json",
+    "bytes": 21237,
+    "sha256": "3229c6f521f6b6fad910eb9dfa7739c7a1fc33625b31c6505b0dad5089ba35c6"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/ONSHAPE-WORKFLOW.md",
+    "bytes": 1494,
+    "sha256": "8c05364fc96bfc46c92c087e16577cadf41668ded2326579d2c2445cabe6d270"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-robot-workflow/SKILL.md",
+    "bytes": 2579,
+    "sha256": "630dd2b80a69d71a65e4f414b8dadeeae73cc5c8a3a22ac53714161cad76236f"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-robot-workflow/references/api-and-export.md",
+    "bytes": 4100,
+    "sha256": "963b994799310bc052cd3149ea33ed5ee11cb4e70b06adaee15b7b9cc90f474f"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-robot-workflow/references/compact-camera-and-headless.md",
+    "bytes": 7778,
+    "sha256": "66b060961cad6c63e5cd72e0e5765ad3e5297251046182635e29ca89702881c5"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-robot-workflow/references/ui-first-step-pixi.md",
+    "bytes": 9929,
+    "sha256": "6686546f09f81ab13461c0e8848a80138966801aeb46b02f29ed4cdd7fade6f8"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-robot-workflow/references/validation.md",
+    "bytes": 3908,
+    "sha256": "388f4c924a38079728a7d99164863b7bd29782c9ce0adfa9f24b657e3d5837a5"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/onshape-workflow-snapshot.json",
+    "bytes": 3497,
+    "sha256": "7fa7155c0569c4c97dd1d152ccba7bafb36659ff7c7dfb6e331293a4d24e5e99"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/review-written-workdoc/SKILL.md",
+    "bytes": 6547,
+    "sha256": "5641b9bbdee8fbda795ade1ba9a5362104053f88b15cc0a64131202557593885"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/review-written-workdoc/agents/openai.yaml",
+    "bytes": 255,
+    "sha256": "ea4a1d4e02f397a799c8c71e2c632da23ac729b857d6697535b9cdf06cf2d32d"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/review-written-workdoc/references/review-rubric.md",
+    "bytes": 6140,
+    "sha256": "ae965052c2e7a232fef088cddeb7c4223e6663f639d6f8824cb35a9d005b8544"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/start-work-with-docs/SKILL.md",
+    "bytes": 6835,
+    "sha256": "cc8b5ef1ab093e8061ce96f571ed6c7f983b5e9b6d16c855190f6889db753bef"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/start-work-with-docs/agents/openai.yaml",
+    "bytes": 245,
+    "sha256": "194b81c265c7195d0db99ea9199e12cfdf0fb51b6731cf7603b6fafc400bcf97"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/write-workdoc-uv/SKILL.md",
+    "bytes": 4453,
+    "sha256": "79fea44d8ddd7b33eee491d6c4e5a82341c6aaa0ea72b3a0c12ffcc78e7b45c7"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/write-workdoc-uv/agents/openai.yaml",
+    "bytes": 221,
+    "sha256": "2620c925ba4509f89dd1ac9ab743c9b94ac2a8472b6177a2383cecf0391137fb"
+  },
+  {
+    "path": "outputs/low-profile-250g/skills/write-workdoc-uv/references/workdoc-template.md",
+    "bytes": 19538,
+    "sha256": "3fa327bd8d6bf610dac8a61cfd97e280b02211d5449fe46f2393e056ddc010c1"
+  },
+  {
     "path": "outputs/low-profile-250g/workdoc-review.md",
     "bytes": 3073,
     "sha256": "8228f282d06921115fca0585e2239fa1c2a7f4dfef5714229e1f850d1e28e62a"
   },
   {
     "path": "work/low-profile/active-item.json",
-    "bytes": 215,
-    "sha256": "e784b16dd56345d1a91eb0dee90e1c1ec970a79eadd1c406af3e02fcbc885cbb"
+    "bytes": 195,
+    "sha256": "b4f5ee64e4f8ad2abccae42d74fda6e1aea570f4490049d376727197ebaebed9"
   },
   {
     "path": "work/low-profile/add-pose-drivers.js",
@@ -946,13 +1216,18 @@
   },
   {
     "path": "work/low-profile/analyze_ui_step.py",
-    "bytes": 1956,
-    "sha256": "be59302b46348fedb699c9cbdad3310df34afd0276e2cf22ceacbc7e0a80cf85"
+    "bytes": 2106,
+    "sha256": "fad8d550ca62aea981600e5e790fe2ea3e9b840eb7631b361216d0c08ae72503"
   },
   {
     "path": "work/low-profile/archive_v1_poses.py",
-    "bytes": 1472,
-    "sha256": "5283b5826c95b5a5157af2bf1c92fa62d268abc93b7a97ff7ef2b4accf6cf0db"
+    "bytes": 1584,
+    "sha256": "7cd2e3b9a744f19fd7635ee14d0629b0379a8df30fc83c5b2385494479a97cab"
+  },
+  {
+    "path": "work/low-profile/build_manual.py",
+    "bytes": 4415,
+    "sha256": "504a58d268f6b6f81d6ee740fbe36d971ef8d7a47ec25f9a1d2c810e1da19535"
   },
   {
     "path": "work/low-profile/cache/RB9.01.060.110 D405 holder.STL",
@@ -961,23 +1236,23 @@
   },
   {
     "path": "work/low-profile/check_pad_repair.py",
-    "bytes": 1516,
-    "sha256": "240c5f42604475fc47f37d1671cbff72f433310d53eb78f513cfa124e6bf7b23"
+    "bytes": 1641,
+    "sha256": "993ed80aae2f5e3cc2cf325949096d24fcae4bcef70c662b2b0976e78439c61a"
   },
   {
     "path": "work/low-profile/checkpoint.py",
-    "bytes": 1966,
-    "sha256": "3eaeaf9c513e78e537fe22efc123eead84ad7a18296482d690f944b077c2866b"
+    "bytes": 2181,
+    "sha256": "e3220b0c5a25a24136c3564f9cd4e21d678905d104b3a4b0f68ab60c49a06e45"
   },
   {
     "path": "work/low-profile/compare.py",
-    "bytes": 5353,
-    "sha256": "6d8f91bd93658872547fc26f2065cfeb18123a24e63821b51d1eebff22bd0f36"
+    "bytes": 6391,
+    "sha256": "4c1e6492227447ff67fe42a4cd8588cf7cc8d869be0ae18fde016a9ea732caab"
   },
   {
     "path": "work/low-profile/compare_ui_zero.py",
-    "bytes": 3133,
-    "sha256": "ebd7bd4cd33a4c52d233853e5a8e3b3c6ed06a8d86272ecb83f29f86d999aa01"
+    "bytes": 3564,
+    "sha256": "0b5c6a9521bf7928db96f1910b238e1a2f6e8566582de6496546d7a6e9a51132"
   },
   {
     "path": "work/low-profile/create-repaired-version.js",
@@ -1001,13 +1276,13 @@
   },
   {
     "path": "work/low-profile/design.py",
-    "bytes": 3602,
-    "sha256": "71b4dd36a9e183d92cc8b96a07f78987e9c7c072e971dc3426effe712353fc73"
+    "bytes": 3746,
+    "sha256": "fb188056d95a920d2ebd724a9407beea9b358994414bbe49a3fa0eb5e1c2f5b9"
   },
   {
     "path": "work/low-profile/diagnose_step_geometry.py",
-    "bytes": 3301,
-    "sha256": "0b6f9454744d60c5fabe6e2d3aa2184543ae8e4142205ed73b4d9f3db043c91a"
+    "bytes": 3600,
+    "sha256": "6e0de56a448588681037cdf89f19aae5fc277ada6b42aa17120cfc9f549338ec"
   },
   {
     "path": "work/low-profile/export-step-dialog.js",
@@ -1016,23 +1291,23 @@
   },
   {
     "path": "work/low-profile/export_all_poses.py",
-    "bytes": 1102,
-    "sha256": "c044a268f9adb37418c7db8de38cd4518746e71912b3b6f4b88087992aa94ed4"
+    "bytes": 1370,
+    "sha256": "828ca8a4cfdac42450484ba2ecaae74647f4ee08f9d36c0068062c4b4047ecbb"
   },
   {
     "path": "work/low-profile/export_cad.py",
-    "bytes": 4567,
-    "sha256": "ea1c508eb9412fbb7d88d78d727f0f0ab51d583498508be38bb97e7d345fbb93"
+    "bytes": 5335,
+    "sha256": "bb4adff5eb78c354211b2b1cbd8edb9510689c63aa66a8fc2c66e408f3c98761"
   },
   {
     "path": "work/low-profile/export_one.py",
-    "bytes": 4069,
-    "sha256": "29deaf12b6221943e2c21cd5cd01d84eb413b4ad13f6a136b36ea8c2e6638e1c"
+    "bytes": 4384,
+    "sha256": "90caf0e0b26030fa2ac5061f147cff9d6eb0eaebdd25a8f49286e4b5513f051a"
   },
   {
     "path": "work/low-profile/extract_native_poses.py",
-    "bytes": 4627,
-    "sha256": "a1210816fa9e3259a129d85556482b6ad03c97bbe6e785abe6a8c0a6ada01b71"
+    "bytes": 5242,
+    "sha256": "2b2d41a022f7296a4587dbb0b6e645c8320589d73540d0a937531f5b22601e2b"
   },
   {
     "path": "work/low-profile/increment-pose.template.js",
@@ -1041,8 +1316,8 @@
   },
   {
     "path": "work/low-profile/increment_pose.py",
-    "bytes": 1769,
-    "sha256": "33244241dea69563fc794e2149e7260cf3598dec86c881889d63ee44d8944618"
+    "bytes": 1976,
+    "sha256": "018ef9041e0a53a7374a6c79e7b64020b986f7f53af0ef137a5db0299c67060c"
   },
   {
     "path": "work/low-profile/inspect-interferences.js",
@@ -1051,8 +1326,28 @@
   },
   {
     "path": "work/low-profile/log_work.py",
-    "bytes": 2061,
-    "sha256": "53377a4a56974339a795a2e932fee4c5c0f8de0abb70faceb901a8fd45b1784c"
+    "bytes": 2105,
+    "sha256": "d662170493a57e1ef367de43875aefaa9c3c08235263c3333f4394f4bcfe6908"
+  },
+  {
+    "path": "work/low-profile/manual-audit.txt",
+    "bytes": 2774,
+    "sha256": "458456ae70a2e2beccc357e45d32a2e5ed5ca0ee5edb46266dbb8d54555c4abd"
+  },
+  {
+    "path": "work/low-profile/manual-page13.png",
+    "bytes": 147381,
+    "sha256": "56c6131c20f2d9e164d45db5454c9b8e6768c07b2c7d3f68a554915aceb3b2cf"
+  },
+  {
+    "path": "work/low-profile/manual-page17.png",
+    "bytes": 107499,
+    "sha256": "37453bbf8240a290d18e8daebff3bf948f3caa1c66bd8812bbc28804f74dc970"
+  },
+  {
+    "path": "work/low-profile/manual-pdf-text.txt",
+    "bytes": 21233,
+    "sha256": "f4b0889fde2acd7e829403812e345505d9f3a547699099dd448077ef787cd8b6"
   },
   {
     "path": "work/low-profile/named-pose.template.js",
@@ -1061,13 +1356,23 @@
   },
   {
     "path": "work/low-profile/optics.py",
-    "bytes": 3151,
-    "sha256": "3c502eda038ac125d18566abe442ba49190054850f0f340ac8cb3c36cdb91531"
+    "bytes": 4086,
+    "sha256": "73f43298abe972aba1f35388d2f3e472f9a9b9891fa1ad13750ffbd2270aa549"
+  },
+  {
+    "path": "work/low-profile/prepare_robot_config.py",
+    "bytes": 3496,
+    "sha256": "96c93740ab193f75c8b7d529c065a53aa2d2983db689b60008434c6216cb1da3"
+  },
+  {
+    "path": "work/low-profile/quality_check.py",
+    "bytes": 6244,
+    "sha256": "34ee7095b0508d3a551cd65bdf753cc18298658021f489e7d03e3f7bc19f2dd9"
   },
   {
     "path": "work/low-profile/record_poses.py",
-    "bytes": 3323,
-    "sha256": "38afa454d4b2077f0c42bb9edf84a02583bf6d91872cee992d12500daf0ad0ec"
+    "bytes": 3841,
+    "sha256": "5ac3d6ee35b27edc9b8d8556433da9ba114451026f48f4326e97a8d9f81e4004"
   },
   {
     "path": "work/low-profile/repair-body.js",
@@ -1091,18 +1396,18 @@
   },
   {
     "path": "work/low-profile/research.py",
-    "bytes": 2679,
-    "sha256": "76d1472170cf433e8ef62827ed1586a9e14f86c7a18ac6da730d683ba3117f7c"
+    "bytes": 3215,
+    "sha256": "64810aa9cc51abafe8ac7dd558cc9540e64a72de92da083efac22339ecd7e792"
   },
   {
     "path": "work/low-profile/select_candidate.py",
-    "bytes": 3903,
-    "sha256": "a7e62eab5bc53217b3eb0a5a6be68dea98f35fc3242a5bfd9b5cf5704f0fb03b"
+    "bytes": 4094,
+    "sha256": "ce5407504dcd4145a5474603417012ce2867420c5ca4d52980968daeaf6103e6"
   },
   {
     "path": "work/low-profile/service.py",
-    "bytes": 4508,
-    "sha256": "f7a3065370c539f535c22696c9328aaf84602ce08bc82269da4cfee86f49e2bb"
+    "bytes": 5784,
+    "sha256": "451ecae852b0e263f3809869b73e66cf99a17eb2ddca5ae2cd25cfd5b31ff928"
   },
   {
     "path": "work/low-profile/shoulder-increment.js",
@@ -1111,8 +1416,8 @@
   },
   {
     "path": "work/low-profile/study.py",
-    "bytes": 4376,
-    "sha256": "5de55710b69bb0129222e3669633c5bf2ebc586afdb77acec0997f63c3f88a6f"
+    "bytes": 5385,
+    "sha256": "c4c152bd59b57031a777164df3b32e5234476f89eba8b872c433082814d6e6b5"
   },
   {
     "path": "work/low-profile/suspended-item.json",
@@ -1120,14 +1425,19 @@
     "sha256": "9d4b7a2ce54fa2c8b99e07899bdfbae97ebd4f78c61632c556884fd4dca147ee"
   },
   {
+    "path": "work/low-profile/sync_skills.py",
+    "bytes": 1966,
+    "sha256": "c43e576d3017372de06386ddc448d5f28e1f386a7e18fc109dc8e5937733ad5f"
+  },
+  {
     "path": "work/low-profile/test_design.py",
-    "bytes": 1760,
-    "sha256": "d46b43f7addff027fbdae35e5e5caed2d8dab213b11547022822e578fb950b7b"
+    "bytes": 1789,
+    "sha256": "a71f681bcf24f139eb206ceeaf78bf408e206ba96b56d11b97e5a6174ab454a9"
   },
   {
     "path": "work/low-profile/test_validation.py",
-    "bytes": 2132,
-    "sha256": "39ac608f8443b24e5f66252a692466f1d491607133d0c51090d3dbc1c3905a99"
+    "bytes": 2353,
+    "sha256": "85046e106f38e14853b181e1bd74b2a231a5f79000e5275f50c78a18b3df09c7"
   },
   {
     "path": "work/low-profile/ui-logs/export-gripper_closed-attempt-1.txt",
@@ -1316,7 +1626,12 @@
   },
   {
     "path": "work/low-profile/validate_geometry.py",
-    "bytes": 6561,
-    "sha256": "7fbf0a3602917d5377c89026ffe5feae3115dc48c242c0c584edb829ea40ab84"
+    "bytes": 7744,
+    "sha256": "377799b997317d8a28a6e3b024e6c9734f6013b9542c7b65cbeaa506a1940256"
+  },
+  {
+    "path": "work/low-profile/verify_snapshot.py",
+    "bytes": 2194,
+    "sha256": "b9f8d49d96285fa0300dedc3f6863489b9c515a8c00ae86f5ce6247f294af25c"
   }
 ]

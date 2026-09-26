@@ -1,0 +1,13 @@
+### Result
+{"sections":20,"overflow":[],"images":[{"alt":"修復後V2の完成画面","ok":true},{"alt":"旧75度の側面","ok":true},{"alt":"採用30度と20mm延長の側面","ok":true},{"alt":"独立public文書を作るダイアログ","ok":true},{"alt":"更新後のPart Studio。左にImportとComposite feature","ok":true},{"alt":"camera_bodyの3部品を確認する画面","ok":true},{"alt":"左jawを編集して個別部品を再選択","ok":true},{"alt":"手首limitsの保存後再確認","ok":true},{"alt":"5つの能動関節を登録したNamed positions","ok":true},{"alt":"手首上限で他の4軸も0にそろえた状態","ok":true},{"alt":"肩Animateが10度へ到達","ok":true},{"alt":"全12群を指定した中立干渉検査","ok":true},{"alt":"V2作成ダイアログ","ok":true},{"alt":"STEP出力設定の実画面","ok":true},{"alt":"Mainの肩姿勢を出力した画面","ok":true},{"alt":"Free画面のURDF出力設定","ok":true},{"alt":"20mm対象の左眼シミュレーション","ok":true},{"alt":"20mm対象の右眼シミュレーション","ok":true},{"alt":"今回の低配置アセンブリ","ok":true}],"zoom":true}
+### Ran Playwright code
+```js
+await (async page => { await page.goto("http://127.0.0.1:8767/low-profile-250g/MANUAL.html"); await page.locator("#p20").waitFor(); await page.evaluate(()=>document.fonts.ready); await page.locator("article img").first().click(); const zoom=await page.locator("dialog").evaluate(d=>d.open); await page.locator("dialog").click(); await page.emulateMedia({media:"print"}); const audit=await page.evaluate(()=>({sections:document.querySelectorAll("section.page").length,overflow:[...document.querySelectorAll("section.page")].filter(s=>s.querySelector("article").getBoundingClientRect().bottom>s.querySelector("footer").getBoundingClientRect().top-5).map(s=>s.id),images:[...document.querySelectorAll("article img")].map(i=>({alt:i.alt,ok:i.complete&&i.naturalWidth>0}))})); await page.pdf({path:"/home/inaho-omen/Documents/Codex/2026-09-26/onshape/outputs/low-profile-250g/MANUAL.pdf",preferCSSPageSize:true,printBackground:true}); await page.emulateMedia({media:"screen"}); return {...audit,zoom}; })(page);
+```
+### Open tabs
+- 0: [Low Cost Robot - D405 30deg Fingers +20mm - 250g Study | Low Profile D405 - Motion and URDF](https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/v/f6162b4adc88af9d07f1194a/e/d5415bf725ba822741b01703)
+- 1: [D405短縮候補・操作マニュアル](http://127.0.0.1:8767/optimization-250g/MANUAL.html)
+- 2: (current) [D405低配置・画面操作マニュアル](http://127.0.0.1:8767/low-profile-250g/MANUAL.html)
+### Page
+- Page URL: http://127.0.0.1:8767/low-profile-250g/MANUAL.html
+- Page Title: D405低配置・画面操作マニュアル

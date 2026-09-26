@@ -1,11 +1,13 @@
-# 低位置D405・爪延長スタディ（途中保存）
+# 低位置D405・爪延長スタディ
 
-2026-09-26、ユーザー指示により作業途中を保存した。俯角30°、爪+20 mm、D405ガラス中心(-0.2,165,235) mmを選定。旧75°候補に比べカメラ高さは12.40 mm低い一方、250 gとカメラ等の部分モーメントは9.45%増える。実物の耐久性・材料・造形・校正は未確認。
+2026-09-26、俯角30°、爪+20 mm、D405ガラス中心(-0.2,165,235) mmを選定。旧75°候補に比べカメラ高さは12.40 mm低い一方、250 gとカメラ等の部分モーメントは9.45%増える。V2から新規URDFを生成し、441閉路と11native姿勢を検証した。実物の耐久性・材料・造形・校正は未確認。
 
-- [作業書](outputs/low-profile-250g/WORKDOC.md)：26/36項目。最終URDF、441閉路/11姿勢FK比較、マニュアル、スキル更新は未完了。
+- [20ページ操作マニュアルPDF](outputs/low-profile-250g/MANUAL.pdf) / [画像拡大可能なHTML](outputs/low-profile-250g/MANUAL.html) / [設計比較レポート](outputs/low-profile-250g/REPORT.md)。
+- [最終URDFと再現方法](outputs/low-profile-250g/robot/README.md)、[作業書](outputs/low-profile-250g/WORKDOC.md)、[保存情報](outputs/low-profile-250g/DELIVERY.md)。
 - [公開Onshape V2](https://cad.onshape.com/documents/29e8557c76e89bcf64f50566/v/f6162b4adc88af9d07f1194a/e/d5415bf725ba822741b01703)：左右パッドの所属を修正した版。
 - [設計選定](outputs/low-profile-250g/SELECTION.md)、[UI検証](outputs/low-profile-250g/NATIVE-VALIDATION.md)、[出力記録](outputs/low-profile-250g/EXPORT.md)。
-- [変換器](https://github.com/yuki-inaho/urdf_from_step/tree/codex/pixi-occt8)：commit `1b2cea3`、Pixi + OCCT 8.0.1、13回帰試験PASS。実モデルの最終変換検証は進行中。
+- [変換器](https://github.com/yuki-inaho/urdf_from_step/tree/codex/pixi-occt8)：commit `1b2cea3`、Pixi + OCCT 8.0.1、13回帰試験PASS。新モデルのFK/負対照4件とCAD18件を合わせ35試験PASS。
+- [リポジトリ直下skills/の4スキル](../../skills/ONSHAPE-WORKFLOW.md)：Onshapeの実証知見、write/review/startと全参照ファイルを保存。
 
 `CAD/final-version.step` が修正版V2の入力。`diagnostics/v1-pad-misassigned` は負の証拠として保存した旧失敗例であり、製作用データではない。標準UI URDF ZIPも旧V1の参考出力である。
 

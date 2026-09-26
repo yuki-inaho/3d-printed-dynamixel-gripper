@@ -125,19 +125,19 @@ Onshapeで最終候補を保存した後、urdf_from_stepのローカル配置/�
 ### 手順6: urdf_from_step・Pixi・最新OCCT（TR-4）
 - [x] 🖐 **操作**: urdf_from_stepの既存状態と公式OCCT最新安定版を調査し、変換器用の追跡可能なPixi実装計画/入力契約を保存する。
 - [x] 🔎 **確認**: Pixi manifest/lock/tasksと必要なOCCT互換修正を実装し、その固定版が実際にビルド・実行されることを確認する。
-- [ ] 🧪 **テスト**: 小STEPの回帰と今回の最終UI出力STEP→URDF変換を実行し、441閉路/11ネイティブ姿勢の一致を検証する。
-- [ ] 🛠 **エラー時対処**: ビルド/変換の失敗を修正し、使用したOCCT版・設定・制約・再現コマンド・変換器差分の保存先を記録する。
+- [x] 🧪 **テスト**: 小STEPの回帰と今回の最終UI出力STEP→URDF変換を実行し、441閉路/11ネイティブ姿勢の一致を検証する。
+- [x] 🛠 **エラー時対処**: ビルド/変換の失敗を修正し、使用したOCCT版・設定・制約・再現コマンド・変換器差分の保存先を記録する。
 
 ### 手順7: 人向け成果物と保存（TR-5）
-- [ ] 🖐 **操作**: 実画面付きMANUALと比較REPORTを生成する。
-- [ ] 🔎 **確認**: 文書と画像を目視し、参考30°、採用角、爪延長、荷重差、物理的未知を照合する。
-- [ ] 🧪 **テスト**: 追加コードpytest/ruff、成果物参照、秘密情報、git diff --checkを検査する。
-- [ ] 🛠 **エラー時対処**: 品質ゲートの不備を修正して再確認する。修正が不要なら非発生を記録する。
+- [x] 🖐 **操作**: 実画面付きMANUALと比較REPORTを生成する。
+- [x] 🔎 **確認**: 文書と画像を目視し、参考30°、採用角、爪延長、荷重差、物理的未知を照合する。
+- [x] 🧪 **テスト**: 追加コードpytest/ruff、成果物参照、秘密情報、git diff --checkを検査する。
+- [x] 🛠 **エラー時対処**: 品質ゲートの不備を修正して再確認する。修正が不要なら非発生を記録する。
 
 ### 手順8: 学びと最終成果を保存（TR-5）
-- [ ] 🖐 **操作**: onshape-robot-workflowへ今回確認したfindings/tipsを追記し、成果物へコピーする。
-- [ ] 🔎 **確認**: 新コード・新成果物だけをGit作業先studies/low-profile-20260926へコピーし、SHA256と秘密情報除外を照合する。
-- [ ] 🧪 **テスト**: 限定pathspecでステージしgit diff --cached --checkと変更一覧を確認する。
+- [x] 🖐 **操作**: onshape-robot-workflowへ今回確認したfindings/tipsを追記し、成果物とリポジトリ直下skills/へ参照ファイル込みでコピーする。write/review/startの使用スキルもskills/に保存する。
+- [x] 🔎 **確認**: 新コード・新成果物をGit作業先studies/low-profile-20260926へコピーし、skills/の保存内容も含めSHA256と秘密情報除外を照合する。
+- [x] 🧪 **テスト**: 限定pathspecでステージしgit diff --cached --checkと変更一覧を確認する。
 - [ ] 🛠 **エラー時対処**: 検査済み差分をcommit/pushする。拒否時は原因を記録し、force pushせず解決する。
 
 ## 4. 作業に使用するコマンド参考情報
@@ -160,7 +160,7 @@ rtk proxy git -C work/gripper-low-profile diff --check
 - [ ] D1: TR-1,2の入力根拠、比較範囲、失敗候補、採用の理由が揃い、低さ/傾斜の改善と延長量を数値で示す。
 - [ ] D2: TR-3の保存CAD、両眼視野、250g部分モーメント、局所根元保存、干渉と負の対照の証拠が揃い、未知をPASSへ変えていない。
 - [ ] D3: TR-4のpublic Onshape version、実姿勢検証、新規URDFと441閉路/11姿勢の照合が揃う。
-- [ ] D4: TR-5のスクリーンショット付き人用マニュアル、findings/tips、スキル更新、実体成果物があり、実物耐久性/造形/校正の未確認を明示する。
+- [ ] D4: TR-5のスクリーンショット付き人用マニュアル、findings/tips、スキル更新、実体成果物があり、実物耐久性/造形/校正の未確認を明示する。リポジトリ直下skills/の本体/参照ファイル全件がGit追跡・push済みである。
 - [ ] D5: 通常36項目が完了し、review後の作業書・最終品質検査・commit/pushの保存先を照合する。
 - [ ] D6: UIで実施したOnshape操作と確認証跡、直接APIを使った例外/理由/呼び出し数、キャッシュ再利用をAPI-USAGE.mdへ記録し、不要なAPIポーリング/探索反復をしていない。
 - [ ] D7: urdf_from_stepがPixi環境と公式OCCT最新安定版で実際に動き、Onshape UI出力の今回STEPを入力にURDFを生成する。版/lock/実行ログ/回帰/関節設定/保存先が揃う。
@@ -277,3 +277,25 @@ rtk proxy git -C work/gripper-low-profile diff --check
 |2026-09-26|19:57:08 JST+0900|Codex|状況記録|ユーザーのcommit & push指示により途中保存を実施。26/36、step6テストは継続中。小STEP13PASS、V2の262 occurrence読取成功、ruff/再wheelビルドPASS。manifest指定だけではcwdが変わらないため最初のruff対象pathが不在となり、converter cwdで再実行して解消。最終URDF/441/11 FK/マニュアルは未完了。|
 |2026-09-26|19:58:02 JST+0900|Codex|状況記録|変換器checkpoint commit 1b2cea3、codex/pixi-occt8。git diff --cached --checkがpixi.toml末尾空行を検出し修正。限定15ファイル、秘密パターンscan PASS。設計側も途中保存を継続。|
 |2026-09-26|19:58:26 JST+0900|Codex|状況記録|40行動の状況: converter 1b2cea3 push成功。設計archive264ファイル325428896 bytes scan PASS。gitignoreによりoutputsが通常addでは省略されるため限定出力pathを明示的に追加する。26/36、step6検証継続。|
+|2026-09-26|20:00:23 JST+0900|Codex|状況記録|途中保存push確認: gripper 6117edb / codex/onshape-low-profile-d405、converter 1b2cea3 / codex/pixi-occt8。267ファイル設計snapshot。STEP/STL binaryと元pytest失敗XMLの空白保存を属性で限定。step6検証へ復帰しV2→新メッシュ/URDF生成を実行中。|
+|2026-09-26|20:01:37 JST+0900|Codex|完了: 🧪 **テスト**: 小STEPの回帰と今回の最終UI出力STEP→URDF変換を実行し、441閉路/11ネイティブ姿勢の一致を検証する。|OCCT8.0.1/PixiでV2 STEP SHA9f58c947から262 occurrence全所属、16links/15joints/12新STL生成。小STEP13PASS、441閉路最大3.47e-17m、11native FK並進8.78e-9m/回転5.34e-8rad、4負対照試験PASS。1000倍単位対照はyawの並進0では無効で肩poseに修正、初回red保持。robot/model、robot/validation.json、reports/robot-negative-tests.xml。|
+|2026-09-26|20:01:38 JST+0900|Codex|開始: - [ ] 🛠 **エラー時対処**: ビルド/変換の失敗を修正し、使用したOCCT版・設定・制約・再現コマンド・変換器差分の保存先を記録する。|step6エラー記録: CONVERTER/robot READMEへOCCT色binding修正、設定/再現方法/制約/commit保存先を記載する。検証結果をproject/native記録へ反映。範囲outputs/low-profile-250g、完了条件はコマンドと証跡が追えること。|
+|2026-09-26|20:02:12 JST+0900|Codex|完了: 🛠 **エラー時対処**: ビルド/変換の失敗を修正し、使用したOCCT版・設定・制約・再現コマンド・変換器差分の保存先を記録する。|CONVERTER.md/robot READMEにOCCT8.0.1実行版、1b2cea3保存先、Pixi/変換/検証コマンド、設定根拠、旧reader色binding修正と負対照fixture修正を記載。441/11PASS、動力学/材料/ROS/実機未検証を分離。project状態も実検証済みに更新。|
+|2026-09-26|20:02:22 JST+0900|Codex|開始: - [ ] 🖐 **操作**: 実画面付きMANUALと比較REPORTを生成する。|step7操作: MANUAL/REPORT/HTML/PDFと実画面画像参照を作成。範囲outputs/low-profile-250gおよびwork/low-profile/build_manual.py。各手順の操作箇所・入力・確認・失敗時対処、低さと負荷の比較、物理的未知が読めることを完了条件とする。|
+|2026-09-26|20:07:29 JST+0900|Codex|完了: 🖐 **操作**: 実画面付きMANUALと比較REPORTを生成する。|MANUAL.md/HTML/PDFを20節で生成、実UI画面とCAD/両眼画像19枚を埋込。REPORTで30°/+20mm/-12.40mm/+9.45%/18°可動減を併記。V2 loading画像を再撮影し12instance/13mate/固定版を確認。API-USAGEとnative最終結果も追記。|
+|2026-09-26|20:07:29 JST+0900|Codex|開始: - [ ] 🔎 **確認**: 文書と画像を目視し、参考30°、採用角、爪延長、荷重差、物理的未知を照合する。|step7確認: 20ページPDF/HTMLの画像表示・収まり・手順の実証拠と比較数値を目視照合。レビュー対象MANUAL/REPORT/WORKDOC、必要なら同範囲の誤記を修正しreview記録を残す。|
+|2026-09-26|20:09:08 JST+0900|Codex|完了: 🔎 **確認**: 文書と画像を目視し、参考30°、採用角、爪延長、荷重差、物理的未知を照合する。|review-rubricでWORKDOC/MANUAL/REPORTを照合、final-review.md PASS_WITH_NOTES。HTML20節/19画像/拡大UI、印刷はみ出し0、PDF20ページ、13/17ページ目視、30°/20mm/9.45%/441/API0をPDF textでも照合。PyMuPDF不在・bundled runtimeなしのため既存popplerで検査。|
+|2026-09-26|20:09:08 JST+0900|Codex|開始: - [ ] 🧪 **テスト**: 追加コードpytest/ruff、成果物参照、秘密情報、git diff --checkを検査する。|step7テスト: 追加Pythonのruff/format、CAD18/変換器13/FK4試験、成果物links/原入力hash/private除外を検査。範囲新コードと新成果物。失敗は記録し当該箇所のみ修正。|
+|2026-09-26|20:11:04 JST+0900|Codex|状況記録|ユーザー追記: skillsのcommit漏れ防止。手順8とD4へ設計リポジトリ直下skills/にOnshape+write/review/startと参照ファイルを保存し、全件Git追跡/remote照合する条件を追記。CAD18とconverter/FK17の計35試験PASS、ruff初回36件はimport/整形修正で解消。|
+|2026-09-26|20:12:02 JST+0900|Codex|状況記録|品質初回は低cost元repoの無関係な未追跡HN11 idler 4ファイルでFAIL。追跡変更はなし。本作業は触れず保存対象から除外。作業範囲保存の要件を、他作業も含め全repo clean要求に誤拡大した検査を修正し、外部未追跡一覧を明示。初回FAIL JSON保持。35試験PASS、秘密実値/パターン/ZIP scan PASS、API526不変。|
+|2026-09-26|20:12:13 JST+0900|Codex|状況記録|40行動リセット: 通常30/36完了、手順7品質検査進行中。20ページ19画像の人向けマニュアル完成、35試験/441閉路/11native照合PASS、2repo checkpoint push済。残りは最終品質確認、skills/全件保存、最終commit/push、D1〜7の逐次照合。外部HN11作業は保持。|
+|2026-09-26|20:12:40 JST+0900|Codex|完了: 🧪 **テスト**: 追加コードpytest/ruff、成果物参照、秘密情報、git diff --checkを検査する。|final-quality.json 13項目PASS。CAD18+converter/FK17=35試験PASS、ruff31ファイル/format PASS、リンク/STEP SHA/20p PDF/秘密実値とZIP/権限/git text diff-check PASS。元repo追跡内容保持、無関係HN11未追跡4件は除外して明記。|
+|2026-09-26|20:12:40 JST+0900|Codex|開始: - [ ] 🛠 **エラー時対処**: 品質ゲートの不備を修正して再確認する。修正が不要なら非発生を記録する。|step7エラー対処: 初回lint36件と元repo clean誤判定の修正・再検査結果を整理。型/数値閾値の緩和や不良対照の削除をしていないことを確認し記録する。|
+|2026-09-26|20:12:43 JST+0900|Codex|完了: 🛠 **エラー時対処**: 品質ゲートの不備を修正して再確認する。修正が不要なら非発生を記録する。|初回ruff/formatと元repo過剰clean判定の修正・再確認をfinal-reviewへ追記。final-quality-initial.json/ruff-initial.txtを保持。35試験と13品質項目PASS、数値閾値不変、幾何/物理の既知FAIL/UNKNOWNも保持。|
+|2026-09-26|20:13:49 JST+0900|Codex|開始: - [ ] 🖐 **操作**: onshape-robot-workflowへ今回確認したfindings/tipsを追記し、成果物とリポジトリ直下skills/へ参照ファイル込みでコピーする。write/review/startの使用スキルもskills/に保存する。|step8スキル: onshape-robot-workflowをUI優先、全部品所属、Main姿勢STEP、Pixi/OCCT検証の実証知見で更新。local skillと設計repo skills/および成果物skills/が対象。write-workdoc-uv/review-written-workdoc/start-work-with-docsも参照込みで保存し出典とSHAを残す。|
+|2026-09-26|20:14:22 JST+0900|Codex|完了: 🖐 **操作**: onshape-robot-workflowへ今回確認したfindings/tipsを追記し、成果物とリポジトリ直下skills/へ参照ファイル込みでコピーする。write/review/startの使用スキルもskills/に保存する。|Onshape SKILLと既存2参照をUI優先へ更新、ui-first-step-pixi.mdを追加。設計repo直下skills/とoutputs/skills/へOnshape/write/review/startの4スキル13ソースファイル、references/agents込みで同一SHAコピー。出典とmanifest、案内を作成。|
+|2026-09-26|20:15:16 JST+0900|Codex|開始: - [ ] 🔎 **確認**: 新コード・新成果物をGit作業先studies/low-profile-20260926へコピーし、skills/の保存内容も含めSHA256と秘密情報除外を照合する。|step8保存照合: 新成果物/コードをstudies/low-profile-20260926へ同期し、repo skills/13ソース+案内+manifestとのSHA一致、秘密除外、元repo保持を確認。保存対象以外は変更しない。|
+|2026-09-26|20:16:35 JST+0900|Codex|完了: 🔎 **確認**: 新コード・新成果物をGit作業先studies/low-profile-20260926へコピーし、skills/の保存内容も含めSHA256と秘密情報除外を照合する。|snapshot327ファイルのsource/保存先SHA一致、4スキル13ソースのglobal/output/repo SHA一致、ZIP含む秘密パターンPASS。既存write/review/start計8ファイルは既にGit追跡済みで同内容のためstatusに出なかった。ignoreとの直前推測を訂正。Onshape5ファイルと案内/manifestを新規追加対象にする。|
+|2026-09-26|20:16:36 JST+0900|Codex|開始: - [ ] 🧪 **テスト**: 限定pathspecでステージしgit diff --cached --checkと変更一覧を確認する。|step8ステージ: 検査済みstudies/low-profile-20260926と4スキルの限定pathspecだけ追加。Git index全ファイル内容/SHAとmanifestを照合し、git diff --cached --checkを通す。既存他スキル/元repo未追跡は対象外。|
+|2026-09-26|20:17:15 JST+0900|Codex|完了: 🧪 **テスト**: 限定pathspecでステージしgit diff --cached --checkと変更一覧を確認する。|限定102差分をステージ。snapshot327件と全skills13ソース+案内/manifestのindex内容/SHA一致、git diff --cached --check PASS。新規Onshape5ファイル、既存write/review/start8ファイルすべて追跡済み。|
+|2026-09-26|20:17:15 JST+0900|Codex|開始: - [ ] 🛠 **エラー時対処**: 検査済み差分をcommit/pushする。拒否時は原因を記録し、force pushせず解決する。|step8最終push: 設計成果物/スキルの検査済み差分をcommitしてoriginへpush。converter1b2cea3は既にpush済。remote HEADとskills追跡内容を確認し、forceは使わない。|

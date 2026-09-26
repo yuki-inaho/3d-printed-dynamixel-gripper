@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="1.039" timestamp="2026-09-26T20:01:01.728787+09:00" hostname="inahoomen-zbox-en72070v"><testcase classname="Codex.2026-09-26.onshape.outputs.low-profile-250g.robot.test_validation" name="test_actual_v2_poses" time="0.042" /><testcase classname="Codex.2026-09-26.onshape.outputs.low-profile-250g.robot.test_validation" name="test_reject_real_v1_pad_misassignment" time="0.027" /><testcase classname="Codex.2026-09-26.onshape.outputs.low-profile-250g.robot.test_validation" name="test_reject_reversed_active_axis" time="0.009" /><testcase classname="Codex.2026-09-26.onshape.outputs.low-profile-250g.robot.test_validation" name="test_reject_metre_millimetre_placement" time="0.044"><failure message="Failed: DID NOT RAISE AssertionError">inputs = (&lt;Element 'robot' at 0x7fa81f7cf510&gt;, {'method': 'XCAF occurrence placements from actual UI STEP exports, grouped by d...: 'negative of child relative rotation around original mate connector Z, derived from positive native yaw pilot', ...})
+
+    def test_reject_metre_millimetre_placement(inputs):
+        robot, native = inputs
+        bad = copy.deepcopy(native)
+        matrix = bad["cases"][1]["instances"]["camera_body"]["transform_m"]
+        for index in (3, 7, 11):
+            matrix[index] *= 1000
+&gt;       with pytest.raises(AssertionError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE AssertionError
+
+../../outputs/low-profile-250g/robot/test_validation.py:40: Failed</failure></testcase></testsuite></testsuites>

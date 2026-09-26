@@ -1,4 +1,5 @@
 """Copy explicitly scoped study artifacts and inspect content before Git staging."""
+
 import hashlib
 import json
 import re
@@ -8,7 +9,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 DEST = ROOT / "work/gripper-low-profile/studies/low-profile-20260926"
-PATTERN = re.compile(rb"-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----|(?:sk-proj-|gh[pousr]_)[A-Za-z0-9_-]{20,}|(?:ONSHAPE_ACCESS_KEY|ONSHAPE_SECRET_KEY)\s*[:=]\s*['\"]?[A-Za-z0-9]{20,}")
+PATTERN = re.compile(
+    rb"-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----|(?:sk-proj-|gh[pousr]_)[A-Za-z0-9_-]{20,}|(?:ONSHAPE_ACCESS_KEY|ONSHAPE_SECRET_KEY)\s*[:=]\s*['\"]?[A-Za-z0-9]{20,}"
+)
 FORBIDDEN = {".env", "storage-state.json", "auth.json", "cookies.json"}
 
 
@@ -37,9 +40,23 @@ def main():
             target = DEST / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(path, target)
-            records.append({"path": str(relative), "bytes": len(data), "sha256": hashlib.sha256(data).hexdigest()})
+            records.append(
+                {
+                    "path": str(relative),
+                    "bytes": len(data),
+                    "sha256": hashlib.sha256(data).hexdigest(),
+                }
+            )
     (DEST / "SNAPSHOT-MANIFEST.json").write_text(json.dumps(records, indent=2) + "\n")
-    print(json.dumps({"files": len(records), "bytes": sum(x["bytes"] for x in records), "secret_scan": "PASS_SCOPED_PATTERNS_INCLUDING_ZIP"}))
+    print(
+        json.dumps(
+            {
+                "files": len(records),
+                "bytes": sum(x["bytes"] for x in records),
+                "secret_scan": "PASS_SCOPED_PATTERNS_INCLUDING_ZIP",
+            }
+        )
+    )
 
 
 if __name__ == "__main__":

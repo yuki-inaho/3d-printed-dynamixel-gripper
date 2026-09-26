@@ -1,0 +1,89 @@
+{
+  "sections": 20,
+  "overflow": [],
+  "images": [
+    {
+      "alt": "修復後V2の完成画面",
+      "ok": true
+    },
+    {
+      "alt": "旧75度の側面",
+      "ok": true
+    },
+    {
+      "alt": "採用30度と20mm延長の側面",
+      "ok": true
+    },
+    {
+      "alt": "独立public文書を作るダイアログ",
+      "ok": true
+    },
+    {
+      "alt": "更新後のPart Studio。左にImportとComposite feature",
+      "ok": true
+    },
+    {
+      "alt": "camera_bodyの3部品を確認する画面",
+      "ok": true
+    },
+    {
+      "alt": "左jawを編集して個別部品を再選択",
+      "ok": true
+    },
+    {
+      "alt": "手首limitsの保存後再確認",
+      "ok": true
+    },
+    {
+      "alt": "5つの能動関節を登録したNamed positions",
+      "ok": true
+    },
+    {
+      "alt": "手首上限で他の4軸も0にそろえた状態",
+      "ok": true
+    },
+    {
+      "alt": "肩Animateが10度へ到達",
+      "ok": true
+    },
+    {
+      "alt": "全12群を指定した中立干渉検査",
+      "ok": true
+    },
+    {
+      "alt": "V2作成ダイアログ",
+      "ok": true
+    },
+    {
+      "alt": "STEP出力設定の実画面",
+      "ok": true
+    },
+    {
+      "alt": "Mainの肩姿勢を出力した画面",
+      "ok": true
+    },
+    {
+      "alt": "Free画面のURDF出力設定",
+      "ok": true
+    },
+    {
+      "alt": "20mm対象の左眼シミュレーション",
+      "ok": true
+    },
+    {
+      "alt": "20mm対象の右眼シミュレーション",
+      "ok": true
+    },
+    {
+      "alt": "今回の低配置アセンブリ",
+      "ok": true
+    }
+  ],
+  "zoom": true,
+  "pdf_pages": 20,
+  "visual_review_pages": [
+    13,
+    17
+  ],
+  "status": "PASS"
+}

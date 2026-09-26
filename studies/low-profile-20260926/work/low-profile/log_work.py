@@ -1,4 +1,5 @@
 """Record exactly one current checklist item, with a shell date before start."""
+
 import argparse
 import json
 import subprocess
@@ -23,7 +24,9 @@ def main():
         if STATE.exists():
             raise RuntimeError("Previous item still active")
         item = next(line for line in content.splitlines() if line.startswith("- [ ]"))
-        STATE.write_text(json.dumps({"item": item, "started": stamp}, ensure_ascii=False))
+        STATE.write_text(
+            json.dumps({"item": item, "started": stamp}, ensure_ascii=False)
+        )
         detail = "開始: " + item
     elif args.action == "done":
         state = json.loads(STATE.read_text())
@@ -34,12 +37,15 @@ def main():
         STATE.unlink()
     elif args.action == "suspend":
         state = json.loads(STATE.read_text())
-        detail = "ユーザー追記による一時中断: " + state['item']
-        STATE.rename(STATE.with_name('suspended-item.json'))
+        detail = "ユーザー追記による一時中断: " + state["item"]
+        STATE.rename(STATE.with_name("suspended-item.json"))
     else:
         detail = "状況記録"
     date, time = stamp.split(" ", 1)
-    clean = lambda s: s.replace("|", "/").replace("\n", " ")
+
+    def clean(value):
+        return value.replace("|", "/").replace("\n", " ")
+
     content += f"|{date}|{time}|Codex|{clean(detail)}|{clean(args.message)}|\n"
     DOC.write_text(content)
     OUT.mkdir(parents=True, exist_ok=True)

@@ -43,7 +43,7 @@ APIを使う前にキャッシュの入力version/config一致を確認する。
 |処理|現時点の分類|APIを使わない代替|確定に必要な確認|
 |CAD作成/取込/mate/干渉/角度/version|通常UIの機能あり|Playwrightで各ダイアログ操作|今回の画面で成功と保存を確認|
 |直接URDF形式で保存|標準UIに機能あり。Free画面から実ZIP取得済み|Assemblyタブ > Export > URDF。指定のSTEP→Pixi変換も実行する|19links/18joints/261visuals。PG3_horn_bolt_1参照欠落、collision要素0、閉路/dynamics未検証。比較用として保持|
-|native assemblyの正確な全part変換取得|UI+ローカルSTEP解析で取得可能。11姿勢の262部品を解析済み|各姿勢をMainで適用しUI STEP保存、XCAF配置解析|左右パッドの逆所属を検出しUI修復中。読取専用versionの一時的な表示姿勢はexportへ反映されなかった|
+|native assemblyの正確な全part変換取得|UI+ローカルSTEP解析で取得可能。11姿勢の262部品を解析済み|各姿勢をMainで適用しUI STEP保存、XCAF配置解析|左右パッドの逆所属をUI修復し全11件を再出力。132剛体行列の内部差0、URDF FK照合PASS。versionの一時的な表示姿勢はexportへ反映されなかった|
 |schema/part ID一覧|今回の作業で必須とは未確定|名前と実体CADで対応し、既存schemaを再利用|内部ID取得を目的化しない|
 |API年次残量|My Account > DeveloperにUIあり|画面の数値を読む|ローカルカウンタとは別の値であることを記録|
 
@@ -90,4 +90,8 @@ AnimateではCurrent valueが終点10°へ到達したが、閉じると0°へ�
 
 ## 最終集計
 
-未完了。最後にUI実施一覧、直接API例外の理由/件数、開始526からの増分、exporter別件数、利用したキャッシュを照合する。公式の年次表示とローカル試行カウントを混同しない。
+低配置スタディの直接API呼出し **0件**。例外 **なし**、内部fetch/REST代用 **なし**、onshape-to-robot実行 **なし**。旧カウンタは開始526、終了確認も526。UI+ローカル処理で、独立public文書、import更新、Composite修復、mate/limits、11姿勢、Animate/Interference、V2保存、STEP/参考URDF出力まで実施できた。
+
+V2 `f6162b4adc88af9d07f1194a` のSTEPをローカルのurdf_from_step/Pixi/OCCT8.0.1へ渡し、441閉路と11native姿勢の比較まで完了。Onshapeサーバーを照会せず、保存STEP・joint定義・画像・SHA付きレポートを再利用した。ダウンロードキャッシュは誤出力名修復にも使い、元のMain zero STEPをSHA照合して復元した。認証profile/stateは成果物とGitに含めない。アカウント全体の年次残量は取得しておらず、526から推算しない。
+
+UIで実行できないと確定したCAD工程は今回なし。数千候補の光線評価、差分BRep検査、非線形閉路の数値回帰、今回の明示設定によるURDF生成はローカル処理で実施した。Freeの画面内に同等の一括処理があることは確認していないが、それをAPI必須という意味にはしない。材料/疲労/摩擦/実機性能の確認はAPIでも代替できない。

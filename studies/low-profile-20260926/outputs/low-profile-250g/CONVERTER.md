@@ -34,3 +34,34 @@ Pixi install成功。Python 3.12.14、pythonocc-core 8.0.1、OCCT 8.0.1（conda 
 小STEPの13試験がPASS（`reports/converter-tests.xml`）。mm/inch、同名・同位置の反復、入れ子配置、複数solid、メッシュのm単位、不正な関節木/軸/リミット/部品所属の拒否を含む。最初はOCCT 8の色取得bindingで11件失敗した。`XCAFDoc_ColorTool.GetColor` をクラス経由で呼ぶ修正後に通過し、失敗ログも `converter-tests-red-color.xml` に保持した。
 
 実モデルのV2 STEPも262 occurrenceをOCCT 8.0.1で読めた（`reports/converter-v2-intake.json`）。ruffとwheel再ビルドも成功。**今回モデルのURDF生成、441閉路、11姿勢のFK照合は、このcommit/push時点では未完了**。最終マニュアル・スキル更新も後続項目であり、途中保存をDoD完了とは扱わない。
+
+## 実モデル変換・照合の完了結果
+
+上記途中保存後に、V2 STEPを指定変換器で実変換した。16 links / 15 joints / 12新STL、262 occurrenceを全て所属させた。5能動・4受動・6固定関節。`robot/model` が今回の出力であり、旧版のメッシュや標準UI URDFを転用していない。
+
+441閉路サンプルの最大残差は **3.46945e-17 m**（基準1e-6 m）。11 native姿勢の最大差は **8.78488e-9 m / 5.33710e-8 rad**（各2e-5）。ゼロ姿勢行列誤差2.78e-17。`robot/validation.json` が今回データ。これは数値的な運動学の一致であり、CAD/実機の寸法精度をnmで保証する意味ではない。
+
+4件の照合試験は、正常V2の受理、実V1のパッド逆所属の拒否、yaw軸反転の拒否、並進単位1000倍の拒否を検証した。最後の負対照は初回に並進0のyawを選んで無効となり、並進がある肩姿勢に直した。失敗XMLも保持した。
+
+## 再実行
+
+変換器は [codex/pixi-occt8](https://github.com/yuki-inaho/urdf_from_step/tree/codex/pixi-occt8)、checkpoint commit `1b2cea3`。作業場では以下を変換器ディレクトリから実行した。`pixi` がPATHになければ `/home/inaho-omen/.pixi/bin/pixi` を使う。
+
+```sh
+cd /home/inaho-omen/Documents/Codex/2026-09-26/onshape/work/urdf_from_step
+pixi install --locked
+pixi run versions
+pixi run test
+pixi run build
+pixi run convert ../../outputs/low-profile-250g/CAD/final-version.step \
+  --config ../../outputs/low-profile-250g/robot/converter-config.json \
+  --output /tmp/low-profile-robot-recheck
+pixi run python ../../outputs/low-profile-250g/robot/validate_robot.py
+pixi run pytest -q ../../outputs/low-profile-250g/robot/test_validation.py
+```
+
+出力先は新規/空ディレクトリを指定する。既存結果の暗黙削除はしない。最後のvalidateは保存済み `robot/model` を検証する。新規再出力を検証する場合は、robotディレクトリ一式を別の作業場所へコピーし、その `model` を新規出力先にする。`converter-config.json`、`joint-definitions.json`、`reports/expected-groups.json` が関節/所属の根拠。STLはm単位のCAD世界座標、visual/collision originに逆link座標、joint originに親子相対座標を使う。
+
+## 残る制約
+
+`pg3_states.py` の非線形従属計算が必要で、通常の線形mimicでは閉路を表現できない。質量/慣性は推測していない。effort/velocityの0は未設定の運動学用placeholderであり、実機コマンドの定格ではない。55面部品があるためcollision STLのwatertight/convex性や物理エンジン互換も保証しない。元ROS launch/RViz経路、非Linux環境、造形強度、疲労、実機校正は未検証。カメラ固定linkの原点は校正済みoptical frameではない。

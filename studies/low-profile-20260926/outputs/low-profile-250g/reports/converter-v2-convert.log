@@ -1,0 +1,18 @@
+✨ Pixi task (convert): python -m urdf_from_step ../../outputs/low-profile-250g/CAD/final-version.step --config ../../outputs/low-profile-250g/robot/converter-config.json --output ../../outputs/low-profile-250g/robot/model
+{
+  "status": "CONVERTED_KINEMATIC_VALIDATION_PENDING",
+  "versions": {
+    "converter": "0.2.0",
+    "pythonocc": "8.0.1",
+    "python": "3.12.14",
+    "occt": "8.0.1",
+    "occt_build": "all_hbfeb9d6_201",
+    "loaded_kernel": [
+      "/home/inaho-omen/Documents/Codex/2026-09-26/onshape/work/urdf_from_step/.pixi/envs/default/lib/libTKernel.so.8.0.1"
+    ]
+  },
+  "input_sha256": "9f58c947753e9229b30939da23ce4c87c1cc85eeb39372518de4ffb98991b93f",
+  "links": 16,
+  "joints": 15,
+  "occurrences": 262
+}

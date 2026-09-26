@@ -54,3 +54,7 @@ Mate context menuから `dof_joint2_shoulder` のAnimateを開き、Start 0° / 
 公式の操作説明: [Named positions](https://cad.onshape.com/help/Content/Assembly/named_positions.htm)、[Mates / Animate](https://cad.onshape.com/help/Content/Assembly/mates.htm)。機構全体を解くcontext Animateを使用した。Mate定義ダイアログ内の単独プレビューとは区別する。
 
 ネイティブの動作確認は、実物強度、疲労寿命、ケーブル変形、印刷誤差、接触摩擦の試験ではない。これらの未知をPASSへ変更しない。
+
+## 新規URDFとの最終照合
+
+V2 STEPからPixi/OCCT8.0.1で生成したURDFを全11姿勢に適用し、12剛体の実STEP配置と照合した。最大並進差8.78488e-9 m、最大回転差5.33710e-8 radで基準各2e-5以内。441閉路状態の位置残差は最大3.46945e-17 m。`robot/validation.json` を参照。この微小な数値差は運動学計算の整合性で、製造精度や物理実測精度ではない。旧V1のパッド逆所属を同じ判定器が拒否する負対照も通過した。
