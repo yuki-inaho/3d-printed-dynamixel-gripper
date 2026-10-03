@@ -1,0 +1,31 @@
+{
+  "source_sha256": "9f58c947753e9229b30939da23ce4c87c1cc85eeb39372518de4ffb98991b93f",
+  "physical_assembly_verified": false,
+  "fabrication_approved": false,
+  "sha256": {
+    "MANUAL.html": "9dfe22ad9c13c8474b536c8fa39e13bfad751da4a5e5e1921ceaab8b753b11d1",
+    "MANUAL.md": "76ede3b667060305274b3fcde15346be05c5955d6d55fd0c601e4056bcf930a9",
+    "MANUAL.pdf": "89c0ac79e72623565e924aa3d977dd7be6820402b1a227773e8f040f6c97f74a",
+    "PHOTO_VERSION.md": "c678a2031411b125b8134e58bd50ec1cadd87737c581694755448855e984f938",
+    "REVIEW.md": "192d758be96368f1374466a1cf42f7554d198406755d8f3f0a034cf5ef3d610f",
+    "cad-inventory.json": "e42e1bcc4d290621560849fa24e27b851d021129df7bb7b7709f5d0cd0394aa9",
+    "images/02-frame-front.png": "d0ac7890acb71376ed3ba1657f8f33682bb4e7f60c8d95cdf59a1820c1d4a2ff",
+    "images/02-frame-oblique.png": "93df00d5360307139f5e089e2596df15ed4a2c6bf4d1a7862016200ef2416299",
+    "images/03-crank-front.png": "ece1b96fcbd1ecc815988d144ff8ea7d05caf3b6d17ba91defff7068470e3595",
+    "images/03-crank-oblique.png": "789395eddbfba72fd9e511177576ed34a738095162cdd9ad2a0e5afce6d693ed",
+    "images/04-carriage-front.png": "ddb4589684f5569894de5964b661f42c33d2c101ae6d313e4d89557984fc704a",
+    "images/04-nuts-back-back.png": "8d0e0e3297102839ad5cc22e8b00d5c51217173c8bc90731770b4daa73bdf753",
+    "images/05-links-front.png": "2f781d674ae3324545b91c63efc0415261baf75ddbd1879ed70289b2620f7390",
+    "images/06-links-front.png": "4afc2a087feb034515e880204b35b42ebdc25daff6c4817f65da3518cdb5f428",
+    "images/06-links-oblique.png": "235eba6b10308605887ded6a600066fbfaa96686ea0f99d7091f1d57983fc5c4",
+    "images/07-caps-front.png": "d88b30eb06ef1c17dc9cdaae77cd3ad21ba68023abf8a1c1858127d6da535ca1",
+    "images/08-fingers-oblique.png": "79ec0a6620255bd0ea6576fae3ad7c51e4f1bde81bcbfc30bb54072c4c49eb58",
+    "images/08-fingers-opposite.png": "4cce6bd1a14f8962f6b2c190b9af79ed005e1f665a008341b443596a72776313",
+    "images/09-complete-oblique.png": "611e66abf5a7931466124b4e41a0d73229a1e64ef8ea0ea5b57aedac88ffef44",
+    "images/09-complete-opposite.png": "8a19ec39881d5009d44f4133076ace6d6d1675539f0d095194f14baf38719940",
+    "images/pivot-section.svg": "764e3f762018a1a8764cdb8b5521cb380857b60c16eecfcbb8bd3b89dda45263",
+    "render-checks.json": "63e7ea41e026901e6c52e7568e5b6d4b62d85a63f5ec6171a1a2202fafcdba30",
+    "review-checks.json": "5452037ae796ae40ea3e6e51917d1f3a559b9cf47856fd6bbc7ccc28bd100133",
+    "viewpoints.json": "668eb89238bb3dcc64ec3df45c35827e5d1dbf7229ab9416f44bd293d918f4e0"
+  }
+}

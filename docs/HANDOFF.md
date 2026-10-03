@@ -1,5 +1,11 @@
 # 設計担当エージェントへの引継ぎ
 
+**2026-10-03追加:** [P05配線窓改善候補](../studies/p05-cable-20261003/README.md)と
+[グリッパ組立マニュアル](gripper-assembly-20261003/MANUAL.md)。凍結V2のコピーでP05左右窓を
+5.5×10.2 mm・角R0.5へ変更し、穴・実ケース接触面を保持した。対象23試験PASS。
+コネクタ通過はモーター取付前の公称筐体検査。装着後の後カバー干渉はFAIL、
+先配線モーター挿入・実物嵌合・強度は未確認。元V2/Onshapeクラウド/URDF/G-codeは不変。
+
 **2026-09-24更新。現在はPG3 C9の実機装着を進めている。
 最新設計/入口はPG3_ID5_ONLY_DESIGN.md。PG3_INSTALLATION_CANDIDATE.mdは旧r5の履歴。
 過去2候補の再監査はREVIEW_PG2_AND_SELF_AUDIT.mdを参照。

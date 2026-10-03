@@ -1,0 +1,3 @@
+# Preserve verified exporter bytes; CAD snapshots are not line-mergeable prose.
+CAD/*.step binary
+CAD/*.stl binary
