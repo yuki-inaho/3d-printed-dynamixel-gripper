@@ -1,0 +1,44 @@
+P05 connector window improvement / assembly manual — 2026-10-03
+
+Commit: e5b2c277e26a2fb5d42c13963b3cb259cc60edd1
+User condition: コネクタ付きでも通せる寸法。
+Delivery: local Chili3D candidate loaded in a separate headed tab and verified
+in an independent named headless session. The cloud Onshape V2 is unchanged.
+
+Source: studies/low-profile-20260926/outputs/low-profile-250g/CAD/final-version.step
+Source SHA-256: 9f58c947753e9229b30939da23ce4c87c1cc85eeb39372518de4ffb98991b93f
+Candidate: studies/p05-cable-20261003/CAD/V2_P05_CABLE_CLEARANCE_CANDIDATE.step
+Candidate SHA-256: 8833b4ab59d6defea7d1dd9c76297bdaa257993c15503d4f4adfe67494e11cab
+Only ARM_P05_wrist_XL430 replaced. All 262 occurrence identities/placements
+retained; 261 unchanged vertex/face/volume signatures checked. These signatures
+are not full material-set equivalence proof for defective supplier B-reps.
+
+Windows: 5.5 x 10.2 mm, corner R0.5, centre Y151.15/Z178.7; two sides.
+Removed 270.5345175425658 mm3; mask-exterior/protected material loss zero.
+18 original cylinder hole faces retained. Actual opposed case-seat material
+patches retained, lost/added area zero per side, normal dot -1.
+Support inner span remains 28.5 mm; matching width does not prove printed fit.
+
+Assumed OD1.9 wire route: internal 90-degree bend then straight sideways exit;
+P05 clearance 1.65 mm, retained rear-cover clearance 0.25 mm.
+Nominal EHR-3 9.5 x 3.8 housing passage before motor insertion: 0.35 mm minimum.
+Installed-motor straight plug corridor: rear-cover FAIL on both sides, about
+29.43 mm3 overlap each. Prethreaded-motor insertion and actual harness unknown.
+Static scan: 1841 PASS / 1 ERROR / 6 UNKNOWN, no excluded occurrence.
+Installed plug scan: 518 PASS / 2 FAIL / 2 ERROR / 2 UNKNOWN.
+Errors and unknowns are retained in studies/p05-cable-20261003/evidence/.
+
+Validation: 23 targeted tests passed in 29.03s; Ruff check/format and skill
+format validation PASS. Saved STEP controls and closed one-component STL PASS.
+Both CAD-browser hashes match the saved candidate. 43 manifest file hashes PASS.
+Manual: docs/gripper-assembly-20261003/, 10 steps, 22 PDF pages, 15 distinct
+images, five documented reviews, per-step and appendix bolt lengths/counts.
+Counts: 18 screws (including 2 unverified case-tapper candidates), 12 nuts,
+12 washers. Photograph revision comparison is text only; supplied photos and
+private conversation/clean logs are not included in this public commit.
+
+Full repository test suite, actual installation, strength, printed fit,
+prewired motor insertion and motion cable sweep were not validated.
+physical_assembly_verified=false; fabrication_approved=false.
+No serial/motor/energizing/printing actions; frozen donor files retained.
+URDF and G-code unchanged. Existing Git notes on prior commits retained.
